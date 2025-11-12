@@ -47,7 +47,7 @@ body::before {
   pointer-events: none;
 
   background-image:
-    linear-gradient(rgba(167, 107, 107, 0.87), rgba(167, 107, 107, 0.87)),
+    linear-gradient(rgba(167, 107, 107, 0.87), rgba(156, 86, 86, 0.87)),
     image-set(url("/textures/fabric2.webp") type("image/webp"));
 
   background-repeat: no-repeat, repeat;

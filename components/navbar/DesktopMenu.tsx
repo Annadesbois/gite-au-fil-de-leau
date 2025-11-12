@@ -4,34 +4,34 @@ import Link from "next/link";
 
 const DesktopMenu = () => {
   return (
-    <div className="hidden md:flex lg:flex justify-center items-center">
+    <div className="hidden md:flex md:items-center md:justify-center w-full">
       <NavigationMenu.Root className="relative">
-        <NavigationMenu.List className="flex items-center gap-2 bg-base-100 rounded-lg p-1">
+        <NavigationMenu.List className="flex items-center gap-2 p-1 ">
           <NavigationMenu.Item>
             <NavigationMenu.Link asChild>
               <Link
                 href="/"
-                className="px-4 py-2 text-sm font-medium rounded-md hover:bg-base-200 transition-colors"
+                className="px-4 py-2 text-sm font-medium rounded-md hover:bg-surface-1 transition-colors"
               >
                 Accueil
               </Link>
             </NavigationMenu.Link>
           </NavigationMenu.Item>
           <NavigationMenu.Item className="relative">
-            <NavigationMenu.Trigger className="flex items-center gap-1 px-4 py-2 text-sm font-medium rounded-md hover:bg-base-200 transition-colors group">
+            <NavigationMenu.Trigger className="flex items-center gap-1 px-4 py-2 text-sm font-medium rounded-md hover:bg-surface-1 transition-colors group">
               Notre gîte
               <FaChevronDown
                 className="w-3 h-3 transition-transform duration-250 group-data-[state=open]:rotate-180"
                 aria-hidden
               />
             </NavigationMenu.Trigger>
-            <NavigationMenu.Content className="absolute top-full left-0 mt-2 min-w-max bg-base-100 rounded-box shadow-lg p-2 z-50">
+            <NavigationMenu.Content className="absolute top-full left-0 mt-2 min-w-max bg-surface-1 rounded-box shadow-lg p-2 z-50">
               <ul className="space-y-1">
                 <li>
                   <NavigationMenu.Link asChild>
                     <Link
                       href="/notre-gite/sejour"
-                      className="block px-4 py-2 text-sm rounded-md hover:bg-base-200 transition-colors"
+                      className="block px-4 py-2 text-sm rounded-md hover:bg-surface-2 transition-colors"
                     >
                       Le séjour
                     </Link>
@@ -41,7 +41,7 @@ const DesktopMenu = () => {
                   <NavigationMenu.Link asChild>
                     <Link
                       href="/notre-gite/chambre-cerisier"
-                      className="block px-4 py-2 text-sm rounded-md hover:bg-base-200 transition-colors"
+                      className="block px-4 py-2 text-sm rounded-md hover:bg-surface-2 transition-colors"
                     >
                       {`La chambre "Cerisier"`}
                     </Link>
@@ -51,7 +51,7 @@ const DesktopMenu = () => {
                   <NavigationMenu.Link asChild>
                     <Link
                       href="/notre-gite/chambre-grange"
-                      className="block px-4 py-2 text-sm rounded-md hover:bg-base-200 transition-colors"
+                      className="block px-4 py-2 text-sm rounded-md hover:bg-surface-2 transition-colors"
                     >
                       {`La chambre "Grange"`}
                     </Link>
@@ -61,7 +61,7 @@ const DesktopMenu = () => {
                   <NavigationMenu.Link asChild>
                     <Link
                       href="/notre-gite/chambre-aurores"
-                      className="block px-4 py-2 text-sm rounded-md hover:bg-base-200 transition-colors"
+                      className="block px-4 py-2 text-sm rounded-md hover:bg-surface-2 transition-colors"
                     >
                       {`La chambre "Aurores"`}
                     </Link>
@@ -71,7 +71,7 @@ const DesktopMenu = () => {
                   <NavigationMenu.Link asChild>
                     <Link
                       href="/notre-gite/chambre-jardin-des-senteurs"
-                      className="block px-4 py-2 text-sm rounded-md hover:bg-base-200 transition-colors"
+                      className="block px-4 py-2 text-sm rounded-md hover:bg-surface-2 transition-colors"
                     >
                       {`La chambre "Jardin des Senteurs"`}
                     </Link>
@@ -81,7 +81,7 @@ const DesktopMenu = () => {
                   <NavigationMenu.Link asChild>
                     <Link
                       href="/notre-gite/espace-bien-etre"
-                      className="block px-4 py-2 text-sm rounded-md hover:bg-base-200 transition-colors"
+                      className="block px-4 py-2 text-sm rounded-md hover:bg-surface-2 transition-colors"
                     >
                       {`L'espace bien-être`}
                     </Link>
@@ -91,20 +91,20 @@ const DesktopMenu = () => {
             </NavigationMenu.Content>
           </NavigationMenu.Item>
           <NavigationMenu.Item className="relative">
-            <NavigationMenu.Trigger className="flex items-center gap-1 px-4 py-2 text-sm font-medium rounded-md hover:bg-base-200 transition-colors group">
+            <NavigationMenu.Trigger className="flex items-center gap-1 px-4 py-2 text-sm font-medium rounded-md hover:bg-surface-1 transition-colors group">
               Les alentours
               <FaChevronDown
                 className="w-3 h-3 transition-transform duration-250 group-data-[state=open]:rotate-180"
                 aria-hidden
               />
             </NavigationMenu.Trigger>
-            <NavigationMenu.Content className="absolute top-full left-0 mt-2 min-w-max bg-base-100 rounded-box shadow-lg p-2 z-50">
+            <NavigationMenu.Content className="absolute top-full left-0 mt-2 min-w-max bg-surface-1 rounded-box shadow-lg p-2 z-50">
               <ul className="space-y-1">
                 <li>
                   <NavigationMenu.Link asChild>
                     <Link
                       href="/les-alentours/randonnees"
-                      className="block px-4 py-2 text-sm rounded-md hover:bg-base-200 transition-colors"
+                      className="block px-4 py-2 text-sm rounded-md hover:bg-surface-2 transition-colors"
                     >
                       Randonnées
                     </Link>
@@ -114,7 +114,7 @@ const DesktopMenu = () => {
                   <NavigationMenu.Link asChild>
                     <Link
                       href="/les-alentours/parc-de-wesserling"
-                      className="block px-4 py-2 text-sm rounded-md hover:bg-base-200 transition-colors"
+                      className="block px-4 py-2 text-sm rounded-md hover:bg-surface-2 transition-colors"
                     >
                       Le Parc de Wesserling
                     </Link>
@@ -124,7 +124,7 @@ const DesktopMenu = () => {
                   <NavigationMenu.Link asChild>
                     <Link
                       href="/les-alentours/moulin-a-huile"
-                      className="block px-4 py-2 text-sm rounded-md hover:bg-base-200 transition-colors"
+                      className="block px-4 py-2 text-sm rounded-md hover:bg-surface-2 transition-colors"
                     >
                       Le moulin à huile
                     </Link>
@@ -134,7 +134,7 @@ const DesktopMenu = () => {
                   <NavigationMenu.Link asChild>
                     <Link
                       href="/les-alentours/lac-de-kruth-wildenstein"
-                      className="block px-4 py-2 text-sm rounded-md hover:bg-base-200 transition-colors"
+                      className="block px-4 py-2 text-sm rounded-md hover:bg-surface-2 transition-colors"
                     >
                       Le lac de Kruth-Wildenstein
                     </Link>
@@ -144,7 +144,7 @@ const DesktopMenu = () => {
                   <NavigationMenu.Link asChild>
                     <Link
                       href="/les-alentours/et-tout-le-reste"
-                      className="block px-4 py-2 text-sm rounded-md hover:bg-base-200 transition-colors"
+                      className="block px-4 py-2 text-sm rounded-md hover:bg-surface-2 transition-colors"
                     >
                       Et tout le reste
                     </Link>
@@ -157,7 +157,7 @@ const DesktopMenu = () => {
             <NavigationMenu.Link asChild>
               <Link
                 href="/tarifs"
-                className="px-4 py-2 text-sm font-medium rounded-md hover:bg-base-200 transition-colors"
+                className="px-4 py-2 text-sm font-medium rounded-md hover:bg-surface-1 transition-colors"
               >
                 Tarifs
               </Link>
@@ -167,7 +167,7 @@ const DesktopMenu = () => {
             <NavigationMenu.Link asChild>
               <Link
                 href="/contact"
-                className="px-4 py-2 text-sm font-medium rounded-md hover:bg-base-200 transition-colors"
+                className="px-4 py-2 text-sm font-medium rounded-md hover:bg-surface-1 transition-colors"
               >
                 Contact
               </Link>
