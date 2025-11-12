@@ -1,8 +1,11 @@
+import MobileMenu from "./MobileMenu"
+
 const Navbar = () => {
   return (
     <div>
-      <p>mobile menu</p>
-      <p>Desktop menu</p>
+      <div className="md:hidden flex justify-start items-center">
+        <MobileMenu />
+      </div>
     </div>
   );
 }
