@@ -8,7 +8,7 @@ const MobileMenu = () => {
     <div className="lg:hidden md:hidden">
       <DropdownMenu.Root modal={false}>
         <DropdownMenu.Trigger asChild>
-          <LuMenu className="btn-ghost btn p-0" />
+          <LuMenu className="btn-ghost btn p-0" size={36}/>
         </DropdownMenu.Trigger>
         <DropdownMenu.Portal>
           <DropdownMenu.Content
