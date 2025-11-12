@@ -8,34 +8,34 @@ const MobileMenu = () => {
     <div className="lg:hidden md:hidden">
       <DropdownMenu.Root modal={false}>
         <DropdownMenu.Trigger asChild>
-          <LuMenu className="btn-ghost btn p-0" size={36}/>
+          <LuMenu className="btn-ghost btn p-0" size={36} />
         </DropdownMenu.Trigger>
         <DropdownMenu.Portal>
           <DropdownMenu.Content
             sideOffset={8}
             align="start"
-            className="z-50 rounded-box bg-base-100 p-2 shadow"
+            className="z-50 rounded-box bg-surface-1 text-foreground p-2 shadow"
           >
             <DropdownMenu.Item asChild>
               <Link
                 href="/"
-                className="block rounded px-3 py-2 hover:bg-base-200"
+                className="block rounded px-3 py-2 hover:bg-surface-2 outline-none"
               >
                 Accueil
               </Link>
             </DropdownMenu.Item>
 
             <DropdownMenu.Sub>
-              <DropdownMenu.SubTrigger className="flex items-center justify-between rounded px-3 py-2 text-left hover:bg-base-200">
+              <DropdownMenu.SubTrigger className="flex items-center justify-between rounded px-3 py-2 text-left hover:bg-surface-2 outline-none">
                 <span>Notre gîte</span>
-                <FaChevronRight className="h-3 w-3 ml-1 text-base-content/70" />
+                <FaChevronRight className="h-3 w-3 ml-1/70" />
               </DropdownMenu.SubTrigger>
 
-              <DropdownMenu.SubContent className="ml-1 rounded-box bg-base-100 p-2 shadow">
+              <DropdownMenu.SubContent className="ml-1 rounded-box bg-surface-1 p-2 shadow">
                 <DropdownMenu.Item asChild>
                   <Link
                     href="/notre-gite/sejour"
-                    className="block rounded px-3 py-2 hover:bg-base-200"
+                    className="block rounded px-3 py-2 hover:bg-surface-2 outline-none"
                   >
                     Le séjour
                   </Link>
@@ -43,7 +43,7 @@ const MobileMenu = () => {
                 <DropdownMenu.Item asChild>
                   <Link
                     href="/notre-gite/chambre-cerisier"
-                    className="block rounded px-3 py-2 hover:bg-base-200"
+                    className="block rounded px-3 py-2 hover:bg-surface-2 outline-none"
                   >
                     {`La chambre "Cerisier"`}
                   </Link>
@@ -51,7 +51,7 @@ const MobileMenu = () => {
                 <DropdownMenu.Item asChild>
                   <Link
                     href="/notre-gite/chambre-grange"
-                    className="block rounded px-3 py-2 hover:bg-base-200"
+                    className="block rounded px-3 py-2 hover:bg-surface-2 outline-none"
                   >
                     {`La chambre "Grange"`}
                   </Link>
@@ -59,7 +59,7 @@ const MobileMenu = () => {
                 <DropdownMenu.Item asChild>
                   <Link
                     href="/notre-gite/chambre-aurores"
-                    className="block rounded px-3 py-2 hover:bg-base-200"
+                    className="block rounded px-3 py-2 hover:bg-surface-2"
                   >
                     {`La chambre "Aurores"`}
                   </Link>
@@ -67,7 +67,7 @@ const MobileMenu = () => {
                 <DropdownMenu.Item asChild>
                   <Link
                     href="/notre-gite/chambre-jardin-des-senteurs"
-                    className="block rounded px-3 py-2 hover:bg-base-200"
+                    className="block rounded px-3 py-2 hover:bg-surface-2 outline-none"
                   >
                     {`La chambre "Jardin des Senteurs"`}
                   </Link>
@@ -75,7 +75,7 @@ const MobileMenu = () => {
                 <DropdownMenu.Item asChild>
                   <Link
                     href="/notre-gite/espace-bien-etre"
-                    className="block rounded px-3 py-2 hover:bg-base-200"
+                    className="block rounded px-3 py-2 hover:bg-surface-2 outline-none"
                   >
                     {`L'espace bien-être`}
                   </Link>
@@ -84,15 +84,15 @@ const MobileMenu = () => {
             </DropdownMenu.Sub>
 
             <DropdownMenu.Sub>
-              <DropdownMenu.SubTrigger className="flex items-center justify-between rounded px-3 py-2 text-left hover:bg-base-200">
+              <DropdownMenu.SubTrigger className="flex items-center justify-between rounded px-3 py-2 text-left hover:bg-surface-2 outline-none">
                 <span>Les alentours</span>
-                <FaChevronRight className="h-3 w-3 ml-1 text-base-content/70" />
+                <FaChevronRight className="h-3 w-3 ml-1" />
               </DropdownMenu.SubTrigger>
-              <DropdownMenu.SubContent className="ml-1 rounded-box bg-base-100 p-2 shadow">
+              <DropdownMenu.SubContent className="ml-1 rounded-box bg-surface-1 p-2 shadow">
                 <DropdownMenu.Item asChild>
                   <Link
                     href="/les-alentours/randonnees"
-                    className="block rounded px-3 py-2 hover:bg-base-200"
+                    className="block rounded px-3 py-2 hover:bg-surface-2 outline-none"
                   >
                     Randonnées
                   </Link>
@@ -100,7 +100,7 @@ const MobileMenu = () => {
                 <DropdownMenu.Item asChild>
                   <Link
                     href="/les-alentours/parc-de-wesserling"
-                    className="block rounded px-3 py-2 hover:bg-base-200"
+                    className="block rounded px-3 py-2 hover:bg-surface-2 outline-none"
                   >
                     Le Parc de Wesserling
                   </Link>
@@ -108,7 +108,7 @@ const MobileMenu = () => {
                 <DropdownMenu.Item asChild>
                   <Link
                     href="/les-alentours/moulin-a-huile"
-                    className="block rounded px-3 py-2 hover:bg-base-200"
+                    className="block rounded px-3 py-2 hover:bg-surface-2 outline-none"
                   >
                     Le moulin à huile
                   </Link>
@@ -116,7 +116,7 @@ const MobileMenu = () => {
                 <DropdownMenu.Item asChild>
                   <Link
                     href="/les-alentours/lac-de-kruth-wildenstein"
-                    className="block rounded px-3 py-2 hover:bg-base-200"
+                    className="block rounded px-3 py-2 hover:bg-surface-2 outline-none"
                   >
                     Le lac de Kruth-Wildenstein
                   </Link>
@@ -124,7 +124,7 @@ const MobileMenu = () => {
                 <DropdownMenu.Item asChild>
                   <Link
                     href="/les-alentours/et-tout-le-reste"
-                    className="block rounded px-3 py-2 hover:bg-base-200"
+                    className="block rounded px-3 py-2 hover:bg-surface-2 outline-none"
                   >
                     Et tout le reste
                   </Link>
@@ -134,7 +134,7 @@ const MobileMenu = () => {
             <DropdownMenu.Item asChild>
               <Link
                 href="/tarifs"
-                className="block rounded px-3 py-2 hover:bg-base-200"
+                className="block rounded px-3 py-2 hover:bg-surface-2 outline-none"
               >
                 Tarifs
               </Link>
@@ -142,7 +142,7 @@ const MobileMenu = () => {
             <DropdownMenu.Item asChild>
               <Link
                 href="/contact"
-                className="block rounded px-3 py-2 hover:bg-base-200"
+                className="block rounded px-3 py-2 hover:bg-surface-2 outline-none"
               >
                 Contact
               </Link>

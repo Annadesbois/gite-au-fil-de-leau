@@ -1,16 +1,31 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Brand palette */
+  --brand-fabric: #A76B6B;
+  --brand-accent: #BADF4A;
+
+  /* Surfaces (dropdowns, cards, etc.) */
+  --surface-1: #8e5757; /* dropdown background */
+  --surface-2: #996868; /* hover background */
+  --surface-3: #915A5A; /* active background */
+
+  /* Text */
+  --text-primary: #F8F6F6;
+  --text-secondary: #E9E3E3;
+  --text-accent: #BADF4A;
+  --border-accent: #A8C93F;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-background: var(--brand-fabric);
+  --color-foreground: var(--text-primary);
+  --color-accent: var(--brand-accent);
+  --color-surface-1: var(--surface-1);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
 }
+
 
 @media (prefers-color-scheme: dark) {
   :root {
