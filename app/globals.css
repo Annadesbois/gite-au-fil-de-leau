@@ -20,8 +20,23 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
   padding: 14px 30px 30px 30px;
 }
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+
+  background-image:
+    linear-gradient(rgba(167, 107, 107, 0.87), rgba(167, 107, 107, 0.87)),
+    image-set(url("/textures/fabric2.webp") type("image/webp"));
+
+  background-repeat: no-repeat, repeat;
+  background-size: 100%, 512px 512px;
+  background-blend-mode: multiply, normal;
+}
+
