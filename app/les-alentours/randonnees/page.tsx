@@ -1,6 +1,4 @@
 const RandonneesPage = () => {
-  return (
-    <div>RandonneesPage</div>
-  )
+  return <div>RandonnéesPage</div>;
 }
 export default RandonneesPage
