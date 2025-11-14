@@ -6,12 +6,12 @@
   --brand-accent: #BADF4A;
 
   /* Surfaces (dropdowns, cards, etc.) */
-  --surface-1: #8e5757; /* dropdown background */
-  --surface-2: #996868; /* hover background */
+  --surface-1: #f8dabd79; /* dropdown background */
+  --surface-2: #b58787; /* hover background */
   --surface-3: #915A5A; /* active background */
 
   /* Text */
-  --text-primary: #F8F6F6;
+  --text-primary: #000000;
   --text-secondary: #E9E3E3;
   --text-accent: #BADF4A;
   --border-accent: #A8C93F;
@@ -36,7 +36,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  padding: 14px 30px 30px 30px;
+  padding: 0px 0px 30px 0px;
 }
 
 body::before {
