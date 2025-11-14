@@ -14,7 +14,7 @@ const MobileMenu = () => {
           <DropdownMenu.Content
             sideOffset={8}
             align="start"
-            className="z-50 rounded-box bg-surface-1 text-foreground p-2 shadow"
+            className="z-50 rounded-lg fabric-surface-light text-foreground text-sm font-bold p-2 shadow"
           >
             <DropdownMenu.Item asChild>
               <Link
@@ -31,7 +31,7 @@ const MobileMenu = () => {
                 <FaChevronRight className="h-3 w-3 ml-1/70" />
               </DropdownMenu.SubTrigger>
 
-              <DropdownMenu.SubContent className="ml-1 rounded-box bg-surface-1 p-2 shadow">
+              <DropdownMenu.SubContent className="ml-1 rounded-lg fabric-surface-light p-2 shadow">
                 <DropdownMenu.Item asChild>
                   <Link
                     href="/notre-gite/sejour"
@@ -88,7 +88,7 @@ const MobileMenu = () => {
                 <span>Les alentours</span>
                 <FaChevronRight className="h-3 w-3 ml-1" />
               </DropdownMenu.SubTrigger>
-              <DropdownMenu.SubContent className="ml-1 rounded-box bg-surface-1 p-2 shadow">
+              <DropdownMenu.SubContent className="ml-1 rounded-lg fabric-surface-light p-2 shadow">
                 <DropdownMenu.Item asChild>
                   <Link
                     href="/les-alentours/randonnees"

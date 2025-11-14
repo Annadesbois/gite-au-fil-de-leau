@@ -4,28 +4,28 @@ import Link from "next/link";
 
 const DesktopMenu = () => {
   return (
-    <div className="hidden md:flex md:items-center md:justify-center w-full">
+    <div className="hidden md:flex md:items-center md:justify-center w-full text-sm font-bold">
       <NavigationMenu.Root className="relative">
         <NavigationMenu.List className="flex items-center gap-2 p-1 ">
           <NavigationMenu.Item>
             <NavigationMenu.Link asChild>
               <Link
                 href="/"
-                className="px-4 py-2 text-sm font-medium rounded-md hover:bg-surface-1 transition-colors"
+                className="px-4 py-2 rounded-md hover:bg-surface-1 transition-colors"
               >
                 Accueil
               </Link>
             </NavigationMenu.Link>
           </NavigationMenu.Item>
           <NavigationMenu.Item className="relative">
-            <NavigationMenu.Trigger className="flex items-center gap-1 px-4 py-2 text-sm font-medium rounded-md hover:bg-surface-1 transition-colors group">
+            <NavigationMenu.Trigger className="flex items-center gap-1 px-4 py-2 hover:bg-surface-1 transition-colors group">
               Notre gîte
               <FaChevronDown
                 className="w-3 h-3 transition-transform duration-250 group-data-[state=open]:rotate-180"
                 aria-hidden
               />
             </NavigationMenu.Trigger>
-            <NavigationMenu.Content className="absolute top-full left-0 mt-2 min-w-max bg-surface-1 rounded-box shadow-lg p-2 z-50">
+            <NavigationMenu.Content className="absolute top-full left-0 mt-2 min-w-max fabric-surface-light rounded-lg shadow-lg p-2 z-50">
               <ul className="space-y-1">
                 <li>
                   <NavigationMenu.Link asChild>
@@ -91,14 +91,14 @@ const DesktopMenu = () => {
             </NavigationMenu.Content>
           </NavigationMenu.Item>
           <NavigationMenu.Item className="relative">
-            <NavigationMenu.Trigger className="flex items-center gap-1 px-4 py-2 text-sm font-medium rounded-md hover:bg-surface-1 transition-colors group">
+            <NavigationMenu.Trigger className="flex items-center gap-1 px-4 py-2 hover:bg-surface-1 transition-colors group">
               Les alentours
               <FaChevronDown
                 className="w-3 h-3 transition-transform duration-250 group-data-[state=open]:rotate-180"
                 aria-hidden
               />
             </NavigationMenu.Trigger>
-            <NavigationMenu.Content className="absolute top-full left-0 mt-2 min-w-max bg-surface-1 rounded-box shadow-lg p-2 z-50">
+            <NavigationMenu.Content className="absolute top-full left-0 mt-2 min-w-max fabric-surface-light rounded-lg shadow-lg p-2 z-50">
               <ul className="space-y-1">
                 <li>
                   <NavigationMenu.Link asChild>
@@ -157,7 +157,7 @@ const DesktopMenu = () => {
             <NavigationMenu.Link asChild>
               <Link
                 href="/tarifs"
-                className="px-4 py-2 text-sm font-medium rounded-md hover:bg-surface-1 transition-colors"
+                className="px-4 py-2 rounded-md hover:bg-surface-1 transition-colors"
               >
                 Tarifs
               </Link>
@@ -167,7 +167,7 @@ const DesktopMenu = () => {
             <NavigationMenu.Link asChild>
               <Link
                 href="/contact"
-                className="px-4 py-2 text-sm font-medium rounded-md hover:bg-surface-1 transition-colors"
+                className="px-4 py-2 rounded-md hover:bg-surface-1 transition-colors"
               >
                 Contact
               </Link>

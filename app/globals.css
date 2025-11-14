@@ -5,8 +5,10 @@
   --brand-fabric: #A76B6B;
   --brand-accent: #BADF4A;
 
+  --menu-tint: #f8dabd9f; 
+
   /* Surfaces (dropdowns, cards, etc.) */
-  --surface-1: #f8dabd79; /* dropdown background */
+  --surface-1: #f8dabd9f; /* dropdown background */
   --surface-2: #b58787; /* hover background */
   --surface-3: #915A5A; /* active background */
 
@@ -55,3 +57,16 @@ body::before {
   background-blend-mode: multiply, normal;
 }
 
+.fabric-surface-light::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  filter: blur(0.8px);
+  border-radius: inherit;
+  background-color: var(--menu-tint);
+  background-image: url("/textures/fabric2.webp");
+  background-repeat: repeat;
+  background-size: 512px 512px;
+  background-blend-mode: multiply;
+}
