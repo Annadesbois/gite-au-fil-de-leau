@@ -11,14 +11,14 @@ const DesktopMenu = () => {
             <NavigationMenu.Link asChild>
               <Link
                 href="/"
-                className="px-4 py-2 rounded-md hover:bg-surface-1 transition-colors"
+                className="px-4 py-2 rounded-md hover:bg-surface-2 transition-colors"
               >
                 Accueil
               </Link>
             </NavigationMenu.Link>
           </NavigationMenu.Item>
           <NavigationMenu.Item className="relative">
-            <NavigationMenu.Trigger className="flex items-center gap-1 px-4 py-2 hover:bg-surface-1 transition-colors group">
+            <NavigationMenu.Trigger className="flex items-center gap-1 px-4 py-2 hover:bg-surface-2 transition-colors group rounded-md cursor-pointer">
               Notre gîte
               <FaChevronDown
                 className="w-3 h-3 transition-transform duration-250 group-data-[state=open]:rotate-180"
@@ -91,7 +91,7 @@ const DesktopMenu = () => {
             </NavigationMenu.Content>
           </NavigationMenu.Item>
           <NavigationMenu.Item className="relative">
-            <NavigationMenu.Trigger className="flex items-center gap-1 px-4 py-2 hover:bg-surface-1 transition-colors group">
+            <NavigationMenu.Trigger className="flex items-center gap-1 px-4 py-2 hover:bg-surface-2 rounded-md transition-colors group cursor-pointer">
               Les alentours
               <FaChevronDown
                 className="w-3 h-3 transition-transform duration-250 group-data-[state=open]:rotate-180"
@@ -157,7 +157,7 @@ const DesktopMenu = () => {
             <NavigationMenu.Link asChild>
               <Link
                 href="/tarifs"
-                className="px-4 py-2 rounded-md hover:bg-surface-1 transition-colors"
+                className="px-4 py-2 rounded-md hover:bg-surface-2 transition-colors"
               >
                 Tarifs
               </Link>
@@ -167,7 +167,7 @@ const DesktopMenu = () => {
             <NavigationMenu.Link asChild>
               <Link
                 href="/contact"
-                className="px-4 py-2 rounded-md hover:bg-surface-1 transition-colors"
+                className="px-4 py-2 rounded-md hover:bg-surface-2 transition-colors"
               >
                 Contact
               </Link>

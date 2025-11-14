@@ -8,7 +8,9 @@ const MobileMenu = () => {
     <div className="lg:hidden md:hidden">
       <DropdownMenu.Root modal={false}>
         <DropdownMenu.Trigger asChild>
-          <LuMenu className="btn-ghost btn p-0" size={36} />
+          <button className="btn-ghost btn p-0 bg-menu-tint rounded-full text-foreground w-11 h-11 flex items-center justify-center cursor-pointer">
+            <LuMenu size={36} />
+          </button>
         </DropdownMenu.Trigger>
         <DropdownMenu.Portal>
           <DropdownMenu.Content
@@ -26,9 +28,9 @@ const MobileMenu = () => {
             </DropdownMenu.Item>
 
             <DropdownMenu.Sub>
-              <DropdownMenu.SubTrigger className="flex items-center justify-between rounded px-3 py-2 text-left hover:bg-surface-2 outline-none">
+              <DropdownMenu.SubTrigger className="flex items-center justify-between rounded px-3 py-2 text-left hover:bg-surface-2 outline-none cursor-pointer">
                 <span>Notre gîte</span>
-                <FaChevronRight className="h-3 w-3 ml-1/70" />
+                <FaChevronRight className="h-3 w-3 ml-1.5/70" />
               </DropdownMenu.SubTrigger>
 
               <DropdownMenu.SubContent className="ml-1 rounded-lg fabric-surface-light p-2 shadow">
@@ -84,9 +86,9 @@ const MobileMenu = () => {
             </DropdownMenu.Sub>
 
             <DropdownMenu.Sub>
-              <DropdownMenu.SubTrigger className="flex items-center justify-between rounded px-3 py-2 text-left hover:bg-surface-2 outline-none">
+              <DropdownMenu.SubTrigger className="flex items-center justify-between rounded px-3 py-2 text-left hover:bg-surface-2 outline-none cursor-pointer">
                 <span>Les alentours</span>
-                <FaChevronRight className="h-3 w-3 ml-1" />
+                <FaChevronRight className="h-3 w-3 ml-2" />
               </DropdownMenu.SubTrigger>
               <DropdownMenu.SubContent className="ml-1 rounded-lg fabric-surface-light p-2 shadow">
                 <DropdownMenu.Item asChild>
