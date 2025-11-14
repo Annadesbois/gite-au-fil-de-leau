@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="md:hidden flex justify-center items-center">
         <MobileMenu />
       </div>
-      <div className="flex-none hidden md:flex md:mx-auto w-full fabric-surface-light">
+      <div className="hidden md:flex md:items-center md:justify-center w-full fabric-surface-light">
         <DesktopMenu />
       </div>
     </nav>
