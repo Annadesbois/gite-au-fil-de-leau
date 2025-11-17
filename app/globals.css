@@ -1,26 +1,118 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --surface-1: #f8dabd9f;
+  --surface-2: #b58787;
+  --surface-3: #a76b6b;
+  --text-primary: #000000;
+  --accent: #badf4a;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-surface-1: var(--surface-1);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-foreground: var(--text-primary);
+  --color-accent: var(--accent);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-playpen),
+    "Segoe UI",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-courgette),
+    "Lucida Handwriting",
+    "Brush Script MT",
+    "Segoe Script",
+    "Comic Sans MS",
+    cursive;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+
+  background-image: linear-gradient(
+      rgba(167, 107, 107, 0.87),
+      rgba(149, 80, 80, 0.87)
+    ),
+    image-set(url("/textures/fabric2.webp") type("image/webp"));
+
+  background-repeat: no-repeat, repeat;
+  background-size: 100%, 512px 512px;
+  background-blend-mode: multiply, normal;
+}
+
+.fabric-surface-light::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  filter: blur(0.8px);
+  border-radius: inherit;
+  background-color: var(--surface-1);
+  background-image: url("/textures/fabric2.webp");
+  background-repeat: repeat;
+  background-size: 512px 512px;
+  background-blend-mode: multiply;
+}
+
+.menu-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+}
+
+.menu-link:hover {
+  background-color: var(--surface-2);
+  border: none;
+  outline: none;
+}
+
+.menu-sub-content {
+  border-radius: 0.5rem;
+  z-index: 50;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  background-color: fabric-surface-light;
+}
+
+.menu-sub-content-mobile {
+  padding: 0.5rem 0rem;
+  width: 12rem;
+}
+
+.menu-sub-content-desktop {
+  position: absolute;
+  min-width: max-content;
+  top: 100%;
+  left: 0;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.navigation-menu-trigger {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navigation-menu-trigger:hover {
+  background-color: var(--surface-2);
 }
