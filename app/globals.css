@@ -17,8 +17,23 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 0px 0px 30px 0px;
+  font-family: var(--font-playpen),
+    "Segoe UI",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-courgette),
+    "Lucida Handwriting",
+    "Brush Script MT",
+    "Segoe Script",
+    "Comic Sans MS",
+    cursive;
 }
 
 body::before {

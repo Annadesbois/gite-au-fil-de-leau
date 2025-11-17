@@ -1,6 +1,6 @@
 const NotreGitePage = () => {
   return (
-    <div>NotreGitePage</div>
+    <h1>NotreGitePage</h1>
   )
 }
 export default NotreGitePage
