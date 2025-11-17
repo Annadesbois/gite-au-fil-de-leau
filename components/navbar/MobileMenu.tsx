@@ -7,7 +7,7 @@ const MobileMenu = () => {
   return (
     <DropdownMenu.Root modal={false}>
       <DropdownMenu.Trigger asChild>
-        <button className="btn-ghost btn p-0 bg-menu-tint rounded-full text-foreground w-11 h-11 flex items-center justify-center cursor-pointer">
+        <button className="btn-ghost btn p-0 bg-surface-1 rounded-full text-foreground w-11 h-11 flex items-center justify-center cursor-pointer">
           <LuMenu size={36} />
         </button>
       </DropdownMenu.Trigger>
@@ -15,7 +15,7 @@ const MobileMenu = () => {
         <DropdownMenu.Content
           sideOffset={8}
           align="start"
-          className="z-50 rounded-lg fabric-surface-light text-foreground text-sm font-bold p-2 shadow"
+          className="z-50 rounded-lg fabric-surface-light text-foreground text-sm font-bold p-0.5 shadow"
         >
           <DropdownMenu.Item asChild>
             <Link href="/" className="menu-link block">
@@ -24,12 +24,15 @@ const MobileMenu = () => {
           </DropdownMenu.Item>
 
           <DropdownMenu.Sub>
-            <DropdownMenu.SubTrigger className="flex items-center justify-between rounded px-3 py-2 text-left hover:bg-surface-2 outline-none cursor-pointer">
+            <DropdownMenu.SubTrigger className="navigation-menu-trigger">
               <span>Notre gîte</span>
               <FaChevronRight className="h-3 w-3 ml-2" />
             </DropdownMenu.SubTrigger>
 
-            <DropdownMenu.SubContent className="ml-1 rounded-lg fabric-surface-light p-2 shadow">
+            <DropdownMenu.SubContent
+              sideOffset={-9}
+              className="menu-sub-content menu-sub-content-mobile fabric-surface-light"
+            >
               <DropdownMenu.Item asChild>
                 <Link href="/notre-gite/sejour" className="menu-link block">
                   Le séjour
@@ -54,7 +57,7 @@ const MobileMenu = () => {
               <DropdownMenu.Item asChild>
                 <Link
                   href="/notre-gite/chambre-aurores"
-                  className="block rounded px-3 py-2 hover:bg-surface-2"
+                  className="menu-link block"
                 >
                   {`La chambre "Aurores"`}
                 </Link>
@@ -79,11 +82,14 @@ const MobileMenu = () => {
           </DropdownMenu.Sub>
 
           <DropdownMenu.Sub>
-            <DropdownMenu.SubTrigger className="flex items-center justify-between rounded px-3 py-2 text-left hover:bg-surface-2 outline-none cursor-pointer">
+            <DropdownMenu.SubTrigger className="navigation-menu-trigger">
               <span>Les alentours</span>
               <FaChevronRight className="h-3 w-3 ml-2" />
             </DropdownMenu.SubTrigger>
-            <DropdownMenu.SubContent className="ml-1 rounded-lg fabric-surface-light p-2 shadow">
+            <DropdownMenu.SubContent
+              sideOffset={-9}
+              className="menu-sub-content menu-sub-content-mobile fabric-surface-light"
+            >
               <DropdownMenu.Item asChild>
                 <Link
                   href="/les-alentours/randonnees"

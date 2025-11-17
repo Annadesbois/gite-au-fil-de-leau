@@ -21,7 +21,7 @@ const DesktopMenu = () => {
               aria-hidden
             />
           </NavigationMenu.Trigger>
-          <NavigationMenu.Content className="absolute top-full left-0 mt-2 min-w-max fabric-surface-light rounded-lg shadow-lg p-2 z-50">
+          <NavigationMenu.Content className="fabric-surface-light menu-sub-content menu-sub-content-desktop">
             <ul className="space-y-1">
               <li>
                 <NavigationMenu.Link asChild>
@@ -91,7 +91,7 @@ const DesktopMenu = () => {
               aria-hidden
             />
           </NavigationMenu.Trigger>
-          <NavigationMenu.Content className="absolute top-full left-0 mt-2 min-w-max fabric-surface-light rounded-lg shadow-lg p-2 z-50">
+          <NavigationMenu.Content className="fabric-surface-light menu-sub-content menu-sub-content-desktop">
             <ul className="space-y-1">
               <li>
                 <NavigationMenu.Link asChild>
