@@ -19,23 +19,13 @@
 }
 
 body {
-  font-family: var(--font-playpen),
-    "Segoe UI",
-    system-ui,
-    -apple-system,
-    BlinkMacSystemFont,
-    "Helvetica Neue",
-    Arial,
-    sans-serif;
+  font-family: var(--font-playpen), "Segoe UI", system-ui, -apple-system,
+    BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
 }
 
-h1, h2, h3 {
-  font-family: var(--font-courgette),
-    "Lucida Handwriting",
-    "Brush Script MT",
-    "Segoe Script",
-    "Comic Sans MS",
-    cursive;
+h1 {
+  font-family: var(--font-courgette), "Lucida Handwriting", "Brush Script MT",
+    "Segoe Script", "Comic Sans MS", cursive;
 }
 
 body::before {
@@ -117,4 +107,14 @@ body::before {
 
 .navigation-menu-trigger:hover {
   background-color: var(--surface-2);
+}
+
+.content-area ul {
+  padding-top: 6px;
+}
+
+.content-area li {
+  list-style-type: disc;
+  margin: 0px 16px 0px 28px;
+  padding-top: 10px;
 }

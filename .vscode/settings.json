@@ -2,6 +2,8 @@
   "cSpell.language": "fr,en",
   "cSpell.words": [
     "etre",
+    "exterieur",
+    "interieur",
     "kruth",
     "Kruth",
     "randonnees",
@@ -14,5 +16,7 @@
   ],
   "css.lint.unknownAtRules": "ignore",
   "scss.lint.unknownAtRules": "ignore",
-  "less.lint.unknownAtRules": "ignore"
+  "less.lint.unknownAtRules": "ignore",
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.nonBasicASCII": false
 }

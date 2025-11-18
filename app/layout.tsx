@@ -25,7 +25,9 @@ export default function RootLayout({
         <header>
           <Navbar />
         </header>
-        <main className="grow">{children}</main>
+        <main className="relative grow mx-auto w-full max-w-6xl px-3 md:px-10">
+          {children}
+        </main>
         <Footer />
       </body>
     </html>

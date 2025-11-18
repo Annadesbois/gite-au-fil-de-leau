@@ -5,6 +5,17 @@ import nextTs from "eslint-config-next/typescript";
 const eslintConfig = defineConfig([
   ...nextVitals,
   ...nextTs,
+
+  {
+    rules: {
+      // Allow French curly apostrophes and accented text in JSX
+      "react/no-unescaped-entities": "off",
+
+      // Prevent VSCode warnings about ambiguous Unicode characters
+      "unicode-bom": "off",
+    },
+  },
+
   // Override default ignores of eslint-config-next.
   globalIgnores([
     // Default ignores of eslint-config-next:
