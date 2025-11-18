@@ -4,10 +4,12 @@ import Navbar from "@/components/navbar/Navbar";
 
 import { PlaypenSans } from "./fonts/playpen-sans";
 import { Courgette } from "./fonts/courgette";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Gîte Au fil de l'eau",
-  description: "Gîte chaleureux à Storckensohn, au cœur des Hautes-Vosges d'Alsace.",
+  description:
+    "Gîte chaleureux à Storckensohn, au cœur des Hautes-Vosges d'Alsace.",
 };
 
 export default function RootLayout({
@@ -18,12 +20,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${PlaypenSans.variable} ${Courgette.variable} antialiased`}
+        className={`${PlaypenSans.variable} ${Courgette.variable} antialiased flex flex-col min-h-screen`}
       >
         <header>
           <Navbar />
         </header>
-        {children}
+        <main className="grow">{children}</main>
+        <Footer />
       </body>
     </html>
   );
