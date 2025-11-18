@@ -52,10 +52,10 @@ const PhotoCarousel: React.FC<PropType> = (props) => {
   }, [onPrevButtonClick, onNextButtonClick]);
 
   return (
-    <section className="w-full max-w-3xl mx-auto">
+    <section className="w-full max-w-6xl mx-auto">
       <div
         aria-roledescription="carousel"
-        className="relative"
+        className="relative mx-3 md:mx-10 lg:mx-20 my-4"
         onMouseEnter={() => emblaApi?.plugins()?.autoplay?.stop()}
         onMouseLeave={() => emblaApi?.plugins()?.autoplay?.play()}
       >
@@ -63,13 +63,12 @@ const PhotoCarousel: React.FC<PropType> = (props) => {
           <div className="flex -ml-4">
             {slides.map((slide, index) => (
               <div className="shrink-0 w-full pl-4" key={index}>
-                <div className="relative rounded-3xl h-96 overflow-hidden">
+                <div className="relative rounded-3xl aspect-3/2 overflow-hidden">
                   <Image
                     src={slide.src}
                     alt={slide.alt}
                     fill
                     className="object-cover"
-                    sizes="(max-width: 768px) 100vw, 50vw"
                     priority={index === 0}
                     loading={index === 0 ? "eager" : "lazy"}
                   />
