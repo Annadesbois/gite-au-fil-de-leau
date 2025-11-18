@@ -3,11 +3,14 @@ import MobileMenu from "./MobileMenu";
 
 const Navbar = () => {
   return (
-    <nav className="grid grid-cols-[1fr_3fr] text-foreground sticky top-0 z-40 md:flex md:justify-center h-16">
-      <div className="md:hidden flex mt-6 ml-6">
+    <nav className="grid grid-cols-[1fr_2fr_1fr] sticky top-0 z-40 md:flex md:justify-center h-16 w-full fabric-surface-light">
+      <div className="md:hidden flex items-center ml-6 text-primary">
         <MobileMenu />
       </div>
-      <div className="hidden md:flex md:items-center md:justify-center w-full fabric-surface-light">
+      <div className="flex items-center justify-center md:justify-start md:ml-4 lg:absolute md:left-6 lg:h-16 lg:shrink-0">
+        <h1 className="font-bold text-xl whitespace-nowrap text-secondary">{`Gite Au fil de l'eau`}</h1>
+      </div>
+      <div className="hidden md:flex md:items-center md:justify-center w-full fabric-surface-light text-primary">
         <DesktopMenu />
       </div>
     </nav>
