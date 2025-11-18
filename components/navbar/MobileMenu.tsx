@@ -7,7 +7,7 @@ const MobileMenu = () => {
   return (
     <DropdownMenu.Root modal={false}>
       <DropdownMenu.Trigger asChild>
-        <button className="btn-ghost btn p-0 bg-surface-1 rounded-full text-foreground w-11 h-11 flex items-center justify-center cursor-pointer">
+        <button className="btn-ghost btn p-0 rounded-full w-11 h-11 flex items-center justify-center cursor-pointer">
           <LuMenu size={36} />
         </button>
       </DropdownMenu.Trigger>
@@ -15,7 +15,7 @@ const MobileMenu = () => {
         <DropdownMenu.Content
           sideOffset={8}
           align="start"
-          className="z-50 rounded-lg fabric-surface-light text-foreground text-sm font-bold p-0.5 shadow"
+          className="z-50 rounded-lg fabric-surface-light text-sm font-bold p-0.5 shadow"
         >
           <DropdownMenu.Item asChild>
             <Link href="/" className="menu-link block">

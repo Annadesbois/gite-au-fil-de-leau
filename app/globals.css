@@ -4,7 +4,8 @@
   --surface-1: #f8dabd9f;
   --surface-2: #b58787;
   --surface-3: #a76b6b;
-  --text-primary: #000000;
+  --text-primary: #2e1212;
+  --text-secondary: #814444;
   --accent: #badf4a;
 }
 
@@ -12,7 +13,8 @@
   --color-surface-1: var(--surface-1);
   --color-surface-2: var(--surface-2);
   --color-surface-3: var(--surface-3);
-  --color-foreground: var(--text-primary);
+  --color-primary: var(--text-primary);
+  --color-secondary: var(--text-secondary)
   --color-accent: var(--accent);
 }
 
