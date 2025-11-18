@@ -21,7 +21,7 @@ const DesktopMenu = () => {
               aria-hidden
             />
           </NavigationMenu.Trigger>
-          <NavigationMenu.Content className="menu-sub-content menu-sub-content-desktop">
+          <NavigationMenu.Content className="fabric-surface-light menu-sub-content menu-sub-content-desktop">
             <ul className="space-y-1">
               <li>
                 <NavigationMenu.Link asChild>
