@@ -1,5 +1,4 @@
 import { EmblaOptionsType } from "embla-carousel";
-import { ComponentPropsWithRef } from "react";
 
 export type PhotoSlide = {
   src: string;
@@ -11,10 +10,8 @@ export type PropType = {
   options?: EmblaOptionsType;
 };
 
-export type UseDotButtonType = {
-  selectedIndex: number;
-  scrollSnaps: number[];
-  onDotButtonClick: (index: number) => void;
+export type UsePrevNextButtonsType = {
+  onPrevButtonClick: () => void;
+  onNextButtonClick: () => void;
 };
 
-export type DotButtonProps = ComponentPropsWithRef<"button">;

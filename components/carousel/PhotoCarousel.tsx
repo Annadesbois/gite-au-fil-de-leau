@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useCallback, useEffect } from "react";
+import { useCallback, useEffect } from "react";
 import Image from "next/image";
 
 import Autoplay from "embla-carousel-autoplay";
@@ -13,7 +13,10 @@ import { PrevButton, NextButton, usePrevNextButtons } from "./CarouselArrows";
 
 const PhotoCarousel: React.FC<PropType> = (props) => {
   const { slides, options } = props;
-  const [emblaRef, emblaApi] = useEmblaCarousel(options, [Autoplay()]);
+  const [emblaRef, emblaApi] = useEmblaCarousel(options, [Autoplay({
+    delay:4000,
+    stopOnInteraction:false,
+  })]);
 
   const onNavButtonClick = useCallback((emblaApi: EmblaCarouselType) => {
     const autoplay = emblaApi?.plugins()?.autoplay;
@@ -28,8 +31,6 @@ const PhotoCarousel: React.FC<PropType> = (props) => {
   }, []);
 
   const {
-    prevBtnDisabled,
-    nextBtnDisabled,
     onPrevButtonClick,
     onNextButtonClick,
   } = usePrevNextButtons(emblaApi, onNavButtonClick);
@@ -52,7 +53,11 @@ const PhotoCarousel: React.FC<PropType> = (props) => {
 
   return (
     <section className="w-full max-w-3xl mx-auto">
-      <div className="relative">
+      <div
+        className="relative"
+        onMouseEnter={() => emblaApi?.plugins()?.autoplay?.stop()}
+        onMouseLeave={() => emblaApi?.plugins()?.autoplay?.play()}
+      >
         <div className="overflow-hidden" ref={emblaRef}>
           <div className="flex -ml-4">
             {slides.map((slide, index) => (
@@ -73,8 +78,8 @@ const PhotoCarousel: React.FC<PropType> = (props) => {
           </div>
         </div>
 
-        <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
-        <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
+        <PrevButton onClick={onPrevButtonClick} />
+        <NextButton onClick={onNextButtonClick} />
       </div>
     </section>
   );
