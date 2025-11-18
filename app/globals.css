@@ -5,7 +5,7 @@
   --surface-2: #b58787;
   --surface-3: #a76b6b;
   --text-primary: #2e1212;
-  --text-secondary: #814444;
+  --text-secondary: #7e4a4a;
   --accent: #badf4a;
 }
 
@@ -14,7 +14,7 @@
   --color-surface-2: var(--surface-2);
   --color-surface-3: var(--surface-3);
   --color-primary: var(--text-primary);
-  --color-secondary: var(--text-secondary)
+  --color-secondary: var(--text-secondary);
   --color-accent: var(--accent);
 }
 
