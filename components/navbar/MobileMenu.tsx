@@ -15,7 +15,7 @@ const MobileMenu = () => {
         <DropdownMenu.Content
           sideOffset={8}
           align="start"
-          className="z-50 rounded-lg fabric-surface-light text-sm font-bold p-0.5 shadow"
+          className="z-50 rounded-lg fabric-surface-light text-sm font-bold text-primary p-0.5 shadow"
         >
           <DropdownMenu.Item asChild>
             <Link href="/" className="menu-link block">
