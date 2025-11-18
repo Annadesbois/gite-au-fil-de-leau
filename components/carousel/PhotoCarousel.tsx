@@ -13,10 +13,12 @@ import { PrevButton, NextButton, usePrevNextButtons } from "./CarouselArrows";
 
 const PhotoCarousel: React.FC<PropType> = (props) => {
   const { slides, options } = props;
-  const [emblaRef, emblaApi] = useEmblaCarousel(options, [Autoplay({
-    delay:4000,
-    stopOnInteraction:false,
-  })]);
+  const [emblaRef, emblaApi] = useEmblaCarousel(options, [
+    Autoplay({
+      delay: 4000,
+      stopOnInteraction: false,
+    }),
+  ]);
 
   const onNavButtonClick = useCallback((emblaApi: EmblaCarouselType) => {
     const autoplay = emblaApi?.plugins()?.autoplay;
@@ -30,10 +32,10 @@ const PhotoCarousel: React.FC<PropType> = (props) => {
     resetOrStop();
   }, []);
 
-  const {
-    onPrevButtonClick,
-    onNextButtonClick,
-  } = usePrevNextButtons(emblaApi, onNavButtonClick);
+  const { onPrevButtonClick, onNextButtonClick } = usePrevNextButtons(
+    emblaApi,
+    onNavButtonClick
+  );
 
   // Keyboard navigation
   useEffect(() => {
