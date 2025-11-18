@@ -1,67 +1,33 @@
 import PhotoCarousel from "@/components/carousel/PhotoCarousel";
 import { EmblaOptionsType } from "embla-carousel";
-
-const photos = [
-  {
-    src: "/photos-gite/exterieur/jardin-salon-et-transats.jpg",
-    alt: "Salon de jardin et transats dans le jardin du gîte Au fil de l’eau",
-  },
-  {
-    src: "/photos-gite/sejour/sejour-vue-jardin.jpg",
-    alt: "Séjour lumineux du gîte Au fil de l’eau avec vue sur le jardin",
-  },
-  {
-    src: "/photos-gite/interieur/petit-salon.jpg",
-    alt: "“Petit salon cosy du gîte Au fil de l’eau",
-  },
-  {
-    src: "/photos-gite/sejour/cuisine-1.jpg",
-    alt: "Cuisine du gîte Au fil de l’eau, équipée et ouverte sur le séjour",
-  },
-  {
-    src: "/photos-gite/sejour/sejour-salle-a-manger.jpg",
-    alt: "Séjour du gîte avec salle à manger lumineuse",
-  },
-  {
-    src: "/photos-gite/chambre-grange/chambre-grange-grand-lit-vue-jardin.jpg",
-    alt: "Chambre Grange avec grand lit et vue agréable sur le jardin",
-  },
-  {
-    src: "/photos-gite/chambre-cerisier/chambre-cerisier-grand-lit-vue-jardin.jpg",
-    alt: "Chambre Cerisier avec grand lit et vue sur le jardin du gîte",
-  },
-  {
-    src: "/photos-gite/chambre-jardin-des-senteurs/chambre-jardin-des-senteurs-lit.jpg",
-    alt: "Chambre Jardin des Senteurs avec lit confortable et décoration chaleureuse",
-  },
-  {
-    src: "/photos-gite/chambre-aurore/chambre-aurore-lit.jpg",
-    alt: "Chambre Aurore du gîte Au fil de l’eau avec lit double",
-  },
-  {
-    src: "/photos-gite/exterieur/jardin.jpg",
-    alt: "Jardin du gîte Au fil de l’eau, calme et verdoyant",
-  },
-  {
-    src: "/photos-gite/bien-etre/espace-bien-etre-spa.jpg",
-    alt: "Espace bien-être du gîte avec spa pour se détendre",
-  },
-  {
-    src: "/photos-gite/interieur/entree.jpg",
-    alt: "Entrée lumineuse du gîte Au fil de l’eau",
-  },
-  {
-    src: "/photos-gite/interieur/mezzanine.jpg",
-    alt: "Mezzanine du gîte Au fil de l’eau avec livres et jouets",
-  },
-];
+import { homeCarouselPhotos } from "@/data/home-carousel";
 
 const OPTIONS: EmblaOptionsType = { loop: true };
 
 export default function Home() {
   return (
     <main>
-      <PhotoCarousel slides={photos} options={OPTIONS} />
+      <PhotoCarousel slides={homeCarouselPhotos} options={OPTIONS} />
+      <div>
+        <p>
+          Le Gîte au Fil de l'eau offre un cadre agréable pour se ressourcer au cœur des Hautes Vosges d’Alsace, dans le petit village de Storckensohn.
+        </p>
+        <p>
+          Installé dans une ancienne ferme réhabilitée en une confortable maison de campagne, le gîte peut accueillir jusqu’à 10 personnes.
+        </p>
+        <p>
+          Le rez-de-chaussée comporte une cuisine équipée qui s’ouvre sur le salon, la salle à manger et la véranda avec piano et poêle à bois, un deuxième salon avec TV et lecteur DVD aménagé dans l’ancienne grange, une chambre à coucher avec lit 140/190 et une salle d’eau privative attenante (avec douche à l’italienne, vasque, WC), un WC indépendant et une terrasse.
+        </p>
+        <p>
+          Un espace bien-être, avec spa, sauna, salle d’eau et chaises longues est accessible par élévateur au niveau -1. Ses larges baies vitrées s’ouvrent sur le pré-verger en bord du ruisseau.
+        </p>
+        <p>
+          Le premier étage comporte 3 chambres à coucher avec chacune sa salle d’eau privative attenante (douche ou baignoire, vasque, WC) et des lits de 90/200 transformables en lits de 180/200, ainsi qu’un petit salon en mezzanine dans l’ancienne grange.
+        </p>
+        <p>
+          Le rez-de-chaussée et l’espace bien-être du niveau -1 sont accessibles aux personnes à mobilité réduite.
+        </p>
+      </div>
     </main>
   );
 }
