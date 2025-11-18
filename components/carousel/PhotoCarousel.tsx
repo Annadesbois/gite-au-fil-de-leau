@@ -54,10 +54,10 @@ const PhotoCarousel: React.FC<PropType> = (props) => {
   }, [onPrevButtonClick, onNextButtonClick]);
 
   return (
-    <section className="w-full max-w-6xl mx-auto">
+    <section className="w-full">
       <div
         aria-roledescription="carousel"
-        className="relative mx-3 md:mx-10 lg:mx-20 my-4"
+        className="relative my-4"
         onMouseEnter={() => emblaApi?.plugins()?.autoplay?.stop()}
         onMouseLeave={() => emblaApi?.plugins()?.autoplay?.play()}
       >
