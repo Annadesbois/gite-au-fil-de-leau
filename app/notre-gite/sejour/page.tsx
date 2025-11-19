@@ -1,5 +1,5 @@
 import PhotoCarousel from "@/components/carousel/PhotoCarousel";
-import { sejourPhotos } from "../../../data/sejour-carousel";
+import { sejourPhotos } from "../../../data/sejour-photos";
 
 const SejourPage = () => {
   return (

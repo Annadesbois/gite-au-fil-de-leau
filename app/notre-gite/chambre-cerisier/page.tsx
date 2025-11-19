@@ -1,5 +1,5 @@
 import PhotoCarousel from "@/components/carousel/PhotoCarousel";
-import { cerisierPhotos } from "@/data/cerisier-carousel";
+import { cerisierPhotos } from "@/data/cerisier-photos";
 
 const ChambreCerisierPage = () => {
   return (

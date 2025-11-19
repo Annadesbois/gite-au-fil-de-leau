@@ -1,5 +1,5 @@
 import PhotoCarousel from "@/components/carousel/PhotoCarousel";
-import { homePhotos } from "@/data/home-carousel";
+import { homePhotos } from "@/data/home-photos";
 
 export default function Home() {
   return (
