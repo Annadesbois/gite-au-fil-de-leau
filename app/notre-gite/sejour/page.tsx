@@ -20,8 +20,7 @@ const SejourPage = () => {
               <li>une véranda avec table haute dans une ambiance végétale</li>
             </ul>
             <p className="font-bold text-center mt-8">
-              Il accède à la terrasse qui domine le pré-verger en bord du cours
-              d’eau.
+              Il accède à la terrasse qui domine le pré-verger en bord du cours d’eau.
             </p>
           </div>
           <div>
