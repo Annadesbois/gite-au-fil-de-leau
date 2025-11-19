@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+/* Design tokens / theme */
 :root {
   --surface-1: #f8dabd9f;
   --surface-2: #b58787;
@@ -18,9 +19,11 @@
   --color-accent: var(--accent);
 }
 
+/* Base / global element styles */
 body {
   font-family: var(--font-playpen), "Segoe UI", system-ui, -apple-system,
     BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  color: var(--text-primary);
 }
 
 h1 {
@@ -60,39 +63,25 @@ body::before {
   background-blend-mode: multiply;
 }
 
+/* Component / utility-like classes using @apply */
 .menu-link {
-  display: block;
-  padding: 0.5rem 1rem;
-  border-radius: 0.375rem;
+  @apply block px-4 py-2 rounded-md;
 }
 
 .menu-link:hover {
-  background-color: var(--surface-2);
-  border: none;
-  outline: none;
+  @apply bg-surface-2 border-none outline-none;
 }
 
 .menu-sub-content {
-  border-radius: 0.5rem;
-  z-index: 50;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-    0 4px 6px -4px rgba(0, 0, 0, 0.1);
-  background-color: fabric-surface-light;
+  @apply rounded-lg z-50 shadow-xl;
 }
 
 .navigation-menu-trigger {
-  display: flex;
-  align-items: center;
-  gap: 0.25rem;
-  padding: 0.5rem 1rem;
-  border-radius: 0.375rem;
-  cursor: pointer;
-  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  @apply flex items-center gap-1 px-4 py-2 rounded-md cursor-pointer transition-colors;
 }
 
 .navigation-menu-trigger:hover {
-  background-color: var(--surface-2);
+  @apply bg-surface-2;
 }
 
 .content-area ul {
