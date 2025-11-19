@@ -96,11 +96,9 @@ body::before {
 }
 
 .content-area ul {
-  padding-top: 6px;
+  @apply pt-3;
 }
 
 .content-area li {
-  list-style-type: disc;
-  margin: 0px 16px 0px 28px;
-  padding-top: 10px;
+  @apply list-disc ml-7 pt-3;
 }
