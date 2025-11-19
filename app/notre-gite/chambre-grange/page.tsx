@@ -9,11 +9,7 @@ const ChambreGrangePage = () => {
         <h1 className="mb-10 text-3xl font-bold text-center">{`La chambre "Grange"`}</h1>
         <div className="flex flex-col gap-12">
           <p className="font-bold text-center">
-            De l’ancienne grange où étaient stockés le foin et divers matériels,
-            cette chambre a conservé l’ambiance bois, la gerbière qui ouvre la
-            vue sur le verger, les anciennes luges et les bonbonnes à « schnaps
-            ». C’est le lieu où étaient rangés les objets inutilisés, chargés de
-            souvenirs.
+            De l’ancienne grange où étaient stockés le foin et divers matériels, cette chambre a conservé l’ambiance bois, la gerbière qui ouvre la vue sur le verger, les anciennes luges et les bonbonnes à « schnaps». C’est le lieu où étaient rangés les objets inutilisés, chargés de souvenirs.
           </p>
           <div>
             <h2 className="font-bold">Cette chambre comporte :</h2>
@@ -23,8 +19,7 @@ const ChambreGrangePage = () => {
               <li>Petit salon attenant en mezzanine</li>
             </ul>
             <p className="font-bold text-center mt-8">
-              Un lieu pour méditer tranquillement, parmi les objets d’ici et
-              d’ailleurs. La grange au retour de voyage …
+              Un lieu pour méditer tranquillement, parmi les objets d’ici et d’ailleurs. La grange au retour de voyage …
             </p>
           </div>
         </div>
