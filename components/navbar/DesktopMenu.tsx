@@ -5,7 +5,7 @@ import Link from "next/link";
 const DesktopMenu = () => {
   return (
     <NavigationMenu.Root className="relative">
-      <NavigationMenu.List className="flex items-center gap-2 p-1 text-sm font-bold">
+      <NavigationMenu.List className="flex items-center gap-2 p-1 font-bold">
         <NavigationMenu.Item>
           <NavigationMenu.Link asChild>
             <Link href="/" className="menu-link">
@@ -21,7 +21,7 @@ const DesktopMenu = () => {
               aria-hidden
             />
           </NavigationMenu.Trigger>
-          <NavigationMenu.Content className="fabric-surface-light menu-sub-content menu-sub-content-desktop">
+          <NavigationMenu.Content className="fabric-surface-light menu-sub-content absolute min-w-max top-full left-0 p-2 mt-2">
             <ul className="space-y-1">
               <li>
                 <NavigationMenu.Link asChild>
@@ -91,7 +91,7 @@ const DesktopMenu = () => {
               aria-hidden
             />
           </NavigationMenu.Trigger>
-          <NavigationMenu.Content className="fabric-surface-light menu-sub-content menu-sub-content-desktop">
+          <NavigationMenu.Content className="fabric-surface-light menu-sub-content absolute min-w-max top-full left-0 p-2 mt-2">
             <ul className="space-y-1">
               <li>
                 <NavigationMenu.Link asChild>

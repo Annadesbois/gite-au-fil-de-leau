@@ -5,7 +5,7 @@ import MobileMenu from "./MobileMenu";
 const Navbar = () => {
   return (
     <nav className="grid grid-cols-[1fr_2fr_1fr] sticky top-0 z-40 md:flex md:justify-center h-16 w-full fabric-surface-light">
-      <div className="md:hidden flex items-center ml-6 text-primary">
+      <div className="md:hidden flex items-center ml-4 text-primary">
         <MobileMenu />
       </div>
       <Link

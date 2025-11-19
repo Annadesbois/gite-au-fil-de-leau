@@ -15,7 +15,7 @@ const MobileMenu = () => {
         <DropdownMenu.Content
           sideOffset={8}
           align="start"
-          className="z-50 rounded-lg fabric-surface-light text-sm font-bold text-primary p-0.5 shadow"
+          className="z-50 rounded-lg fabric-surface-light font-bold text-primary p-0.5 shadow"
         >
           <DropdownMenu.Item asChild>
             <Link href="/" className="menu-link block">
@@ -31,7 +31,7 @@ const MobileMenu = () => {
 
             <DropdownMenu.SubContent
               sideOffset={-9}
-              className="menu-sub-content menu-sub-content-mobile fabric-surface-light"
+              className="menu-sub-content fabric-surface-light py-2 w-44 sm:w-64"
             >
               <DropdownMenu.Item asChild>
                 <Link href="/notre-gite/sejour" className="menu-link block">
@@ -88,7 +88,7 @@ const MobileMenu = () => {
             </DropdownMenu.SubTrigger>
             <DropdownMenu.SubContent
               sideOffset={-9}
-              className="menu-sub-content menu-sub-content-mobile fabric-surface-light"
+              className="menu-sub-content fabric-surface-light py-2 w-44 sm:w-64"
             >
               <DropdownMenu.Item asChild>
                 <Link

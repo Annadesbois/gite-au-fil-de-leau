@@ -80,20 +80,6 @@ body::before {
   background-color: fabric-surface-light;
 }
 
-.menu-sub-content-mobile {
-  padding: 0.5rem 0rem;
-  width: 12rem;
-}
-
-.menu-sub-content-desktop {
-  position: absolute;
-  min-width: max-content;
-  top: 100%;
-  left: 0;
-  padding: 0.5rem;
-  margin-top: 0.5rem;
-}
-
 .navigation-menu-trigger {
   display: flex;
   align-items: center;
