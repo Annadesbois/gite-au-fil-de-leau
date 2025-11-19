@@ -4,8 +4,7 @@ import tourismeHandicap from "@/public/logos/label-tourisme-et-handicap.jpg"
 
 const Footer = () => {
   return (
-    <footer className="relative mt-16 py-5 text-sm grid gap-4 text-center items-center justify-center">
-      <div className="flex gap-12 items-center justify-center text-neutral-content/70 md:items-end md:text-end fabric-surface-light">
+    <footer className="relative flex gap-8 md:gap-12 lg:gap-16 justify-center fabric-surface-light mt-8 py-5">
         <a
           href="https://www.gitesdefrancealsace.net/fr/location/location-gite-storckensohn-au-fil-de-leau-h68g021752?capacity=1"
           aria-label="Lien vers le site de Gite de France Alsace"
@@ -30,7 +29,6 @@ const Footer = () => {
             width={60}
           />
         </a>
-      </div>
     </footer>
   );
 };
