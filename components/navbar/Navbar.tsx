@@ -12,7 +12,7 @@ const Navbar = () => {
         href="/"
         className="flex items-center justify-center md:justify-start md:ml-4 lg:absolute md:left-6 lg:h-16 lg:shrink-0"
       >
-        <h1 className="font-bold text-xl whitespace-nowrap text-secondary">{`Gîte Au fil de l'eau`}</h1>
+        <h1 className="font-bold text-2xl whitespace-nowrap text-secondary">{`Gîte Au fil de l'eau`}</h1>
       </Link>
       <div className="hidden md:flex md:items-center md:justify-center w-full fabric-surface-light text-primary">
         <DesktopMenu />
