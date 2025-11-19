@@ -1,10 +1,10 @@
 import PhotoCarousel from "@/components/carousel/PhotoCarousel";
-import { sejourCarouselPhotos } from "../../../data/sejour-carousel";
+import { sejourPhotos } from "../../../data/sejour-carousel";
 
 const SejourPage = () => {
   return (
     <>
-      <PhotoCarousel slides={sejourCarouselPhotos} />
+      <PhotoCarousel slides={sejourPhotos} />
       <div className="content-area relative fabric-surface-light p-6 md:pb-10 rounded-tl-4xl rounded-br-4xl rounded-tr-sm rounded-bl-sm">
         <h1 className="mb-10 text-3xl font-bold text-center">Le séjour</h1>
         <div className="flex flex-col gap-12">

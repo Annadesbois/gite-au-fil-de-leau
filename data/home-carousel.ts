@@ -1,4 +1,4 @@
-export const homeCarouselPhotos = [
+export const homePhotos = [
   {
     src: "/photos-gite/exterieur/jardin-salon-et-transats.jpg",
     alt: "Salon de jardin et transats dans le jardin du gîte Au fil de l’eau",

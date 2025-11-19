@@ -1,4 +1,4 @@
-export const sejourCarouselPhotos = [
+export const sejourPhotos = [
   {
     src: "/photos-gite/sejour/sejour-vue-jardin.jpg",
     alt: "Séjour lumineux du gîte Au fil de l’eau avec vue sur le jardin",

@@ -1,10 +1,10 @@
 import PhotoCarousel from "@/components/carousel/PhotoCarousel";
-import { homeCarouselPhotos } from "@/data/home-carousel";
+import { homePhotos } from "@/data/home-carousel";
 
 export default function Home() {
   return (
     <>
-      <PhotoCarousel slides={homeCarouselPhotos} />
+      <PhotoCarousel slides={homePhotos} />
       <div className="content-area relative fabric-surface-light flex flex-col gap-6 p-6 md:pb-10 rounded-tl-4xl rounded-br-4xl rounded-tr-sm rounded-bl-sm">
         <div className="flex flex-col gap-6 text-center font-bold">
           <h1 className="text-2xl md:mb-4">
