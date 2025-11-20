@@ -5,7 +5,7 @@ import MobileMenu from "./MobileMenu";
 const Navbar = () => {
   return (
     <nav className="grid grid-cols-[1fr_2fr_1fr] sticky top-0 z-40 md:flex md:justify-center h-16 w-full fabric-surface-light">
-      <div className="md:hidden flex items-center ml-4 text-primary">
+      <div className="md:hidden flex items-center ml-4">
         <MobileMenu />
       </div>
       <Link
@@ -14,7 +14,7 @@ const Navbar = () => {
       >
         <h1 className="font-bold text-2xl whitespace-nowrap text-secondary">{`Gîte Au fil de l'eau`}</h1>
       </Link>
-      <div className="hidden md:flex md:items-center md:justify-center w-full fabric-surface-light text-primary">
+      <div className="hidden md:flex md:items-center md:justify-center w-full fabric-surface-light">
         <DesktopMenu />
       </div>
     </nav>

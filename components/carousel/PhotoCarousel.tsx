@@ -5,15 +5,17 @@ import Image from "next/image";
 
 import Autoplay from "embla-carousel-autoplay";
 import useEmblaCarousel from "embla-carousel-react";
-import type { EmblaCarouselType } from "embla-carousel";
+import type { EmblaCarouselType, EmblaOptionsType } from "embla-carousel";
 
 import type { PropType } from "@/types/carousel";
 
 import { PrevButton, NextButton, usePrevNextButtons } from "./CarouselArrows";
 
+const DEFAULT_OPTIONS: EmblaOptionsType = { loop: true };
+
 const PhotoCarousel: React.FC<PropType> = (props) => {
   const { slides, options } = props;
-  const [emblaRef, emblaApi] = useEmblaCarousel(options, [
+  const [emblaRef, emblaApi] = useEmblaCarousel(options ?? DEFAULT_OPTIONS, [
     Autoplay({
       delay: 4000,
       stopOnInteraction: false,

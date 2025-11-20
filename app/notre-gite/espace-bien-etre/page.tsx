@@ -1,6 +1,22 @@
+import PhotoCarousel from "@/components/carousel/PhotoCarousel";
+import { bienEtrePhotos } from "@/data/bien-etre-photos";
+
 const EspaceBienEtrePage = () => {
   return (
-    <div>EspaceBienEtrePage</div>
-  )
-}
-export default EspaceBienEtrePage
+    <>
+      <PhotoCarousel slides={bienEtrePhotos} />
+      <div className="content-area relative fabric-surface-light p-6 md:pb-10 rounded-tl-4xl rounded-br-4xl rounded-tr-sm rounded-bl-sm">
+        <h1 className="mb-10 text-3xl font-bold text-center">{`L'espace bien-être`}</h1>
+        <div className="flex flex-col gap-12">
+          <p className="font-bold text-center">
+            Un espace bien-être, avec spa, sauna et chaises de repos est à la disposition des hôtes. Il s’ouvre de plain-pied sur le pré-verger.
+          </p>
+          <p className="font-bold text-center">
+            Ainsi, chacun peut composer son parcours de remise en forme selon ses envies, passant de la douche chaude ou froide, au sauna, au bain à bulles et ses massages adaptés, aux chaises longues intérieures ou extérieures.
+          </p>
+        </div>
+      </div>
+    </>
+  );
+};
+export default EspaceBienEtrePage;
