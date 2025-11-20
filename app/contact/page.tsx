@@ -1,6 +1,11 @@
+import ContactForm from "@/components/ContactForm";
+
 const contact = () => {
   return (
-    <h1>contact</h1>
-  )
-}
-export default contact
+    <>
+      <h1>Contactez-nous</h1>
+      <ContactForm />
+    </>
+  );
+};
+export default contact;
