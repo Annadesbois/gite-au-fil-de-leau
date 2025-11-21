@@ -55,6 +55,7 @@ const ContactForm = () => {
       aria-busy={status === "loading"}
       className="relative fabric-surface-light space-y-6 rounded-xl p-6 md:p-8 max-w-212 w-full shadow-sm"
     >
+      <h2 className="text-center font-bold pb-4">Formulaire de contact</h2>
       <div>
         <label htmlFor="name" className="form-label">
           Nom *
