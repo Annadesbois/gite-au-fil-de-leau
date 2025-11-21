@@ -1,3 +1,4 @@
+import Button from "@/components/Button";
 import ContactForm from "@/components/ContactForm";
 
 const contact = () => {
@@ -54,6 +55,16 @@ const contact = () => {
               </a>
             </p>
           </address>
+        </div>
+        <div className="my-7">
+          <Button type="button">
+          <a
+            href="https://www.gitesdefrancealsace.net/fr/location/location-gite-storckensohn-au-fil-de-leau-h68g021752?capacity=1"
+            target="_blank"
+          >
+            Réservation aussi possible via Gîtes de France
+          </a>
+        </Button>
         </div>
       </div>
 

@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useState } from "react";
+import Button from "./Button";
 
 type Status = "idle" | "loading" | "success" | "error";
 
@@ -101,14 +102,9 @@ const ContactForm = () => {
         <input id="website" name="website" type="text" />
       </div>
 
-      <button
-        type="submit"
-        disabled={status === "loading"}
-        className="rounded-full bg-surface-2 px-6 py-2 font-semibold shadow transition hover:bg-surface-3 cursor-pointer block mx-auto disabled:cursor-not-allowed disabled:opacity-70"
-      >
+      <Button type="submit" disabled={status === "loading"}>
         {status === "loading" ? "Envoi en cours…" : "Envoyer"}
-      </button>
-
+      </Button>
       <p aria-live="polite" className="mt-1 min-h-6 text-secondary text-center">
         {status === "success" && "Merci, votre message a bien été envoyé."}
         {status === "error" && errorMessage}
