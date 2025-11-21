@@ -56,7 +56,7 @@ export default function ContactForm() {
       className="relative fabric-surface-light space-y-6 rounded-xl p-6 md:p-8 max-w-212 w-full shadow-sm"
     >
       <div>
-        <label htmlFor="name" className="mb-1 block font-semibold">
+        <label htmlFor="name" className="form-label">
           Nom *
         </label>
         <input
@@ -69,10 +69,7 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label
-          htmlFor="email"
-          className="mb-1 block font-semibold"
-        >
+        <label htmlFor="email" className="form-label">
           Email *
         </label>
         <input
@@ -85,10 +82,7 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label
-          htmlFor="message"
-          className="mb-1 block font-semibold"
-        >
+        <label htmlFor="message" className="form-label">
           Message *
         </label>
         <textarea
