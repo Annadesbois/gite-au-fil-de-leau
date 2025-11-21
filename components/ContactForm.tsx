@@ -4,11 +4,11 @@ import { FormEvent, useState } from "react";
 
 type Status = "idle" | "loading" | "success" | "error";
 
-export default function ContactForm() {
+const ContactForm = () => {
   const [status, setStatus] = useState<Status>("idle");
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
-  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
+  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     setStatus("loading");
     setErrorMessage(null);
@@ -47,7 +47,7 @@ export default function ContactForm() {
       setStatus("error");
       setErrorMessage("Impossible d’envoyer le message. Veuillez réessayer.");
     }
-  }
+  };
 
   return (
     <form
@@ -103,15 +103,17 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={status === "loading"}
-        className="rounded-full bg-surface-3 px-6 py-2 font-semibold shadow transition hover:brightness-105 disabled:cursor-not-allowed disabled:opacity-70"
+        className="rounded-full bg-surface-2 px-6 py-2 font-semibold shadow transition hover:bg-surface-3 cursor-pointer block mx-auto disabled:cursor-not-allowed disabled:opacity-70"
       >
         {status === "loading" ? "Envoi en cours…" : "Envoyer"}
       </button>
 
-      <p aria-live="polite" className="mt-1 min-h-6 text-secondary">
+      <p aria-live="polite" className="mt-1 min-h-6 text-secondary text-center">
         {status === "success" && "Merci, votre message a bien été envoyé."}
         {status === "error" && errorMessage}
       </p>
     </form>
   );
-}
+};
+
+export default ContactForm;
