@@ -31,6 +31,18 @@ h1 {
     "Segoe Script", "Comic Sans MS", cursive;
 }
 
+main h1 {
+  margin-bottom: 2.5rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contact-title {
+  margin-bottom: 1rem !important;
+}
+
 body::before {
   content: "";
   position: fixed;
@@ -90,4 +102,12 @@ body::before {
 
 .content-area li {
   @apply list-disc ml-7 pt-3;
+}
+
+.form-input {
+  @apply w-full rounded-lg border border-surface-3/40 bg-white/80 px-3 py-2 shadow-sm focus:outline-none focus:ring-2 focus:ring-accent font-sans;
+}
+
+.form-label {
+  @apply mb-1 block font-semibold;
 }

@@ -6,7 +6,7 @@ const ChambreCerisierPage = () => {
     <>
       <PhotoCarousel slides={cerisierPhotos} />
       <div className="content-area relative fabric-surface-light p-6 md:pb-10 rounded-tl-4xl rounded-br-4xl rounded-tr-sm rounded-bl-sm">
-        <h1 className="mb-10 text-3xl font-bold text-center">{`La chambre "Cerisier"`}</h1>
+        <h1>{`La chambre "Cerisier"`}</h1>
         <div className="flex flex-col gap-12">
           <p className="font-bold text-center">
             Fleurs de cerisiers, couleurs framboise et prune, … Cette chambre
@@ -24,8 +24,8 @@ const ChambreCerisierPage = () => {
               </li>
             </ul>
             <p className="font-bold text-center mt-8">
-              Idéale pour un séjour romantique à deux, sa vaste surface permet également une utilisation parents-bébé ou groupe de 4 personnes.
-
+              Idéale pour un séjour romantique à deux, sa vaste surface permet
+              également une utilisation parents-bébé ou groupe de 4 personnes.
             </p>
             <p className="font-bold text-center mt-8">
               La salle de bain blanche et lumineuse comporte un mobilier où

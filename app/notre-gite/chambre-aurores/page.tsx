@@ -6,7 +6,7 @@ const ChambreAuroresPage = () => {
     <>
       <PhotoCarousel slides={auroresPhotos} />
       <div className="content-area relative fabric-surface-light p-6 md:pb-10 rounded-tl-4xl rounded-br-4xl rounded-tr-sm rounded-bl-sm">
-        <h1 className="mb-10 text-3xl font-bold text-center">{`La chambre "Aurores"`}</h1>
+        <h1>{`La chambre "Aurores"`}</h1>
         <div className="flex flex-col gap-12">
           <p className="font-bold text-center">
             Orientée au levant, le soleil égaye cette chambre dès l’aube,
@@ -14,7 +14,8 @@ const ChambreAuroresPage = () => {
             jaune paille, châtaigner ...
           </p>
           <p className="font-bold text-center">
-            La salle d’eau attenante offre la même pétillance, avec son dallage multicolore de poissons, étoiles de mer, crabes, tortues…
+            La salle d’eau attenante offre la même pétillance, avec son dallage
+            multicolore de poissons, étoiles de mer, crabes, tortues…
           </p>
           <div>
             <h2 className="font-bold">Cette chambre comporte :</h2>
@@ -23,7 +24,8 @@ const ChambreAuroresPage = () => {
               <li>Salle d’eau privative attenante avec douche, vasque et WC</li>
             </ul>
             <p className="font-bold text-center mt-8">
-              Entre alcove, jardin et bord de mer, cette chambre confère humour et tonus dès le réveil !
+              Entre alcove, jardin et bord de mer, cette chambre confère humour
+              et tonus dès le réveil !
             </p>
           </div>
         </div>
