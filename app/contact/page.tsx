@@ -1,6 +1,10 @@
 import ContactForm from "@/components/ContactForm";
 
 const contact = () => {
+  const emailName = "giteaufildeleau68";
+  const provider = "gmail.com";
+  const email = `${emailName}@${provider}`;
+
   return (
     <div className="flex flex-col items-center mt-6 gap-6">
       <h1 className="relative fabric-surface-light rounded-3xl p-4 contact-title">
@@ -43,7 +47,7 @@ const contact = () => {
             </p>
             <p>
               Email :{" "}
-              <a href="mailto:giteaufildeleau68&#64;gmail.com">
+              <a href={email}>
                 <span className="font-bold">
                   giteaufildeleau68&#64;gmail.com
                 </span>
