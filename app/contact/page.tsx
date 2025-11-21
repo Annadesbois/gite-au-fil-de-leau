@@ -14,7 +14,7 @@ const contact = () => {
       <div className="relative fabric-surface-light w-full rounded-xl flex flex-col gap-6 md:gap-8 p-6 md:p-8 md:mb-6 max-w-212 shadow-sm">
         <div className="text-center">
           <p className="font-bold">Gîte Au fil de l'eau</p>
-          <address>
+          <address className="not-italic">
             <p>14, rue de la mairie</p>
             <p>68470 STORCKENSOHN</p>
           </address>
@@ -35,7 +35,7 @@ const contact = () => {
         <div className="text-center">
           <p className="font-bold mb-2">Infos et réservation</p>
           <p className="pb-2">Georgette TACQUARD</p>
-          <address>
+          <address className="not-italic">
             <p>12, rue de la mairie</p>
             <p className="pb-2">68470 STORCKENSOHN</p>
             <p className="pb-2">
@@ -58,13 +58,13 @@ const contact = () => {
         </div>
         <div className="my-7">
           <Button type="button">
-          <a
-            href="https://www.gitesdefrancealsace.net/fr/location/location-gite-storckensohn-au-fil-de-leau-h68g021752?capacity=1"
-            target="_blank"
-          >
-            Réservation aussi possible via Gîtes de France
-          </a>
-        </Button>
+            <a
+              href="https://www.gitesdefrancealsace.net/fr/location/location-gite-storckensohn-au-fil-de-leau-h68g021752?capacity=1"
+              target="_blank"
+            >
+              Réservation aussi possible via Gîtes de France
+            </a>
+          </Button>
         </div>
       </div>
 
