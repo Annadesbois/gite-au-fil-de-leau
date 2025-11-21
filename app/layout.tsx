@@ -22,7 +22,7 @@ export default function RootLayout({
       <body
         className={`${PlaypenSans.variable} ${Courgette.variable} antialiased flex flex-col min-h-screen`}
       >
-        <header>
+        <header className="sticky top-0 z-40 shadow">
           <Navbar />
         </header>
         <main className="relative grow mx-auto w-full max-w-6xl px-3 md:px-10">
