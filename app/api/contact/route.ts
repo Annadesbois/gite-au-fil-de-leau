@@ -5,7 +5,7 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: Request) {
   try {
-    // 1. Parse JSON body once
+    // Parse JSON body
     const { name, email, message, website } = (await req.json()) as {
       name?: string;
       email?: string;
@@ -13,7 +13,7 @@ export async function POST(req: Request) {
       website?: string; // honeypot
     };
 
-    // 2. Basic validation
+    // Basic validation
     if (!name || !email || !message) {
       return NextResponse.json(
         { error: "Veuillez remplir tous les champs obligatoires." },
@@ -21,12 +21,12 @@ export async function POST(req: Request) {
       );
     }
 
-    // 3. Honeypot (if filled, treat as spam and silently succeed)
+    // Honeypot (if filled, treat as spam and silently succeed)
     if (website && website.trim() !== "") {
       return NextResponse.json({ success: true }, { status: 200 });
     }
 
-    // 4. Check configuration
+    // Check configuration
     if (!process.env.EMAIL_FROM || !process.env.EMAIL_TO) {
       console.error("Missing EMAIL_FROM or EMAIL_TO env var");
       return NextResponse.json(
@@ -38,12 +38,12 @@ export async function POST(req: Request) {
       );
     }
 
-    // 5. Send the email
+    // Send the email
     const { error } = await resend.emails.send({
       from: process.env.EMAIL_FROM!,
       to: process.env.EMAIL_TO!,
       subject: `Nouveau message depuis le site du gîte – ${name}`,
-      replyTo: email, // ✅ correct
+      replyTo: email,
       text: `
 Nom : ${name}
 Email : ${email}
@@ -64,7 +64,7 @@ ${message}
       );
     }
 
-    // 6. OK
+    // OK
     return NextResponse.json(
       { success: true, message: "Message envoyé avec succès, merci !" },
       { status: 200 }
