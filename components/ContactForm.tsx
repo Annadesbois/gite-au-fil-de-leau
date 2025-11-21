@@ -53,13 +53,10 @@ export default function ContactForm() {
     <form
       onSubmit={handleSubmit}
       aria-busy={status === "loading"}
-      className="space-y-4 rounded-xl border border-surface-3/20 bg-surface-1/60 p-4 md:p-6 shadow-sm"
+      className="relative fabric-surface-light space-y-6 rounded-xl p-6 md:p-8 max-w-212 w-full shadow-sm"
     >
       <div>
-        <label
-          htmlFor="name"
-          className="mb-1 block text-sm font-semibold text-primary"
-        >
+        <label htmlFor="name" className="mb-1 block font-semibold">
           Nom *
         </label>
         <input
@@ -67,14 +64,14 @@ export default function ContactForm() {
           name="name"
           type="text"
           required
-          className="w-full rounded-lg border border-surface-3/40 bg-white/80 px-3 py-2 text-primary shadow-sm focus:outline-none focus:ring-2 focus:ring-accent"
+          className="form-input"
         />
       </div>
 
       <div>
         <label
           htmlFor="email"
-          className="mb-1 block text-sm font-semibold text-primary"
+          className="mb-1 block font-semibold"
         >
           Email *
         </label>
@@ -83,14 +80,14 @@ export default function ContactForm() {
           name="email"
           type="email"
           required
-          className="w-full rounded-lg border border-surface-3/40 bg-white/80 px-3 py-2 text-primary shadow-sm focus:outline-none focus:ring-2 focus:ring-accent"
+          className="form-input"
         />
       </div>
 
       <div>
         <label
           htmlFor="message"
-          className="mb-1 block text-sm font-semibold text-primary"
+          className="mb-1 block font-semibold"
         >
           Message *
         </label>
@@ -99,7 +96,7 @@ export default function ContactForm() {
           name="message"
           required
           rows={5}
-          className="w-full rounded-lg border border-surface-3/40 bg-white/80 px-3 py-2 text-primary shadow-sm focus:outline-none focus:ring-2 focus:ring-accent"
+          className="form-input"
         />
       </div>
 
@@ -112,12 +109,12 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={status === "loading"}
-        className="inline-flex items-center justify-center rounded-full bg-accent px-6 py-2 text-sm font-semibold text-primary shadow transition hover:brightness-105 disabled:cursor-not-allowed disabled:opacity-70"
+        className="rounded-full bg-surface-3 px-6 py-2 font-semibold shadow transition hover:brightness-105 disabled:cursor-not-allowed disabled:opacity-70"
       >
         {status === "loading" ? "Envoi en cours…" : "Envoyer"}
       </button>
 
-      <p aria-live="polite" className="mt-1 min-h-6 text-sm text-secondary">
+      <p aria-live="polite" className="mt-1 min-h-6 text-secondary">
         {status === "success" && "Merci, votre message a bien été envoyé."}
         {status === "error" && errorMessage}
       </p>

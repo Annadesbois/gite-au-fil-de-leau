@@ -29,6 +29,11 @@ body {
 h1 {
   font-family: var(--font-courgette), "Lucida Handwriting", "Brush Script MT",
     "Segoe Script", "Comic Sans MS", cursive;
+  margin-bottom: 2.5rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: bold;
+  text-align: center;
 }
 
 body::before {
@@ -90,4 +95,8 @@ body::before {
 
 .content-area li {
   @apply list-disc ml-7 pt-3;
+}
+
+.form-input {
+  @apply w-full rounded-lg border border-surface-3/40 bg-white/80 px-3 py-2 shadow-sm focus:outline-none focus:ring-2 focus:ring-accent font-sans
 }
