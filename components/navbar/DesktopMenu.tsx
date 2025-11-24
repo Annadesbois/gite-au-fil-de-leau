@@ -96,6 +96,16 @@ const DesktopMenu = () => {
               <li>
                 <NavigationMenu.Link asChild>
                   <Link
+                    href="/les-alentours/village"
+                    className="block menu-link"
+                  >
+                    Le village
+                  </Link>
+                </NavigationMenu.Link>
+              </li>
+              <li>
+                <NavigationMenu.Link asChild>
+                  <Link
                     href="/les-alentours/randonnees"
                     className="block menu-link"
                   >
