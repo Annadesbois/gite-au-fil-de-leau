@@ -92,6 +92,14 @@ const MobileMenu = () => {
             >
               <DropdownMenu.Item asChild>
                 <Link
+                  href="/les-alentours/village"
+                  className="menu-link block"
+                >
+                  Le village en 3D
+                </Link>
+              </DropdownMenu.Item>
+              <DropdownMenu.Item asChild>
+                <Link
                   href="/les-alentours/randonnees"
                   className="menu-link block"
                 >
