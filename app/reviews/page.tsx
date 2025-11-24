@@ -1,0 +1,43 @@
+import ReviewForm from "./review-form";
+import { prisma } from "@/lib/prisma";
+
+export const revalidate = 60; // refresh list at most every 60s
+
+export default async function ReviewsPage() {
+  const reviews = await prisma.review.findMany({
+    where: { approved: true },
+    orderBy: { createdAt: "desc" },
+  });
+
+  return (
+    <div className="flex flex-col gap-8 my-8">
+      <h1 className="text-3xl font-bold text-center">Avis des voyageurs</h1>
+
+      <ReviewForm />
+
+      <section className="grid gap-4">
+        {reviews.length === 0 && (
+          <p className="text-center opacity-70">Aucun avis pour le moment.</p>
+        )}
+
+        {reviews.map((r) => (
+          <article key={r.id} className="fabric-surface-light p-4 rounded-xl">
+            <div className="flex items-center justify-between">
+              <p className="font-semibold">{r.name}</p>
+              <p aria-label={`${r.rating} sur 5`}>
+                {"★".repeat(r.rating)}{" "}
+                <span className="opacity-50">{"★".repeat(5 - r.rating)}</span>
+              </p>
+            </div>
+
+            <p className="mt-2 whitespace-pre-line">{r.comment}</p>
+
+            <p className="text-xs opacity-60 mt-2">
+              {r.createdAt.toLocaleDateString("fr-FR")}
+            </p>
+          </article>
+        ))}
+      </section>
+    </div>
+  );
+}
