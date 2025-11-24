@@ -99,7 +99,7 @@ const DesktopMenu = () => {
                     href="/les-alentours/village"
                     className="block menu-link"
                   >
-                    Le village
+                    Le village en 3D
                   </Link>
                 </NavigationMenu.Link>
               </li>
