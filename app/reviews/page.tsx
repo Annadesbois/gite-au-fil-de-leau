@@ -29,10 +29,15 @@ const ReviewsPage = async () => {
           >
             <div className="flex items-center justify-between">
               <p className="font-semibold">{r.name}</p>
-              <p aria-label={`${r.rating} sur 5`} className="text-yellow-600">
-                {"★".repeat(r.rating)}
-                <span>{"☆".repeat(5 - r.rating)}</span>
-              </p>
+
+              {typeof r.rating === "number" && (
+                <p aria-label={`${r.rating} sur 5`} className="text-yellow-600">
+                  {"★".repeat(r.rating)}
+                  <span className="text-yellow-600/30">
+                    {"☆".repeat(5 - r.rating)}
+                  </span>
+                </p>
+              )}
             </div>
 
             <p className="mt-2 whitespace-pre-line">{r.comment}</p>
