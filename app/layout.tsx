@@ -12,11 +12,11 @@ export const metadata: Metadata = {
     "Gîte chaleureux à Storckensohn, au cœur des Hautes-Vosges d'Alsace.",
 };
 
-export default function RootLayout({
+const RootLayout = ({
   children,
 }: Readonly<{
   children: React.ReactNode;
-}>) {
+}>) => {
   return (
     <html lang="en">
       <body
@@ -33,3 +33,5 @@ export default function RootLayout({
     </html>
   );
 }
+
+export default RootLayout;

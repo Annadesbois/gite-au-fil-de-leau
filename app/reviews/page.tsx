@@ -3,7 +3,7 @@ import { prisma } from "@/lib/prisma";
 
 export const revalidate = 60; // refresh list at most every 60s
 
-export default async function ReviewsPage() {
+const ReviewsPage = async () => {
   const reviews = await prisma.review.findMany({
     where: { approved: true },
     orderBy: { createdAt: "desc" },
@@ -40,4 +40,6 @@ export default async function ReviewsPage() {
       </section>
     </div>
   );
-}
+};
+
+export default ReviewsPage;

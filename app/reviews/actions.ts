@@ -10,10 +10,10 @@ const reviewSchema = z.object({
   website: z.string().optional(), // honeypot
 });
 
-export async function createReview(
+const createReview = async(
   prevState: { ok: boolean; errors?: Record<string, string[]> },
   formData: FormData
-) {
+) => {
   const raw = Object.fromEntries(formData.entries());
   const parsed = reviewSchema.safeParse(raw);
 
@@ -40,3 +40,5 @@ export async function createReview(
 
   return { ok: true };
 }
+
+export default createReview;

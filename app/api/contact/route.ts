@@ -3,7 +3,7 @@ import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-export async function POST(req: Request) {
+const POST = async(req: Request) => {
   try {
     // Parse JSON body
     const { name, email, message, website } = (await req.json()) as {
@@ -80,3 +80,5 @@ ${message}
     );
   }
 }
+
+export { POST };

@@ -1,15 +1,22 @@
 "use client";
 
 import { useActionState } from "react";
-import { createReview } from "./actions";
+import createReview from "./actions";
+import Button from "@/components/Button";
 
 const initialState = { ok: false, errors: {} as Record<string, string[]> };
 
-export default function ReviewForm() {
-  const [state, formAction, pending] = useActionState(createReview, initialState);
+const ReviewForm = () => {
+  const [state, formAction, pending] = useActionState(
+    createReview,
+    initialState
+  );
 
   return (
-    <form action={formAction} className="fabric-surface-light p-6 rounded-xl grid gap-4 max-w-lg mx-auto">
+    <form
+      action={formAction}
+      className=" relative fabric-surface-light p-6 rounded-xl grid gap-4 max-w-lg mx-auto"
+    >
       <h2 className="text-xl font-bold">Laisser un avis</h2>
 
       <label className="grid gap-1">
@@ -23,8 +30,10 @@ export default function ReviewForm() {
       <label className="grid gap-1">
         <span>Note</span>
         <select name="rating" className="input" defaultValue={5}>
-          {[5, 4, 3, 2, 1].map(n => (
-            <option key={n} value={n}>{n}</option>
+          {[5, 4, 3, 2, 1].map((n) => (
+            <option key={n} value={n}>
+              {n}
+            </option>
           ))}
         </select>
       </label>
@@ -46,18 +55,17 @@ export default function ReviewForm() {
         autoComplete="off"
       />
 
-      <button
-        disabled={pending}
-        className="btn-primary disabled:opacity-50 disabled:cursor-not-allowed"
-      >
+      <Button type="submit" disabled={pending}>
         {pending ? "Envoi..." : "Envoyer"}
-      </button>
+      </Button>
 
       {state.ok && (
-        <p className="text-green-600 text-sm mt-2">
+        <p className="text-sm mt-2">
           Merci ! Votre avis sera publié après validation.
         </p>
       )}
     </form>
   );
-}
+};
+
+export default ReviewForm;

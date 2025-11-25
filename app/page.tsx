@@ -1,7 +1,7 @@
 import PhotoCarousel from "@/components/carousel/PhotoCarousel";
 import { homePhotos } from "@/data/home-photos";
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <PhotoCarousel slides={homePhotos} />
@@ -62,3 +62,5 @@ export default function Home() {
     </>
   );
 }
+
+export default Home;
