@@ -111,7 +111,3 @@ body::before {
 .form-label {
   @apply mb-1 block font-semibold;
 }
-
-.input {
-  @apply border rounded-md p-2;
-}

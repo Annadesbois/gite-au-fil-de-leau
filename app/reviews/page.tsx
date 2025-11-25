@@ -10,12 +10,14 @@ const ReviewsPage = async () => {
   });
 
   return (
-    <div className="flex flex-col gap-8 my-8">
-      <h1 className="text-3xl font-bold text-center">Avis des voyageurs</h1>
+    <div className="flex flex-col my-8 items-center">
+      <h1 className="relative fabric-surface-light p-4 rounded-3xl">
+        Avis des voyageurs
+      </h1>
 
       <ReviewForm />
 
-      <section className="grid gap-4">
+      <section className="grid gap-4 md:mt-4 max-w-5xl w-full ">
         {reviews.length === 0 && (
           <p className="text-center opacity-70">Aucun avis pour le moment.</p>
         )}

@@ -15,13 +15,13 @@ const ReviewForm = () => {
   return (
     <form
       action={formAction}
-      className=" relative fabric-surface-light p-6 rounded-xl grid gap-4 max-w-lg mx-auto"
+      className="relative fabric-surface-light max-w-3xl w-full p-6 rounded-xl grid gap-6 mx-auto mb-8"
     >
       <h2 className="text-xl font-bold">Laisser un avis</h2>
 
       <label className="grid gap-1">
         <span>Nom</span>
-        <input name="name" className="input" required />
+        <input name="name" className="border rounded-md p-2" required />
         {state.errors?.name && (
           <p className="text-red-600 text-sm">{state.errors.name[0]}</p>
         )}
@@ -29,7 +29,11 @@ const ReviewForm = () => {
 
       <label className="grid gap-1">
         <span>Note</span>
-        <select name="rating" className="input" defaultValue={5}>
+        <select
+          name="rating"
+          className="border rounded-md p-2"
+          defaultValue={5}
+        >
           {[5, 4, 3, 2, 1].map((n) => (
             <option key={n} value={n}>
               {n}
@@ -40,7 +44,12 @@ const ReviewForm = () => {
 
       <label className="grid gap-1">
         <span>Commentaire</span>
-        <textarea name="comment" rows={5} className="input" required />
+        <textarea
+          name="comment"
+          rows={5}
+          className="border rounded-md p-2"
+          required
+        />
         {state.errors?.comment && (
           <p className="text-red-600 text-sm">{state.errors.comment[0]}</p>
         )}
