@@ -166,7 +166,7 @@ const DesktopMenu = () => {
         <NavigationMenu.Item>
           <NavigationMenu.Link asChild>
             <Link href="/reviews" className="menu-link">
-              Commentaires
+              Avis
             </Link>
           </NavigationMenu.Link>
         </NavigationMenu.Item>

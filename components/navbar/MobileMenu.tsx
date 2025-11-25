@@ -144,7 +144,7 @@ const MobileMenu = () => {
           </DropdownMenu.Item>
           <DropdownMenu.Item asChild>
             <Link href="/reviews" className="menu-link block">
-              Commentaires
+              Avis
             </Link>
           </DropdownMenu.Item>
           <DropdownMenu.Item asChild>
