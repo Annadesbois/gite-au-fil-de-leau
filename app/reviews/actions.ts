@@ -10,20 +10,43 @@ const reviewSchema = z.object({
   website: z.string().optional(), // honeypot
 });
 
-const createReview = async(
-  prevState: { ok: boolean; errors?: Record<string, string[]> },
+type ReviewFormState = {
+  ok: boolean;
+  errors?: Record<string, string[]>;
+};
+
+const toFieldErrors = (error: z.ZodError): Record<string, string[]> => {
+  const fieldErrors: Record<string, string[]> = {};
+
+  for (const issue of error.issues) {
+    const field = issue.path[0];
+    if (!field) continue;
+
+    const key = String(field);
+    if (!fieldErrors[key]) {
+      fieldErrors[key] = [];
+    }
+    fieldErrors[key].push(issue.message);
+  }
+
+  return fieldErrors;
+};
+
+const createReview = async (
+  _prevState: ReviewFormState,
   formData: FormData
-) => {
+): Promise<ReviewFormState> => {
   const raw = Object.fromEntries(formData.entries());
   const parsed = reviewSchema.safeParse(raw);
 
   if (!parsed.success) {
     return {
       ok: false,
-      errors: parsed.error.flatten().fieldErrors,
+      errors: toFieldErrors(parsed.error),
     };
   }
 
+  // Honeypot: if filled, silently act as if everything went fine
   if (parsed.data.website && parsed.data.website.trim() !== "") {
     return { ok: true };
   }
@@ -39,6 +62,7 @@ const createReview = async(
   });
 
   return { ok: true };
-}
+};
 
 export default createReview;
+export type { ReviewFormState };
