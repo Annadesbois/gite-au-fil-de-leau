@@ -15,7 +15,7 @@ datasource db {
 model Review {
   id        String   @id @default(cuid())
   name      String
-  rating    Int
+  rating    Int?
   comment   String
   createdAt DateTime @default(now())
   approved  Boolean  @default(false)
