@@ -21,12 +21,15 @@ const ReviewsPage = async () => {
         )}
 
         {reviews.map((r) => (
-          <article key={r.id} className="fabric-surface-light p-4 rounded-xl">
+          <article
+            key={r.id}
+            className="relative fabric-surface-light p-4 rounded-xl"
+          >
             <div className="flex items-center justify-between">
               <p className="font-semibold">{r.name}</p>
-              <p aria-label={`${r.rating} sur 5`}>
-                {"★".repeat(r.rating)}{" "}
-                <span className="opacity-50">{"★".repeat(5 - r.rating)}</span>
+              <p aria-label={`${r.rating} sur 5`} className="text-yellow-600">
+                {"★".repeat(r.rating)}
+                <span>{"☆".repeat(5 - r.rating)}</span>
               </p>
             </div>
 
