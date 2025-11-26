@@ -4,9 +4,26 @@ import { prisma } from "@/lib/prisma";
 import { z } from "zod";
 
 const reviewSchema = z.object({
-  name: z.string().min(2).max(60),
-  rating: z.coerce.number().int().min(1).max(5),
-  comment: z.string().min(10).max(1000),
+  name: z
+    .string()
+    .min(2, { message: "Le nom doit contenir au moins 2 caractères." })
+    .max(60, { message: "Le nom ne doit pas dépasser 35 caractères." }),
+
+  rating: z.coerce
+    .number()
+    .int()
+    .min(1, { message: "La note minimale est 1." })
+    .max(5, { message: "La note maximale est 5." }),
+
+  comment: z
+    .string()
+    .min(10, {
+      message: "Le commentaire doit contenir au moins 10 caractères.",
+    })
+    .max(1000, {
+      message: "Le commentaire ne doit pas dépasser 1000 caractères.",
+    }),
+
   website: z.string().optional(), // honeypot
 });
 

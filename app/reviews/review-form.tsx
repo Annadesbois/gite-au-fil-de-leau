@@ -23,7 +23,9 @@ const ReviewForm = () => {
         <span>Nom</span>
         <input name="name" className="border rounded-md p-2" required />
         {state.errors?.name && (
-          <p className="text-red-600 text-sm">{state.errors.name[0]}</p>
+          <p className="text-red-800 font-semibold text-sm">
+            {state.errors.name[0]}
+          </p>
         )}
       </label>
 
@@ -51,7 +53,9 @@ const ReviewForm = () => {
           required
         />
         {state.errors?.comment && (
-          <p className="text-red-600 text-sm">{state.errors.comment[0]}</p>
+          <p className="text-red-800 font-semibold text-sm">
+            {state.errors.comment[0]}
+          </p>
         )}
       </label>
 
