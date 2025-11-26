@@ -165,6 +165,13 @@ const DesktopMenu = () => {
         </NavigationMenu.Item>
         <NavigationMenu.Item>
           <NavigationMenu.Link asChild>
+            <Link href="/reviews" className="menu-link">
+              Avis
+            </Link>
+          </NavigationMenu.Link>
+        </NavigationMenu.Item>
+        <NavigationMenu.Item>
+          <NavigationMenu.Link asChild>
             <Link href="/contact" className="menu-link">
               Contact
             </Link>

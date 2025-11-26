@@ -91,10 +91,7 @@ const MobileMenu = () => {
               className="menu-sub-content fabric-surface-light py-2 w-44 sm:w-64"
             >
               <DropdownMenu.Item asChild>
-                <Link
-                  href="/les-alentours/village"
-                  className="menu-link block"
-                >
+                <Link href="/les-alentours/village" className="menu-link block">
                   Le village en 3D
                 </Link>
               </DropdownMenu.Item>
@@ -143,6 +140,11 @@ const MobileMenu = () => {
           <DropdownMenu.Item asChild>
             <Link href="/tarifs" className="menu-link block">
               Tarifs
+            </Link>
+          </DropdownMenu.Item>
+          <DropdownMenu.Item asChild>
+            <Link href="/reviews" className="menu-link block">
+              Avis
             </Link>
           </DropdownMenu.Item>
           <DropdownMenu.Item asChild>
