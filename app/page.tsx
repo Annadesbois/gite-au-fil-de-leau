@@ -1,5 +1,13 @@
+import type { Metadata } from "next";
+
 import PhotoCarousel from "@/components/carousel/PhotoCarousel";
 import { homePhotos } from "@/data/home-photos";
+
+export const metadata: Metadata = {
+  title: "Gîte Au fil de l'eau — Location de vacances à Storckensohn",
+  description:
+    "Gîte Au fil de l'eau à Storckensohn, ancienne ferme réhabilitée pouvant accueillir jusqu’à 10 personnes, avec espace bien-être et terrasse en plein coeur des Hautes Vosges d’Alsace.",
+};
 
 const Home = () => {
   return (
@@ -61,6 +69,6 @@ const Home = () => {
       </div>
     </>
   );
-}
+};
 
 export default Home;

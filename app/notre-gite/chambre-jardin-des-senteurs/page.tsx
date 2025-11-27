@@ -1,5 +1,13 @@
+import type { Metadata } from "next";
+
 import PhotoCarousel from "@/components/carousel/PhotoCarousel";
 import { senteursPhotos } from "@/data/senteurs-photos";
+
+export const metadata: Metadata = {
+  title: "Chambre « Jardin des Senteurs » — Gîte Au fil de l'eau",
+  description:
+    "La chambre « Jardin des Senteurs », située de plain-pied et adaptée aux personnes à mobilité réduite, avec lit 140/190 et salle d’eau privative donnant sur le jardin à déguster du gîte.",
+};
 
 const ChambreJardinDesSenteursPage = () => {
   return (

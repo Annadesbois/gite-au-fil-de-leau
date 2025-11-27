@@ -1,5 +1,13 @@
+import type { Metadata } from "next";
+
 import PhotoCarousel from "@/components/carousel/PhotoCarousel";
 import { bienEtrePhotos } from "@/data/bien-etre-photos";
+
+export const metadata: Metadata = {
+  title: "Espace bien-être avec spa & sauna — Gîte Au fil de l'eau",
+  description:
+    "Espace bien-être du gîte Au fil de l'eau à Storckensohn, avec spa, sauna, douches et chaises de repos s’ouvrant sur le pré-verger, pour un séjour détente en Hautes Vosges d’Alsace.",
+};
 
 const EspaceBienEtrePage = () => {
   return (

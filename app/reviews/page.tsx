@@ -1,5 +1,13 @@
+import type { Metadata } from "next";
+
 import ReviewForm from "./review-form";
 import { prisma } from "@/lib/prisma";
+
+export const metadata: Metadata = {
+  title: "Avis des voyageurs — Gîte Au fil de l'eau à Storckensohn",
+  description:
+    "Découvrez les avis et témoignages des voyageurs ayant séjourné au gîte Au fil de l'eau à Storckensohn, au cœur des Hautes Vosges d’Alsace.",
+};
 
 export const revalidate = 60; // refresh list at most every 60s
 
