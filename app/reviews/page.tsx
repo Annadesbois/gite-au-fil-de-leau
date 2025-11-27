@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { prisma } from "@/lib/prisma";
-import { Review } from "@prisma/client";
 
 import ReviewForm from "./review-form";
 
@@ -13,7 +12,7 @@ export const metadata: Metadata = {
 export const revalidate = 60; // refresh list at most every 60s
 
 const ReviewsPage = async () => {
-  const reviews: Review[] = await prisma.review.findMany({
+  const reviews = await prisma.review.findMany({
     where: { approved: true },
     orderBy: { createdAt: "desc" },
   });
@@ -31,7 +30,7 @@ const ReviewsPage = async () => {
           <p className="text-center opacity-70">Aucun avis pour le moment.</p>
         )}
 
-        {reviews.map((r) => (
+        {reviews.map((r: (typeof reviews)[number]) => (
           <article
             key={r.id}
             className="relative fabric-surface-light p-4 rounded-xl"
