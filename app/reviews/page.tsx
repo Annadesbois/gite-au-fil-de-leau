@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
+import { prisma } from "@/lib/prisma";
+import { Review } from "@prisma/client";
 
 import ReviewForm from "./review-form";
-import { prisma } from "@/lib/prisma";
 
 export const metadata: Metadata = {
   title: "Avis des voyageurs — Gîte Au fil de l'eau à Storckensohn",
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
 export const revalidate = 60; // refresh list at most every 60s
 
 const ReviewsPage = async () => {
-  const reviews = await prisma.review.findMany({
+  const reviews: Review[] = await prisma.review.findMany({
     where: { approved: true },
     orderBy: { createdAt: "desc" },
   });
