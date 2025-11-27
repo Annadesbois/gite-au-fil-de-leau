@@ -1,5 +1,13 @@
+import type { Metadata } from "next";
+
 import Button from "@/components/Button";
 import ContactForm from "@/components/ContactForm";
+
+export const metadata: Metadata = {
+  title: "Contact & accès — Gîte Au fil de l'eau à Storckensohn",
+  description:
+    "Coordonnées, téléphone, email et accès au gîte Au fil de l'eau à Storckensohn, Hautes Vosges d’Alsace. Réservation en direct ou via Gîtes de France.",
+};
 
 const contact = () => {
   const emailName = "giteaufildeleau68";

@@ -1,5 +1,13 @@
+import type { Metadata } from "next";
+
 import PhotoCarousel from "@/components/carousel/PhotoCarousel";
 import { cerisierPhotos } from "@/data/cerisier-photos";
+
+export const metadata: Metadata = {
+  title: "Chambre « Cerisier » — Gîte Au fil de l'eau à Storckensohn",
+  description:
+    "La chambre « Cerisier » du gîte Au fil de l'eau, avec vue sur le verger, 2 lits 90/200 modulables, 2 lits tiroirs et vaste salle de bain avec baignoire chromato, idéale pour couple ou famille.",
+};
 
 const ChambreCerisierPage = () => {
   return (

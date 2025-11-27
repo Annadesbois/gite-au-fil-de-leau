@@ -1,5 +1,13 @@
+import type { Metadata } from "next";
+
 import PhotoCarousel from "@/components/carousel/PhotoCarousel";
 import { auroresPhotos } from "@/data/aurore-photos";
+
+export const metadata: Metadata = {
+  title: "Chambre « Aurores » — Gîte Au fil de l'eau à Storckensohn",
+  description:
+    "La chambre « Aurores » du gîte Au fil de l'eau, orientée au levant, avec 2 lits 90/200 modulables en lit 180/200 et salle d’eau privative aux couleurs pétillantes.",
+};
 
 const ChambreAuroresPage = () => {
   return (

@@ -1,5 +1,13 @@
+import type { Metadata } from "next";
+
 import PhotoCarousel from "@/components/carousel/PhotoCarousel";
 import { sejourPhotos } from "../../../data/sejour-photos";
+
+export const metadata: Metadata = {
+  title: "Le séjour — Grande pièce à vivre du gîte Au fil de l'eau",
+  description:
+    "Séjour de 60 m² du gîte Au fil de l'eau, inspiré des vérandas traditionnelles, avec salon et piano, salle à manger avec poêle à bois, et cuisine équipée ouverte sur la pièce à vivre.",
+};
 
 const SejourPage = () => {
   return (
