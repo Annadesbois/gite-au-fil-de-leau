@@ -2,6 +2,9 @@
 
 import { prisma } from "@/lib/prisma";
 import { z } from "zod";
+import { Resend } from "resend";
+
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 const reviewSchema = z.object({
   name: z
@@ -68,6 +71,7 @@ const createReview = async (
     return { ok: true };
   }
 
+  // Save the review in the database
   await prisma.review.create({
     data: {
       name: parsed.data.name,
@@ -76,6 +80,23 @@ const createReview = async (
       approved: false,
       source: "website",
     },
+  });
+
+  // Send notification email
+  await resend.emails.send({
+    from: "onboarding@resend.dev",
+    to: process.env.NOTIFY_EMAIL!,
+    subject: "Nouvel avis reçu",
+    html: `
+      <h2>Un nouvel avis a été déposé</h2>
+      <p><strong>Nom :</strong> ${parsed.data.name}</p>
+      <p><strong>Note :</strong> ${parsed.data.rating}/5</p>
+      <p><strong>Commentaire :</strong></p>
+      <p>${parsed.data.comment}</p>
+      <p style="opacity:0.7;font-size:12px;margin-top:16px;">
+        Cet avis devra être approuvé avant sa publication.
+      </p>
+    `,
   });
 
   return { ok: true };
