@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "Découvrez les avis et témoignages des voyageurs ayant séjourné au gîte Au fil de l'eau à Storckensohn, au cœur des Hautes Vosges d’Alsace.",
 };
 
+export const dynamic = "force-dynamic";
 export const revalidate = 60; // refresh list at most every 60s
 
 const ReviewsPage = async () => {
