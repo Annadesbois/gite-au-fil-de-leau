@@ -1,8 +1,15 @@
 import Link from "next/link";
 import DesktopMenu from "./DesktopMenu";
 import MobileMenu from "./MobileMenu";
+import type { Locale } from "@/lib/i18n";
 
-const Navbar = () => {
+type NavbarProps = {
+  locale: Locale;
+  messages: Record<string, unknown>;
+};
+
+
+const Navbar = ({ locale: _locale, messages: _messages }: NavbarProps) => {
   return (
     <nav className="grid grid-cols-[1fr_2fr_1fr] md:flex md:justify-center h-16 w-full fabric-surface-light">
       <div className="md:hidden flex items-center ml-4">
