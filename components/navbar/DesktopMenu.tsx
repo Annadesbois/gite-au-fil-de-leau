@@ -5,7 +5,7 @@ import Link from "next/link";
 const DesktopMenu = () => {
   return (
     <NavigationMenu.Root className="relative">
-      <NavigationMenu.List className="flex items-center gap-2 p-1 font-bold">
+      <NavigationMenu.List className="flex items-center md:ml-2 lg:gap-2 font-bold">
         <NavigationMenu.Item>
           <NavigationMenu.Link asChild>
             <Link href="/" className="menu-link">
