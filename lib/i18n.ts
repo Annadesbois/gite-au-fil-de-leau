@@ -9,11 +9,17 @@ export const defaultLocale: Locale = "fr";
 
 export type Messages = Record<string, unknown>;
 
-export const getMessages = (locale: Locale): Messages => {
-  const filePath = path.join(process.cwd(), "messages", `${locale}.json`);
+export const getMessages = (locale: Locale | undefined): Messages => {
+  const safeLocale: Locale =
+    locale && (locales as readonly string[]).includes(locale)
+      ? locale
+      : defaultLocale;
+
+  const filePath = path.join(process.cwd(), "messages", `${safeLocale}.json`);
   const content = fs.readFileSync(filePath, "utf8");
   return JSON.parse(content) as Messages;
 };
+
 
 const isRecord = (value: unknown): value is Record<string, unknown> =>
   typeof value === "object" && value !== null;
