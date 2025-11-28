@@ -1,0 +1,52 @@
+{
+  "rootLayout": {
+    "title": "Gîte Au fil de l'eau",
+    "description": "Gîte chaleureux à Storckensohn, au cœur des Hautes-Vosges d'Alsace."
+  },
+
+  "navbar": {
+    "home": {
+      "label": "Accueil"
+    },
+
+    "gite": {
+      "label": "Notre gîte",
+      "sejour": "Le séjour",
+      "chambreCerisier": "La chambre Cerisier",
+      "chambreGrange": "La chambre Grange",
+      "chambreAurores": "La chambre Aurores",
+      "chambreJardinDesSenteurs": "La chambre Jardin des senteurs",
+      "bienEtre": "L'espace bien-être"
+    },
+
+    "alentours": {
+      "label": "Les alentours",
+      "village": "Le village en 3D",
+      "randonnees": "Randonnées",
+      "wesserling": "Le Parc de Wesserling",
+      "moulin": "Le moulin à huile",
+      "lac": "Le lac de Kruth-Wildenstein",
+      "leReste": "Et tout le reste"
+    },
+
+    "tarifs": {
+      "label": "Tarifs"
+    },
+
+    "avis": {
+      "label": "Avis"
+    },
+
+    "contact": {
+      "label": "Contact"
+    }
+  },
+
+  "footer": {
+    "giteDeFranceAria": "Lien vers le site de Gite de France Alsace",
+    "giteDeFranceAlt": "Gite de France et 4 épis logo",
+
+    "tourismeHandicapAria": "Lien vers la cartographie des établissements labellisés tourisme et handicap",
+    "tourismeHandicapAlt": "Label Tourisme et Handicap"
+  }
+}
