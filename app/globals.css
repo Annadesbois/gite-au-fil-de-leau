@@ -26,23 +26,6 @@ body {
   color: var(--text-primary);
 }
 
-h1 {
-  font-family: var(--font-courgette), "Lucida Handwriting", "Brush Script MT",
-    "Segoe Script", "Comic Sans MS", cursive;
-}
-
-main h1 {
-  margin-bottom: 2.5rem;
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-  font-weight: bold;
-  text-align: center;
-}
-
-.contact-title {
-  margin-bottom: 1rem !important;
-}
-
 body::before {
   content: "";
   position: fixed;
@@ -73,6 +56,27 @@ body::before {
   background-repeat: repeat;
   background-size: 512px 512px;
   background-blend-mode: multiply;
+}
+
+h1 {
+  font-family: var(--font-courgette), "Lucida Handwriting", "Brush Script MT",
+    "Segoe Script", "Comic Sans MS", cursive;
+}
+
+main h1 {
+  margin-bottom: 2.5rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.title-block {
+  @apply relative rounded-3xl p-4;
+}
+
+.page-layout {
+  @apply flex flex-col items-center my-6;
 }
 
 /* Component / utility-like classes using @apply */

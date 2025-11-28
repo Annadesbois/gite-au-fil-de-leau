@@ -43,7 +43,7 @@ const MobileMenu = () => {
                   href="/notre-gite/chambre-cerisier"
                   className="menu-link block"
                 >
-                  {`La chambre "Cerisier"`}
+                  La chambre "Cerisier"
                 </Link>
               </DropdownMenu.Item>
               <DropdownMenu.Item asChild>
@@ -51,7 +51,7 @@ const MobileMenu = () => {
                   href="/notre-gite/chambre-grange"
                   className="menu-link block"
                 >
-                  {`La chambre "Grange"`}
+                  La chambre "Grange"
                 </Link>
               </DropdownMenu.Item>
               <DropdownMenu.Item asChild>
@@ -59,7 +59,7 @@ const MobileMenu = () => {
                   href="/notre-gite/chambre-aurores"
                   className="menu-link block"
                 >
-                  {`La chambre "Aurores"`}
+                  La chambre "Aurores"
                 </Link>
               </DropdownMenu.Item>
               <DropdownMenu.Item asChild>
@@ -67,7 +67,7 @@ const MobileMenu = () => {
                   href="/notre-gite/chambre-jardin-des-senteurs"
                   className="menu-link block"
                 >
-                  {`La chambre "Jardin des Senteurs"`}
+                  La chambre "Jardin des Senteurs"
                 </Link>
               </DropdownMenu.Item>
               <DropdownMenu.Item asChild>
@@ -75,7 +75,7 @@ const MobileMenu = () => {
                   href="/notre-gite/espace-bien-etre"
                   className="menu-link block"
                 >
-                  {`L'espace bien-être`}
+                  L'espace bien-être
                 </Link>
               </DropdownMenu.Item>
             </DropdownMenu.SubContent>

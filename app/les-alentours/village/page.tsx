@@ -3,10 +3,8 @@ import { villagePhotos } from "@/data/village-photos";
 
 const VillagePage = () => {
   return (
-    <div className="flex flex-col items-center my-6 gap-6">
-      <h1 className="relative fabric-surface-light rounded-3xl p-4 contact-title">
-        Le village de Storckensohn en 3D
-      </h1>
+    <div className="page-layout">
+      <h1 className="fabric-surface-light title-block">Le village de Storckensohn en 3D</h1>
       <div className="relative fabric-surface-light p-6 rounded-xl flex flex-col gap-6 items-center text-center">
         <p className="font-bold">
           Le gîte Au fil de l'eau est situé en plein coeur des Hautes-Vosges

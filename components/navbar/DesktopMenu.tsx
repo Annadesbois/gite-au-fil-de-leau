@@ -5,7 +5,7 @@ import Link from "next/link";
 const DesktopMenu = () => {
   return (
     <NavigationMenu.Root className="relative">
-      <NavigationMenu.List className="flex items-center gap-2 p-1 font-bold">
+      <NavigationMenu.List className="flex items-center md:ml-2 lg:gap-2 font-bold">
         <NavigationMenu.Item>
           <NavigationMenu.Link asChild>
             <Link href="/" className="menu-link">
@@ -36,7 +36,7 @@ const DesktopMenu = () => {
                     href="/notre-gite/chambre-cerisier"
                     className="block menu-link"
                   >
-                    {`La chambre "Cerisier"`}
+                    La chambre "Cerisier"
                   </Link>
                 </NavigationMenu.Link>
               </li>
@@ -46,7 +46,7 @@ const DesktopMenu = () => {
                     href="/notre-gite/chambre-grange"
                     className="block menu-link"
                   >
-                    {`La chambre "Grange"`}
+                    La chambre "Grange"
                   </Link>
                 </NavigationMenu.Link>
               </li>
@@ -56,7 +56,7 @@ const DesktopMenu = () => {
                     href="/notre-gite/chambre-aurores"
                     className="block menu-link"
                   >
-                    {`La chambre "Aurores"`}
+                    La chambre "Aurores"
                   </Link>
                 </NavigationMenu.Link>
               </li>
@@ -66,7 +66,7 @@ const DesktopMenu = () => {
                     href="/notre-gite/chambre-jardin-des-senteurs"
                     className="block menu-link"
                   >
-                    {`La chambre "Jardin des Senteurs"`}
+                    La chambre "Jardin des Senteurs"
                   </Link>
                 </NavigationMenu.Link>
               </li>
@@ -76,7 +76,7 @@ const DesktopMenu = () => {
                     href="/notre-gite/espace-bien-etre"
                     className="block menu-link"
                   >
-                    {`L'espace bien-être`}
+                    L'espace bien-être
                   </Link>
                 </NavigationMenu.Link>
               </li>
