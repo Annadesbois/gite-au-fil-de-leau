@@ -111,3 +111,11 @@ body::before {
 .form-label {
   @apply mb-1 block font-semibold;
 }
+
+.title-block {
+  @apply relative rounded-3xl p-4; 
+}
+
+.page-layout {
+  @apply flex flex-col items-center my-6;
+}

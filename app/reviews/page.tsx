@@ -28,8 +28,8 @@ const ReviewsPage = async () => {
   }
 
   return (
-    <div className="flex flex-col my-8 items-center">
-      <h1 className="relative fabric-surface-light p-4 rounded-3xl">
+    <div className="page-layout">
+      <h1 className="fabric-surface-light title-block">
         Avis des voyageurs
       </h1>
 

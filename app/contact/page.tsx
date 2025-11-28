@@ -15,10 +15,8 @@ const contact = () => {
   const email = `${emailName}@${provider}`;
 
   return (
-    <div className="flex flex-col items-center mt-6 gap-6">
-      <h1 className="relative fabric-surface-light rounded-3xl p-4 contact-title">
-        Contact et Accès
-      </h1>
+    <div className="page-layout">
+      <h1 className="fabric-surface-light title-block">Contact et Accès</h1>
       <div className="relative fabric-surface-light w-full rounded-xl flex flex-col gap-6 md:gap-8 p-6 md:p-8 md:mb-6 max-w-212 shadow-sm">
         <div className="text-center">
           <p className="font-bold">Gîte Au fil de l'eau</p>

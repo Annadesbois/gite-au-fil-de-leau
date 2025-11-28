@@ -14,7 +14,7 @@ const ChambreGrangePage = () => {
     <>
       <PhotoCarousel slides={grangePhotos} />
       <div className="content-area relative fabric-surface-light p-6 md:pb-10 rounded-tl-4xl rounded-br-4xl rounded-tr-sm rounded-bl-sm">
-        <h1>{`La chambre "Grange"`}</h1>
+        <h1>La chambre "Grange"</h1>
         <div className="flex flex-col gap-12">
           <p className="font-bold text-center">
             De l’ancienne grange où étaient stockés le foin et divers matériels,

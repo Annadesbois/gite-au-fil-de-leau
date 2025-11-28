@@ -14,7 +14,7 @@ const EspaceBienEtrePage = () => {
     <>
       <PhotoCarousel slides={bienEtrePhotos} />
       <div className="content-area relative fabric-surface-light p-6 md:pb-10 rounded-tl-4xl rounded-br-4xl rounded-tr-sm rounded-bl-sm">
-        <h1>{`L'espace bien-être`}</h1>
+        <h1>L'espace bien-être</h1>
         <div className="flex flex-col gap-12">
           <p className="font-bold text-center">
             Un espace bien-être, avec spa, sauna et chaises de repos est à la
