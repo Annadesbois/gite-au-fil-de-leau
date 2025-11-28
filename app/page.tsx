@@ -16,7 +16,8 @@ const Home = () => {
       <div className="content-area relative fabric-surface-light flex flex-col gap-6 p-6 md:pb-10 rounded-tl-4xl rounded-br-4xl rounded-tr-sm rounded-bl-sm">
         <div className="flex flex-col gap-6 text-center font-bold">
           <h1 className="text-2xl md:mb-4">
-            Bienvenue au gîte Au fil de l'eau
+            Bienvenue au gîte
+            <br className="block md:hidden" /> Au fil de l'eau
           </h1>
           <p>
             Le Gîte Au fil de l'eau offre un cadre agréable pour se ressourcer
