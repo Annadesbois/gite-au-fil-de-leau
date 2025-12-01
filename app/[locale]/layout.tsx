@@ -42,10 +42,6 @@ const RootLayout = async ({
 
   const messages = getMessages(locale);
   const navbarMessages = messages.navbar as NavbarMessages;
-
-  console.log("LAYOUT locale:", locale);
-  console.log("LAYOUT navbar home label:", navbarMessages.home.label);
-
   const footerMessages = messages.footer as Record<string, unknown>;
 
   return (
