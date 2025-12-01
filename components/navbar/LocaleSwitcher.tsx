@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 
-const locales = ["fr", "en", "de"] as const;
+const locales = ["fr", "de", "en"] as const;
 type Locale = (typeof locales)[number];
 
 type LocaleSwitcherProps = {
@@ -13,14 +13,14 @@ type LocaleSwitcherProps = {
 
 const flagSrc: Record<Locale, string> = {
   fr: "/flags/fr.svg",
-  en: "/flags/gb.svg",
   de: "/flags/de.svg",
+  en: "/flags/gb.svg",
 };
 
 const flagLabel: Record<Locale, string> = {
   fr: "Français",
-  en: "English",
   de: "Deutsch",
+  en: "English",
 };
 
 const LocaleSwitcher = ({ currentLocale }: LocaleSwitcherProps) => {
@@ -57,7 +57,7 @@ const LocaleSwitcher = ({ currentLocale }: LocaleSwitcherProps) => {
             className={`flex items-center justify-center w-5 h-5 rounded-full border ${
               isActive
                 ? "shadow-lg border-secondary"
-                : "border-transparent opacity-75 hover:opacity-100"
+                : "border-transparent hover:shadow-md hover:border-secondary/50"
             }`}
           >
             <Image
