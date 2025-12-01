@@ -50,7 +50,7 @@
     "tourismeHandicapAlt": "Label Tourisme et Handicap"
   },
   "home": {
-    "homeMeta": {
+    "meta": {
       "title": "Gîte Au fil de l'eau — Location de vacances à Storckensohn",
       "description": "Gîte Au fil de l'eau à Storckensohn, ancienne ferme réhabilitée pouvant accueillir jusqu’à 10 personnes, avec espace bien-être et terrasse en plein coeur des Hautes Vosges d’Alsace."
     },
@@ -87,6 +87,29 @@
 
     "accessibility": {
       "text": "Le rez-de-chaussée et l’espace bien-être du niveau -1 sont accessibles aux personnes à mobilité réduite."
+    }
+  },
+
+  "contact": {
+    "meta": {
+      "title": "Contact & accès — Gîte Au fil de l'eau à Storckensohn",
+      "description": "Coordonnées, téléphone, email et accès au gîte Au fil de l'eau à Storckensohn, Hautes Vosges d’Alsace. Réservation en direct ou via Gîtes de France."
+    },
+
+    "title": "Contact et Accès",
+
+    "map": "Localisation du Gîte Au fil de l'eau",
+
+    "info": "Infos et réservation",
+
+    "reservation": "Réservation aussi possible via Gîtes de France",
+
+    "contactForm": {
+      "title": "Formulaire de contact",
+      "name": "Nom",
+      "email": "Email",
+      "message": "Message",
+      "send": "Envoyer"
     }
   }
 }

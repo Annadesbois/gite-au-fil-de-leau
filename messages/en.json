@@ -88,5 +88,28 @@
     "accessibility": {
       "text": "The ground floor and the wellness area on level -1 are accessible to persons with reduced mobility."
     }
+  },
+
+  "contact": {
+    "meta": {
+      "title": "Contact & Access — Gîte Au fil de l'eau in Storckensohn",
+      "description": "Address, phone number, email and access information for the Gîte Au fil de l'eau in Storckensohn, in the Upper Vosges of Alsace. Book directly or via Gîtes de France."
+    },
+
+    "title": "Contact & Access",
+
+    "map": "Location of the Gîte Au fil de l'eau",
+
+    "info": "Information & booking",
+
+    "reservation": "Booking also available through Gîtes de France",
+
+    "contactForm": {
+      "title": "Contact form",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send"
+    }
   }
 }

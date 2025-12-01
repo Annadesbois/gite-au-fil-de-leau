@@ -2,21 +2,50 @@ import type { Metadata } from "next";
 
 import Button from "@/components/Button";
 import ContactForm from "@/components/ContactForm";
+import { getMessages, type Locale } from "@/lib/i18n";
 
-export const metadata: Metadata = {
-  title: "Contact & accès — Gîte Au fil de l'eau à Storckensohn",
-  description:
-    "Coordonnées, téléphone, email et accès au gîte Au fil de l'eau à Storckensohn, Hautes Vosges d’Alsace. Réservation en direct ou via Gîtes de France.",
+type ContactPageProps = {
+  params: { locale: Locale };
 };
 
-const contact = () => {
+type ContactMessages = {
+  meta: {
+    title: string;
+    description: string;
+  };
+  title: string;
+  map: string;
+  info: string;
+  reservation: string;
+};
+
+export const generateMetadata = async ({
+  params,
+}: {
+  params: Promise<{ locale: Locale }>;
+}): Promise<Metadata> => {
+  const { locale } = await params;
+  const messages = getMessages(locale);
+  const contact = messages.contact as ContactMessages;
+
+  return {
+    title: contact.meta.title,
+    description: contact.meta.description,
+  };
+};
+
+const contact = async ({ params }: ContactPageProps) => {
+  const { locale } = await params;
+  const messages = getMessages(locale);
+  const contact = messages.contact as ContactMessages;
+
   const emailName = "giteaufildeleau68";
   const provider = "gmail.com";
   const email = `${emailName}@${provider}`;
 
   return (
     <div className="page-layout">
-      <h1 className="fabric-surface-light title-block">Contact et Accès</h1>
+      <h1 className="fabric-surface-light title-block">{contact.title}</h1>
       <div className="relative fabric-surface-light w-full rounded-xl flex flex-col gap-6 md:gap-8 p-6 md:p-8 md:mb-6 max-w-212 shadow-sm">
         <div className="text-center">
           <p className="font-bold">Gîte Au fil de l'eau</p>
@@ -39,7 +68,7 @@ const contact = () => {
         </div>
 
         <div className="text-center">
-          <p className="font-bold mb-2">Infos et réservation</p>
+          <p className="font-bold mb-2">{contact.info}</p>
           <p className="pb-2">Georgette TACQUARD</p>
           <address className="not-italic">
             <p>12, rue de la mairie</p>
@@ -68,7 +97,7 @@ const contact = () => {
               href="https://www.gitesdefrancealsace.net/fr/location/location-gite-storckensohn-au-fil-de-leau-h68g021752?capacity=1"
               target="_blank"
             >
-              Réservation aussi possible via Gîtes de France
+              {contact.reservation}
             </a>
           </Button>
         </div>
