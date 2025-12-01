@@ -156,5 +156,14 @@
         "text": "avec TV et lecteur DVD, a été aménagé dans l’ancienne grange, dont le cachet pittoresque a été conservé."
       }
     }
+  },
+
+  "village": {
+    "meta": {
+      "title": "Le village de Storckensohn en 3D",
+      "description": "Découvrez Storckensohn en 3D : village pittoresque au cœur des Hautes-Vosges d’Alsace, où se situe le gîte Au fil de l'eau."
+    },
+    "title": "Le village de Storckensohn en 3D",
+    "intro": "Le gîte Au fil de l'eau est situé en plein coeur des Hautes-Vosges d'Alsace, dans le village de Storckensohn."
   }
 }

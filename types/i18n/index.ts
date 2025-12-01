@@ -6,3 +6,4 @@ export * from "./contactForm";
 export * from "./reviews";
 export * from "./reviewForm";
 export * from "./sejour";
+export * from "./village";

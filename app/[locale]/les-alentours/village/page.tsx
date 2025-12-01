@@ -1,26 +1,48 @@
 import Image from "next/image";
 import { villagePhotos } from "@/data/village-photos";
+import { getMessages, type Locale } from "@/lib/i18n";
+import type { VillageMessages } from "@/types/i18n";
 
-const VillagePage = () => {
+type VillagePageProps = {
+  params: { locale: Locale };
+};
+
+export const generateMetadata = async ({
+  params,
+}: {
+  params: Promise<{ locale: Locale }>;
+}) => {
+  const { locale } = await params;
+  const messages = getMessages(locale);
+  const village = messages.village as VillageMessages;
+
+  return {
+    title: village.meta.title,
+    description: village.meta.description,
+  };
+};
+
+const VillagePage = async ({ params }: VillagePageProps) => {
+  const { locale } = await params;
+  const messages = getMessages(locale);
+  const village = messages.village as VillageMessages;
+
   return (
     <div className="page-layout">
-      <h1 className="fabric-surface-light title-block">Le village de Storckensohn en 3D</h1>
+      <h1 className="fabric-surface-light title-block">{village.title}</h1>
       <div className="relative fabric-surface-light p-6 rounded-xl flex flex-col gap-6 items-center text-center">
-        <p className="font-bold">
-          Le gîte Au fil de l'eau est situé en plein coeur des Hautes-Vosges
-          d'Alsace, dans le village de Storckensohn.
-        </p>
+        <p className="font-bold">{village.intro}</p>
         <div className="flex flex-col gap-12 mt-4">
           {villagePhotos.map((photo, index) => (
             <figure key={index} className="flex flex-col gap-3">
               <Image
                 src={photo.src}
-                alt={photo.alt}
+                alt={photo.alt[locale] ?? photo.alt.fr}
                 width={1400}
                 height={900}
                 className="w-screen max-w-[90vw] md:max-w-[75vw] h-auto rounded-2xl shadow-md"
               />
-              <figcaption>{photo.alt}</figcaption>
+              <figcaption>{photo.alt[locale] ?? photo.alt.fr}</figcaption>
             </figure>
           ))}
         </div>

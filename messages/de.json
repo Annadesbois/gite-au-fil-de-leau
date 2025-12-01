@@ -155,5 +155,14 @@
         "text": "mit TV und DVD-Player wurde in der ehemaligen Scheune eingerichtet, deren rustikaler Charme erhalten geblieben ist."
       }
     }
+  },
+
+  "village": {
+    "meta": {
+      "title": "Das Dorf Storckensohn in 3D",
+      "description": "Entdecken Sie Storckensohn in 3D: ein malerisches Dorf im Herzen der Hohen Vogesen im Elsass, in dem sich die Gîte Au fil de l'eau befindet."
+    },
+    "title": "Das Dorf Storckensohn in 3D",
+    "intro": "Die Gîte Au fil de l'eau liegt im Herzen der Hohen Vogesen im Elsass, im Dorf Storckensohn."
   }
 }
