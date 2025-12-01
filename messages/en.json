@@ -98,5 +98,14 @@
     "send": "Send",
     "sending": "Sending…",
     "success": "Thank you, your message has been sent."
+  },
+
+  "reviews": {
+    "meta": {
+      "title": "Guest reviews — Gîte Au fil de l'eau in Storckensohn",
+      "description": "Read the reviews and testimonials from guests who stayed at the Gîte Au fil de l'eau in Storckensohn, in the heart of the High Vosges of Alsace."
+    },
+    "title": "Guest reviews",
+    "empty": "No reviews yet."
   }
 }

@@ -98,5 +98,14 @@
     "send": "Senden",
     "sending": "Wird gesendet…",
     "success": "Vielen Dank, Ihre Nachricht wurde erfolgreich gesendet."
+  },
+
+  "reviews": {
+    "meta": {
+      "title": "Gästebewertungen — Gîte Au fil de l'eau in Storckensohn",
+      "description": "Lesen Sie Bewertungen und Erfahrungsberichte von Gästen, die im Gîte Au fil de l'eau in Storckensohn, im Herzen der Hohen Vogesen im Elsass, übernachtet haben."
+    },
+    "title": "Gästebewertungen",
+    "empty": "Noch keine Bewertungen vorhanden."
   }
 }

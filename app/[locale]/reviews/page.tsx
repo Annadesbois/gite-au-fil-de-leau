@@ -3,17 +3,36 @@ import { prisma } from "@/lib/prisma";
 import type { Review } from "@prisma/client";
 
 import ReviewForm from "./review-form";
+import { getMessages, type Locale } from "@/lib/i18n";
+import type { ReviewsMessages } from "@/types/i18n";
 
-export const metadata: Metadata = {
-  title: "Avis des voyageurs — Gîte Au fil de l'eau à Storckensohn",
-  description:
-    "Découvrez les avis et témoignages des voyageurs ayant séjourné au gîte Au fil de l'eau à Storckensohn, au cœur des Hautes Vosges d’Alsace.",
+export const generateMetadata = async ({
+  params,
+}: {
+  params: Promise<{ locale: Locale }>;
+}): Promise<Metadata> => {
+  const { locale } = await params;
+  const messages = getMessages(locale);
+  const reviews = messages.reviews as ReviewsMessages;
+
+  return {
+    title: reviews.meta.title,
+    description: reviews.meta.description,
+  };
 };
 
 export const dynamic = "force-dynamic";
 export const revalidate = 60; // refresh list at most every 60s
 
-const ReviewsPage = async () => {
+type ReviewsPageProps = {
+  params: Promise<{ locale: Locale }>;
+};
+
+const ReviewsPage = async ({ params }: ReviewsPageProps) => {
+  const { locale } = await params;
+  const messages = getMessages(locale);
+  const reviewsMessages = messages.reviews as ReviewsMessages;
+
   let reviews: Review[] = [];
   let error = null;
 
@@ -30,7 +49,7 @@ const ReviewsPage = async () => {
   return (
     <div className="page-layout">
       <h1 className="fabric-surface-light title-block">
-        Avis des voyageurs
+        {reviewsMessages.title}
       </h1>
 
       <ReviewForm />
@@ -43,7 +62,7 @@ const ReviewsPage = async () => {
         )}
 
         {!error && reviews.length === 0 && (
-          <p className="text-center opacity-70">Aucun avis pour le moment.</p>
+          <p className="text-center opacity-70">{reviewsMessages.empty}</p>
         )}
 
         {!error &&

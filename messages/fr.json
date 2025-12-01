@@ -99,5 +99,14 @@
     "send": "Envoyer",
     "sending": "Envoi en cours…",
     "success": "Merci, votre message a bien été envoyé."
+  },
+
+  "reviews": {
+    "meta": {
+      "title": "Avis des voyageurs — Gîte Au fil de l'eau à Storckensohn",
+      "description": "Découvrez les avis et témoignages des voyageurs ayant séjourné au gîte Au fil de l'eau à Storckensohn, au cœur des Hautes Vosges d’Alsace."
+    },
+    "title": "Avis des voyageurs",
+    "empty": "Aucun avis pour le moment."
   }
 }
