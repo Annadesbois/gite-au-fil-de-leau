@@ -118,5 +118,45 @@
     "sending": "Envoi...",
     "send": "Envoyer",
     "success": "Merci ! Votre avis sera publié après validation."
+  },
+
+  "sejour": {
+    "meta": {
+      "title": "Le séjour : Grande pièce à vivre du gîte Au fil de l'eau",
+      "description": "Séjour de 60 m² du gîte Au fil de l'eau, inspiré des vérandas traditionnelles, avec salon et piano, salle à manger avec poêle à bois, et cuisine équipée ouverte sur la pièce à vivre."
+    },
+    "hero": {
+      "title": "Le séjour",
+      "highlight": "Le séjour Le séjour de 60m2 évoque les vérandas traditionnelles en bois, appelées loewa localement."
+    },
+    "livingArea": {
+      "title": "Le séjour comporte :",
+      "items": {
+        "salonPiano": "un salon avec piano",
+        "diningWoodStove": "une salle-à-manger avec poêle à bois",
+        "veranda": "une véranda avec table haute dans une ambiance végétale"
+      },
+      "note": "Il accède à la terrasse qui domine le pré-verger en bord du cours d’eau."
+    },
+    "kitchen": {
+      "title": "Le séjour s’ouvre sur une cuisine équipée avec :",
+      "items": {
+        "induction": "plaques à induction",
+        "oven": "four et four micro-ondes",
+        "dishwasher": "lave-vaisselle",
+        "fridgeFreezer": "réfrigérateur et congélateur",
+        "racletteFondue": "service à raclette et à fondue",
+        "kettle": "bouilloire",
+        "coffeeMaker": "cafetière",
+        "blender": "mixer"
+      }
+    },
+    "closing": {
+      "main": "Cette grande pièce à vivre offre de multiples possibilités pour partager des moments conviviaux.",
+      "smallLounge": {
+        "title": "Un petit salon indépendant, ",
+        "text": "avec TV et lecteur DVD, a été aménagé dans l’ancienne grange, dont le cachet pittoresque a été conservé."
+      }
+    }
   }
 }

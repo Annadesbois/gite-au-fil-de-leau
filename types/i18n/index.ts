@@ -5,3 +5,4 @@ export * from "./contact";
 export * from "./contactForm";
 export * from "./reviews";
 export * from "./reviewForm";
+export * from "./sejour";

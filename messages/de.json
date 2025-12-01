@@ -117,5 +117,45 @@
     "sending": "Wird gesendet...",
     "send": "Senden",
     "success": "Danke! Ihre Bewertung wird nach Prüfung veröffentlicht."
+  },
+
+  "sejour": {
+    "meta": {
+      "title": "Der Wohnbereich — Großer Gemeinschaftsraum der Gîte Au fil de l'eau",
+      "description": "Ein 60 m² großer Wohnbereich, inspiriert von traditionellen Holzveranden, mit Wohnzimmer und Klavier, Esszimmer mit Holzofen sowie einer voll ausgestatteten Küche, die sich zum Wohnraum öffnet."
+    },
+    "hero": {
+      "title": "Der Wohnbereich",
+      "highlight": "Der 60 m² große Wohnbereich erinnert an die traditionellen Holzveranden, die man hier loewa nennt."
+    },
+    "livingArea": {
+      "title": "Der Wohnbereich umfasst:",
+      "items": {
+        "salonPiano": "ein Wohnzimmer mit Klavier",
+        "diningWoodStove": "ein Esszimmer mit Holzofen",
+        "veranda": "eine Veranda mit Hochtisch und einer grünen, pflanzlichen Atmosphäre"
+      },
+      "note": "Von hier gelangt man auf die Terrasse, die über die Obstwiese am Bachlauf blickt."
+    },
+    "kitchen": {
+      "title": "Der Wohnbereich öffnet sich zu einer voll ausgestatteten Küche mit:",
+      "items": {
+        "induction": "Induktionskochfeldern",
+        "oven": "Backofen und Mikrowelle",
+        "dishwasher": "Geschirrspüler",
+        "fridgeFreezer": "Kühlschrank und Gefrierschrank",
+        "racletteFondue": "Raclette- und Fondue-Set",
+        "kettle": "Wasserkocher",
+        "coffeeMaker": "Kaffeemaschine",
+        "blender": "Mixer"
+      }
+    },
+    "closing": {
+      "main": "Dieser große Wohnraum bietet viele Möglichkeiten, gemeinsame und gesellige Momente zu verbringen.",
+      "smallLounge": {
+        "title": "Ein kleiner separater Salon, ",
+        "text": "mit TV und DVD-Player wurde in der ehemaligen Scheune eingerichtet, deren rustikaler Charme erhalten geblieben ist."
+      }
+    }
   }
 }

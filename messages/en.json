@@ -117,5 +117,45 @@
     "sending": "Sending...",
     "send": "Submit",
     "success": "Thank you! Your review will be published after validation."
+  },
+
+  "sejour": {
+    "meta": {
+      "title": "The living area — Main communal room of the Gîte Au fil de l'eau",
+      "description": "A 60 m² living area inspired by traditional wooden verandas, with a lounge and piano, a dining room with wood stove, and a fully equipped kitchen opening onto the main space."
+    },
+    "hero": {
+      "title": "The living area",
+      "highlight": "The 60 m² living area evokes traditional wooden verandas, locally called loewa."
+    },
+    "livingArea": {
+      "title": "The living area includes:",
+      "items": {
+        "salonPiano": "a lounge with piano",
+        "diningWoodStove": "a dining room with wood stove",
+        "veranda": "a veranda with a high table in a plant-filled atmosphere"
+      },
+      "note": "It provides access to the terrace overlooking the orchard-meadow by the stream."
+    },
+    "kitchen": {
+      "title": "The living area opens onto a fully equipped kitchen with:",
+      "items": {
+        "induction": "induction hobs",
+        "oven": "oven and microwave",
+        "dishwasher": "dishwasher",
+        "fridgeFreezer": "fridge and freezer",
+        "racletteFondue": "raclette and fondue sets",
+        "kettle": "kettle",
+        "coffeeMaker": "coffee maker",
+        "blender": "blender"
+      }
+    },
+    "closing": {
+      "main": "This large living space offers many possibilities for enjoyable moments together.",
+      "smallLounge": {
+        "title": "A separate small lounge, ",
+        "text": "with TV and DVD player, has been arranged in the former barn, whose rustic charm has been preserved."
+      }
+    }
   }
 }
