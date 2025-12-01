@@ -1,91 +1,31 @@
 import { NavigationMenu } from "radix-ui";
 import { FaChevronDown } from "react-icons/fa";
 import Link from "next/link";
+import type { Locale } from "@/lib/i18n";
+import type { NavbarMessages } from "./Navbar";
 
-const DesktopMenu = () => {
+type DesktopMenuProps = {
+  locale: Locale;
+  messages: NavbarMessages;
+};
+
+const DesktopMenu = ({ locale, messages }: DesktopMenuProps) => {
+  const { home, gite, alentours, tarifs, avis, contact } = messages;
+  const base = `/${locale}`;
+
   return (
     <NavigationMenu.Root className="relative">
       <NavigationMenu.List className="flex items-center md:ml-2 lg:gap-2 font-bold">
         <NavigationMenu.Item>
           <NavigationMenu.Link asChild>
-            <Link href="/" className="menu-link">
-              Accueil
+            <Link href={base} className="menu-link">
+              {home.label}
             </Link>
           </NavigationMenu.Link>
         </NavigationMenu.Item>
         <NavigationMenu.Item className="relative">
           <NavigationMenu.Trigger className="navigation-menu-trigger">
-            Notre gîte
-            <FaChevronDown
-              className="w-3 h-3 transition-transform duration-250 group-data-[state=open]:rotate-180"
-              aria-hidden
-            />
-          </NavigationMenu.Trigger>
-          <NavigationMenu.Content className="fabric-surface-light menu-sub-content absolute min-w-max top-full left-0 p-2 mt-2">
-            <ul className="space-y-1">
-              <li>
-                <NavigationMenu.Link asChild>
-                  <Link href="/notre-gite/sejour" className="block menu-link">
-                    Le séjour
-                  </Link>
-                </NavigationMenu.Link>
-              </li>
-              <li>
-                <NavigationMenu.Link asChild>
-                  <Link
-                    href="/notre-gite/chambre-cerisier"
-                    className="block menu-link"
-                  >
-                    La chambre "Cerisier"
-                  </Link>
-                </NavigationMenu.Link>
-              </li>
-              <li>
-                <NavigationMenu.Link asChild>
-                  <Link
-                    href="/notre-gite/chambre-grange"
-                    className="block menu-link"
-                  >
-                    La chambre "Grange"
-                  </Link>
-                </NavigationMenu.Link>
-              </li>
-              <li>
-                <NavigationMenu.Link asChild>
-                  <Link
-                    href="/notre-gite/chambre-aurores"
-                    className="block menu-link"
-                  >
-                    La chambre "Aurores"
-                  </Link>
-                </NavigationMenu.Link>
-              </li>
-              <li>
-                <NavigationMenu.Link asChild>
-                  <Link
-                    href="/notre-gite/chambre-jardin-des-senteurs"
-                    className="block menu-link"
-                  >
-                    La chambre "Jardin des Senteurs"
-                  </Link>
-                </NavigationMenu.Link>
-              </li>
-              <li>
-                <NavigationMenu.Link asChild>
-                  <Link
-                    href="/notre-gite/espace-bien-etre"
-                    className="block menu-link"
-                  >
-                    L'espace bien-être
-                  </Link>
-                </NavigationMenu.Link>
-              </li>
-            </ul>
-          </NavigationMenu.Content>
-        </NavigationMenu.Item>
-        <NavigationMenu.Item className="relative">
-          <NavigationMenu.Trigger className="navigation-menu-trigger">
-            Les alentours
+            {gite.label}
             <FaChevronDown
               className="w-3 h-3 transition-transform duration-250 group-data-[state=open]:rotate-180"
               aria-hidden
@@ -96,60 +36,133 @@ const DesktopMenu = () => {
               <li>
                 <NavigationMenu.Link asChild>
                   <Link
-                    href="/les-alentours/village"
+                    href={`${base}/notre-gite/sejour`}
                     className="block menu-link"
                   >
-                    Le village en 3D
+                    {gite.sejour}
                   </Link>
                 </NavigationMenu.Link>
               </li>
               <li>
                 <NavigationMenu.Link asChild>
                   <Link
-                    href="/les-alentours/randonnees"
+                    href={`${base}/notre-gite/chambre-cerisier`}
                     className="block menu-link"
                   >
-                    Randonnées
+                    {gite.chambreCerisier}
                   </Link>
                 </NavigationMenu.Link>
               </li>
               <li>
                 <NavigationMenu.Link asChild>
                   <Link
-                    href="/les-alentours/parc-de-wesserling"
+                    href={`${base}/notre-gite/chambre-grange`}
                     className="block menu-link"
                   >
-                    Le Parc de Wesserling
+                    {gite.chambreGrange}
                   </Link>
                 </NavigationMenu.Link>
               </li>
               <li>
                 <NavigationMenu.Link asChild>
                   <Link
-                    href="/les-alentours/moulin-a-huile"
+                    href={`${base}/notre-gite/chambre-aurores`}
                     className="block menu-link"
                   >
-                    Le moulin à huile
+                    {gite.chambreAurores}
                   </Link>
                 </NavigationMenu.Link>
               </li>
               <li>
                 <NavigationMenu.Link asChild>
                   <Link
-                    href="/les-alentours/lac-de-kruth-wildenstein"
+                    href={`${base}/notre-gite/chambre-jardin-des-senteurs`}
                     className="block menu-link"
                   >
-                    Le lac de Kruth-Wildenstein
+                    {gite.chambreJardinDesSenteurs}
                   </Link>
                 </NavigationMenu.Link>
               </li>
               <li>
                 <NavigationMenu.Link asChild>
                   <Link
-                    href="/les-alentours/et-tout-le-reste"
+                    href={`${base}/notre-gite/espace-bien-etre`}
                     className="block menu-link"
                   >
-                    Et tout le reste
+                    {gite.bienEtre}
+                  </Link>
+                </NavigationMenu.Link>
+              </li>
+            </ul>
+          </NavigationMenu.Content>
+        </NavigationMenu.Item>
+        <NavigationMenu.Item className="relative">
+          <NavigationMenu.Trigger className="navigation-menu-trigger">
+            {alentours.label}
+            <FaChevronDown
+              className="w-3 h-3 transition-transform duration-250 group-data-[state=open]:rotate-180"
+              aria-hidden
+            />
+          </NavigationMenu.Trigger>
+          <NavigationMenu.Content className="fabric-surface-light menu-sub-content absolute min-w-max top-full left-0 p-2 mt-2">
+            <ul className="space-y-1">
+              <li>
+                <NavigationMenu.Link asChild>
+                  <Link
+                    href={`${base}/les-alentours/village`}
+                    className="block menu-link"
+                  >
+                    {alentours.village}
+                  </Link>
+                </NavigationMenu.Link>
+              </li>
+              <li>
+                <NavigationMenu.Link asChild>
+                  <Link
+                    href={`${base}/les-alentours/randonnees`}
+                    className="block menu-link"
+                  >
+                    {alentours.randonnees}
+                  </Link>
+                </NavigationMenu.Link>
+              </li>
+              <li>
+                <NavigationMenu.Link asChild>
+                  <Link
+                    href={`${base}/les-alentours/parc-de-wesserling`}
+                    className="block menu-link"
+                  >
+                    {alentours.wesserling}
+                  </Link>
+                </NavigationMenu.Link>
+              </li>
+              <li>
+                <NavigationMenu.Link asChild>
+                  <Link
+                    href={`${base}/les-alentours/moulin-a-huile`}
+                    className="block menu-link"
+                  >
+                    {alentours.moulin}
+                  </Link>
+                </NavigationMenu.Link>
+              </li>
+              <li>
+                <NavigationMenu.Link asChild>
+                  <Link
+                    href={`${base}/les-alentours/lac-de-kruth-wildenstein`}
+                    className="block menu-link"
+                  >
+                    {alentours.lac}
+                  </Link>
+                </NavigationMenu.Link>
+              </li>
+              <li>
+                <NavigationMenu.Link asChild>
+                  <Link
+                    href={`${base}/les-alentours/et-tout-le-reste`}
+                    className="block menu-link"
+                  >
+                    {alentours.leReste}
                   </Link>
                 </NavigationMenu.Link>
               </li>
@@ -158,22 +171,22 @@ const DesktopMenu = () => {
         </NavigationMenu.Item>
         <NavigationMenu.Item>
           <NavigationMenu.Link asChild>
-            <Link href="/tarifs" className="menu-link">
-              Tarifs
+            <Link href={`${base}/tarifs`} className="menu-link">
+              {tarifs.label}
             </Link>
           </NavigationMenu.Link>
         </NavigationMenu.Item>
         <NavigationMenu.Item>
           <NavigationMenu.Link asChild>
-            <Link href="/reviews" className="menu-link">
-              Avis
+            <Link href={`${base}/reviews`} className="menu-link">
+              {avis.label}
             </Link>
           </NavigationMenu.Link>
         </NavigationMenu.Item>
         <NavigationMenu.Item>
           <NavigationMenu.Link asChild>
-            <Link href="/contact" className="menu-link">
-              Contact
+            <Link href={`${base}/contact`} className="menu-link">
+              {contact.label}
             </Link>
           </NavigationMenu.Link>
         </NavigationMenu.Item>

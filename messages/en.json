@@ -1,0 +1,52 @@
+{
+  "rootLayout": {
+    "title": "Gîte Au fil de l'eau",
+    "description": "A welcoming holiday cottage in Storckensohn, in the heart of the High Vosges of Alsace."
+  },
+
+  "navbar": {
+    "home": {
+      "label": "Home"
+    },
+
+    "gite": {
+      "label": "Our gîte",
+      "sejour": "Living room",
+      "chambreCerisier": "“Cerisier” room",
+      "chambreGrange": "“Grange” room",
+      "chambreAurores": "“Aurores” room",
+      "chambreJardinDesSenteurs": "“Jardin des Senteurs” room",
+      "bienEtre": "Wellness area"
+    },
+
+    "alentours": {
+      "label": "Around",
+      "village": "The village in 3D",
+      "randonnees": "Hiking trails",
+      "wesserling": "Wesserling Park",
+      "moulin": "Oil mill",
+      "lac": "Lake Kruth-Wildenstein",
+      "leReste": "And everything else"
+    },
+
+    "tarifs": {
+      "label": "Prices"
+    },
+
+    "avis": {
+      "label": "Reviews"
+    },
+
+    "contact": {
+      "label": "Contact"
+    }
+  },
+
+  "footer": {
+    "giteDeFranceAria": "Link to the Gîtes de France Alsace website",
+    "giteDeFranceAlt": "Gîtes de France — 4 ears of corn logo",
+
+    "tourismeHandicapAria": "Link to the map of “Tourism & Disability” certified establishments",
+    "tourismeHandicapAlt": "Tourism & Disability label"
+  }
+}

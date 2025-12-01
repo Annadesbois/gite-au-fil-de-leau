@@ -3,20 +3,58 @@ import DesktopMenu from "./DesktopMenu";
 import MobileMenu from "./MobileMenu";
 import type { Locale } from "@/lib/i18n";
 
-type NavbarProps = {
-  locale: Locale;
-  messages: Record<string, unknown>;
+type NavbarHomeMessages = {
+  label: string;
 };
 
+type NavbarGiteMessages = {
+  label: string;
+  sejour: string;
+  chambreCerisier: string;
+  chambreGrange: string;
+  chambreAurores: string;
+  chambreJardinDesSenteurs: string;
+  bienEtre: string;
+};
 
-const Navbar = ({ locale: _locale, messages: _messages }: NavbarProps) => {
+type NavbarAlentoursMessages = {
+  label: string;
+  village: string;
+  randonnees: string;
+  wesserling: string;
+  moulin: string;
+  lac: string;
+  leReste: string;
+};
+
+type NavbarSimpleSectionMessages = {
+  label: string;
+};
+
+export type NavbarMessages = {
+  home: NavbarHomeMessages;
+  gite: NavbarGiteMessages;
+  alentours: NavbarAlentoursMessages;
+  tarifs: NavbarSimpleSectionMessages;
+  avis: NavbarSimpleSectionMessages;
+  contact: NavbarSimpleSectionMessages;
+};
+
+type NavbarProps = {
+  locale: Locale;
+  messages: NavbarMessages;
+};
+
+const Navbar = ({ locale, messages }: NavbarProps) => {
+  const base = `/${locale}`;
+
   return (
     <nav className="grid grid-cols-[1fr_2fr_1fr] md:flex md:justify-center h-16 w-full fabric-surface-light">
       <div className="md:hidden flex items-center ml-4">
-        <MobileMenu />
+        <MobileMenu locale={locale} messages={messages} />
       </div>
       <Link
-        href="/"
+        href={base}
         className="flex items-center justify-center md:justify-start md:ml-4 "
       >
         <h1 className="font-bold text-2xl whitespace-nowrap text-secondary">
@@ -24,7 +62,7 @@ const Navbar = ({ locale: _locale, messages: _messages }: NavbarProps) => {
         </h1>
       </Link>
       <div className="hidden md:flex md:items-center md:justify-end w-full md:mr-4">
-        <DesktopMenu />
+        <DesktopMenu locale={locale} messages={messages} />
       </div>
     </nav>
   );

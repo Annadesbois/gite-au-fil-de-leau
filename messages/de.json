@@ -1,0 +1,52 @@
+{
+  "rootLayout": {
+    "title": "Gîte Au fil de l'eau",
+    "description": "Ein gemütliches Ferienhaus in Storckensohn, im Herzen der Hohen Vogesen im Elsass."
+  },
+
+  "navbar": {
+    "home": {
+      "label": "Startseite"
+    },
+
+    "gite": {
+      "label": "Unser Gîte",
+      "sejour": "Wohnzimmer",
+      "chambreCerisier": "Zimmer „Cerisier“",
+      "chambreGrange": "Zimmer „Grange“",
+      "chambreAurores": "Zimmer „Aurores“",
+      "chambreJardinDesSenteurs": "Zimmer „Jardin des Senteurs“",
+      "bienEtre": "Wellnessbereich"
+    },
+
+    "alentours": {
+      "label": "Umgebung",
+      "village": "Das Dorf in 3D",
+      "randonnees": "Wanderwege",
+      "wesserling": "Park von Wesserling",
+      "moulin": "Ölmühle",
+      "lac": "See Kruth-Wildenstein",
+      "leReste": "Und alles Weitere"
+    },
+
+    "tarifs": {
+      "label": "Preise"
+    },
+
+    "avis": {
+      "label": "Bewertungen"
+    },
+
+    "contact": {
+      "label": "Kontakt"
+    }
+  },
+
+  "footer": {
+    "giteDeFranceAria": "Link zur Website von Gîtes de France Elsass",
+    "giteDeFranceAlt": "Gîtes de France — 4-Ähren-Logo",
+
+    "tourismeHandicapAria": "Link zur Karte der zertifizierten „Tourismus & Behinderung“-Einrichtungen",
+    "tourismeHandicapAlt": "Tourismus-&-Behinderung-Label"
+  }
+}
