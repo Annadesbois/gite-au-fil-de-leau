@@ -2,6 +2,7 @@ import Link from "next/link";
 import DesktopMenu from "./DesktopMenu";
 import MobileMenu from "./MobileMenu";
 import type { NavbarProps } from "@/types/i18n";
+import LocaleSwitcher from "./LocaleSwitcher";
 
 const Navbar = ({ locale, messages }: NavbarProps) => {
   const base = `/${locale}`;
@@ -21,6 +22,7 @@ const Navbar = ({ locale, messages }: NavbarProps) => {
       </Link>
       <div className="hidden md:flex md:items-center md:justify-end w-full md:mr-4">
         <DesktopMenu locale={locale} messages={messages} />
+        <LocaleSwitcher currentLocale={locale} />
       </div>
     </nav>
   );
