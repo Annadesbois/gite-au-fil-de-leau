@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 const locales = ["fr", "en", "de"] as const;
@@ -10,12 +11,23 @@ type LocaleSwitcherProps = {
   currentLocale: Locale;
 };
 
+const flagSrc: Record<Locale, string> = {
+  fr: "/flags/fr.svg",
+  en: "/flags/gb.svg",
+  de: "/flags/de.svg",
+};
+
+const flagLabel: Record<Locale, string> = {
+  fr: "Français",
+  en: "English",
+  de: "Deutsch",
+};
+
 const LocaleSwitcher = ({ currentLocale }: LocaleSwitcherProps) => {
   const pathname = usePathname() || "/";
 
   const buildHref = (targetLocale: Locale) => {
-    // split current path: "/fr/notre-gite/sejour" -> ["", "fr", "notre-gite", "sejour"]
-    const segments = pathname.split("/");
+    const segments = pathname.split("/"); // "/fr/notre-gite/sejour"
 
     if (segments.length > 1 && locales.includes(segments[1] as Locale)) {
       segments[1] = targetLocale;
@@ -23,22 +35,15 @@ const LocaleSwitcher = ({ currentLocale }: LocaleSwitcherProps) => {
       return href.startsWith("/") ? href : `/${href}`;
     }
 
-    // if somehow not on a locale path (e.g. "/"), prepend locale
     return targetLocale === "fr"
       ? "/fr"
       : `/${targetLocale}${pathname === "/" ? "" : pathname}`;
   };
 
-  const flags: Record<Locale, string> = {
-    fr: "🇫🇷",
-    en: "🇬🇧",
-    de: "🇩🇪",
-  };
-
   return (
     <nav
       aria-label="Choisir la langue"
-      className="flex items-center gap-2 ml-2"
+      className="flex gap-4 lg:gap-2 ml-2 "
     >
       {locales.map((locale) => {
         const isActive = locale === currentLocale;
@@ -49,18 +54,21 @@ const LocaleSwitcher = ({ currentLocale }: LocaleSwitcherProps) => {
             key={locale}
             href={href}
             aria-current={isActive ? "page" : undefined}
-            className={`inline-flex items-center justify-center w-8 h-8 rounded-full text-xl ${
+            className={`flex items-center justify-center w-5 h-5 rounded-full border ${
               isActive
-                ? "ring-2 ring-secondary"
-                : "opacity-70 hover:opacity-100"
+                ? "shadow-lg border-secondary"
+                : "border-transparent opacity-75 hover:opacity-100"
             }`}
           >
-            <span aria-hidden="true">{flags[locale]}</span>
-            <span className="sr-only">
-              {locale === "fr" && "Français"}
-              {locale === "en" && "English"}
-              {locale === "de" && "Deutsch"}
-            </span>
+            <Image
+              src={flagSrc[locale]}
+              alt=""
+              width={20}
+              height={20}
+              aria-hidden="true"
+              className="rounded-full"
+            />
+            <span className="sr-only">{flagLabel[locale]}</span>
           </Link>
         );
       })}

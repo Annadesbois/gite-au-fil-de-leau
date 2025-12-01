@@ -3,6 +3,7 @@ import { LuMenu } from "react-icons/lu";
 import { FaChevronRight } from "react-icons/fa";
 import Link from "next/link";
 import type { MobileMenuProps } from "@/types/i18n";
+import LocaleSwitcher from "./LocaleSwitcher";
 
 const MobileMenu = ({ locale, messages }: MobileMenuProps) => {
   const { home, gite, alentours, avis, contact } = messages;
@@ -19,7 +20,7 @@ const MobileMenu = ({ locale, messages }: MobileMenuProps) => {
         <DropdownMenu.Content
           sideOffset={8}
           align="start"
-          className="z-50 rounded-lg fabric-surface-light font-bold text-primary p-0.5 shadow"
+          className="z-50 rounded-lg fabric-surface-light font-bold text-primary p-0.5 shadow-md"
         >
           <DropdownMenu.Item asChild>
             <Link href={base} className="menu-link block">
@@ -165,6 +166,9 @@ const MobileMenu = ({ locale, messages }: MobileMenuProps) => {
               {contact.label}
             </Link>
           </DropdownMenu.Item>
+          <div className="border-t border-secondary my-2 pt-2 flex justify-center">
+            <LocaleSwitcher currentLocale={locale} />
+          </div>
         </DropdownMenu.Content>
       </DropdownMenu.Portal>
     </DropdownMenu.Root>
