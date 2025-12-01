@@ -5,7 +5,7 @@ import Link from "next/link";
 import type { MobileMenuProps } from "@/types/i18n";
 
 const MobileMenu = ({ locale, messages }: MobileMenuProps) => {
-  const { home, gite, alentours, tarifs, avis, contact } = messages;
+  const { home, gite, alentours, avis, contact } = messages;
   const base = `/${locale}`;
 
   return (
@@ -85,6 +85,14 @@ const MobileMenu = ({ locale, messages }: MobileMenuProps) => {
                   {gite.bienEtre}
                 </Link>
               </DropdownMenu.Item>
+              <DropdownMenu.Item asChild>
+                <Link
+                  href={`${base}/notre-gite/tarifs`}
+                  className="menu-link block"
+                >
+                  {gite.tarifs}
+                </Link>
+              </DropdownMenu.Item>
             </DropdownMenu.SubContent>
           </DropdownMenu.Sub>
 
@@ -147,11 +155,6 @@ const MobileMenu = ({ locale, messages }: MobileMenuProps) => {
               </DropdownMenu.Item>
             </DropdownMenu.SubContent>
           </DropdownMenu.Sub>
-          <DropdownMenu.Item asChild>
-            <Link href={`${base}/tarifs`} className="menu-link block">
-              {tarifs.label}
-            </Link>
-          </DropdownMenu.Item>
           <DropdownMenu.Item asChild>
             <Link href={`${base}/reviews`} className="menu-link block">
               {avis.label}

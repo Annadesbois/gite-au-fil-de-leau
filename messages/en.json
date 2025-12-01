@@ -15,7 +15,8 @@
       "chambreGrange": "“Grange” room",
       "chambreAurores": "“Aurores” room",
       "chambreJardinDesSenteurs": "“Jardin des Senteurs” room",
-      "bienEtre": "Wellness area"
+      "bienEtre": "Wellness area",
+      "tarifs": "Tarifs"
     },
     "alentours": {
       "label": "Around",
@@ -25,9 +26,6 @@
       "moulin": "Oil mill",
       "lac": "Lake Kruth-Wildenstein",
       "leReste": "And everything else"
-    },
-    "tarifs": {
-      "label": "Prices"
     },
     "avis": {
       "label": "Reviews"

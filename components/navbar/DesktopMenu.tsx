@@ -3,7 +3,6 @@ import { FaChevronDown } from "react-icons/fa";
 import Link from "next/link";
 import type { DesktopMenuProps } from "@/types/i18n";
 
-
 const DesktopMenu = ({ locale, messages }: DesktopMenuProps) => {
   const { home, gite, alentours, tarifs, avis, contact } = messages;
   const base = `/${locale}`;
@@ -88,6 +87,16 @@ const DesktopMenu = ({ locale, messages }: DesktopMenuProps) => {
                   </Link>
                 </NavigationMenu.Link>
               </li>
+              <li>
+                <NavigationMenu.Link asChild>
+                  <Link
+                    href={`${base}/notre-gite/tarifs`}
+                    className="block menu-link"
+                  >
+                    {gite.tarifs}
+                  </Link>
+                </NavigationMenu.Link>
+              </li>
             </ul>
           </NavigationMenu.Content>
         </NavigationMenu.Item>
@@ -163,13 +172,6 @@ const DesktopMenu = ({ locale, messages }: DesktopMenuProps) => {
               </li>
             </ul>
           </NavigationMenu.Content>
-        </NavigationMenu.Item>
-        <NavigationMenu.Item>
-          <NavigationMenu.Link asChild>
-            <Link href={`${base}/tarifs`} className="menu-link">
-              {tarifs.label}
-            </Link>
-          </NavigationMenu.Link>
         </NavigationMenu.Item>
         <NavigationMenu.Item>
           <NavigationMenu.Link asChild>

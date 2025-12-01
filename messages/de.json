@@ -15,7 +15,8 @@
       "chambreGrange": "Zimmer „Grange“",
       "chambreAurores": "Zimmer „Aurores“",
       "chambreJardinDesSenteurs": "Zimmer „Jardin des Senteurs“",
-      "bienEtre": "Wellnessbereich"
+      "bienEtre": "Wellnessbereich",
+      "tarifs": "Tarifs"
     },
     "alentours": {
       "label": "Umgebung",
@@ -25,9 +26,6 @@
       "moulin": "Ölmühle",
       "lac": "See Kruth-Wildenstein",
       "leReste": "Und alles Weitere"
-    },
-    "tarifs": {
-      "label": "Preise"
     },
     "avis": {
       "label": "Bewertungen"

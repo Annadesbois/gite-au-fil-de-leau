@@ -15,7 +15,8 @@
       "chambreGrange": "La chambre Grange",
       "chambreAurores": "La chambre Aurores",
       "chambreJardinDesSenteurs": "La chambre Jardin des senteurs",
-      "bienEtre": "L'espace bien-être"
+      "bienEtre": "L'espace bien-être",
+      "tarifs": "Tarifs"
     },
     "alentours": {
       "label": "Les alentours",
@@ -25,9 +26,6 @@
       "moulin": "Le moulin à huile",
       "lac": "Le lac de Kruth-Wildenstein",
       "leReste": "Et tout le reste"
-    },
-    "tarifs": {
-      "label": "Tarifs"
     },
     "avis": {
       "label": "Avis"

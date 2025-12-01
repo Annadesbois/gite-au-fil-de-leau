@@ -12,6 +12,7 @@ export type NavbarGiteMessages = {
   chambreAurores: string;
   chambreJardinDesSenteurs: string;
   bienEtre: string;
+  tarifs: string;
 };
 
 export type NavbarAlentoursMessages = {
