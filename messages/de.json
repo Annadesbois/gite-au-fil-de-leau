@@ -107,5 +107,15 @@
     },
     "title": "Gästebewertungen",
     "empty": "Noch keine Bewertungen vorhanden."
+  },
+
+  "reviewForm": {
+    "title": "Eine Bewertung hinterlassen",
+    "name": "Name",
+    "rating": "Bewertung",
+    "comment": "Kommentar",
+    "sending": "Wird gesendet...",
+    "send": "Senden",
+    "success": "Danke! Ihre Bewertung wird nach Prüfung veröffentlicht."
   }
 }

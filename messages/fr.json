@@ -108,5 +108,15 @@
     },
     "title": "Avis des voyageurs",
     "empty": "Aucun avis pour le moment."
+  },
+
+  "reviewForm": {
+    "title": "Laisser un avis",
+    "name": "Nom",
+    "rating": "Note",
+    "comment": "Commentaire",
+    "sending": "Envoi...",
+    "send": "Envoyer",
+    "success": "Merci ! Votre avis sera publié après validation."
   }
 }

@@ -4,7 +4,7 @@ import type { Review } from "@prisma/client";
 
 import ReviewForm from "./review-form";
 import { getMessages, type Locale } from "@/lib/i18n";
-import type { ReviewsMessages } from "@/types/i18n";
+import type { ReviewsMessages, ReviewFormMessages } from "@/types/i18n";
 
 export const generateMetadata = async ({
   params,
@@ -31,7 +31,9 @@ type ReviewsPageProps = {
 const ReviewsPage = async ({ params }: ReviewsPageProps) => {
   const { locale } = await params;
   const messages = getMessages(locale);
+
   const reviewsMessages = messages.reviews as ReviewsMessages;
+  const reviewFormMessages = messages.reviewForm as ReviewFormMessages;
 
   let reviews: Review[] = [];
   let error = null;
@@ -52,7 +54,7 @@ const ReviewsPage = async ({ params }: ReviewsPageProps) => {
         {reviewsMessages.title}
       </h1>
 
-      <ReviewForm />
+      <ReviewForm messages={reviewFormMessages} />
 
       <section className="grid gap-4 md:mt-4 max-w-5xl w-full ">
         {error && (

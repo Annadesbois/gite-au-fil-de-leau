@@ -107,5 +107,15 @@
     },
     "title": "Guest reviews",
     "empty": "No reviews yet."
+  },
+
+  "reviewForm": {
+    "title": "Leave a review",
+    "name": "Name",
+    "rating": "Rating",
+    "comment": "Comment",
+    "sending": "Sending...",
+    "send": "Submit",
+    "success": "Thank you! Your review will be published after validation."
   }
 }
