@@ -49,7 +49,7 @@ const Navbar = ({ locale, messages }: NavbarProps) => {
   const base = `/${locale}`;
 
   return (
-    <nav className="grid grid-cols-[1fr_2fr_1fr] md:flex md:justify-center h-16 w-full fabric-surface-light">
+    <nav className="grid grid-cols-[1fr_2fr_1fr] md:flex md:justify-center h-16 w-full relative fabric-surface-light">
       <div className="md:hidden flex items-center ml-4">
         <MobileMenu locale={locale} messages={messages} />
       </div>

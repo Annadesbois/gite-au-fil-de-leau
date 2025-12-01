@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 import PhotoCarousel from "@/components/carousel/PhotoCarousel";
-import { sejourPhotos } from "../../../data/sejour-photos";
+import { sejourPhotos } from "@/data/sejour-photos";
 
 export const metadata: Metadata = {
   title: "Le séjour — Grande pièce à vivre du gîte Au fil de l'eau",
