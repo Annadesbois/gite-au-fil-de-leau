@@ -48,5 +48,45 @@
 
     "tourismeHandicapAria": "Link zur Karte der zertifizierten „Tourismus & Behinderung“-Einrichtungen",
     "tourismeHandicapAlt": "Tourismus-&-Behinderung-Label"
+  },
+
+  "home": {
+    "homeMeta": {
+      "title": "Gîte Au fil de l'eau – Ferienhaus in Storckensohn",
+      "description": "Gîte Au fil de l'eau in Storckensohn, ein renovierter ehemaliger Bauernhof für bis zu 10 Personen, mit Wellnessbereich und Terrasse im Herzen der Hohen Vogesen im Elsass."
+    },
+    "hero": {
+      "title": "Willkommen im Gîte",
+      "intro1": "Das Gîte Au fil de l'eau bietet eine ruhige Umgebung zum Entspannen im Herzen der Hohen Vogesen im Elsass, im kleinen Dorf Storckensohn.",
+      "intro2": "Das Ferienhaus befindet sich in einem renovierten ehemaligen Bauernhof und bietet Platz für bis zu 10 Personen."
+    },
+
+    "groundFloor": {
+      "title": "Das Erdgeschoss umfasst:",
+      "items": {
+        "kitchen": "Eine voll ausgestattete Küche, die sich zum Wohnzimmer öffnet",
+        "dining": "Das Esszimmer und der Wintergarten mit Klavier und Holzofen",
+        "tvRoom": "Ein zweites Wohnzimmer mit TV und DVD-Player, eingerichtet in der ehemaligen Scheune",
+        "bedroom": "Ein Schlafzimmer mit einem 140/190-Bett und einem angrenzenden privaten Bad (bodengleiche Dusche, Waschbecken, WC)",
+        "wc": "Ein separates WC",
+        "terrace": "Und eine Terrasse"
+      }
+    },
+
+    "firstFloor": {
+      "title": "Das Obergeschoss umfasst:",
+      "items": {
+        "bedrooms": "3 Schlafzimmer, jedes mit eigenem Badezimmer (Dusche oder Badewanne, Waschbecken, WC) und 90/200-Betten, die zu 180/200 kombiniert werden können",
+        "mezzanine": "Ein kleiner Salon auf der Empore in der ehemaligen Scheune"
+      }
+    },
+
+    "wellness": {
+      "text": "Ein Wellnessbereich mit Spa, Sauna, Bad und Liegestühlen ist über einen Aufzug im Untergeschoss (-1) erreichbar. Große Fensterfronten öffnen sich zur Obstwiese am Bach."
+    },
+
+    "accessibility": {
+      "text": "Das Erdgeschoss und der Wellnessbereich auf Ebene -1 sind für Personen mit eingeschränkter Mobilität zugänglich."
+    }
   }
 }

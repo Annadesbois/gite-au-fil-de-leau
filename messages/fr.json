@@ -48,5 +48,45 @@
 
     "tourismeHandicapAria": "Lien vers la cartographie des établissements labellisés tourisme et handicap",
     "tourismeHandicapAlt": "Label Tourisme et Handicap"
+  },
+  "home": {
+    "homeMeta": {
+      "title": "Gîte Au fil de l'eau — Location de vacances à Storckensohn",
+      "description": "Gîte Au fil de l'eau à Storckensohn, ancienne ferme réhabilitée pouvant accueillir jusqu’à 10 personnes, avec espace bien-être et terrasse en plein coeur des Hautes Vosges d’Alsace."
+    },
+    "hero": {
+      "title": "Bienvenue au gîte",
+      "intro1": "Le Gîte Au fil de l'eau offre un cadre agréable pour se ressourcer au cœur des Hautes Vosges d’Alsace, dans le petit village de Storckensohn.",
+      "intro2": "Installé dans une ancienne ferme réhabilitée en une confortable maison de campagne, le gîte peut accueillir jusqu’à 10 personnes."
+    },
+
+    "groundFloor": {
+      "title": "Le rez-de-chaussée comporte :",
+      "items": {
+        "kitchen": "Une cuisine équipée qui s’ouvre sur le salon",
+        "dining": "La salle à manger et la véranda avec piano et poêle à bois",
+        "tvRoom": "Un deuxième salon avec TV et lecteur DVD aménagé dans l’ancienne grange",
+        "bedroom": "Une chambre à coucher avec lit 140/190 et une salle d’eau privative attenante (avec douche à l’italienne, vasque, WC)",
+        "wc": "Un WC indépendant",
+        "terrace": "Et une terrasse"
+      }
+    },
+
+    "firstFloor": {
+      "title": "Le premier étage comporte :",
+      "items": {
+        "bedrooms": "3 chambres à coucher avec chacune sa salle d’eau privative attenante (douche ou baignoire, vasque, WC) et des lits de 90/200 transformables en lits de 180/200",
+        "mezzanine": "un petit salon en mezzanine dans l’ancienne grange"
+      }
+    },
+
+    "wellness": {
+      "title": "Un espace bien-être, ",
+      "text": "avec spa, sauna, salle d’eau et chaises longues est accessible par élévateur au niveau -1. Ses larges baies vitrées s’ouvrent sur le pré-verger en bord du ruisseau."
+    },
+
+    "accessibility": {
+      "text": "Le rez-de-chaussée et l’espace bien-être du niveau -1 sont accessibles aux personnes à mobilité réduite."
+    }
   }
 }

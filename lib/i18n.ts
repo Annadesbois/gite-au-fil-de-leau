@@ -20,7 +20,6 @@ export const getMessages = (locale: Locale | undefined): Messages => {
   return JSON.parse(content) as Messages;
 };
 
-
 const isRecord = (value: unknown): value is Record<string, unknown> =>
   typeof value === "object" && value !== null;
 

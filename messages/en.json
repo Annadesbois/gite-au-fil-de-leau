@@ -48,5 +48,45 @@
 
     "tourismeHandicapAria": "Link to the map of “Tourism & Disability” certified establishments",
     "tourismeHandicapAlt": "Tourism & Disability label"
+  },
+
+  "home": {
+    "homeMeta": {
+      "title": "Gîte Au fil de l'eau — Holiday rental in Storckensohn",
+      "description": "Gîte Au fil de l'eau in Storckensohn, a renovated former farmhouse that can host up to 10 guests, with wellness area and terrace in the heart of the High Vosges of Alsace."
+    },
+    "hero": {
+      "title": "Welcome to the Gîte",
+      "intro1": "The Gîte Au fil de l'eau offers a peaceful setting to relax in the heart of the High Vosges of Alsace, in the small village of Storckensohn.",
+      "intro2": "Located in a renovated former farmhouse turned into a comfortable country home, the gîte can accommodate up to 10 guests."
+    },
+
+    "groundFloor": {
+      "title": "The ground floor includes:",
+      "items": {
+        "kitchen": "A fully equipped kitchen opening onto the living room",
+        "dining": "The dining room and the veranda with piano and wood burner",
+        "tvRoom": "A second lounge with TV and DVD player set up in the former barn",
+        "bedroom": "A bedroom with a 140/190 bed and an en-suite bathroom (walk-in shower, sink, toilet)",
+        "wc": "A separate toilet",
+        "terrace": "And a terrace"
+      }
+    },
+
+    "firstFloor": {
+      "title": "The first floor includes:",
+      "items": {
+        "bedrooms": "3 bedrooms, each with its own en-suite bathroom (shower or bath, sink, toilet) and beds 90/200 that can be combined into 180/200",
+        "mezzanine": "A small mezzanine lounge in the former barn"
+      }
+    },
+
+    "wellness": {
+      "text": "A wellness area with spa, sauna, bathroom and loungers is accessible by lift on level -1. Its large bay windows open onto the orchard meadow along the stream."
+    },
+
+    "accessibility": {
+      "text": "The ground floor and the wellness area on level -1 are accessible to persons with reduced mobility."
+    }
   }
 }
