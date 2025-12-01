@@ -4,6 +4,8 @@ import Button from "@/components/Button";
 import ContactForm from "@/components/ContactForm";
 import { getMessages, type Locale } from "@/lib/i18n";
 
+import type { ContactFormMessages } from "@/components/ContactForm";
+
 type ContactPageProps = {
   params: { locale: Locale };
 };
@@ -38,6 +40,7 @@ const contact = async ({ params }: ContactPageProps) => {
   const { locale } = await params;
   const messages = getMessages(locale);
   const contact = messages.contact as ContactMessages;
+  const formMessages = messages.contactForm as ContactFormMessages;
 
   const emailName = "giteaufildeleau68";
   const provider = "gmail.com";
@@ -103,7 +106,7 @@ const contact = async ({ params }: ContactPageProps) => {
         </div>
       </div>
 
-      <ContactForm />
+      <ContactForm formMessages={formMessages} />
     </div>
   );
 };

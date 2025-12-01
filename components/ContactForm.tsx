@@ -5,7 +5,20 @@ import Button from "./Button";
 
 type Status = "idle" | "loading" | "success" | "error";
 
-const ContactForm = () => {
+export type ContactFormMessages = {
+  title: string;
+  name: string;
+  message: string;
+  send: string;
+  sending: string;
+  success: string;
+};
+
+type ContactFormProps = {
+  formMessages: ContactFormMessages;
+};
+
+const ContactForm = ({ formMessages }: ContactFormProps) => {
   const [status, setStatus] = useState<Status>("idle");
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
@@ -56,10 +69,10 @@ const ContactForm = () => {
       aria-busy={status === "loading"}
       className="relative fabric-surface-light space-y-6 rounded-xl p-6 md:p-8 max-w-212 w-full shadow-sm"
     >
-      <h2 className="text-center font-bold pb-4">Formulaire de contact</h2>
+      <h2 className="text-center font-bold pb-4">{formMessages.title}</h2>
       <div>
         <label htmlFor="name" className="form-label">
-          Nom *
+          {formMessages.name} *
         </label>
         <input
           id="name"
@@ -85,7 +98,7 @@ const ContactForm = () => {
 
       <div>
         <label htmlFor="message" className="form-label">
-          Message *
+          {formMessages.message} *
         </label>
         <textarea
           id="message"
@@ -103,10 +116,10 @@ const ContactForm = () => {
       </div>
 
       <Button type="submit" disabled={status === "loading"}>
-        {status === "loading" ? "Envoi en cours…" : "Envoyer"}
+        {status === "loading" ? formMessages.sending : formMessages.send}
       </Button>
       <p aria-live="polite" className="mt-1 min-h-6 text-secondary text-center">
-        {status === "success" && "Merci, votre message a bien été envoyé."}
+        {status === "success" && formMessages.success}
         {status === "error" && errorMessage}
       </p>
     </form>
