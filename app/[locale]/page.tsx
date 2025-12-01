@@ -3,47 +3,7 @@ import type { Metadata } from "next";
 import PhotoCarousel from "@/components/carousel/PhotoCarousel";
 import { homePhotos } from "@/data/home-photos";
 import { getMessages, type Locale } from "@/lib/i18n";
-
-type HomePageProps = {
-  params: { locale: Locale };
-};
-
-type HomeMessages = {
-  meta: {
-    title: string;
-    description: string;
-  };
-  hero: {
-    title: string;
-    intro1: string;
-    intro2: string;
-  };
-  groundFloor: {
-    title: string;
-    items: {
-      kitchen: string;
-      dining: string;
-      tvRoom: string;
-      bedroom: string;
-      wc: string;
-      terrace: string;
-    };
-  };
-  firstFloor: {
-    title: string;
-    items: {
-      bedrooms: string;
-      mezzanine: string;
-    };
-  };
-  wellness: {
-    title: string;
-    text: string;
-  };
-  accessibility: {
-    text: string;
-  };
-};
+import type { HomeMessages, HomePageProps } from "@/types/i18n/home";
 
 export const generateMetadata = async ({
   params,
@@ -54,12 +14,9 @@ export const generateMetadata = async ({
   const messages = getMessages(locale);
   const home = messages.home as HomeMessages;
 
-
   return {
-    title:
-      home.meta.title,
-    description:
-      home.meta.description,
+    title: home.meta.title,
+    description: home.meta.description,
   };
 };
 

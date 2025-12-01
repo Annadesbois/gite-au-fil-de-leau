@@ -1,49 +1,7 @@
 import Link from "next/link";
 import DesktopMenu from "./DesktopMenu";
 import MobileMenu from "./MobileMenu";
-import type { Locale } from "@/lib/i18n";
-
-type NavbarHomeMessages = {
-  label: string;
-};
-
-type NavbarGiteMessages = {
-  label: string;
-  sejour: string;
-  chambreCerisier: string;
-  chambreGrange: string;
-  chambreAurores: string;
-  chambreJardinDesSenteurs: string;
-  bienEtre: string;
-};
-
-type NavbarAlentoursMessages = {
-  label: string;
-  village: string;
-  randonnees: string;
-  wesserling: string;
-  moulin: string;
-  lac: string;
-  leReste: string;
-};
-
-type NavbarSimpleSectionMessages = {
-  label: string;
-};
-
-export type NavbarMessages = {
-  home: NavbarHomeMessages;
-  gite: NavbarGiteMessages;
-  alentours: NavbarAlentoursMessages;
-  tarifs: NavbarSimpleSectionMessages;
-  avis: NavbarSimpleSectionMessages;
-  contact: NavbarSimpleSectionMessages;
-};
-
-type NavbarProps = {
-  locale: Locale;
-  messages: NavbarMessages;
-};
+import type { NavbarProps } from "@/types/i18n";
 
 const Navbar = ({ locale, messages }: NavbarProps) => {
   const base = `/${locale}`;

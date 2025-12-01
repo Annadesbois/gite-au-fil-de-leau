@@ -1,19 +1,7 @@
 import Image from "next/image";
-import giteDeFrance from "@/public/logos/gite-de-france.png"
-import tourismeHandicap from "@/public/logos/label-tourisme-et-handicap.jpg"
-import type { Locale } from "@/lib/i18n";
-
-type FooterMessages = {
-  giteDeFranceAria: string;
-  giteDeFranceAlt: string;
-  tourismeHandicapAria: string;
-  tourismeHandicapAlt: string;
-};
-
-type FooterProps = {
-  locale: Locale;
-  messages: Record<string, unknown>;
-};
+import giteDeFrance from "@/public/logos/gite-de-france.png";
+import tourismeHandicap from "@/public/logos/label-tourisme-et-handicap.jpg";
+import type { FooterMessages, FooterProps } from "@/types/i18n";
 
 const Footer = ({ messages }: FooterProps) => {
   const footerMessages = messages as FooterMessages;

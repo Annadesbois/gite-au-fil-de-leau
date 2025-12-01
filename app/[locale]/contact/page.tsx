@@ -5,21 +5,7 @@ import ContactForm from "@/components/ContactForm";
 import { getMessages, type Locale } from "@/lib/i18n";
 
 import type { ContactFormMessages } from "@/components/ContactForm";
-
-type ContactPageProps = {
-  params: { locale: Locale };
-};
-
-type ContactMessages = {
-  meta: {
-    title: string;
-    description: string;
-  };
-  title: string;
-  map: string;
-  info: string;
-  reservation: string;
-};
+import type { ContactPageProps, ContactMessages } from "@/types/i18n/contact";
 
 export const generateMetadata = async ({
   params,

@@ -2,21 +2,9 @@
 
 import { FormEvent, useState } from "react";
 import Button from "./Button";
+import { ContactFormProps } from "../types/i18n";
 
 type Status = "idle" | "loading" | "success" | "error";
-
-export type ContactFormMessages = {
-  title: string;
-  name: string;
-  message: string;
-  send: string;
-  sending: string;
-  success: string;
-};
-
-type ContactFormProps = {
-  formMessages: ContactFormMessages;
-};
 
 const ContactForm = ({ formMessages }: ContactFormProps) => {
   const [status, setStatus] = useState<Status>("idle");

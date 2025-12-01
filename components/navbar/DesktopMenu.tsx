@@ -1,13 +1,8 @@
 import { NavigationMenu } from "radix-ui";
 import { FaChevronDown } from "react-icons/fa";
 import Link from "next/link";
-import type { Locale } from "@/lib/i18n";
-import type { NavbarMessages } from "./Navbar";
+import type { DesktopMenuProps } from "@/types/i18n";
 
-type DesktopMenuProps = {
-  locale: Locale;
-  messages: NavbarMessages;
-};
 
 const DesktopMenu = ({ locale, messages }: DesktopMenuProps) => {
   const { home, gite, alentours, tarifs, avis, contact } = messages;
