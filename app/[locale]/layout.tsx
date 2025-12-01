@@ -53,7 +53,7 @@ const RootLayout = async ({
       <body
         className={`${PlaypenSans.variable} ${Courgette.variable} antialiased flex flex-col min-h-screen`}
       >
-        <header>
+        <header className="sticky top-0 z-40 shadow">
           <Navbar locale={locale} messages={navbarMessages} />
         </header>
 
