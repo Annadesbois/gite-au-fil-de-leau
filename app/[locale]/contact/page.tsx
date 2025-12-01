@@ -4,8 +4,11 @@ import Button from "@/components/Button";
 import ContactForm from "@/components/ContactForm";
 import { getMessages, type Locale } from "@/lib/i18n";
 
-import type { ContactFormMessages } from "@/components/ContactForm";
-import type { ContactPageProps, ContactMessages } from "@/types/i18n/contact";
+import type {
+  ContactPageProps,
+  ContactMessages,
+  ContactFormMessages,
+} from "@/types/i18n";
 
 export const generateMetadata = async ({
   params,
