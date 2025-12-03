@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import "../globals.css";
 
-import Navbar, { type NavbarMessages } from "@/components/navbar/Navbar";
+import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/Footer";
 
 import { PlaypenSans } from "../fonts/playpen-sans";
 import { Courgette } from "../fonts/courgette";
 
+import type { NavbarMessages } from "@/types/i18n/navbar";
 import { locales, type Locale, getMessages } from "@/lib/i18n";
 
 export const generateStaticParams = () => locales.map((locale) => ({ locale }));
