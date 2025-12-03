@@ -38,7 +38,7 @@ const contact = async ({ params }: ContactPageProps) => {
   return (
     <div className="page-layout">
       <h1 className="fabric-surface-light title-block">{contact.title}</h1>
-      <div className="relative fabric-surface-light w-full rounded-xl flex flex-col gap-6 md:gap-8 p-6 md:p-8 md:mb-6 max-w-212 shadow-sm">
+      <div className="relative fabric-surface-light w-full rounded-xl flex flex-col gap-6 md:gap-8 p-6 md:p-8 mb-6 md:mb-10 max-w-212 shadow-sm">
         <div className="text-center">
           <p className="font-bold">Gîte Au fil de l'eau</p>
           <address className="not-italic">
