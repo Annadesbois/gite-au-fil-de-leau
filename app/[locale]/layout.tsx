@@ -15,9 +15,11 @@ export const generateStaticParams = () => locales.map((locale) => ({ locale }));
 export const generateMetadata = async ({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> => {
-  const { locale } = await params;
+  const { locale: localeParam } = await params;
+  const locale = localeParam as Locale;
+
   const messages = getMessages(locale);
   const root = messages.rootLayout as {
     title?: string;
@@ -37,9 +39,10 @@ const RootLayout = async ({
   params,
 }: {
   children: React.ReactNode;
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }) => {
-  const { locale } = await params;
+  const { locale: localeParam } = await params;
+  const locale = localeParam as Locale; 
 
   const messages = getMessages(locale);
   const navbarMessages = messages.navbar as NavbarMessages;
