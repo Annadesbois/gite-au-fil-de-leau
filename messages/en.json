@@ -1,0 +1,168 @@
+{
+  "rootLayout": {
+    "title": "Gîte Au fil de l'eau",
+    "description": "A welcoming holiday cottage in Storckensohn, in the heart of the High Vosges of Alsace."
+  },
+
+  "navbar": {
+    "home": {
+      "label": "Home"
+    },
+    "gite": {
+      "label": "Our gîte",
+      "sejour": "Living room",
+      "chambreCerisier": "“Cerisier” room",
+      "chambreGrange": "“Grange” room",
+      "chambreAurores": "“Aurores” room",
+      "chambreJardinDesSenteurs": "“Jardin des Senteurs” room",
+      "bienEtre": "Wellness area",
+      "tarifs": "Tarifs"
+    },
+    "alentours": {
+      "label": "Around",
+      "village": "The village in 3D",
+      "randonnees": "Hiking trails",
+      "wesserling": "Wesserling Park",
+      "moulin": "Oil mill",
+      "lac": "Lake Kruth-Wildenstein",
+      "leReste": "And everything else"
+    },
+    "avis": {
+      "label": "Reviews"
+    },
+    "contact": {
+      "label": "Contact"
+    }
+  },
+
+  "footer": {
+    "giteDeFranceAria": "Link to the Gîtes de France Alsace website",
+    "giteDeFranceAlt": "Gîtes de France — 4 ears of corn logo",
+    "tourismeHandicapAria": "Link to the map of “Tourism & Disability” certified establishments",
+    "tourismeHandicapAlt": "Tourism & Disability label"
+  },
+
+  "home": {
+    "meta": {
+      "title": "Gîte Au fil de l'eau — Holiday rental in Storckensohn",
+      "description": "Gîte Au fil de l'eau in Storckensohn, a renovated former farmhouse that can host up to 10 guests, with wellness area and terrace in the heart of the High Vosges of Alsace."
+    },
+    "hero": {
+      "title": "Welcome to the Gîte",
+      "intro1": "The Gîte Au fil de l'eau offers a peaceful setting to relax in the heart of the High Vosges of Alsace, in the small village of Storckensohn.",
+      "intro2": "Located in a renovated former farmhouse turned into a comfortable country home, the gîte can accommodate up to 10 guests."
+    },
+    "groundFloor": {
+      "title": "The ground floor includes:",
+      "items": {
+        "kitchen": "A fully equipped kitchen opening onto the living room",
+        "dining": "The dining room and the veranda with piano and wood burner",
+        "tvRoom": "A second lounge with TV and DVD player set up in the former barn",
+        "bedroom": "A bedroom with a 140/190 bed and an en-suite bathroom (walk-in shower, sink, toilet)",
+        "wc": "A separate toilet",
+        "terrace": "And a terrace"
+      }
+    },
+    "firstFloor": {
+      "title": "The first floor includes:",
+      "items": {
+        "bedrooms": "3 bedrooms, each with its own en-suite bathroom (shower or bath, sink, toilet) and beds 90/200 that can be combined into 180/200",
+        "mezzanine": "A small mezzanine lounge in the former barn"
+      }
+    },
+    "wellness": {
+      "text": "A wellness area with spa, sauna, bathroom and loungers is accessible by lift on level -1. Its large bay windows open onto the orchard meadow along the stream."
+    },
+    "accessibility": {
+      "text": "The ground floor and the wellness area on level -1 are accessible to persons with reduced mobility."
+    }
+  },
+
+  "contact": {
+    "meta": {
+      "title": "Contact & Access — Gîte Au fil de l'eau in Storckensohn",
+      "description": "Address, phone number, email and access information for the Gîte Au fil de l'eau in Storckensohn, in the Upper Vosges of Alsace. Book directly or via Gîtes de France."
+    },
+    "title": "Contact & Access",
+    "map": "Location of the Gîte Au fil de l'eau",
+    "info": "Information & booking",
+    "reservation": "Booking also available through Gîtes de France"
+  },
+
+  "contactForm": {
+    "title": "Contact form",
+    "name": "Name",
+    "message": "Message",
+    "send": "Send",
+    "sending": "Sending…",
+    "success": "Thank you, your message has been sent."
+  },
+
+  "reviews": {
+    "meta": {
+      "title": "Guest reviews — Gîte Au fil de l'eau in Storckensohn",
+      "description": "Read the reviews and testimonials from guests who stayed at the Gîte Au fil de l'eau in Storckensohn, in the heart of the High Vosges of Alsace."
+    },
+    "title": "Guest reviews",
+    "empty": "No reviews yet."
+  },
+
+  "reviewForm": {
+    "title": "Leave a review",
+    "name": "Name",
+    "rating": "Rating",
+    "comment": "Comment",
+    "sending": "Sending...",
+    "send": "Submit",
+    "success": "Thank you! Your review will be published after validation."
+  },
+
+  "sejour": {
+    "meta": {
+      "title": "The living area — Main communal room of the Gîte Au fil de l'eau",
+      "description": "A 60 m² living area inspired by traditional wooden verandas, with a lounge and piano, a dining room with wood stove, and a fully equipped kitchen opening onto the main space."
+    },
+    "hero": {
+      "title": "The living area",
+      "highlight": "The 60 m² living area evokes traditional wooden verandas, locally called loewa."
+    },
+    "livingArea": {
+      "title": "The living area includes:",
+      "items": {
+        "salonPiano": "a lounge with piano",
+        "diningWoodStove": "a dining room with wood stove",
+        "veranda": "a veranda with a high table in a plant-filled atmosphere"
+      },
+      "note": "It provides access to the terrace overlooking the orchard-meadow by the stream."
+    },
+    "kitchen": {
+      "title": "The living area opens onto a fully equipped kitchen with:",
+      "items": {
+        "induction": "induction hobs",
+        "oven": "oven and microwave",
+        "dishwasher": "dishwasher",
+        "fridgeFreezer": "fridge and freezer",
+        "racletteFondue": "raclette and fondue sets",
+        "kettle": "kettle",
+        "coffeeMaker": "coffee maker",
+        "blender": "blender"
+      }
+    },
+    "closing": {
+      "main": "This large living space offers many possibilities for enjoyable moments together.",
+      "smallLounge": {
+        "title": "A separate small lounge, ",
+        "text": "with TV and DVD player, has been arranged in the former barn, whose rustic charm has been preserved."
+      }
+    }
+  },
+
+  "village": {
+    "meta": {
+      "title": "The village of Storckensohn in 3D",
+      "description": "Explore Storckensohn in 3D: a picturesque village in the heart of the High Vosges of Alsace, home of the Gîte Au fil de l'eau."
+    },
+    "title": "The village of Storckensohn in 3D",
+    "intro": "The Gîte Au fil de l'eau is located in the heart of the High Vosges of Alsace, in the village of Storckensohn."
+  }
+}

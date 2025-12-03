@@ -2,8 +2,13 @@ import { DropdownMenu } from "radix-ui";
 import { LuMenu } from "react-icons/lu";
 import { FaChevronRight } from "react-icons/fa";
 import Link from "next/link";
+import type { MobileMenuProps } from "@/types/i18n";
+import LocaleSwitcher from "./LocaleSwitcher";
 
-const MobileMenu = () => {
+const MobileMenu = ({ locale, messages }: MobileMenuProps) => {
+  const { home, gite, alentours, avis, contact } = messages;
+  const base = `/${locale}`;
+
   return (
     <DropdownMenu.Root modal={false}>
       <DropdownMenu.Trigger asChild>
@@ -15,17 +20,17 @@ const MobileMenu = () => {
         <DropdownMenu.Content
           sideOffset={8}
           align="start"
-          className="z-50 rounded-lg fabric-surface-light font-bold text-primary p-0.5 shadow"
+          className="z-50 rounded-lg fabric-surface-light font-bold text-primary p-0.5 shadow-md"
         >
           <DropdownMenu.Item asChild>
-            <Link href="/" className="menu-link block">
-              Accueil
+            <Link href={base} className="menu-link block">
+              {home.label}
             </Link>
           </DropdownMenu.Item>
 
           <DropdownMenu.Sub>
             <DropdownMenu.SubTrigger className="navigation-menu-trigger">
-              <span>Notre gîte</span>
+              <span>{gite.label}</span>
               <FaChevronRight className="h-3 w-3 ml-2" />
             </DropdownMenu.SubTrigger>
 
@@ -34,48 +39,59 @@ const MobileMenu = () => {
               className="menu-sub-content fabric-surface-light py-2 w-44 sm:w-64"
             >
               <DropdownMenu.Item asChild>
-                <Link href="/notre-gite/sejour" className="menu-link block">
-                  Le séjour
+                <Link
+                  href={`${base}/notre-gite/sejour`}
+                  className="menu-link block"
+                >
+                  {gite.sejour}
                 </Link>
               </DropdownMenu.Item>
               <DropdownMenu.Item asChild>
                 <Link
-                  href="/notre-gite/chambre-cerisier"
+                  href={`${base}/notre-gite/chambre-cerisier`}
                   className="menu-link block"
                 >
-                  La chambre "Cerisier"
+                  {gite.chambreCerisier}
                 </Link>
               </DropdownMenu.Item>
               <DropdownMenu.Item asChild>
                 <Link
-                  href="/notre-gite/chambre-grange"
+                  href={`${base}/notre-gite/chambre-grange`}
                   className="menu-link block"
                 >
-                  La chambre "Grange"
+                  {gite.chambreGrange}
                 </Link>
               </DropdownMenu.Item>
               <DropdownMenu.Item asChild>
                 <Link
-                  href="/notre-gite/chambre-aurores"
+                  href={`${base}/notre-gite/chambre-aurores`}
                   className="menu-link block"
                 >
-                  La chambre "Aurores"
+                  {gite.chambreAurores}
                 </Link>
               </DropdownMenu.Item>
               <DropdownMenu.Item asChild>
                 <Link
-                  href="/notre-gite/chambre-jardin-des-senteurs"
+                  href={`${base}/notre-gite/chambre-jardin-des-senteurs`}
                   className="menu-link block"
                 >
-                  La chambre "Jardin des Senteurs"
+                  {gite.chambreJardinDesSenteurs}
                 </Link>
               </DropdownMenu.Item>
               <DropdownMenu.Item asChild>
                 <Link
-                  href="/notre-gite/espace-bien-etre"
+                  href={`${base}/notre-gite/espace-bien-etre`}
                   className="menu-link block"
                 >
-                  L'espace bien-être
+                  {gite.bienEtre}
+                </Link>
+              </DropdownMenu.Item>
+              <DropdownMenu.Item asChild>
+                <Link
+                  href={`${base}/notre-gite/tarifs`}
+                  className="menu-link block"
+                >
+                  {gite.tarifs}
                 </Link>
               </DropdownMenu.Item>
             </DropdownMenu.SubContent>
@@ -83,7 +99,7 @@ const MobileMenu = () => {
 
           <DropdownMenu.Sub>
             <DropdownMenu.SubTrigger className="navigation-menu-trigger">
-              <span>Les alentours</span>
+              <span>{alentours.label}</span>
               <FaChevronRight className="h-3 w-3 ml-2" />
             </DropdownMenu.SubTrigger>
             <DropdownMenu.SubContent
@@ -91,67 +107,68 @@ const MobileMenu = () => {
               className="menu-sub-content fabric-surface-light py-2 w-44 sm:w-64"
             >
               <DropdownMenu.Item asChild>
-                <Link href="/les-alentours/village" className="menu-link block">
-                  Le village en 3D
+                <Link
+                  href={`${base}/les-alentours/village`}
+                  className="menu-link block"
+                >
+                  {alentours.village}
                 </Link>
               </DropdownMenu.Item>
               <DropdownMenu.Item asChild>
                 <Link
-                  href="/les-alentours/randonnees"
+                  href={`${base}/les-alentours/randonnees`}
                   className="menu-link block"
                 >
-                  Randonnées
+                  {alentours.randonnees}
                 </Link>
               </DropdownMenu.Item>
               <DropdownMenu.Item asChild>
                 <Link
-                  href="/les-alentours/parc-de-wesserling"
+                  href={`${base}/les-alentours/parc-de-wesserling`}
                   className="menu-link block"
                 >
-                  Le Parc de Wesserling
+                  {alentours.wesserling}
                 </Link>
               </DropdownMenu.Item>
               <DropdownMenu.Item asChild>
                 <Link
-                  href="/les-alentours/moulin-a-huile"
+                  href={`${base}/les-alentours/moulin-a-huile`}
                   className="menu-link block"
                 >
-                  Le moulin à huile
+                  {alentours.moulin}
                 </Link>
               </DropdownMenu.Item>
               <DropdownMenu.Item asChild>
                 <Link
-                  href="/les-alentours/lac-de-kruth-wildenstein"
+                  href={`${base}/les-alentours/lac-de-kruth-wildenstein`}
                   className="menu-link block"
                 >
-                  Le lac de Kruth-Wildenstein
+                  {alentours.lac}
                 </Link>
               </DropdownMenu.Item>
               <DropdownMenu.Item asChild>
                 <Link
-                  href="/les-alentours/et-tout-le-reste"
+                  href={`${base}/les-alentours/et-tout-le-reste`}
                   className="menu-link block"
                 >
-                  Et tout le reste
+                  {alentours.leReste}
                 </Link>
               </DropdownMenu.Item>
             </DropdownMenu.SubContent>
           </DropdownMenu.Sub>
           <DropdownMenu.Item asChild>
-            <Link href="/tarifs" className="menu-link block">
-              Tarifs
+            <Link href={`${base}/reviews`} className="menu-link block">
+              {avis.label}
             </Link>
           </DropdownMenu.Item>
           <DropdownMenu.Item asChild>
-            <Link href="/reviews" className="menu-link block">
-              Avis
+            <Link href={`${base}/contact`} className="menu-link block">
+              {contact.label}
             </Link>
           </DropdownMenu.Item>
-          <DropdownMenu.Item asChild>
-            <Link href="/contact" className="menu-link block">
-              Contact
-            </Link>
-          </DropdownMenu.Item>
+          <div className="border-t border-secondary my-2 pt-2 flex justify-center">
+            <LocaleSwitcher currentLocale={locale} />
+          </div>
         </DropdownMenu.Content>
       </DropdownMenu.Portal>
     </DropdownMenu.Root>

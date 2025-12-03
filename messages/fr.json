@@ -1,0 +1,169 @@
+{
+  "rootLayout": {
+    "title": "Gîte Au fil de l'eau",
+    "description": "Gîte chaleureux à Storckensohn, au cœur des Hautes-Vosges d'Alsace."
+  },
+
+  "navbar": {
+    "home": {
+      "label": "Accueil"
+    },
+    "gite": {
+      "label": "Notre gîte",
+      "sejour": "Le séjour",
+      "chambreCerisier": "La chambre Cerisier",
+      "chambreGrange": "La chambre Grange",
+      "chambreAurores": "La chambre Aurores",
+      "chambreJardinDesSenteurs": "La chambre Jardin des senteurs",
+      "bienEtre": "L'espace bien-être",
+      "tarifs": "Tarifs"
+    },
+    "alentours": {
+      "label": "Les alentours",
+      "village": "Le village en 3D",
+      "randonnees": "Randonnées",
+      "wesserling": "Le Parc de Wesserling",
+      "moulin": "Le moulin à huile",
+      "lac": "Le lac de Kruth-Wildenstein",
+      "leReste": "Et tout le reste"
+    },
+    "avis": {
+      "label": "Avis"
+    },
+    "contact": {
+      "label": "Contact"
+    }
+  },
+
+  "footer": {
+    "giteDeFranceAria": "Lien vers le site de Gite de France Alsace",
+    "giteDeFranceAlt": "Gite de France et 4 épis logo",
+    "tourismeHandicapAria": "Lien vers la cartographie des établissements labellisés tourisme et handicap",
+    "tourismeHandicapAlt": "Label Tourisme et Handicap"
+  },
+
+  "home": {
+    "meta": {
+      "title": "Gîte Au fil de l'eau — Location de vacances à Storckensohn",
+      "description": "Gîte Au fil de l'eau à Storckensohn, ancienne ferme réhabilitée pouvant accueillir jusqu’à 10 personnes, avec espace bien-être et terrasse en plein coeur des Hautes Vosges d’Alsace."
+    },
+    "hero": {
+      "title": "Bienvenue au gîte",
+      "intro1": "Le Gîte Au fil de l'eau offre un cadre agréable pour se ressourcer au cœur des Hautes Vosges d’Alsace, dans le petit village de Storckensohn.",
+      "intro2": "Installé dans une ancienne ferme réhabilitée en une confortable maison de campagne, le gîte peut accueillir jusqu’à 10 personnes."
+    },
+    "groundFloor": {
+      "title": "Le rez-de-chaussée comporte :",
+      "items": {
+        "kitchen": "Une cuisine équipée qui s’ouvre sur le salon",
+        "dining": "La salle à manger et la véranda avec piano et poêle à bois",
+        "tvRoom": "Un deuxième salon avec TV et lecteur DVD aménagé dans l’ancienne grange",
+        "bedroom": "Une chambre à coucher avec lit 140/190 et une salle d’eau privative attenante (avec douche à l’italienne, vasque, WC)",
+        "wc": "Un WC indépendant",
+        "terrace": "Et une terrasse"
+      }
+    },
+    "firstFloor": {
+      "title": "Le premier étage comporte :",
+      "items": {
+        "bedrooms": "3 chambres à coucher avec chacune sa salle d’eau privative attenante (douche ou baignoire, vasque, WC) et des lits de 90/200 transformables en lits de 180/200",
+        "mezzanine": "un petit salon en mezzanine dans l’ancienne grange"
+      }
+    },
+    "wellness": {
+      "title": "Un espace bien-être, ",
+      "text": "avec spa, sauna, salle d’eau et chaises longues est accessible par élévateur au niveau -1. Ses larges baies vitrées s’ouvrent sur le pré-verger en bord du ruisseau."
+    },
+    "accessibility": {
+      "text": "Le rez-de-chaussée et l’espace bien-être du niveau -1 sont accessibles aux personnes à mobilité réduite."
+    }
+  },
+
+  "contact": {
+    "meta": {
+      "title": "Contact & accès — Gîte Au fil de l'eau à Storckensohn",
+      "description": "Coordonnées, téléphone, email et accès au gîte Au fil de l'eau à Storckensohn, Hautes Vosges d’Alsace. Réservation en direct ou via Gîtes de France."
+    },
+    "title": "Contact et Accès",
+    "map": "Localisation du Gîte Au fil de l'eau",
+    "info": "Infos et réservation",
+    "reservation": "Réservation aussi possible via Gîtes de France"
+  },
+
+  "contactForm": {
+    "title": "Formulaire de contact",
+    "name": "Nom",
+    "message": "Message",
+    "send": "Envoyer",
+    "sending": "Envoi en cours…",
+    "success": "Merci, votre message a bien été envoyé."
+  },
+
+  "reviews": {
+    "meta": {
+      "title": "Avis des voyageurs — Gîte Au fil de l'eau à Storckensohn",
+      "description": "Découvrez les avis et témoignages des voyageurs ayant séjourné au gîte Au fil de l'eau à Storckensohn, au cœur des Hautes Vosges d’Alsace."
+    },
+    "title": "Avis des voyageurs",
+    "empty": "Aucun avis pour le moment."
+  },
+
+  "reviewForm": {
+    "title": "Laisser un avis",
+    "name": "Nom",
+    "rating": "Note",
+    "comment": "Commentaire",
+    "sending": "Envoi...",
+    "send": "Envoyer",
+    "success": "Merci ! Votre avis sera publié après validation."
+  },
+
+  "sejour": {
+    "meta": {
+      "title": "Le séjour : Grande pièce à vivre du gîte Au fil de l'eau",
+      "description": "Séjour de 60 m² du gîte Au fil de l'eau, inspiré des vérandas traditionnelles, avec salon et piano, salle à manger avec poêle à bois, et cuisine équipée ouverte sur la pièce à vivre."
+    },
+    "hero": {
+      "title": "Le séjour",
+      "highlight": "Le séjour Le séjour de 60m2 évoque les vérandas traditionnelles en bois, appelées loewa localement."
+    },
+    "livingArea": {
+      "title": "Le séjour comporte :",
+      "items": {
+        "salonPiano": "un salon avec piano",
+        "diningWoodStove": "une salle-à-manger avec poêle à bois",
+        "veranda": "une véranda avec table haute dans une ambiance végétale"
+      },
+      "note": "Il accède à la terrasse qui domine le pré-verger en bord du cours d’eau."
+    },
+    "kitchen": {
+      "title": "Le séjour s’ouvre sur une cuisine équipée avec :",
+      "items": {
+        "induction": "plaques à induction",
+        "oven": "four et four micro-ondes",
+        "dishwasher": "lave-vaisselle",
+        "fridgeFreezer": "réfrigérateur et congélateur",
+        "racletteFondue": "service à raclette et à fondue",
+        "kettle": "bouilloire",
+        "coffeeMaker": "cafetière",
+        "blender": "mixer"
+      }
+    },
+    "closing": {
+      "main": "Cette grande pièce à vivre offre de multiples possibilités pour partager des moments conviviaux.",
+      "smallLounge": {
+        "title": "Un petit salon indépendant, ",
+        "text": "avec TV et lecteur DVD, a été aménagé dans l’ancienne grange, dont le cachet pittoresque a été conservé."
+      }
+    }
+  },
+
+  "village": {
+    "meta": {
+      "title": "Le village de Storckensohn en 3D",
+      "description": "Découvrez Storckensohn en 3D : village pittoresque au cœur des Hautes-Vosges d’Alsace, où se situe le gîte Au fil de l'eau."
+    },
+    "title": "Le village de Storckensohn en 3D",
+    "intro": "Le gîte Au fil de l'eau est situé en plein coeur des Hautes-Vosges d'Alsace, dans le village de Storckensohn."
+  }
+}

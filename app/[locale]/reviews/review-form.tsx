@@ -3,10 +3,15 @@
 import { useActionState } from "react";
 import createReview from "./actions";
 import Button from "@/components/Button";
+import type { ReviewFormMessages } from "@/types/i18n";
+
+type ReviewFormProps = {
+  messages: ReviewFormMessages;
+};
 
 const initialState = { ok: false, errors: {} as Record<string, string[]> };
 
-const ReviewForm = () => {
+const ReviewForm = ({ messages }: ReviewFormProps) => {
   const [state, formAction, pending] = useActionState(
     createReview,
     initialState
@@ -17,10 +22,10 @@ const ReviewForm = () => {
       action={formAction}
       className="relative fabric-surface-light max-w-3xl w-full p-6 rounded-xl grid gap-6 mx-auto mb-8"
     >
-      <h2 className="text-xl font-bold">Laisser un avis</h2>
+      <h2 className="text-xl font-bold">{messages.title}</h2>
 
       <label className="grid gap-1">
-        <span>Nom</span>
+        <span>{messages.name}</span>
         <input name="name" className="border rounded-md p-2" required />
         {state.errors?.name && (
           <p className="text-red-800 font-semibold text-sm">
@@ -30,7 +35,7 @@ const ReviewForm = () => {
       </label>
 
       <label className="grid gap-1">
-        <span>Note</span>
+        <span>{messages.rating}</span>
         <select
           name="rating"
           className="border rounded-md p-2"
@@ -45,7 +50,7 @@ const ReviewForm = () => {
       </label>
 
       <label className="grid gap-1">
-        <span>Commentaire</span>
+        <span>{messages.comment}</span>
         <textarea
           name="comment"
           rows={5}
@@ -69,14 +74,10 @@ const ReviewForm = () => {
       />
 
       <Button type="submit" disabled={pending}>
-        {pending ? "Envoi..." : "Envoyer"}
+        {pending ? messages.sending : messages.send}
       </Button>
 
-      {state.ok && (
-        <p className="text-sm mt-2">
-          Merci ! Votre avis sera publié après validation.
-        </p>
-      )}
+      {state.ok && <p className="text-sm mt-2">{messages.success}</p>}
     </form>
   );
 };
