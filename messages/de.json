@@ -176,5 +176,31 @@
     "intro2": "Ihre Gastgeber beraten Sie gerne zu geeigneten Routen und zu Sehenswürdigkeiten entlang der Wege.",
     "intro3": "Ein Netz von Etappenunterkünften, das 2013 vollständig renoviert wurde, bietet Ihnen Mahlzeiten und gemütliche Abende in Bergatmosphäre.",
     "cta": "Entdecken"
+  },
+
+  "wesserling": {
+    "meta": {
+      "title": "Der Park Wesserling — Bedeutende Gärten und Textilerbe",
+      "description": "Entdecken Sie den Park Wesserling, seine bemerkenswerten Gärten, das Textil-Ecomuseum, die Große Heizhalle sowie zahlreiche kulturelle und künstlerische Veranstaltungen."
+    },
+
+    "title": "Der Park Wesserling",
+
+    "intro1": "Auf einem Gebiet mit großer textiler Tradition erzählt der Park Wesserling die außergewöhnliche Industriegeschichte der ehemaligen „Königlichen Manufaktur“.",
+    "intro2": "Er beeindruckt mit seinen fünf prachtvollen Gärten, ausgezeichnet als „Bemerkenswerte Gärten“, und mit seiner in Frankreich einzigartigen Sammlung von Gebäuden der Textilindustrie (Fabriken, Lagerhallen, Herrenhaus der Besitzer, Patrizierhäuser, Industriebrache, Bauernhof…).",
+    "intro3": "Das Textil-Ecomuseum und die Große Heizhalle verbinden die Geschichte des Ortes mit zeitgenössischer Kunst durch lebendige und interaktive Ausstellungen, Klang- und Lichtinstallationen…",
+    "intro4": "Theatralische Führungen sowie Vorführungen von Spinnen, Weben und Handdruck lassen die ehemaligen Textilberufe wieder aufleben. Das gesamte Jahr über finden Garten-, Textil-, Kultur- und Kunstveranstaltungen statt.",
+
+    "alsoTitle": "Der Park Wesserling bietet außerdem:",
+    "list": {
+      "shops": "Geschäfte",
+      "creators": "Ein Kreativpavillon mit Kunsthandwerkern",
+      "farmStore": "Ein Hofladen",
+      "enterpriseSpace": "Unternehmensräume",
+      "smallTheater": "Ein kleines Theater",
+      "artistsResidence": "Künstlerresidenzen…"
+    },
+
+    "cta": "Entdecken"
   }
 }

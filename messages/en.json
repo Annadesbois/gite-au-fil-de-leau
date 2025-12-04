@@ -176,5 +176,31 @@
     "intro2": "Your hosts will be happy to advise you on the best routes and points of interest.",
     "intro3": "A network of mountain lodges, fully renovated in 2013, welcomes you for meals and evening gatherings.",
     "cta": "Discover"
+  },
+
+  "wesserling": {
+    "meta": {
+      "title": "Wesserling Park — Remarkable Gardens and Textile Heritage",
+      "description": "Discover Wesserling Park, its remarkable gardens, textile ecomuseum, the Great Boiler House, and numerous cultural and artistic events."
+    },
+
+    "title": "Wesserling Park",
+
+    "intro1": "Located in an area with a rich textile tradition, Wesserling Park traces the extraordinary industrial history of the former Royal Manufactory.",
+    "intro2": "The park is renowned for its five magnificent gardens, listed as “Remarkable Gardens”, and for its unique collection of buildings related to the textile industry (factories, workshops, owners’ mansion, master houses, industrial wasteland, farmhouse…).",
+    "intro3": "Its Textile Ecomuseum and Great Boiler House combine the site’s history with contemporary art through interactive exhibitions, sound and light experiences…",
+    "intro4": "The park also brings textile crafts back to life with theatrical tours, spinning, weaving and block-printing demonstrations. It hosts numerous garden, textile, cultural and artistic events throughout the year.",
+
+    "alsoTitle": "Wesserling Park also offers:",
+    "list": {
+      "shops": "Shops",
+      "creators": "A Creators’ Pavilion with local artisans",
+      "farmStore": "A farm products store",
+      "enterpriseSpace": "Business spaces",
+      "smallTheater": "A small theatre",
+      "artistsResidence": "Artist residencies…"
+    },
+
+    "cta": "Discover"
   }
 }

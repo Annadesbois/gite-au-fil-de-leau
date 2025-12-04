@@ -177,5 +177,31 @@
     "intro2": "Vos hôtes sauront vous conseiller sur les itinéraires à suivre et sur les choses à découvrir.",
     "intro3": "Un réseau de gîtes d'étapes entièrement remis à neuf en 2013 vous accueillera pour vos repas et soirées montagnardes.",
     "cta": "Découvrir"
+  },
+
+  "wesserling": {
+    "meta": {
+      "title": "Le Parc de Wesserling — Jardins remarquables et patrimoine textile",
+      "description": "Découvrez le Parc de Wesserling, ses jardins remarquables, son Écomusée textile, sa Grande Chaufferie et ses nombreux événements culturels et artistiques."
+    },
+
+    "title": "Le Parc de Wesserling",
+
+    "intro1": "Sur des terres de haute tradition textile, le Parc de Wesserling retrace l’extraordinaire aventure industrielle de cette ancienne « Manufacture Royale ».",
+    "intro2": "Il surprend par ses 5 somptueux jardins, classés « Jardin Remarquable », et par sa collection, unique en France, de bâtiments liés à l’industrie textile (usines, hangars, château des patrons, maisons de maître, friche industrielle, ferme…).",
+    "intro3": "Original, son Écomusée textile et sa Grande Chaufferie associent l’histoire du site à l’art contemporain par des expositions vivantes et participatives, d’étonnants sons et lumières…",
+    "intro4": "Des visites théâtralisées et des démonstrations de filage, tissage, impression à la planche font également revivre les métiers de l’industrie textile. Il s’anime tout au long de l’année par de nombreux événements jardins, textiles, culturels et artistiques.",
+
+    "alsoTitle": "Le Parc de Wesserling, c’est aussi :",
+    "list": {
+      "shops": "Des boutiques",
+      "creators": "Un Pavillon des Créateurs et ses artisans",
+      "farmStore": "Un magasin de produits fermiers",
+      "enterpriseSpace": "Des espaces d’entreprises",
+      "smallTheater": "Un théâtre de poche",
+      "artistsResidence": "Des résidences d’artistes…"
+    },
+
+    "cta": "Découvrir"
   }
 }
