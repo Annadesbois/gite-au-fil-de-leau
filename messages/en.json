@@ -164,5 +164,17 @@
     },
     "title": "The village of Storckensohn in 3D",
     "intro": "The Gîte Au fil de l'eau is located in the heart of the High Vosges of Alsace, in the village of Storckensohn."
+  },
+
+  "randonnees": {
+    "meta": {
+      "title": "Hiking Around Storckensohn | Gîte Au fil de l'eau",
+      "description": "Discover the most beautiful hikes around Storckensohn in the heart of the High Vosges: trails, panoramic viewpoints, and itineraries starting directly from the village."
+    },
+    "title": "Hiking",
+    "intro1": "The village of Storckensohn is located in the heart of the Vosges mountains. A wide network of hiking trails starts directly from the village.",
+    "intro2": "Your hosts will be happy to advise you on the best routes and points of interest.",
+    "intro3": "A network of mountain lodges, fully renovated in 2013, welcomes you for meals and evening gatherings.",
+    "cta": "Discover"
   }
 }

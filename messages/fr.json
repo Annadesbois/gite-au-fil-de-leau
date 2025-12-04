@@ -165,5 +165,17 @@
     },
     "title": "Le village de Storckensohn en 3D",
     "intro": "Le gîte Au fil de l'eau est situé en plein coeur des Hautes-Vosges d'Alsace, dans le village de Storckensohn."
+  },
+
+  "randonnees": {
+    "meta": {
+      "title": "Randonnées autour de Storckensohn | Gîte Au fil de l'eau",
+      "description": "Découvrez les plus belles randonnées autour de Storckensohn, au cœur des Hautes-Vosges d’Alsace : sentiers, panoramas et itinéraires accessibles directement depuis le village."
+    },
+    "title": "Les randonnées",
+    "intro1": "Le village de Storckensohn est situé au cœur du massif vosgien. Un vaste réseau de randonnées est accessible directement à partir du village.",
+    "intro2": "Vos hôtes sauront vous conseiller sur les itinéraires à suivre et sur les choses à découvrir.",
+    "intro3": "Un réseau de gîtes d'étapes entièrement remis à neuf en 2013 vous accueillera pour vos repas et soirées montagnardes.",
+    "cta": "Découvrir"
   }
 }

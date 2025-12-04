@@ -164,5 +164,17 @@
     },
     "title": "Das Dorf Storckensohn in 3D",
     "intro": "Die Gîte Au fil de l'eau liegt im Herzen der Hohen Vogesen im Elsass, im Dorf Storckensohn."
+  },
+
+  "randonnees": {
+    "meta": {
+      "title": "Wanderungen rund um Storckensohn | Gîte Au fil de l'eau",
+      "description": "Entdecken Sie die schönsten Wanderwege rund um Storckensohn im Herzen der Hohen Vogesen: Pfade, Panoramaausblicke und Routen, die direkt im Dorf beginnen."
+    },
+    "title": "Wanderungen",
+    "intro1": "Das Dorf Storckensohn liegt im Herzen der Vogesen. Ein weitläufiges Netz an Wanderwegen ist direkt vom Dorf aus erreichbar.",
+    "intro2": "Ihre Gastgeber beraten Sie gerne zu geeigneten Routen und zu Sehenswürdigkeiten entlang der Wege.",
+    "intro3": "Ein Netz von Etappenunterkünften, das 2013 vollständig renoviert wurde, bietet Ihnen Mahlzeiten und gemütliche Abende in Bergatmosphäre.",
+    "cta": "Entdecken"
   }
 }
