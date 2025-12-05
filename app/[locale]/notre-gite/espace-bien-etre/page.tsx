@@ -1,5 +1,3 @@
-import type { Metadata } from "next";
-
 import PhotoCarousel from "@/components/carousel/PhotoCarousel";
 import { bienEtrePhotos } from "@/data/bien-etre-photos";
 import { createPageHelpers } from "@/lib/metadata";

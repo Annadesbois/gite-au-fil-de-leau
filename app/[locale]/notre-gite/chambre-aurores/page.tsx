@@ -1,5 +1,3 @@
-
-
 import PhotoCarousel from "@/components/carousel/PhotoCarousel";
 import { auroresPhotos } from "@/data/aurore-photos";
 import { createPageHelpers } from "@/lib/metadata";
