@@ -244,5 +244,24 @@
       "description": "Découvrez toutes les autres activités autour du gîte Au fil de l'eau à Storckensohn : ski, parapente, balades à dos d’âne, vélo, piscine, casino, musées, producteurs locaux et nombreux restaurants dans les Hautes-Vosges d’Alsace."
     },
     "title": "Et tout le reste"
+  },
+
+  "cerisier": {
+    "meta": {
+      "title": "Chambre « Cerisier » | Gîte Au fil de l'eau à Storckensohn",
+      "description": "La chambre « Cerisier » du gîte Au fil de l'eau, avec vue sur le verger, 2 lits 90/200 modulables, 2 lits tiroirs et vaste salle de bain avec baignoire chromato, idéale pour couple ou famille."
+    },
+    "title": "La chambre « Cerisier »",
+    "intro": "Fleurs de cerisiers, couleurs framboise et prune… Cette chambre fait écho au verger que l’on peut contempler par une large baie vitrée, confortablement installé dans une rocking chair.",
+    "room": {
+      "title": "Cette chambre comporte :",
+      "items": {
+        "mainBeds": "Chambre à 2 lits 90/200 transformables en 1 lit 180/200",
+        "drawerBeds": "2 lits tiroirs 90/200",
+        "bathroom": "Salle d’eau privative attenante avec baignoire chromato, double vasque, WC et table à langer"
+      },
+      "note1": "Idéale pour un séjour romantique à deux, sa vaste surface permet également une utilisation parents-bébé ou groupe de 4 personnes.",
+      "note2": "La salle de bain blanche et lumineuse comporte un mobilier où transparaît l’arbre fruitier, et une baignoire chromato pour se détendre dans un bain de couleurs."
+    }
   }
 }

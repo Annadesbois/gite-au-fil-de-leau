@@ -1,45 +1,33 @@
-import type { Metadata } from "next";
-
 import PhotoCarousel from "@/components/carousel/PhotoCarousel";
 import { cerisierPhotos } from "@/data/cerisier-photos";
 
-export const metadata: Metadata = {
-  title: "Chambre « Cerisier » — Gîte Au fil de l'eau à Storckensohn",
-  description:
-    "La chambre « Cerisier » du gîte Au fil de l'eau, avec vue sur le verger, 2 lits 90/200 modulables, 2 lits tiroirs et vaste salle de bain avec baignoire chromato, idéale pour couple ou famille.",
-};
+import { createPageHelpers } from "@/lib/metadata";
 
-const ChambreCerisierPage = () => {
+import type { PageProp } from "@/types/i18n";
+
+const { generateMetadata, getPageMessages } = createPageHelpers("cerisier");
+
+export { generateMetadata };
+
+const ChambreCerisierPage = async ({ params }: PageProp) => {
+  const cerisier = await getPageMessages(params);
+
   return (
     <>
       <PhotoCarousel slides={cerisierPhotos} />
       <div className="content-area relative fabric-surface-light p-6 md:pb-10 rounded-tl-4xl rounded-br-4xl rounded-tr-sm rounded-bl-sm">
-        <h1>La chambre "Cerisier"</h1>
+        <h1>{cerisier.title}</h1>
         <div className="flex flex-col gap-12">
-          <p className="font-bold text-center">
-            Fleurs de cerisiers, couleurs framboise et prune, … Cette chambre
-            fait écho au verger que l’on peut contempler par une large baie
-            vitrée, confortablement installé dans une rocking chair.
-          </p>
+          <p className="font-bold text-center">{cerisier.intro}</p>
           <div>
-            <h2 className="font-bold">Cette chambre comporte :</h2>
+            <h2 className="font-bold">{cerisier.room.title}</h2>
             <ul>
-              <li>Chambre à 2 lits 90/200 transformables en 1 lit 180/200</li>
-              <li>2 lits tiroirs 90/200</li>
-              <li>
-                Salle d’eau privative attenante avec baignoire chromato, double
-                vasque, WC et table à langer
-              </li>
+              <li>{cerisier.room.items.mainBeds}</li>
+              <li>{cerisier.room.items.drawerBeds}</li>
+              <li>{cerisier.room.items.bathroom}</li>
             </ul>
-            <p className="font-bold text-center mt-8">
-              Idéale pour un séjour romantique à deux, sa vaste surface permet
-              également une utilisation parents-bébé ou groupe de 4 personnes.
-            </p>
-            <p className="font-bold text-center mt-8">
-              La salle de bain blanche et lumineuse comporte un mobilier où
-              transparaît l’arbre fruitier, et une baignoire chromato pour se
-              détendre dans un bain de couleurs.
-            </p>
+            <p className="font-bold text-center mt-8">{cerisier.room.note1}</p>
+            <p className="font-bold text-center mt-8">{cerisier.room.note2}</p>
           </div>
         </div>
       </div>

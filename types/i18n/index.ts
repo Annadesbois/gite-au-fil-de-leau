@@ -15,3 +15,4 @@ export * from "./lac";
 export * from "./metadata";
 export * from "./reste";
 export * from "./activities";
+export * from "./cerisier";

@@ -13,7 +13,7 @@ import type {
   HomeMessages,
   SejourMessages,
   //   AuroresMessages,
-  //   CerisierMessages,
+  CerisierMessages,
   //   GrangeMessages,
   //   SenteursMessages,
   //   BienEtreMessages,
@@ -32,7 +32,7 @@ type Messages = {
   home: HomeMessages;
   sejour: SejourMessages;
   //   aurores: AuroresMessages;
-  //   cerisier: CerisierMessages;
+  cerisier: CerisierMessages;
   //   grange: GrangeMessages;
   //   senteurs: SenteursMessages;
   //   bienetre: BienEtreMessages;

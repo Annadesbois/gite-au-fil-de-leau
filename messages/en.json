@@ -244,5 +244,24 @@
     },
 
     "title": "And everything else"
+  },
+
+  "cerisier": {
+    "meta": {
+      "title": "“Cerisier” Room | Gîte Au fil de l'eau in Storckensohn",
+      "description": "The “Cerisier” room at Gîte Au fil de l'eau, overlooking the orchard, featuring two 90/200 modular beds, two drawer beds, and a spacious bathroom with chromotherapy bathtub — ideal for couples or families."
+    },
+    "title": "The “Cerisier” Room",
+    "intro": "Cherry blossom tones, raspberry and plum colours… This room echoes the orchard visible through a large picture window, best enjoyed from a comfortable rocking chair.",
+    "room": {
+      "title": "This room includes:",
+      "items": {
+        "mainBeds": "Bedroom with two 90/200 beds that can be converted into a 180/200 bed",
+        "drawerBeds": "Two 90/200 drawer beds",
+        "bathroom": "Private ensuite bathroom with chromotherapy bathtub, double washbasin, WC and changing table"
+      },
+      "note1": "Perfect for a romantic stay for two, its generous size also accommodates a couple with a baby or a group of four people.",
+      "note2": "The bright white bathroom features furniture inspired by the fruit tree theme, and a chromotherapy bathtub for a relaxing, colourful bath."
+    }
   }
 }

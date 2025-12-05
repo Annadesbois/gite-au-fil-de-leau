@@ -243,5 +243,24 @@
       "description": "Entdecken Sie alle weiteren Aktivitäten rund um die Gîte Au fil de l'eau in Storckensohn: Skigebiete, Gleitschirmfliegen, Eselwanderungen, Radfahren, Schwimmbad, Casino, Museen, Läden mit regionalen Produkten und viele Restaurants in den Hohen Vogesen im Elsass."
     },
     "title": "Und alles Weitere"
+  },
+
+  "cerisier": {
+    "meta": {
+      "title": "Zimmer „Cerisier“ | Gîte Au fil de l'eau in Storckensohn",
+      "description": "Das Zimmer „Cerisier“ der Gîte Au fil de l'eau mit Blick auf die Obstwiese, zwei modularen 90/200-Betten, zwei Ausziehbetten und einem großen Badezimmer mit Chromotherapie-Badewanne – ideal für Paare oder Familien."
+    },
+    "title": "Das Zimmer „Cerisier“",
+    "intro": "Kirschblüten, Himbeer- und Pflaumentöne… Dieses Zimmer spiegelt die Obstwiese wider, die man durch ein großes Panoramafenster aus einem bequemen Schaukelstuhl betrachten kann.",
+    "room": {
+      "title": "Dieses Zimmer umfasst:",
+      "items": {
+        "mainBeds": "Zimmer mit zwei 90/200-Betten, die zu einem 180/200-Bett kombiniert werden können",
+        "drawerBeds": "Zwei 90/200-Ausziehbetten",
+        "bathroom": "Angrenzendes privates Badezimmer mit Chromotherapie-Badewanne, Doppelwaschbecken, WC und Wickeltisch"
+      },
+      "note1": "Ideal für einen romantischen Aufenthalt zu zweit; der großzügige Raum eignet sich auch perfekt für Eltern mit Baby oder für eine Gruppe von vier Personen.",
+      "note2": "Das helle weiße Badezimmer verfügt über Möbel, die das Thema des Obstbaums aufgreifen, sowie eine Chromotherapie-Badewanne für ein farbiges, entspannendes Badeerlebnis."
+    }
   }
 }
