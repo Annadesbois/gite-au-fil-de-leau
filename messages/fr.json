@@ -263,5 +263,24 @@
       "note1": "Idéale pour un séjour romantique à deux, sa vaste surface permet également une utilisation parents-bébé ou groupe de 4 personnes.",
       "note2": "La salle de bain blanche et lumineuse comporte un mobilier où transparaît l’arbre fruitier, et une baignoire chromato pour se détendre dans un bain de couleurs."
     }
+  },
+
+  "grange": {
+    "meta": {
+      "title": "Chambre « Grange » | Gîte Au fil de l'eau à Storckensohn",
+      "description": "La chambre « Grange » du Gîte Au fil de l'eau, inspirée de l’ancienne grange vosgienne : ambiance bois, gerbière ouverte sur le verger, objets d’autrefois, mezzanine et salle d’eau privative."
+    },
+    "title": "La chambre « Grange »",
+    "intro": "De l’ancienne grange où étaient stockés le foin et divers matériels, cette chambre a conservé l’ambiance bois, la gerbière ouvrant sur le verger, ainsi que les anciennes luges et bonbonnes à schnaps chargées de souvenirs.",
+    "room": {
+      "title": "Cette chambre comporte :",
+      "items": {
+        "mainBeds": "Chambre à 2 lits 90/200 transformables en 1 lit 180/200",
+        "bathroom": "Salle d’eau privative attenante avec douche, vasque et WC",
+        "mezzanine": "Petit salon attenant en mezzanine"
+      },
+      "note1": "La grange comme un retour de voyage, imprégnée de souvenirs et d’authenticité.",
+      "note2": "Un lieu pour méditer tranquillement, parmi les objets d’ici et d’ailleurs."
+    }
   }
 }

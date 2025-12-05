@@ -1,6 +1,5 @@
 import PhotoCarousel from "@/components/carousel/PhotoCarousel";
 import { cerisierPhotos } from "@/data/cerisier-photos";
-
 import { createPageHelpers } from "@/lib/metadata";
 
 import type { PageProp } from "@/types/i18n";

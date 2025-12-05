@@ -14,7 +14,7 @@ import type {
   SejourMessages,
   //   AuroresMessages,
   CerisierMessages,
-  //   GrangeMessages,
+    GrangeMessages,
   //   SenteursMessages,
   //   BienEtreMessages,
   //   TarifsMessages,
@@ -33,7 +33,7 @@ type Messages = {
   sejour: SejourMessages;
   //   aurores: AuroresMessages;
   cerisier: CerisierMessages;
-  //   grange: GrangeMessages;
+    grange: GrangeMessages;
   //   senteurs: SenteursMessages;
   //   bienetre: BienEtreMessages;
   //   tarifs: TarifsMessages;

@@ -262,5 +262,24 @@
       "note1": "Ideal für einen romantischen Aufenthalt zu zweit; der großzügige Raum eignet sich auch perfekt für Eltern mit Baby oder für eine Gruppe von vier Personen.",
       "note2": "Das helle weiße Badezimmer verfügt über Möbel, die das Thema des Obstbaums aufgreifen, sowie eine Chromotherapie-Badewanne für ein farbiges, entspannendes Badeerlebnis."
     }
+  },
+
+  "grange": {
+    "meta": {
+      "title": "Zimmer „Grange“ | Gîte Au fil de l'eau in Storckensohn",
+      "description": "Das Zimmer „Grange“ der Gîte Au fil de l'eau bewahrt den Charakter der alten Scheune: Holzambiente, Heubodenfenster mit Blick auf die Obstwiese, alte Schlitten und Schnapsflaschen, Mezzanine-Lounge und privates Bad."
+    },
+    "title": "Das Zimmer „Grange“",
+    "intro": "In der ehemaligen Scheune, in der früher Heu und Geräte gelagert wurden, hat dieses Zimmer die warme Holzatmosphäre, den Heuboden mit Blick auf die Obstwiese sowie die alten Schlitten und Schnapsflaschen voller Erinnerungen bewahrt.",
+    "room": {
+      "title": "Dieses Zimmer umfasst:",
+      "items": {
+        "mainBeds": "Zimmer mit zwei 90/200-Betten, die zu einem 180/200-Bett kombiniert werden können",
+        "bathroom": "Angrenzendes privates Badezimmer mit Dusche, Waschbecken und WC",
+        "mezzanine": "Kleiner angrenzender Aufenthaltsbereich auf der Mezzanine"
+      },
+      "note1": "Die Scheune wie eine Rückkehr von einer Reise – voller Erinnerungen und Authentizität.",
+      "note2": "Ein Ort, um in Ruhe zu meditieren, umgeben von Gegenständen von hier und anderswo."
+    }
   }
 }

@@ -263,5 +263,24 @@
       "note1": "Perfect for a romantic stay for two, its generous size also accommodates a couple with a baby or a group of four people.",
       "note2": "The bright white bathroom features furniture inspired by the fruit tree theme, and a chromotherapy bathtub for a relaxing, colourful bath."
     }
+  },
+
+  "grange": {
+    "meta": {
+      "title": "“Grange” Room | Gîte Au fil de l'eau in Storckensohn",
+      "description": "The “Grange” room of the Gîte Au fil de l'eau preserves the spirit of the old barn: wood atmosphere, hayloft window overlooking the orchard, vintage sleds and schnaps bottles, mezzanine lounge, and private bathroom."
+    },
+    "title": "The “Grange” Room",
+    "intro": "Once used to store hay and various tools, this room has kept the warm wooden atmosphere of the old barn, along with the hayloft opening onto the orchard and the vintage sleds and schnaps bottles full of memories.",
+    "room": {
+      "title": "This room includes:",
+      "items": {
+        "mainBeds": "Room with two 90/200 beds that can be combined into one 180/200 bed",
+        "bathroom": "Private ensuite bathroom with shower, sink and toilet",
+        "mezzanine": "Small adjoining mezzanine lounge"
+      },
+      "note1": "The barn as a return from travel, filled with authenticity and memories.",
+      "note2": "A peaceful place to meditate, surrounded by objects from here and elsewhere."
+    }
   }
 }
