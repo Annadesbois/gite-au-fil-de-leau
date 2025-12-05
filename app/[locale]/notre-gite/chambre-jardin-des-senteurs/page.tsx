@@ -1,45 +1,34 @@
-import type { Metadata } from "next";
-
 import PhotoCarousel from "@/components/carousel/PhotoCarousel";
 import { senteursPhotos } from "@/data/senteurs-photos";
+import { createPageHelpers } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "Chambre « Jardin des Senteurs » — Gîte Au fil de l'eau",
-  description:
-    "La chambre « Jardin des Senteurs », située de plain-pied et adaptée aux personnes à mobilité réduite, avec lit 140/190 et salle d’eau privative donnant sur le jardin à déguster du gîte.",
-};
+import type { PageProp } from "@/types/i18n";
 
-const ChambreJardinDesSenteursPage = () => {
+const { generateMetadata, getPageMessages } = createPageHelpers("senteurs");
+
+export { generateMetadata };
+
+const ChambreJardinDesSenteursPage = async ({ params }: PageProp) => {
+  const senteurs = await getPageMessages(params);
+
   return (
     <>
       <PhotoCarousel slides={senteursPhotos} />
       <div className="content-area relative fabric-surface-light p-6 md:pb-10 rounded-tl-4xl rounded-br-4xl rounded-tr-sm rounded-bl-sm">
         <h1>
-          La chambre
-          <br className="block md:hidden" /> "Jardin des Senteurs"
+          {senteurs.title1}
+          <br className="block md:hidden" /> {senteurs.title2}
         </h1>
         <div className="flex flex-col gap-12">
-          <p className="font-bold text-center">
-            Ses fenêtres s’ouvrent sur le « jardin à déguster », ses aromates,
-            fraises des bois et fleurs comestibles, situé le long de la rue, une
-            rue de village qui se transforme plus loin en chemin vers les
-            sommets vosgiens. Son ambiance fleurie et lumineuse invite à la
-            sérénité.
-          </p>
+          <p className="font-bold text-center">{senteurs.intro}</p>
           <div>
-            <h2 className="font-bold">Cette chambre comporte :</h2>
+            <h2 className="font-bold">{senteurs.room.title}</h2>
             <ul>
-              <li>Chambre à 1 lit 140/190</li>
-              <li>
-                Salle d’eau privative attenante avec douche à l’italienne,
-                vasque et WC
-              </li>
-              <li>Adaptée aux personnes en fauteuil roulant</li>
+              <li>{senteurs.room.items.mainBed}</li>
+              <li>{senteurs.room.items.bathroom}</li>
+              <li>{senteurs.room.items.accessible}</li>
             </ul>
-            <p className="font-bold text-center mt-8">
-              Située au rez-de-chaussée et accessible de plain-pied, cette
-              chambre est adaptée aux personnes à mobilité réduite.
-            </p>
+            <p className="font-bold text-center mt-8">{senteurs.note}</p>
           </div>
         </div>
       </div>

@@ -18,3 +18,4 @@ export * from "./activities";
 export * from "./cerisier";
 export * from "./grange";
 export * from "./aurores";
+export * from "./senteurs";

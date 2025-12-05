@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+
 
 import PhotoCarousel from "@/components/carousel/PhotoCarousel";
 import { auroresPhotos } from "@/data/aurore-photos";

@@ -300,5 +300,24 @@
       },
       "note": "Entre alcove, jardin et bord de mer, cette chambre confère humour et tonus dès le réveil !"
     }
+  },
+
+  "senteurs": {
+    "meta": {
+      "title": "Chambre « Jardin des Senteurs » | Gîte Au fil de l'eau",
+      "description": "La chambre « Jardin des Senteurs », située de plain-pied et adaptée aux personnes à mobilité réduite, avec lit 140/190 et salle d’eau privative donnant sur le jardin à déguster du gîte."
+    },
+    "title1": "La chambre",
+    "title2":"« Jardin des Senteurs »",
+    "intro": "Ses fenêtres s’ouvrent sur le « jardin à déguster » : aromates, fraises des bois et fleurs comestibles bordant une rue de village qui se transforme plus loin en chemin vers les sommets vosgiens. Son ambiance fleurie et lumineuse invite à la sérénité.",
+    "room": {
+      "title": "Cette chambre comporte :",
+      "items": {
+        "mainBed": "Chambre à 1 lit 140/190",
+        "bathroom": "Salle d’eau privative attenante avec douche à l’italienne, vasque et WC",
+        "accessible": "Adaptée aux personnes en fauteuil roulant"
+      }
+    },
+    "note": "Située au rez-de-chaussée et accessible de plain-pied, cette chambre est adaptée aux personnes à mobilité réduite."
   }
 }

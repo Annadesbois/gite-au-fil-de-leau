@@ -300,5 +300,24 @@
       },
       "note": "Between alcove, garden and seaside atmosphere, this room brings humour and energy from the moment you wake up!"
     }
+  },
+
+  "senteurs": {
+    "meta": {
+      "title": "“Jardin des Senteurs” Room | Gîte Au fil de l'eau",
+      "description": "The “Jardin des Senteurs” room, located at ground level and accessible to people with reduced mobility, features a 140/190 bed and a private bathroom opening onto the gîte’s edible garden."
+    },
+    "title1": "The “Jardin des Senteurs”",
+    "title2": "Room",
+    "intro": "Its windows open onto the gîte’s “edible garden”: herbs, wild strawberries, and edible flowers lining a village street that soon turns into a path leading to the Vosges peaks. Its floral and luminous atmosphere invites serenity.",
+    "room": {
+      "title": "This room includes:",
+      "items": {
+        "mainBed": "Room with one 140/190 bed",
+        "bathroom": "Private ensuite bathroom with walk-in shower, sink and toilet",
+        "accessible": "Accessible for wheelchair users"
+      }
+    },
+    "note": "Located on the ground floor with step-free access, this room is suitable for people with reduced mobility."
   }
 }

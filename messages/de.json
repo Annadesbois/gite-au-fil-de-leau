@@ -299,5 +299,24 @@
       },
       "note": "Zwischen Alkoven, Garten und Meeresmotiven verleiht dieses Zimmer schon am Morgen gute Laune und Energie!"
     }
+  },
+
+  "senteurs": {
+    "meta": {
+      "title": "Zimmer „Jardin des Senteurs“ | Gîte Au fil de l'eau",
+      "description": "Das Zimmer „Jardin des Senteurs“, ebenerdig gelegen und für Personen mit eingeschränkter Mobilität geeignet, verfügt über ein 140/190-Bett und ein privates Badezimmer mit Zugang zum genussvollen Garten der Gîte."
+    },
+    "title1": "Das Zimmer",
+    "title2": "„Jardin des Senteurs“",
+    "intro": "Die Fenster öffnen sich zum „Genussgarten“ der Gîte: Kräuter, Walderdbeeren und essbare Blumen entlang einer Dorfstraße, die weiter oben in einen Weg zu den Vogesengipfeln übergeht. Die blumige, helle Atmosphäre lädt zur Ruhe ein.",
+    "room": {
+      "title": "Dieses Zimmer umfasst:",
+      "items": {
+        "mainBed": "Zimmer mit einem 140/190-Bett",
+        "bathroom": "Angrenzendes privates Badezimmer mit begehbarer Dusche, Waschbecken und WC",
+        "accessible": "Geeignet für Rollstuhlfahrer"
+      }
+    },
+    "note": "Im Erdgeschoss gelegen und vollständig barrierefrei, ist dieses Zimmer für Personen mit eingeschränkter Mobilität geeignet."
   }
 }
