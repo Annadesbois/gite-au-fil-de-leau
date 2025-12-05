@@ -17,3 +17,4 @@ export * from "./reste";
 export * from "./activities";
 export * from "./cerisier";
 export * from "./grange";
+export * from "./aurores";

@@ -12,9 +12,9 @@ import type {
   ReviewsMessages,
   HomeMessages,
   SejourMessages,
-  //   AuroresMessages,
+  AuroresMessages,
   CerisierMessages,
-    GrangeMessages,
+  GrangeMessages,
   //   SenteursMessages,
   //   BienEtreMessages,
   //   TarifsMessages,
@@ -31,9 +31,9 @@ type Messages = {
   reviews: ReviewsMessages;
   home: HomeMessages;
   sejour: SejourMessages;
-  //   aurores: AuroresMessages;
+  aurores: AuroresMessages;
   cerisier: CerisierMessages;
-    grange: GrangeMessages;
+  grange: GrangeMessages;
   //   senteurs: SenteursMessages;
   //   bienetre: BienEtreMessages;
   //   tarifs: TarifsMessages;

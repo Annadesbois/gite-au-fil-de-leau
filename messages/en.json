@@ -282,5 +282,23 @@
       "note1": "The barn as a return from travel, filled with authenticity and memories.",
       "note2": "A peaceful place to meditate, surrounded by objects from here and elsewhere."
     }
+  },
+
+  "aurores": {
+    "meta": {
+      "title": "“Aurores” Room | Gîte Au fil de l'eau in Storckensohn",
+      "description": "The “Aurores” room of the Gîte Au fil de l'eau faces east, offering morning sunlight, two 90/200 beds convertible into a 180/200 bed, and a bright private bathroom with lively seaside-inspired tiles."
+    },
+    "title": "The “Aurores” Room",
+    "intro1": "Facing east, the morning sun brightens this room from dawn, illuminating a palette of vibrant tones: lime green, tangerine, straw yellow, chestnut…",
+    "intro2": "The adjoining private bathroom shares the same lively spirit, with its multicoloured tiles featuring fish, starfish, crabs and turtles.",
+    "room": {
+      "title": "This room includes:",
+      "items": {
+        "mainBeds": "Room with two 90/200 beds that can be combined into one 180/200 bed",
+        "bathroom": "Private ensuite bathroom with shower, sink and toilet"
+      },
+      "note": "Between alcove, garden and seaside atmosphere, this room brings humour and energy from the moment you wake up!"
+    }
   }
 }

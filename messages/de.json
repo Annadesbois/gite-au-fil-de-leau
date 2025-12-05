@@ -281,5 +281,23 @@
       "note1": "Die Scheune wie eine Rückkehr von einer Reise – voller Erinnerungen und Authentizität.",
       "note2": "Ein Ort, um in Ruhe zu meditieren, umgeben von Gegenständen von hier und anderswo."
     }
+  },
+
+  "aurores": {
+    "meta": {
+      "title": "Zimmer „Aurores“ | Gîte Au fil de l'eau in Storckensohn",
+      "description": "Das Zimmer „Aurores“ der Gîte Au fil de l'eau, nach Osten ausgerichtet, mit zwei 90/200-Betten, die zu einem 180/200-Bett kombiniert werden können, sowie einem hellen, farbenfrohen privaten Bad mit maritimen Fliesen."
+    },
+    "title": "Das Zimmer „Aurores“",
+    "intro1": "Nach Osten ausgerichtet wird dieses Zimmer schon bei Tagesanbruch von der Sonne durchflutet und in ein harmonisches Spiel leuchtender Farben gehüllt: Lindgrün, Mandarine, Strohgelb, Kastanie…",
+    "intro2": "Das angrenzende private Badezimmer zeigt die gleiche Lebendigkeit, mit seinem bunten Mosaik aus Fischen, Seesternen, Krabben und Schildkröten.",
+    "room": {
+      "title": "Dieses Zimmer umfasst:",
+      "items": {
+        "mainBeds": "Zimmer mit zwei 90/200-Betten, die zu einem 180/200-Bett kombiniert werden können",
+        "bathroom": "Angrenzendes privates Badezimmer mit Dusche, Waschbecken und WC"
+      },
+      "note": "Zwischen Alkoven, Garten und Meeresmotiven verleiht dieses Zimmer schon am Morgen gute Laune und Energie!"
+    }
   }
 }

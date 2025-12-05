@@ -282,5 +282,23 @@
       "note1": "La grange comme un retour de voyage, imprégnée de souvenirs et d’authenticité.",
       "note2": "Un lieu pour méditer tranquillement, parmi les objets d’ici et d’ailleurs."
     }
+  },
+
+  "aurores": {
+    "meta": {
+      "title": "Chambre « Aurores » | Gîte Au fil de l'eau à Storckensohn",
+      "description": "La chambre « Aurores » du gîte Au fil de l'eau, orientée au levant, avec 2 lits 90/200 transformables en 180/200 et une salle d’eau privative lumineuse et pétillante aux couleurs marines."
+    },
+    "title": "La chambre « Aurores »",
+    "intro1": "Orientée au levant, le soleil égaye cette chambre dès l’aube, ravivant un camaïeu de coloris chatoyants : vert tilleul, mandarine, jaune paille, châtaigner…",
+    "intro2": "La salle d’eau attenante offre la même pétillance, avec son dallage multicolore de poissons, étoiles de mer, crabes, tortues…",
+    "room": {
+      "title": "Cette chambre comporte :",
+      "items": {
+        "mainBeds": "Chambre à 2 lits 90/200 transformables en 1 lit 180/200",
+        "bathroom": "Salle d’eau privative attenante avec douche, vasque et WC"
+      },
+      "note": "Entre alcove, jardin et bord de mer, cette chambre confère humour et tonus dès le réveil !"
+    }
   }
 }
