@@ -56,7 +56,7 @@ const ParcDeWesserlingPage = async ({ params }: WesserlingPageProp) => {
         </div>
         <Button type="button">
           <a href="https://www.parc-wesserling.fr/" target="_blank">
-            Découvrir
+            {wesserling.cta}
           </a>
         </Button>
       </div>
