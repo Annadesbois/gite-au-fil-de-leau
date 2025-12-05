@@ -1,28 +1,15 @@
-import type { Metadata } from "next";
-
 import PhotoCarousel from "@/components/carousel/PhotoCarousel";
 import { sejourPhotos } from "@/data/sejour-photos";
-import { getMessages } from "@/lib/i18n";
+import { createPageHelpers } from "@/lib/metadata";
 
-import type { PageProp, SejourMessages } from "@/types/i18n";
+import type { PageProp } from "@/types/i18n";
 
-export const generateMetadata = async ({
-  params,
-}: PageProp): Promise<Metadata> => {
-  const { locale } = await params;
-  const messages = getMessages(locale);
-  const sejour = messages.sejour as SejourMessages;
+const { generateMetadata, getPageMessages } = createPageHelpers("sejour");
 
-  return {
-    title: sejour.meta.title,
-    description: sejour.meta.description,
-  };
-};
+export { generateMetadata };
 
 const SejourPage = async ({ params }: PageProp) => {
-  const { locale } = await params;
-  const messages = getMessages(locale);
-  const sejour = messages.sejour as SejourMessages;
+  const sejour = await getPageMessages(params);
 
   return (
     <>

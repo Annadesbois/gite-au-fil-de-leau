@@ -1,29 +1,16 @@
-import type { Metadata } from "next";
-
 import PhotoCarousel from "@/components/carousel/PhotoCarousel";
 import Button from "@/components/Button";
 import { moulinPhotos } from "@/data/moulin-photos";
-import { getMessages } from "@/lib/i18n";
+import { createPageHelpers } from "@/lib/metadata";
 
-import type { PageProp, MoulinMessages } from "@/types/i18n";
+import type { PageProp } from "@/types/i18n";
 
-export const generateMetadata = async ({
-  params,
-}: PageProp): Promise<Metadata> => {
-  const { locale } = await params;
-  const messages = getMessages(locale);
-  const moulin = messages.moulin as MoulinMessages;
+const { generateMetadata, getPageMessages } = createPageHelpers("moulin");
 
-  return {
-    title: moulin.meta.title,
-    description: moulin.meta.description,
-  };
-};
+export { generateMetadata };
 
 const MoulinAHuilePage = async ({ params }: PageProp) => {
-  const { locale } = await params;
-  const messages = getMessages(locale);
-  const moulin = messages.moulin as MoulinMessages;
+  const moulin = await getPageMessages(params);
 
   return (
     <>

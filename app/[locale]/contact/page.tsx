@@ -1,32 +1,18 @@
-import type { Metadata } from "next";
-
 import Button from "@/components/Button";
 import ContactForm from "@/components/ContactForm";
 import { getMessages } from "@/lib/i18n";
+import { createPageHelpers } from "@/lib/metadata";
 
-import type {
-  PageProp,
-  ContactMessages,
-  ContactFormMessages,
-} from "@/types/i18n";
+import type { PageProp, ContactFormMessages } from "@/types/i18n";
 
-export const generateMetadata = async ({
-  params,
-}: PageProp): Promise<Metadata> => {
-  const { locale } = await params;
-  const messages = getMessages(locale);
-  const contact = messages.contact as ContactMessages;
+const { generateMetadata, getPageMessages } = createPageHelpers("contact");
 
-  return {
-    title: contact.meta.title,
-    description: contact.meta.description,
-  };
-};
+export { generateMetadata };
 
 const contact = async ({ params }: PageProp) => {
   const { locale } = await params;
+  const contact = await getPageMessages(params);
   const messages = getMessages(locale);
-  const contact = messages.contact as ContactMessages;
   const formMessages = messages.contactForm as ContactFormMessages;
 
   const emailName = "giteaufildeleau68";

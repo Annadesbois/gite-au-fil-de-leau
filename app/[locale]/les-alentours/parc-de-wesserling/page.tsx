@@ -1,29 +1,16 @@
-import type { Metadata } from "next";
-
 import Button from "@/components/Button";
 import PhotoCarousel from "@/components/carousel/PhotoCarousel";
 import { wesserlingPhotos } from "@/data/wesserling-photos";
-import { getMessages } from "@/lib/i18n";
+import { createPageHelpers } from "@/lib/metadata";
 
-import type { PageProp, WesserlingMessages } from "@/types/i18n";
+import type { PageProp } from "@/types/i18n";
 
-export const generateMetadata = async ({
-  params,
-}: PageProp): Promise<Metadata> => {
-  const { locale } = await params;
-  const messages = getMessages(locale);
-  const wesserling = messages.wesserling as WesserlingMessages;
+const { generateMetadata, getPageMessages } = createPageHelpers("wesserling");
 
-  return {
-    title: wesserling.meta.title,
-    description: wesserling.meta.description,
-  };
-};
+export { generateMetadata };
 
 const ParcDeWesserlingPage = async ({ params }: PageProp) => {
-  const { locale } = await params;
-  const messages = getMessages(locale);
-  const wesserling = messages.wesserling as WesserlingMessages;
+  const wesserling = await getPageMessages(params);
 
   return (
     <>

@@ -1,28 +1,17 @@
-import type { Metadata } from "next";
 import Image from "next/image";
 
 import { villagePhotos } from "@/data/village-photos";
-import { getMessages } from "@/lib/i18n";
+import { createPageHelpers } from "@/lib/metadata";
 
-import type { PageProp, VillageMessages } from "@/types/i18n";
+import type { PageProp } from "@/types/i18n";
 
-export const generateMetadata = async ({
-  params,
-}: PageProp): Promise<Metadata> => {
-  const { locale } = await params;
-  const messages = getMessages(locale);
-  const village = messages.village as VillageMessages;
+const { generateMetadata, getPageMessages } = createPageHelpers("village");
 
-  return {
-    title: village.meta.title,
-    description: village.meta.description,
-  };
-};
+export { generateMetadata };
 
 const VillagePage = async ({ params }: PageProp) => {
   const { locale } = await params;
-  const messages = getMessages(locale);
-  const village = messages.village as VillageMessages;
+  const village = await getPageMessages(params);
 
   return (
     <div className="page-layout">
