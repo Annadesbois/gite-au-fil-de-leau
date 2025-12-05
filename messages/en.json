@@ -210,5 +210,30 @@
     "p2": "Restoration of the mill began in 1991 thanks to a group of volunteers. The water of the Dorfbach, flowing proudly from the Gazon Vert, can once again power the bucket wheel patiently rebuilt to match the original. The cider press, carved from a single oak trunk two centuries ago, once again produces a high-quality juice – the much-appreciated apple must.",
     "p3": "What an emotion when everything comes back to life. The massive millstone can once again turn and crush apples, walnuts, and hazelnuts. The old wooden gears and shafts joyfully transmit the necessary energy in every direction. Walnuts and hazelnuts soften in the restored oven before being pressed by the impressive oil press, now able to develop enormous pressure. The ancestral, mysterious and captivating machinery – as if coming from the dawn of time – occasionally resumes its work in season to press rapeseed and sunflower seeds.",
     "cta": "Discover"
+  },
+
+  "lac": {
+    "meta": {
+      "title": "Lake Kruth-Wildenstein",
+      "description": "Lake Kruth-Wildenstein, the largest reservoir on the Alsatian side of the Vosges Mountains, offers relaxation, walking trails, and a wide range of outdoor activities."
+    },
+    "title": "Lake Kruth-Wildenstein",
+    "p1": "Lake Kruth-Wildenstein invites visitors to relax and unwind. This reservoir is the largest on the Alsatian side of the Vosges Mountains, with a surface area of 81 hectares.",
+    "p2": "It is a reservoir with a capacity of 12 million cubic meters, built at the bottom of the Thur valley between the villages of Kruth and Wildenstein. The upper Thur watershed is mainly composed of peaks heavily covered with snow each winter. Catastrophic spring floods suggested as early as the 19th century the need for a dam to regulate them.",
+    "p3": "However, construction was only decided in 1954, seven years after a major destructive flood. Built between 1959 and 1963, the dam was filled in 1964. Due to the low flow of the Thur at this spot, installing a hydroelectric plant was deemed unprofitable. Walking and discovery areas have been developed for visitors wishing to enjoy the lake and its surroundings.",
+    "activities": {
+      "title": "A wide range of activities is available:",
+      "items": {
+        "fishing": "Fishing",
+        "canoe": "Canoeing, pedal boats",
+        "camping": "Campsite 2 km away",
+        "treePark": "Tree-top adventure park",
+        "bikeRental": "Bike rental (electric bikes, mountain bikes)",
+        "geocaching": "Geocaching and visit of the ruins of Wildenstein Castle",
+        "loop": "Possibility to walk or cycle around the lake (approx. 5 km)",
+        "food": "Food available on site"
+      }
+    },
+    "cta": "Discover"
   }
 }

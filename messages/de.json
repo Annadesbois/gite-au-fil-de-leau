@@ -210,5 +210,30 @@
     "p2": "Die Restaurierung der Mühle begann 1991 durch eine Gruppe von Freiwilligen. Das Wasser des Dorfbachs, das stolz vom Gazon Vert herabfließt, kann nun wieder das Schaufelrad antreiben, das sorgfältig originalgetreu nachgebaut wurde. Die vor zwei Jahrhunderten aus einem einzigen Eichenstamm gefertigte Kelter lässt erneut hochwertigen Saft fließen – den beliebten Apfelmost.",
     "p3": "Wie bewegend, wenn alles wieder in Gang kommt! Der massive Mühlstein dreht sich erneut und zermahlt Äpfel, Walnüsse und Haselnüsse. Die alten Holzräder und -wellen übertragen fröhlich die nötige Energie in alle Richtungen. Walnüsse und Haselnüsse werden im restaurierten Ofen erwärmt, bevor sie in der imposanten Ölpresse landen, die nun wieder enorme Druckkraft entwickeln kann. Die uralte, geheimnisvolle und faszinierende Mechanik – als käme sie aus einer längst vergangenen Zeit – nimmt in der passenden Saison manchmal wieder ihren Dienst auf und presst Raps und Sonnenblumen.",
     "cta": "Entdecken"
+  },
+
+  "lac": {
+    "meta": {
+      "title": "Der Kruth-Wildenstein-Stausee",
+      "description": "Der Kruth-Wildenstein-See, der größte Stausee auf der elsässischen Seite der Vogesen, bietet Entspannung, Spazierwege und zahlreiche Aktivitäten inmitten der Natur."
+    },
+    "title": "Der Kruth-Wildenstein-Stausee",
+    "p1": "Der Kruth-Wildenstein-See lädt zum Entspannen und Abschalten ein. Mit einer Fläche von 81 Hektar ist er der größte Stausee auf der elsässischen Seite des Vogesenmassivs.",
+    "p2": "Er ist ein Stausee mit einem Fassungsvermögen von 12 Millionen Kubikmetern und liegt im Tal der Thur zwischen den Dörfern Kruth und Wildenstein. Das Einzugsgebiet der oberen Thur besteht überwiegend aus stark verschneiten Gipfeln. Wiederkehrende Frühjahrsüberschwemmungen führten bereits im 19. Jahrhundert zur Idee eines regulierenden Staudamms.",
+    "p3": "Erst 1954 wurde der Bau beschlossen, sieben Jahre nach einer letzten verheerenden Überschwemmung. Der Damm wurde von 1959 bis 1963 errichtet und 1964 geflutet. Aufgrund des geringen Wasserflusses der Thur wurde auf ein Wasserkraftwerk verzichtet. Rund um den See wurden Spazier- und Entdeckungsbereiche für Besucher angelegt.",
+    "activities": {
+      "title": "Viele Aktivitäten werden angeboten:",
+      "items": {
+        "fishing": "Angeln",
+        "canoe": "Kanu, Tretboot",
+        "camping": "Campingplatz in 2 km Entfernung",
+        "treePark": "Kletter- und Abenteuerpark",
+        "bikeRental": "Fahrradverleih (E-Bikes, Mountainbikes)",
+        "geocaching": "Geocaching und Besuch der Burgruinen von Wildenstein",
+        "loop": "Rundweg für Wanderer oder Radfahrer (ca. 5 km)",
+        "food": "Möglichkeit, vor Ort zu essen"
+      }
+    },
+    "cta": "Entdecken"
   }
 }

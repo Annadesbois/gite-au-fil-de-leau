@@ -211,5 +211,30 @@
     "p2": "La restauration du Moulin est entreprise dès 1991 par un groupe de bénévoles. L'eau du Dorfbach descendant fièrement du Gazon Vert peut à nouveau alimenter la roue à augets patiemment reconstruite identique à l'ancienne. La presse à cidre, taillée d'une seule pièce dans un fût de chêne il y a deux siècles, laisse de nouveau couler un jus de qualité, des plus appréciés, que l'on nomme le moût de pommes.",
     "p3": "Que d'émotions lorsque tout s'active. La meule peut à nouveau tourner son énorme masse et écraser les pommes, noix et noisettes. Les vieux engrenages et axes en bois transmettent joyeusement de tout côté l'énergie nécessaire. Les noix et noisettes se laissent attendrir dans le four restauré, puis prennent le chemin de l'imposante presse à huile qui peut à nouveau développer ses pressions énormes. L'ancestrale machinerie, mystérieuse, envoûtante, qui semble venir du fond des temps, permettant d'écraser le colza et le tournesol, reprend encore parfois du service la saison venue.",
     "cta": "Découvrir"
+  },
+
+  "lac": {
+    "meta": {
+      "title": "Le lac de Kruth-Wildenstein",
+      "description": "Le lac de Kruth-Wildenstein, plus grande retenue d’eau du versant alsacien du Massif des Vosges, offre détente, promenades et nombreuses activités en pleine nature."
+    },
+    "title": "Le lac de Kruth-Wildenstein",
+    "p1": "Le lac de Kruth-Wildenstein invite à la détente et au dépaysement. Cette retenue d’eau est la plus grande du versant alsacien du Massif des Vosges avec une superficie de 81 ha.",
+    "p2": "Il s'agit d'un réservoir d'une capacité de 12 millions de mètres cubes, construit au fond de la vallée de la Thur, entre les villages de Kruth et de Wildenstein. Le bassin versant de la haute Thur se compose essentiellement de ballons fortement enneigés chaque hiver. Des crues printanières parfois catastrophiques ont suggéré, dès le XIXe siècle, l'édification d'un barrage permettant leur régulation.",
+    "p3": "Ce n'est cependant qu'en 1954 que sa construction fut décidée, sept ans après une dernière crue dévastatrice. Édifié de 1959 à 1963, le barrage fut mis en eau en 1964. En raison du faible débit de la Thur à cet endroit, il n'a pas été jugé rentable d'installer une centrale hydroélectrique. Des zones de promenade et de découverte y ont été aménagées pour les visiteurs qui souhaitent se détendre autour du plan d’eau.",
+    "activities": {
+      "title": "De nombreuses activités sont proposées :",
+      "items": {
+        "fishing": "Pêche",
+        "canoe": "Canoë kayak, pédalo",
+        "camping": "Camping à 2 km",
+        "treePark": "Parc accrobranche",
+        "bikeRental": "Location de vélo (électriques, VTT)",
+        "geocaching": "Géocatching et visite des ruines du château de Wildenstein",
+        "loop": "Possibilité d'en faire le tour par un sentier pédestre et vélo (5km environ)",
+        "food": "Possibilité de se restaurer sur place"
+      }
+    },
+    "cta": "Découvrir"
   }
 }

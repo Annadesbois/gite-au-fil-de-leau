@@ -11,3 +11,4 @@ export * from "./village";
 export * from "./rando";
 export * from "./wesserling";
 export * from "./moulin";
+export * from "./lac";

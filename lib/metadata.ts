@@ -1,11 +1,10 @@
-// utils/metadata.ts
 import { Metadata } from "next";
 import { getMessages, type Locale } from "@/lib/i18n";
 import type {
   PageProp,
   RandonneesMessages,
   ContactMessages,
-  //   LacMessages,
+  LacMessages,
   MoulinMessages,
   WesserlingMessages,
   VillageMessages,
@@ -24,7 +23,7 @@ import type {
 type Messages = {
   randonnees: RandonneesMessages;
   contact: ContactMessages;
-  //   lac: LacMessages;
+  lac: LacMessages;
   moulin: MoulinMessages;
   wesserling: WesserlingMessages;
   village: VillageMessages;
