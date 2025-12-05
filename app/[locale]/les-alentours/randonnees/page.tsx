@@ -1,18 +1,15 @@
 import type { Metadata } from "next";
 
+import Button from "@/components/Button";
 import PhotoCarousel from "@/components/carousel/PhotoCarousel";
 import { randonneesPhotos } from "@/data/randonnees-photos";
-import Button from "@/components/Button";
-import { getMessages, type Locale } from "@/lib/i18n";
-import { RandonneesMessages } from "@/types/i18n/rando";
+import { getMessages } from "@/lib/i18n";
 
-type RandonneesPageProps = {
-  params: Promise<{ locale: Locale }>;
-};
+import type { PageProp, RandonneesMessages } from "@/types/i18n";
 
 export const generateMetadata = async ({
   params,
-}: RandonneesPageProps): Promise<Metadata> => {
+}: PageProp): Promise<Metadata> => {
   const { locale } = await params;
   const messages = getMessages(locale);
   const rando = messages.randonnees as RandonneesMessages;
@@ -23,7 +20,7 @@ export const generateMetadata = async ({
   };
 };
 
-const RandonneesPage = async ({ params }: RandonneesPageProps) => {
+const RandonneesPage = async ({ params }: PageProp) => {
   const { locale } = await params;
   const messages = getMessages(locale);
   const rando = messages.randonnees as RandonneesMessages;

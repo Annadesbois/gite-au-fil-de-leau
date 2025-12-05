@@ -1,4 +1,4 @@
-export * from "./pageProps";
+export * from "./pageProp";
 export * from "./navbar";
 export * from "./footer";
 export * from "./home";

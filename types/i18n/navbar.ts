@@ -42,13 +42,3 @@ export type NavbarProps = {
   locale: Locale;
   messages: NavbarMessages;
 };
-
-export type MobileMenuProps = {
-  locale: Locale;
-  messages: NavbarMessages;
-};
-
-export type DesktopMenuProps = {
-  locale: Locale;
-  messages: NavbarMessages;
-};

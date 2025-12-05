@@ -1,20 +1,15 @@
 import type { Metadata } from "next";
 
-import PhotoCarousel from "@/components/carousel/PhotoCarousel";
-
 import Button from "@/components/Button";
+import PhotoCarousel from "@/components/carousel/PhotoCarousel";
 import { wesserlingPhotos } from "@/data/wesserling-photos";
-import { getMessages, type Locale } from "@/lib/i18n";
-import { title } from "process";
-import { WesserlingMessages } from "@/types/i18n/wesserling";
+import { getMessages } from "@/lib/i18n";
 
-type WesserlingPageProp = {
-  params: Promise<{ locale: Locale }>;
-};
+import type { PageProp, WesserlingMessages } from "@/types/i18n";
 
 export const generateMetadata = async ({
   params,
-}: WesserlingPageProp): Promise<Metadata> => {
+}: PageProp): Promise<Metadata> => {
   const { locale } = await params;
   const messages = getMessages(locale);
   const wesserling = messages.wesserling as WesserlingMessages;
@@ -25,7 +20,7 @@ export const generateMetadata = async ({
   };
 };
 
-const ParcDeWesserlingPage = async ({ params }: WesserlingPageProp) => {
+const ParcDeWesserlingPage = async ({ params }: PageProp) => {
   const { locale } = await params;
   const messages = getMessages(locale);
   const wesserling = messages.wesserling as WesserlingMessages;

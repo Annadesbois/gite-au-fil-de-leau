@@ -1,17 +1,14 @@
+import type { Metadata } from "next";
 import Image from "next/image";
-import { villagePhotos } from "@/data/village-photos";
-import { getMessages, type Locale } from "@/lib/i18n";
-import type { VillageMessages } from "@/types/i18n";
 
-type VillagePageProps = {
-  params: { locale: Locale };
-};
+import { villagePhotos } from "@/data/village-photos";
+import { getMessages } from "@/lib/i18n";
+
+import type { PageProp, VillageMessages } from "@/types/i18n";
 
 export const generateMetadata = async ({
   params,
-}: {
-  params: Promise<{ locale: Locale }>;
-}) => {
+}: PageProp): Promise<Metadata> => {
   const { locale } = await params;
   const messages = getMessages(locale);
   const village = messages.village as VillageMessages;
@@ -22,7 +19,7 @@ export const generateMetadata = async ({
   };
 };
 
-const VillagePage = async ({ params }: VillagePageProps) => {
+const VillagePage = async ({ params }: PageProp) => {
   const { locale } = await params;
   const messages = getMessages(locale);
   const village = messages.village as VillageMessages;

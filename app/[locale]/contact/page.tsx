@@ -2,19 +2,17 @@ import type { Metadata } from "next";
 
 import Button from "@/components/Button";
 import ContactForm from "@/components/ContactForm";
-import { getMessages, type Locale } from "@/lib/i18n";
+import { getMessages } from "@/lib/i18n";
 
 import type {
-  ContactPageProps,
+  PageProp,
   ContactMessages,
   ContactFormMessages,
 } from "@/types/i18n";
 
 export const generateMetadata = async ({
   params,
-}: {
-  params: Promise<{ locale: Locale }>;
-}): Promise<Metadata> => {
+}: PageProp): Promise<Metadata> => {
   const { locale } = await params;
   const messages = getMessages(locale);
   const contact = messages.contact as ContactMessages;
@@ -25,7 +23,7 @@ export const generateMetadata = async ({
   };
 };
 
-const contact = async ({ params }: ContactPageProps) => {
+const contact = async ({ params }: PageProp) => {
   const { locale } = await params;
   const messages = getMessages(locale);
   const contact = messages.contact as ContactMessages;

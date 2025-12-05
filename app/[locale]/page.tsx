@@ -2,14 +2,13 @@ import type { Metadata } from "next";
 
 import PhotoCarousel from "@/components/carousel/PhotoCarousel";
 import { homePhotos } from "@/data/home-photos";
-import { getMessages, type Locale } from "@/lib/i18n";
-import type { HomeMessages, HomePageProps } from "@/types/i18n/home";
+import { getMessages } from "@/lib/i18n";
+
+import type { PageProp, HomeMessages } from "@/types/i18n";
 
 export const generateMetadata = async ({
   params,
-}: {
-  params: Promise<{ locale: Locale }>;
-}): Promise<Metadata> => {
+}: PageProp): Promise<Metadata> => {
   const { locale } = await params;
   const messages = getMessages(locale);
   const home = messages.home as HomeMessages;
@@ -20,7 +19,7 @@ export const generateMetadata = async ({
   };
 };
 
-const HomePage = async ({ params }: HomePageProps) => {
+const HomePage = async ({ params }: PageProp) => {
   const { locale } = await params;
   const messages = getMessages(locale);
   const home = messages.home as HomeMessages;

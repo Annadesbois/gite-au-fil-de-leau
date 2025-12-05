@@ -3,16 +3,13 @@ import type { Metadata } from "next";
 import PhotoCarousel from "@/components/carousel/PhotoCarousel";
 import Button from "@/components/Button";
 import { moulinPhotos } from "@/data/moulin-photos";
-import { getMessages, type Locale } from "@/lib/i18n";
-import { MoulinMessages } from "@/types/i18n/moulin";
+import { getMessages } from "@/lib/i18n";
 
-type MoulinPageProp = {
-  params: Promise<{ locale: Locale }>;
-};
+import type { PageProp, MoulinMessages } from "@/types/i18n";
 
 export const generateMetadata = async ({
   params,
-}: MoulinPageProp): Promise<Metadata> => {
+}: PageProp): Promise<Metadata> => {
   const { locale } = await params;
   const messages = getMessages(locale);
   const moulin = messages.moulin as MoulinMessages;
@@ -23,7 +20,7 @@ export const generateMetadata = async ({
   };
 };
 
-const MoulinAHuilePage = async ({ params }: MoulinPageProp) => {
+const MoulinAHuilePage = async ({ params }: PageProp) => {
   const { locale } = await params;
   const messages = getMessages(locale);
   const moulin = messages.moulin as MoulinMessages;
