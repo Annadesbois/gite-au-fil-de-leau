@@ -318,5 +318,15 @@
       }
     },
     "note": "Im Erdgeschoss gelegen und vollständig barrierefrei, ist dieses Zimmer für Personen mit eingeschränkter Mobilität geeignet."
+  },
+
+  "wellness": {
+    "meta": {
+      "title": "Wellnessbereich mit Spa & Sauna | Gîte Au fil de l'eau",
+      "description": "Der Wellnessbereich der Gîte Au fil de l'eau in Storckensohn bietet Spa, Sauna, Duschen und Ruheliegen mit direktem Zugang zur Obstwiese – ideal für einen erholsamen Aufenthalt in den Hochvogesen."
+    },
+    "title": "Der Wellnessbereich",
+    "intro1": "Ein Wellnessbereich mit Spa, Sauna und Ruheliegen steht den Gästen zur Verfügung. Er öffnet sich ebenerdig zur Obstwiese.",
+    "intro2": "So kann jeder sein eigenes Wohlfühlprogramm gestalten – von warmen oder kalten Duschen über die Sauna bis hin zum sprudelnden Bad mit sanften Massagen und den Innen- oder Außenliegen."
   }
 }
