@@ -164,5 +164,169 @@
     },
     "title": "Das Dorf Storckensohn in 3D",
     "intro": "Die Gîte Au fil de l'eau liegt im Herzen der Hohen Vogesen im Elsass, im Dorf Storckensohn."
+  },
+
+  "randonnees": {
+    "meta": {
+      "title": "Wanderungen rund um Storckensohn | Gîte Au fil de l'eau",
+      "description": "Entdecken Sie die schönsten Wanderwege rund um Storckensohn im Herzen der Hohen Vogesen: Pfade, Panoramaausblicke und Routen, die direkt im Dorf beginnen."
+    },
+    "title": "Wanderungen",
+    "intro1": "Das Dorf Storckensohn liegt im Herzen der Vogesen. Ein weitläufiges Netz an Wanderwegen ist direkt vom Dorf aus erreichbar.",
+    "intro2": "Ihre Gastgeber beraten Sie gerne zu geeigneten Routen und zu Sehenswürdigkeiten entlang der Wege.",
+    "intro3": "Ein Netz von Etappenunterkünften, das 2013 vollständig renoviert wurde, bietet Ihnen Mahlzeiten und gemütliche Abende in Bergatmosphäre.",
+    "cta": "Entdecken"
+  },
+
+  "wesserling": {
+    "meta": {
+      "title": "Der Park Wesserling — Bedeutende Gärten und Textilerbe",
+      "description": "Entdecken Sie den Park Wesserling, seine bemerkenswerten Gärten, das Textil-Ecomuseum, die Große Heizhalle sowie zahlreiche kulturelle und künstlerische Veranstaltungen."
+    },
+    "title": "Der Park Wesserling",
+    "intro1": "Auf einem Gebiet mit großer textiler Tradition erzählt der Park Wesserling die außergewöhnliche Industriegeschichte der ehemaligen „Königlichen Manufaktur“.",
+    "intro2": "Er beeindruckt mit seinen fünf prachtvollen Gärten, ausgezeichnet als „Bemerkenswerte Gärten“, und mit seiner in Frankreich einzigartigen Sammlung von Gebäuden der Textilindustrie (Fabriken, Lagerhallen, Herrenhaus der Besitzer, Patrizierhäuser, Industriebrache, Bauernhof…).",
+    "intro3": "Das Textil-Ecomuseum und die Große Heizhalle verbinden die Geschichte des Ortes mit zeitgenössischer Kunst durch lebendige und interaktive Ausstellungen, Klang- und Lichtinstallationen…",
+    "intro4": "Theatralische Führungen sowie Vorführungen von Spinnen, Weben und Handdruck lassen die ehemaligen Textilberufe wieder aufleben. Das gesamte Jahr über finden Garten-, Textil-, Kultur- und Kunstveranstaltungen statt.",
+    "alsoTitle": "Der Park Wesserling bietet außerdem:",
+    "list": {
+      "shops": "Geschäfte",
+      "creators": "Ein Kreativpavillon mit Kunsthandwerkern",
+      "farmStore": "Ein Hofladen",
+      "enterpriseSpace": "Unternehmensräume",
+      "smallTheater": "Ein kleines Theater",
+      "artistsResidence": "Künstlerresidenzen…"
+    },
+    "cta": "Entdecken"
+  },
+
+  "moulin": {
+    "meta": {
+      "title": "Ölmühle von Storckensohn | Gîte Au fil de l'eau",
+      "description": "Entdecken Sie die Ölmühle von Storckensohn, eine restaurierte historische Anlage, in der Sie die traditionellen Techniken der Öl- und Mostherstellung erleben können – in einem authentischen Ambiente im Herzen der Hohen Vogesen im Elsass."
+    },
+    "title": "Die Ölmühle von Storckensohn",
+    "p1": "Die im Jahr 1732 erbaute Mühle war bis 1962 in Betrieb. Aus Äpfeln und Birnen wurde Bauernmost hergestellt. Walnüsse, Raps und Sonnenblumen wurden in großen Mengen gebracht, um ein feines und geschmackvolles Öl zu gewinnen. Schließlich kam das müde, stillstehende Wasserrad zur Ruhe.",
+    "p2": "Die Restaurierung der Mühle begann 1991 durch eine Gruppe von Freiwilligen. Das Wasser des Dorfbachs, das stolz vom Gazon Vert herabfließt, kann nun wieder das Schaufelrad antreiben, das sorgfältig originalgetreu nachgebaut wurde. Die vor zwei Jahrhunderten aus einem einzigen Eichenstamm gefertigte Kelter lässt erneut hochwertigen Saft fließen – den beliebten Apfelmost.",
+    "p3": "Wie bewegend, wenn alles wieder in Gang kommt! Der massive Mühlstein dreht sich erneut und zermahlt Äpfel, Walnüsse und Haselnüsse. Die alten Holzräder und -wellen übertragen fröhlich die nötige Energie in alle Richtungen. Walnüsse und Haselnüsse werden im restaurierten Ofen erwärmt, bevor sie in der imposanten Ölpresse landen, die nun wieder enorme Druckkraft entwickeln kann. Die uralte, geheimnisvolle und faszinierende Mechanik – als käme sie aus einer längst vergangenen Zeit – nimmt in der passenden Saison manchmal wieder ihren Dienst auf und presst Raps und Sonnenblumen.",
+    "cta": "Entdecken"
+  },
+
+  "lac": {
+    "meta": {
+      "title": "Der Kruth-Wildenstein-Stausee",
+      "description": "Der Kruth-Wildenstein-See, der größte Stausee auf der elsässischen Seite der Vogesen, bietet Entspannung, Spazierwege und zahlreiche Aktivitäten inmitten der Natur."
+    },
+    "title": "Der Kruth-Wildenstein-Stausee",
+    "p1": "Der Kruth-Wildenstein-See lädt zum Entspannen und Abschalten ein. Mit einer Fläche von 81 Hektar ist er der größte Stausee auf der elsässischen Seite des Vogesenmassivs.",
+    "p2": "Er ist ein Stausee mit einem Fassungsvermögen von 12 Millionen Kubikmetern und liegt im Tal der Thur zwischen den Dörfern Kruth und Wildenstein. Das Einzugsgebiet der oberen Thur besteht überwiegend aus stark verschneiten Gipfeln. Wiederkehrende Frühjahrsüberschwemmungen führten bereits im 19. Jahrhundert zur Idee eines regulierenden Staudamms.",
+    "p3": "Erst 1954 wurde der Bau beschlossen, sieben Jahre nach einer letzten verheerenden Überschwemmung. Der Damm wurde von 1959 bis 1963 errichtet und 1964 geflutet. Aufgrund des geringen Wasserflusses der Thur wurde auf ein Wasserkraftwerk verzichtet. Rund um den See wurden Spazier- und Entdeckungsbereiche für Besucher angelegt.",
+    "activities": {
+      "title": "Viele Aktivitäten werden angeboten:",
+      "items": {
+        "fishing": "Angeln",
+        "canoe": "Kanu, Tretboot",
+        "camping": "Campingplatz in 2 km Entfernung",
+        "treePark": "Kletter- und Abenteuerpark",
+        "bikeRental": "Fahrradverleih (E-Bikes, Mountainbikes)",
+        "geocaching": "Geocaching und Besuch der Burgruinen von Wildenstein",
+        "loop": "Rundweg für Wanderer oder Radfahrer (ca. 5 km)",
+        "food": "Möglichkeit, vor Ort zu essen"
+      }
+    },
+    "cta": "Entdecken"
+  },
+
+  "reste": {
+    "meta": {
+      "title": "Aktivitäten rund um die Gîte Au fil de l'eau",
+      "description": "Entdecken Sie alle weiteren Aktivitäten rund um die Gîte Au fil de l'eau in Storckensohn: Skigebiete, Gleitschirmfliegen, Eselwanderungen, Radfahren, Schwimmbad, Casino, Museen, Läden mit regionalen Produkten und viele Restaurants in den Hohen Vogesen im Elsass."
+    },
+    "title": "Und alles Weitere"
+  },
+
+  "cerisier": {
+    "meta": {
+      "title": "Zimmer „Cerisier“ | Gîte Au fil de l'eau in Storckensohn",
+      "description": "Das Zimmer „Cerisier“ der Gîte Au fil de l'eau mit Blick auf die Obstwiese, zwei modularen 90/200-Betten, zwei Ausziehbetten und einem großen Badezimmer mit Chromotherapie-Badewanne – ideal für Paare oder Familien."
+    },
+    "title": "Das Zimmer „Cerisier“",
+    "intro": "Kirschblüten, Himbeer- und Pflaumentöne… Dieses Zimmer spiegelt die Obstwiese wider, die man durch ein großes Panoramafenster aus einem bequemen Schaukelstuhl betrachten kann.",
+    "room": {
+      "title": "Dieses Zimmer umfasst:",
+      "items": {
+        "mainBeds": "Zimmer mit zwei 90/200-Betten, die zu einem 180/200-Bett kombiniert werden können",
+        "drawerBeds": "Zwei 90/200-Ausziehbetten",
+        "bathroom": "Angrenzendes privates Badezimmer mit Chromotherapie-Badewanne, Doppelwaschbecken, WC und Wickeltisch"
+      },
+      "note1": "Ideal für einen romantischen Aufenthalt zu zweit; der großzügige Raum eignet sich auch perfekt für Eltern mit Baby oder für eine Gruppe von vier Personen.",
+      "note2": "Das helle weiße Badezimmer verfügt über Möbel, die das Thema des Obstbaums aufgreifen, sowie eine Chromotherapie-Badewanne für ein farbiges, entspannendes Badeerlebnis."
+    }
+  },
+
+  "grange": {
+    "meta": {
+      "title": "Zimmer „Grange“ | Gîte Au fil de l'eau in Storckensohn",
+      "description": "Das Zimmer „Grange“ der Gîte Au fil de l'eau bewahrt den Charakter der alten Scheune: Holzambiente, Heubodenfenster mit Blick auf die Obstwiese, alte Schlitten und Schnapsflaschen, Mezzanine-Lounge und privates Bad."
+    },
+    "title": "Das Zimmer „Grange“",
+    "intro": "In der ehemaligen Scheune, in der früher Heu und Geräte gelagert wurden, hat dieses Zimmer die warme Holzatmosphäre, den Heuboden mit Blick auf die Obstwiese sowie die alten Schlitten und Schnapsflaschen voller Erinnerungen bewahrt.",
+    "room": {
+      "title": "Dieses Zimmer umfasst:",
+      "items": {
+        "mainBeds": "Zimmer mit zwei 90/200-Betten, die zu einem 180/200-Bett kombiniert werden können",
+        "bathroom": "Angrenzendes privates Badezimmer mit Dusche, Waschbecken und WC",
+        "mezzanine": "Kleiner angrenzender Aufenthaltsbereich auf der Mezzanine"
+      },
+      "note1": "Die Scheune wie eine Rückkehr von einer Reise – voller Erinnerungen und Authentizität.",
+      "note2": "Ein Ort, um in Ruhe zu meditieren, umgeben von Gegenständen von hier und anderswo."
+    }
+  },
+
+  "aurores": {
+    "meta": {
+      "title": "Zimmer „Aurores“ | Gîte Au fil de l'eau in Storckensohn",
+      "description": "Das Zimmer „Aurores“ der Gîte Au fil de l'eau, nach Osten ausgerichtet, mit zwei 90/200-Betten, die zu einem 180/200-Bett kombiniert werden können, sowie einem hellen, farbenfrohen privaten Bad mit maritimen Fliesen."
+    },
+    "title": "Das Zimmer „Aurores“",
+    "intro1": "Nach Osten ausgerichtet wird dieses Zimmer schon bei Tagesanbruch von der Sonne durchflutet und in ein harmonisches Spiel leuchtender Farben gehüllt: Lindgrün, Mandarine, Strohgelb, Kastanie…",
+    "intro2": "Das angrenzende private Badezimmer zeigt die gleiche Lebendigkeit, mit seinem bunten Mosaik aus Fischen, Seesternen, Krabben und Schildkröten.",
+    "room": {
+      "title": "Dieses Zimmer umfasst:",
+      "items": {
+        "mainBeds": "Zimmer mit zwei 90/200-Betten, die zu einem 180/200-Bett kombiniert werden können",
+        "bathroom": "Angrenzendes privates Badezimmer mit Dusche, Waschbecken und WC"
+      },
+      "note": "Zwischen Alkoven, Garten und Meeresmotiven verleiht dieses Zimmer schon am Morgen gute Laune und Energie!"
+    }
+  },
+
+  "senteurs": {
+    "meta": {
+      "title": "Zimmer „Jardin des Senteurs“ | Gîte Au fil de l'eau",
+      "description": "Das Zimmer „Jardin des Senteurs“, ebenerdig gelegen und für Personen mit eingeschränkter Mobilität geeignet, verfügt über ein 140/190-Bett und ein privates Badezimmer mit Zugang zum genussvollen Garten der Gîte."
+    },
+    "title1": "Das Zimmer",
+    "title2": "„Jardin des Senteurs“",
+    "intro": "Die Fenster öffnen sich zum „Genussgarten“ der Gîte: Kräuter, Walderdbeeren und essbare Blumen entlang einer Dorfstraße, die weiter oben in einen Weg zu den Vogesengipfeln übergeht. Die blumige, helle Atmosphäre lädt zur Ruhe ein.",
+    "room": {
+      "title": "Dieses Zimmer umfasst:",
+      "items": {
+        "mainBed": "Zimmer mit einem 140/190-Bett",
+        "bathroom": "Angrenzendes privates Badezimmer mit begehbarer Dusche, Waschbecken und WC",
+        "accessible": "Geeignet für Rollstuhlfahrer"
+      }
+    },
+    "note": "Im Erdgeschoss gelegen und vollständig barrierefrei, ist dieses Zimmer für Personen mit eingeschränkter Mobilität geeignet."
+  },
+
+  "wellness": {
+    "meta": {
+      "title": "Wellnessbereich mit Spa & Sauna | Gîte Au fil de l'eau",
+      "description": "Der Wellnessbereich der Gîte Au fil de l'eau in Storckensohn bietet Spa, Sauna, Duschen und Ruheliegen mit direktem Zugang zur Obstwiese – ideal für einen erholsamen Aufenthalt in den Hochvogesen."
+    },
+    "title": "Der Wellnessbereich",
+    "intro1": "Ein Wellnessbereich mit Spa, Sauna und Ruheliegen steht den Gästen zur Verfügung. Er öffnet sich ebenerdig zur Obstwiese.",
+    "intro2": "So kann jeder sein eigenes Wohlfühlprogramm gestalten – von warmen oder kalten Duschen über die Sauna bis hin zum sprudelnden Bad mit sanften Massagen und den Innen- oder Außenliegen."
   }
 }

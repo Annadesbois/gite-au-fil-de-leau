@@ -164,5 +164,170 @@
     },
     "title": "The village of Storckensohn in 3D",
     "intro": "The Gîte Au fil de l'eau is located in the heart of the High Vosges of Alsace, in the village of Storckensohn."
+  },
+
+  "randonnees": {
+    "meta": {
+      "title": "Hiking Around Storckensohn | Gîte Au fil de l'eau",
+      "description": "Discover the most beautiful hikes around Storckensohn in the heart of the High Vosges: trails, panoramic viewpoints, and itineraries starting directly from the village."
+    },
+    "title": "Hiking",
+    "intro1": "The village of Storckensohn is located in the heart of the Vosges mountains. A wide network of hiking trails starts directly from the village.",
+    "intro2": "Your hosts will be happy to advise you on the best routes and points of interest.",
+    "intro3": "A network of mountain lodges, fully renovated in 2013, welcomes you for meals and evening gatherings.",
+    "cta": "Discover"
+  },
+
+  "wesserling": {
+    "meta": {
+      "title": "Wesserling Park — Remarkable Gardens and Textile Heritage",
+      "description": "Discover Wesserling Park, its remarkable gardens, textile ecomuseum, the Great Boiler House, and numerous cultural and artistic events."
+    },
+    "title": "Wesserling Park",
+    "intro1": "Located in an area with a rich textile tradition, Wesserling Park traces the extraordinary industrial history of the former Royal Manufactory.",
+    "intro2": "The park is renowned for its five magnificent gardens, listed as “Remarkable Gardens”, and for its unique collection of buildings related to the textile industry (factories, workshops, owners’ mansion, master houses, industrial wasteland, farmhouse…).",
+    "intro3": "Its Textile Ecomuseum and Great Boiler House combine the site’s history with contemporary art through interactive exhibitions, sound and light experiences…",
+    "intro4": "The park also brings textile crafts back to life with theatrical tours, spinning, weaving and block-printing demonstrations. It hosts numerous garden, textile, cultural and artistic events throughout the year.",
+    "alsoTitle": "Wesserling Park also offers:",
+    "list": {
+      "shops": "Shops",
+      "creators": "A Creators’ Pavilion with local artisans",
+      "farmStore": "A farm products store",
+      "enterpriseSpace": "Business spaces",
+      "smallTheater": "A small theatre",
+      "artistsResidence": "Artist residencies…"
+    },
+    "cta": "Discover"
+  },
+
+  "moulin": {
+    "meta": {
+      "title": "Storckensohn Oil Mill | Gîte Au fil de l'eau",
+      "description": "Discover the Storckensohn Oil Mill, a restored historic site where you can observe traditional oil and cider production techniques, all in an authentic setting in the heart of the High Vosges of Alsace."
+    },
+    "title": "The Storckensohn Oil Mill",
+    "p1": "Built in 1732, the mill operated until 1962. Apples and pears were used to produce farmhouse cider. Walnuts, rapeseed, and sunflower seeds were brought in large quantities to extract a fine and flavorful oil. Eventually, the tired, inactive wheel came to a stop.",
+    "p2": "Restoration of the mill began in 1991 thanks to a group of volunteers. The water of the Dorfbach, flowing proudly from the Gazon Vert, can once again power the bucket wheel patiently rebuilt to match the original. The cider press, carved from a single oak trunk two centuries ago, once again produces a high-quality juice – the much-appreciated apple must.",
+    "p3": "What an emotion when everything comes back to life. The massive millstone can once again turn and crush apples, walnuts, and hazelnuts. The old wooden gears and shafts joyfully transmit the necessary energy in every direction. Walnuts and hazelnuts soften in the restored oven before being pressed by the impressive oil press, now able to develop enormous pressure. The ancestral, mysterious and captivating machinery – as if coming from the dawn of time – occasionally resumes its work in season to press rapeseed and sunflower seeds.",
+    "cta": "Discover"
+  },
+
+  "lac": {
+    "meta": {
+      "title": "Lake Kruth-Wildenstein",
+      "description": "Lake Kruth-Wildenstein, the largest reservoir on the Alsatian side of the Vosges Mountains, offers relaxation, walking trails, and a wide range of outdoor activities."
+    },
+    "title": "Lake Kruth-Wildenstein",
+    "p1": "Lake Kruth-Wildenstein invites visitors to relax and unwind. This reservoir is the largest on the Alsatian side of the Vosges Mountains, with a surface area of 81 hectares.",
+    "p2": "It is a reservoir with a capacity of 12 million cubic meters, built at the bottom of the Thur valley between the villages of Kruth and Wildenstein. The upper Thur watershed is mainly composed of peaks heavily covered with snow each winter. Catastrophic spring floods suggested as early as the 19th century the need for a dam to regulate them.",
+    "p3": "However, construction was only decided in 1954, seven years after a major destructive flood. Built between 1959 and 1963, the dam was filled in 1964. Due to the low flow of the Thur at this spot, installing a hydroelectric plant was deemed unprofitable. Walking and discovery areas have been developed for visitors wishing to enjoy the lake and its surroundings.",
+    "activities": {
+      "title": "A wide range of activities is available:",
+      "items": {
+        "fishing": "Fishing",
+        "canoe": "Canoeing, pedal boats",
+        "camping": "Campsite 2 km away",
+        "treePark": "Tree-top adventure park",
+        "bikeRental": "Bike rental (electric bikes, mountain bikes)",
+        "geocaching": "Geocaching and visit of the ruins of Wildenstein Castle",
+        "loop": "Possibility to walk or cycle around the lake (approx. 5 km)",
+        "food": "Food available on site"
+      }
+    },
+    "cta": "Discover"
+  },
+
+  "reste": {
+    "meta": {
+      "title": "Activities around Gîte Au fil de l'eau",
+      "description": "Discover all the other activities around Gîte Au fil de l'eau in Storckensohn: ski resorts, paragliding, donkey hikes, cycling, swimming pool, casino, museums, local producers’ shops and many restaurants in the High Vosges of Alsace."
+    },
+
+    "title": "And everything else"
+  },
+
+  "cerisier": {
+    "meta": {
+      "title": "“Cerisier” Room | Gîte Au fil de l'eau in Storckensohn",
+      "description": "The “Cerisier” room at Gîte Au fil de l'eau, overlooking the orchard, featuring two 90/200 modular beds, two drawer beds, and a spacious bathroom with chromotherapy bathtub — ideal for couples or families."
+    },
+    "title": "The “Cerisier” Room",
+    "intro": "Cherry blossom tones, raspberry and plum colours… This room echoes the orchard visible through a large picture window, best enjoyed from a comfortable rocking chair.",
+    "room": {
+      "title": "This room includes:",
+      "items": {
+        "mainBeds": "Bedroom with two 90/200 beds that can be converted into a 180/200 bed",
+        "drawerBeds": "Two 90/200 drawer beds",
+        "bathroom": "Private ensuite bathroom with chromotherapy bathtub, double washbasin, WC and changing table"
+      },
+      "note1": "Perfect for a romantic stay for two, its generous size also accommodates a couple with a baby or a group of four people.",
+      "note2": "The bright white bathroom features furniture inspired by the fruit tree theme, and a chromotherapy bathtub for a relaxing, colourful bath."
+    }
+  },
+
+  "grange": {
+    "meta": {
+      "title": "“Grange” Room | Gîte Au fil de l'eau in Storckensohn",
+      "description": "The “Grange” room of the Gîte Au fil de l'eau preserves the spirit of the old barn: wood atmosphere, hayloft window overlooking the orchard, vintage sleds and schnaps bottles, mezzanine lounge, and private bathroom."
+    },
+    "title": "The “Grange” Room",
+    "intro": "Once used to store hay and various tools, this room has kept the warm wooden atmosphere of the old barn, along with the hayloft opening onto the orchard and the vintage sleds and schnaps bottles full of memories.",
+    "room": {
+      "title": "This room includes:",
+      "items": {
+        "mainBeds": "Room with two 90/200 beds that can be combined into one 180/200 bed",
+        "bathroom": "Private ensuite bathroom with shower, sink and toilet",
+        "mezzanine": "Small adjoining mezzanine lounge"
+      },
+      "note1": "The barn as a return from travel, filled with authenticity and memories.",
+      "note2": "A peaceful place to meditate, surrounded by objects from here and elsewhere."
+    }
+  },
+
+  "aurores": {
+    "meta": {
+      "title": "“Aurores” Room | Gîte Au fil de l'eau in Storckensohn",
+      "description": "The “Aurores” room of the Gîte Au fil de l'eau faces east, offering morning sunlight, two 90/200 beds convertible into a 180/200 bed, and a bright private bathroom with lively seaside-inspired tiles."
+    },
+    "title": "The “Aurores” Room",
+    "intro1": "Facing east, the morning sun brightens this room from dawn, illuminating a palette of vibrant tones: lime green, tangerine, straw yellow, chestnut…",
+    "intro2": "The adjoining private bathroom shares the same lively spirit, with its multicoloured tiles featuring fish, starfish, crabs and turtles.",
+    "room": {
+      "title": "This room includes:",
+      "items": {
+        "mainBeds": "Room with two 90/200 beds that can be combined into one 180/200 bed",
+        "bathroom": "Private ensuite bathroom with shower, sink and toilet"
+      },
+      "note": "Between alcove, garden and seaside atmosphere, this room brings humour and energy from the moment you wake up!"
+    }
+  },
+
+  "senteurs": {
+    "meta": {
+      "title": "“Jardin des Senteurs” Room | Gîte Au fil de l'eau",
+      "description": "The “Jardin des Senteurs” room, located at ground level and accessible to people with reduced mobility, features a 140/190 bed and a private bathroom opening onto the gîte’s edible garden."
+    },
+    "title1": "The “Jardin des Senteurs”",
+    "title2": "Room",
+    "intro": "Its windows open onto the gîte’s “edible garden”: herbs, wild strawberries, and edible flowers lining a village street that soon turns into a path leading to the Vosges peaks. Its floral and luminous atmosphere invites serenity.",
+    "room": {
+      "title": "This room includes:",
+      "items": {
+        "mainBed": "Room with one 140/190 bed",
+        "bathroom": "Private ensuite bathroom with walk-in shower, sink and toilet",
+        "accessible": "Accessible for wheelchair users"
+      }
+    },
+    "note": "Located on the ground floor with step-free access, this room is suitable for people with reduced mobility."
+  },
+
+  "wellness": {
+    "meta": {
+      "title": "Wellness Area with Spa & Sauna | Gîte Au fil de l'eau",
+      "description": "Wellness area of the Gîte Au fil de l'eau in Storckensohn, featuring a spa, sauna, showers and rest chairs opening onto the orchard meadow — perfect for a relaxing stay in the Haute Vosges region."
+    },
+    "title": "The Wellness Area",
+    "intro1": "A wellness area with spa, sauna and rest chairs is available to guests. It opens directly onto the orchard meadow.",
+    "intro2": "Each guest can create their own relaxation path, moving from hot or cold showers, to the sauna, to the bubble bath with its soothing massages, and to indoor or outdoor loungers."
   }
 }

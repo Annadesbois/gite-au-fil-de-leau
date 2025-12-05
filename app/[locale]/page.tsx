@@ -1,29 +1,15 @@
-import type { Metadata } from "next";
-
 import PhotoCarousel from "@/components/carousel/PhotoCarousel";
 import { homePhotos } from "@/data/home-photos";
-import { getMessages, type Locale } from "@/lib/i18n";
-import type { HomeMessages, HomePageProps } from "@/types/i18n/home";
+import { createPageHelpers } from "@/lib/metadata";
 
-export const generateMetadata = async ({
-  params,
-}: {
-  params: Promise<{ locale: Locale }>;
-}): Promise<Metadata> => {
-  const { locale } = await params;
-  const messages = getMessages(locale);
-  const home = messages.home as HomeMessages;
+import type { PageProp } from "@/types/i18n";
 
-  return {
-    title: home.meta.title,
-    description: home.meta.description,
-  };
-};
+const { generateMetadata, getPageMessages } = createPageHelpers("home");
 
-const HomePage = async ({ params }: HomePageProps) => {
-  const { locale } = await params;
-  const messages = getMessages(locale);
-  const home = messages.home as HomeMessages;
+export { generateMetadata };
+
+const HomePage = async ({ params }: PageProp) => {
+  const home = await getPageMessages(params);
 
   return (
     <>

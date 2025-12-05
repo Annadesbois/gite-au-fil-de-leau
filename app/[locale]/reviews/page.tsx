@@ -1,38 +1,22 @@
-import type { Metadata } from "next";
-import { prisma } from "@/lib/prisma";
 import type { Review } from "@prisma/client";
 
+import { prisma } from "@/lib/prisma";
 import ReviewForm from "./review-form";
-import { getMessages, type Locale } from "@/lib/i18n";
-import type { ReviewsMessages, ReviewFormMessages } from "@/types/i18n";
+import { createPageHelpers } from "@/lib/metadata";
+import { getMessages } from "@/lib/i18n";
+import type { PageProp, ReviewFormMessages } from "@/types/i18n";
 
-export const generateMetadata = async ({
-  params,
-}: {
-  params: Promise<{ locale: Locale }>;
-}): Promise<Metadata> => {
-  const { locale } = await params;
-  const messages = getMessages(locale);
-  const reviews = messages.reviews as ReviewsMessages;
+const { generateMetadata, getPageMessages } = createPageHelpers("reviews");
 
-  return {
-    title: reviews.meta.title,
-    description: reviews.meta.description,
-  };
-};
+export { generateMetadata };
 
 export const dynamic = "force-dynamic";
 export const revalidate = 60; // refresh list at most every 60s
 
-type ReviewsPageProps = {
-  params: Promise<{ locale: Locale }>;
-};
-
-const ReviewsPage = async ({ params }: ReviewsPageProps) => {
+const ReviewsPage = async ({ params }: PageProp) => {
   const { locale } = await params;
+  const reviewsMessages = await getPageMessages(params);
   const messages = getMessages(locale);
-
-  const reviewsMessages = messages.reviews as ReviewsMessages;
   const reviewFormMessages = messages.reviewForm as ReviewFormMessages;
 
   let reviews: Review[] = [];

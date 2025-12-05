@@ -1,8 +1,4 @@
 export type VillageMessages = {
-  meta: {
-    title: string;
-    description: string;
-  };
   title: string;
   intro: string;
   copyright: string;

@@ -1,11 +1,13 @@
 import Image from "next/image";
-import type { ActivityPhoto } from "@/data/activities-photos";
+import { ActivitiesPhoto } from "../types/i18n";
+import { Locale } from "@/lib/i18n";
 
 type GalleryProps = {
-  photos: ActivityPhoto[];
+  photos: ActivitiesPhoto[];
+  locale: Locale;
 };
 
-const Gallery = ({ photos }: GalleryProps) => {
+const Gallery = ({ photos, locale }: GalleryProps) => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
       {photos.map((photo, index) => (
@@ -25,7 +27,9 @@ const Gallery = ({ photos }: GalleryProps) => {
             className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105 group-focus-within:scale-105"
           />
           <figcaption className="absolute inset-0 flex items-center justify-center p-4 text-center text-sm font-semibold text-white bg-black/70 backdrop-blur-sm opacity-0 transition-opacity duration-200 group-hover:opacity-100 group-focus-within:opacity-100">
-            <span className="drop-shadow-md">{photo.legend}</span>
+            <span className="drop-shadow-md">
+              {photo.legend[locale] ?? photo.legend.fr}
+            </span>
           </figcaption>
         </figure>
       ))}

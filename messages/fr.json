@@ -165,5 +165,169 @@
     },
     "title": "Le village de Storckensohn en 3D",
     "intro": "Le gîte Au fil de l'eau est situé en plein coeur des Hautes-Vosges d'Alsace, dans le village de Storckensohn."
+  },
+
+  "randonnees": {
+    "meta": {
+      "title": "Randonnées autour de Storckensohn | Gîte Au fil de l'eau",
+      "description": "Découvrez les plus belles randonnées autour de Storckensohn, au cœur des Hautes-Vosges d’Alsace : sentiers, panoramas et itinéraires accessibles directement depuis le village."
+    },
+    "title": "Les randonnées",
+    "intro1": "Le village de Storckensohn est situé au cœur du massif vosgien. Un vaste réseau de randonnées est accessible directement à partir du village.",
+    "intro2": "Vos hôtes sauront vous conseiller sur les itinéraires à suivre et sur les choses à découvrir.",
+    "intro3": "Un réseau de gîtes d'étapes entièrement remis à neuf en 2013 vous accueillera pour vos repas et soirées montagnardes.",
+    "cta": "Découvrir"
+  },
+
+  "wesserling": {
+    "meta": {
+      "title": "Le Parc de Wesserling — Jardins remarquables et patrimoine textile",
+      "description": "Découvrez le Parc de Wesserling, ses jardins remarquables, son Écomusée textile, sa Grande Chaufferie et ses nombreux événements culturels et artistiques."
+    },
+    "title": "Le Parc de Wesserling",
+    "intro1": "Sur des terres de haute tradition textile, le Parc de Wesserling retrace l’extraordinaire aventure industrielle de cette ancienne « Manufacture Royale ».",
+    "intro2": "Il surprend par ses 5 somptueux jardins, classés « Jardin Remarquable », et par sa collection, unique en France, de bâtiments liés à l’industrie textile (usines, hangars, château des patrons, maisons de maître, friche industrielle, ferme…).",
+    "intro3": "Original, son Écomusée textile et sa Grande Chaufferie associent l’histoire du site à l’art contemporain par des expositions vivantes et participatives, d’étonnants sons et lumières…",
+    "intro4": "Des visites théâtralisées et des démonstrations de filage, tissage, impression à la planche font également revivre les métiers de l’industrie textile. Il s’anime tout au long de l’année par de nombreux événements jardins, textiles, culturels et artistiques.",
+    "alsoTitle": "Le Parc de Wesserling, c’est aussi :",
+    "list": {
+      "shops": "Des boutiques",
+      "creators": "Un Pavillon des Créateurs et ses artisans",
+      "farmStore": "Un magasin de produits fermiers",
+      "enterpriseSpace": "Des espaces d’entreprises",
+      "smallTheater": "Un théâtre de poche",
+      "artistsResidence": "Des résidences d’artistes…"
+    },
+    "cta": "Découvrir"
+  },
+
+  "moulin": {
+    "meta": {
+      "title": "Moulin à Huile de Storckensohn | Gîte Au fil de l'eau",
+      "description": "Découvrez le Moulin à Huile de Storckensohn, un site historique restauré où vous pourrez admirer les anciennes techniques de production d'huile et de cidre, tout en profitant d'une atmosphère authentique au cœur des Hautes-Vosges d'Alsace."
+    },
+    "title": "Le Moulin à Huile de Storckensohn",
+    "p1": "Le Moulin construit en 1732 a tourné jusqu'en 1962. Les pommes et les poires servaient à fabriquer le cidre paysan. Noix, colza et tournesols étaient amenés en grand nombre afin d'en tirer une huile fine et savoureuse. Puis, la roue inactive, fatiguée, s'est laissée mourir.",
+    "p2": "La restauration du Moulin est entreprise dès 1991 par un groupe de bénévoles. L'eau du Dorfbach descendant fièrement du Gazon Vert peut à nouveau alimenter la roue à augets patiemment reconstruite identique à l'ancienne. La presse à cidre, taillée d'une seule pièce dans un fût de chêne il y a deux siècles, laisse de nouveau couler un jus de qualité, des plus appréciés, que l'on nomme le moût de pommes.",
+    "p3": "Que d'émotions lorsque tout s'active. La meule peut à nouveau tourner son énorme masse et écraser les pommes, noix et noisettes. Les vieux engrenages et axes en bois transmettent joyeusement de tout côté l'énergie nécessaire. Les noix et noisettes se laissent attendrir dans le four restauré, puis prennent le chemin de l'imposante presse à huile qui peut à nouveau développer ses pressions énormes. L'ancestrale machinerie, mystérieuse, envoûtante, qui semble venir du fond des temps, permettant d'écraser le colza et le tournesol, reprend encore parfois du service la saison venue.",
+    "cta": "Découvrir"
+  },
+
+  "lac": {
+    "meta": {
+      "title": "Le lac de Kruth-Wildenstein",
+      "description": "Le lac de Kruth-Wildenstein, plus grande retenue d’eau du versant alsacien du Massif des Vosges, offre détente, promenades et nombreuses activités en pleine nature."
+    },
+    "title": "Le lac de Kruth-Wildenstein",
+    "p1": "Le lac de Kruth-Wildenstein invite à la détente et au dépaysement. Cette retenue d’eau est la plus grande du versant alsacien du Massif des Vosges avec une superficie de 81 ha.",
+    "p2": "Il s'agit d'un réservoir d'une capacité de 12 millions de mètres cubes, construit au fond de la vallée de la Thur, entre les villages de Kruth et de Wildenstein. Le bassin versant de la haute Thur se compose essentiellement de ballons fortement enneigés chaque hiver. Des crues printanières parfois catastrophiques ont suggéré, dès le XIXe siècle, l'édification d'un barrage permettant leur régulation.",
+    "p3": "Ce n'est cependant qu'en 1954 que sa construction fut décidée, sept ans après une dernière crue dévastatrice. Édifié de 1959 à 1963, le barrage fut mis en eau en 1964. En raison du faible débit de la Thur à cet endroit, il n'a pas été jugé rentable d'installer une centrale hydroélectrique. Des zones de promenade et de découverte y ont été aménagées pour les visiteurs qui souhaitent se détendre autour du plan d’eau.",
+    "activities": {
+      "title": "De nombreuses activités sont proposées :",
+      "items": {
+        "fishing": "Pêche",
+        "canoe": "Canoë kayak, pédalo",
+        "camping": "Camping à 2 km",
+        "treePark": "Parc accrobranche",
+        "bikeRental": "Location de vélo (électriques, VTT)",
+        "geocaching": "Géocatching et visite des ruines du château de Wildenstein",
+        "loop": "Possibilité d'en faire le tour par un sentier pédestre et vélo (5km environ)",
+        "food": "Possibilité de se restaurer sur place"
+      }
+    },
+    "cta": "Découvrir"
+  },
+
+  "reste": {
+    "meta": {
+      "title": "Activités autour du gîte Au fil de l'eau",
+      "description": "Découvrez toutes les autres activités autour du gîte Au fil de l'eau à Storckensohn : ski, parapente, balades à dos d’âne, vélo, piscine, casino, musées, producteurs locaux et nombreux restaurants dans les Hautes-Vosges d’Alsace."
+    },
+    "title": "Et tout le reste"
+  },
+
+  "cerisier": {
+    "meta": {
+      "title": "Chambre « Cerisier » | Gîte Au fil de l'eau à Storckensohn",
+      "description": "La chambre « Cerisier » du gîte Au fil de l'eau, avec vue sur le verger, 2 lits 90/200 modulables, 2 lits tiroirs et vaste salle de bain avec baignoire chromato, idéale pour couple ou famille."
+    },
+    "title": "La chambre « Cerisier »",
+    "intro": "Fleurs de cerisiers, couleurs framboise et prune… Cette chambre fait écho au verger que l’on peut contempler par une large baie vitrée, confortablement installé dans une rocking chair.",
+    "room": {
+      "title": "Cette chambre comporte :",
+      "items": {
+        "mainBeds": "Chambre à 2 lits 90/200 transformables en 1 lit 180/200",
+        "drawerBeds": "2 lits tiroirs 90/200",
+        "bathroom": "Salle d’eau privative attenante avec baignoire chromato, double vasque, WC et table à langer"
+      },
+      "note1": "Idéale pour un séjour romantique à deux, sa vaste surface permet également une utilisation parents-bébé ou groupe de 4 personnes.",
+      "note2": "La salle de bain blanche et lumineuse comporte un mobilier où transparaît l’arbre fruitier, et une baignoire chromato pour se détendre dans un bain de couleurs."
+    }
+  },
+
+  "grange": {
+    "meta": {
+      "title": "Chambre « Grange » | Gîte Au fil de l'eau à Storckensohn",
+      "description": "La chambre « Grange » du Gîte Au fil de l'eau, inspirée de l’ancienne grange vosgienne : ambiance bois, gerbière ouverte sur le verger, objets d’autrefois, mezzanine et salle d’eau privative."
+    },
+    "title": "La chambre « Grange »",
+    "intro": "De l’ancienne grange où étaient stockés le foin et divers matériels, cette chambre a conservé l’ambiance bois, la gerbière ouvrant sur le verger, ainsi que les anciennes luges et bonbonnes à schnaps chargées de souvenirs.",
+    "room": {
+      "title": "Cette chambre comporte :",
+      "items": {
+        "mainBeds": "Chambre à 2 lits 90/200 transformables en 1 lit 180/200",
+        "bathroom": "Salle d’eau privative attenante avec douche, vasque et WC",
+        "mezzanine": "Petit salon attenant en mezzanine"
+      },
+      "note1": "La grange comme un retour de voyage, imprégnée de souvenirs et d’authenticité.",
+      "note2": "Un lieu pour méditer tranquillement, parmi les objets d’ici et d’ailleurs."
+    }
+  },
+
+  "aurores": {
+    "meta": {
+      "title": "Chambre « Aurores » | Gîte Au fil de l'eau à Storckensohn",
+      "description": "La chambre « Aurores » du gîte Au fil de l'eau, orientée au levant, avec 2 lits 90/200 transformables en 180/200 et une salle d’eau privative lumineuse et pétillante aux couleurs marines."
+    },
+    "title": "La chambre « Aurores »",
+    "intro1": "Orientée au levant, le soleil égaye cette chambre dès l’aube, ravivant un camaïeu de coloris chatoyants : vert tilleul, mandarine, jaune paille, châtaigner…",
+    "intro2": "La salle d’eau attenante offre la même pétillance, avec son dallage multicolore de poissons, étoiles de mer, crabes, tortues…",
+    "room": {
+      "title": "Cette chambre comporte :",
+      "items": {
+        "mainBeds": "Chambre à 2 lits 90/200 transformables en 1 lit 180/200",
+        "bathroom": "Salle d’eau privative attenante avec douche, vasque et WC"
+      },
+      "note": "Entre alcove, jardin et bord de mer, cette chambre confère humour et tonus dès le réveil !"
+    }
+  },
+
+  "senteurs": {
+    "meta": {
+      "title": "Chambre « Jardin des Senteurs » | Gîte Au fil de l'eau",
+      "description": "La chambre « Jardin des Senteurs », située de plain-pied et adaptée aux personnes à mobilité réduite, avec lit 140/190 et salle d’eau privative donnant sur le jardin à déguster du gîte."
+    },
+    "title1": "La chambre",
+    "title2": "« Jardin des Senteurs »",
+    "intro": "Ses fenêtres s’ouvrent sur le « jardin à déguster » : aromates, fraises des bois et fleurs comestibles bordant une rue de village qui se transforme plus loin en chemin vers les sommets vosgiens. Son ambiance fleurie et lumineuse invite à la sérénité.",
+    "room": {
+      "title": "Cette chambre comporte :",
+      "items": {
+        "mainBed": "Chambre à 1 lit 140/190",
+        "bathroom": "Salle d’eau privative attenante avec douche à l’italienne, vasque et WC",
+        "accessible": "Adaptée aux personnes en fauteuil roulant"
+      }
+    },
+    "note": "Située au rez-de-chaussée et accessible de plain-pied, cette chambre est adaptée aux personnes à mobilité réduite."
+  },
+
+  "wellness": {
+    "meta": {
+      "title": "Espace bien-être avec spa & sauna | Gîte Au fil de l'eau",
+      "description": "Espace bien-être du gîte Au fil de l'eau à Storckensohn, avec spa, sauna, douches et chaises de repos s’ouvrant sur le pré-verger, pour un séjour détente en Hautes Vosges d’Alsace."
+    },
+    "title": "L'espace bien-être",
+    "intro1": "Un espace bien-être, avec spa, sauna et chaises de repos est à la disposition des hôtes. Il s’ouvre de plain-pied sur le pré-verger.",
+    "intro2": "Ainsi, chacun peut composer son parcours de remise en forme selon ses envies, passant de la douche chaude ou froide, au sauna, au bain à bulles et ses massages adaptés, aux chaises longues intérieures ou extérieures."
   }
 }

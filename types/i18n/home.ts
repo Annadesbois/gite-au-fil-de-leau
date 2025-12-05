@@ -1,14 +1,4 @@
-import type { Locale } from "@/lib/i18n";
-
-export type HomePageProps = {
-  params: { locale: Locale };
-};
-
 export type HomeMessages = {
-  meta: {
-    title: string;
-    description: string;
-  };
   hero: {
     title: string;
     intro1: string;
