@@ -1,8 +1,4 @@
 export type SejourMessages = {
-  meta: {
-    title: string;
-    description: string;
-  };
   hero: {
     title: string;
     highlight: string;

@@ -236,5 +236,13 @@
       }
     },
     "cta": "Découvrir"
+  },
+
+  "reste": {
+    "meta": {
+      "title": "Activités autour du gîte Au fil de l'eau",
+      "description": "Découvrez toutes les autres activités autour du gîte Au fil de l'eau à Storckensohn : ski, parapente, balades à dos d’âne, vélo, piscine, casino, musées, producteurs locaux et nombreux restaurants dans les Hautes-Vosges d’Alsace."
+    },
+    "title": "Et tout le reste"
   }
 }

@@ -1,8 +1,4 @@
 export type HomeMessages = {
-  meta: {
-    title: string;
-    description: string;
-  };
   hero: {
     title: string;
     intro1: string;

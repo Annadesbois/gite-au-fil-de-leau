@@ -235,5 +235,14 @@
       }
     },
     "cta": "Discover"
+  },
+
+  "reste": {
+    "meta": {
+      "title": "Activities around Gîte Au fil de l'eau",
+      "description": "Discover all the other activities around Gîte Au fil de l'eau in Storckensohn: ski resorts, paragliding, donkey hikes, cycling, swimming pool, casino, museums, local producers’ shops and many restaurants in the High Vosges of Alsace."
+    },
+
+    "title": "And everything else"
   }
 }

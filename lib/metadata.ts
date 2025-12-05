@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { getMessages, type Locale } from "@/lib/i18n";
 import type {
   PageProp,
+  MetadataMessages,
   RandonneesMessages,
   ContactMessages,
   LacMessages,
@@ -17,7 +18,7 @@ import type {
   //   SenteursMessages,
   //   BienEtreMessages,
   //   TarifsMessages,
-  //   LeResteMessages,
+  ResteMessages,
 } from "@/types/i18n";
 
 type Messages = {
@@ -36,24 +37,16 @@ type Messages = {
   //   senteurs: SenteursMessages;
   //   bienetre: BienEtreMessages;
   //   tarifs: TarifsMessages;
-  //   lereste: LeResteMessages;
+  reste: ResteMessages;
 };
 
-// Extract valid message keys
 type MessageKey = keyof Messages;
-
-type MessageSection = {
-  meta: {
-    title: string;
-    description: string;
-  };
-};
 
 export function createPageHelpers<K extends MessageKey>(messageKey: K) {
   const generateMetadata = async ({ params }: PageProp): Promise<Metadata> => {
     const { locale } = await params;
     const messages = getMessages(locale as Locale);
-    const section = messages[messageKey] as Messages[K] & MessageSection;
+    const section = messages[messageKey] as Messages[K] & MetadataMessages;
 
     return {
       title: section.meta.title,
