@@ -183,14 +183,11 @@
       "title": "Der Park Wesserling — Bedeutende Gärten und Textilerbe",
       "description": "Entdecken Sie den Park Wesserling, seine bemerkenswerten Gärten, das Textil-Ecomuseum, die Große Heizhalle sowie zahlreiche kulturelle und künstlerische Veranstaltungen."
     },
-
     "title": "Der Park Wesserling",
-
     "intro1": "Auf einem Gebiet mit großer textiler Tradition erzählt der Park Wesserling die außergewöhnliche Industriegeschichte der ehemaligen „Königlichen Manufaktur“.",
     "intro2": "Er beeindruckt mit seinen fünf prachtvollen Gärten, ausgezeichnet als „Bemerkenswerte Gärten“, und mit seiner in Frankreich einzigartigen Sammlung von Gebäuden der Textilindustrie (Fabriken, Lagerhallen, Herrenhaus der Besitzer, Patrizierhäuser, Industriebrache, Bauernhof…).",
     "intro3": "Das Textil-Ecomuseum und die Große Heizhalle verbinden die Geschichte des Ortes mit zeitgenössischer Kunst durch lebendige und interaktive Ausstellungen, Klang- und Lichtinstallationen…",
     "intro4": "Theatralische Führungen sowie Vorführungen von Spinnen, Weben und Handdruck lassen die ehemaligen Textilberufe wieder aufleben. Das gesamte Jahr über finden Garten-, Textil-, Kultur- und Kunstveranstaltungen statt.",
-
     "alsoTitle": "Der Park Wesserling bietet außerdem:",
     "list": {
       "shops": "Geschäfte",
@@ -200,7 +197,18 @@
       "smallTheater": "Ein kleines Theater",
       "artistsResidence": "Künstlerresidenzen…"
     },
+    "cta": "Entdecken"
+  },
 
+  "moulin": {
+    "meta": {
+      "title": "Ölmühle von Storckensohn | Gîte Au fil de l'eau",
+      "description": "Entdecken Sie die Ölmühle von Storckensohn, eine restaurierte historische Anlage, in der Sie die traditionellen Techniken der Öl- und Mostherstellung erleben können – in einem authentischen Ambiente im Herzen der Hohen Vogesen im Elsass."
+    },
+    "title": "Die Ölmühle von Storckensohn",
+    "p1": "Die im Jahr 1732 erbaute Mühle war bis 1962 in Betrieb. Aus Äpfeln und Birnen wurde Bauernmost hergestellt. Walnüsse, Raps und Sonnenblumen wurden in großen Mengen gebracht, um ein feines und geschmackvolles Öl zu gewinnen. Schließlich kam das müde, stillstehende Wasserrad zur Ruhe.",
+    "p2": "Die Restaurierung der Mühle begann 1991 durch eine Gruppe von Freiwilligen. Das Wasser des Dorfbachs, das stolz vom Gazon Vert herabfließt, kann nun wieder das Schaufelrad antreiben, das sorgfältig originalgetreu nachgebaut wurde. Die vor zwei Jahrhunderten aus einem einzigen Eichenstamm gefertigte Kelter lässt erneut hochwertigen Saft fließen – den beliebten Apfelmost.",
+    "p3": "Wie bewegend, wenn alles wieder in Gang kommt! Der massive Mühlstein dreht sich erneut und zermahlt Äpfel, Walnüsse und Haselnüsse. Die alten Holzräder und -wellen übertragen fröhlich die nötige Energie in alle Richtungen. Walnüsse und Haselnüsse werden im restaurierten Ofen erwärmt, bevor sie in der imposanten Ölpresse landen, die nun wieder enorme Druckkraft entwickeln kann. Die uralte, geheimnisvolle und faszinierende Mechanik – als käme sie aus einer längst vergangenen Zeit – nimmt in der passenden Saison manchmal wieder ihren Dienst auf und presst Raps und Sonnenblumen.",
     "cta": "Entdecken"
   }
 }

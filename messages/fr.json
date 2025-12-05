@@ -184,14 +184,11 @@
       "title": "Le Parc de Wesserling — Jardins remarquables et patrimoine textile",
       "description": "Découvrez le Parc de Wesserling, ses jardins remarquables, son Écomusée textile, sa Grande Chaufferie et ses nombreux événements culturels et artistiques."
     },
-
     "title": "Le Parc de Wesserling",
-
     "intro1": "Sur des terres de haute tradition textile, le Parc de Wesserling retrace l’extraordinaire aventure industrielle de cette ancienne « Manufacture Royale ».",
     "intro2": "Il surprend par ses 5 somptueux jardins, classés « Jardin Remarquable », et par sa collection, unique en France, de bâtiments liés à l’industrie textile (usines, hangars, château des patrons, maisons de maître, friche industrielle, ferme…).",
     "intro3": "Original, son Écomusée textile et sa Grande Chaufferie associent l’histoire du site à l’art contemporain par des expositions vivantes et participatives, d’étonnants sons et lumières…",
     "intro4": "Des visites théâtralisées et des démonstrations de filage, tissage, impression à la planche font également revivre les métiers de l’industrie textile. Il s’anime tout au long de l’année par de nombreux événements jardins, textiles, culturels et artistiques.",
-
     "alsoTitle": "Le Parc de Wesserling, c’est aussi :",
     "list": {
       "shops": "Des boutiques",
@@ -201,7 +198,18 @@
       "smallTheater": "Un théâtre de poche",
       "artistsResidence": "Des résidences d’artistes…"
     },
+    "cta": "Découvrir"
+  },
 
+  "moulin": {
+    "meta": {
+      "title": "Moulin à Huile de Storckensohn | Gîte Au fil de l'eau",
+      "description": "Découvrez le Moulin à Huile de Storckensohn, un site historique restauré où vous pourrez admirer les anciennes techniques de production d'huile et de cidre, tout en profitant d'une atmosphère authentique au cœur des Hautes-Vosges d'Alsace."
+    },
+    "title": "Le Moulin à Huile de Storckensohn",
+    "p1": "Le Moulin construit en 1732 a tourné jusqu'en 1962. Les pommes et les poires servaient à fabriquer le cidre paysan. Noix, colza et tournesols étaient amenés en grand nombre afin d'en tirer une huile fine et savoureuse. Puis, la roue inactive, fatiguée, s'est laissée mourir.",
+    "p2": "La restauration du Moulin est entreprise dès 1991 par un groupe de bénévoles. L'eau du Dorfbach descendant fièrement du Gazon Vert peut à nouveau alimenter la roue à augets patiemment reconstruite identique à l'ancienne. La presse à cidre, taillée d'une seule pièce dans un fût de chêne il y a deux siècles, laisse de nouveau couler un jus de qualité, des plus appréciés, que l'on nomme le moût de pommes.",
+    "p3": "Que d'émotions lorsque tout s'active. La meule peut à nouveau tourner son énorme masse et écraser les pommes, noix et noisettes. Les vieux engrenages et axes en bois transmettent joyeusement de tout côté l'énergie nécessaire. Les noix et noisettes se laissent attendrir dans le four restauré, puis prennent le chemin de l'imposante presse à huile qui peut à nouveau développer ses pressions énormes. L'ancestrale machinerie, mystérieuse, envoûtante, qui semble venir du fond des temps, permettant d'écraser le colza et le tournesol, reprend encore parfois du service la saison venue.",
     "cta": "Découvrir"
   }
 }

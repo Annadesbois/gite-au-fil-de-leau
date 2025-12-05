@@ -183,14 +183,11 @@
       "title": "Wesserling Park — Remarkable Gardens and Textile Heritage",
       "description": "Discover Wesserling Park, its remarkable gardens, textile ecomuseum, the Great Boiler House, and numerous cultural and artistic events."
     },
-
     "title": "Wesserling Park",
-
     "intro1": "Located in an area with a rich textile tradition, Wesserling Park traces the extraordinary industrial history of the former Royal Manufactory.",
     "intro2": "The park is renowned for its five magnificent gardens, listed as “Remarkable Gardens”, and for its unique collection of buildings related to the textile industry (factories, workshops, owners’ mansion, master houses, industrial wasteland, farmhouse…).",
     "intro3": "Its Textile Ecomuseum and Great Boiler House combine the site’s history with contemporary art through interactive exhibitions, sound and light experiences…",
     "intro4": "The park also brings textile crafts back to life with theatrical tours, spinning, weaving and block-printing demonstrations. It hosts numerous garden, textile, cultural and artistic events throughout the year.",
-
     "alsoTitle": "Wesserling Park also offers:",
     "list": {
       "shops": "Shops",
@@ -200,7 +197,18 @@
       "smallTheater": "A small theatre",
       "artistsResidence": "Artist residencies…"
     },
+    "cta": "Discover"
+  },
 
+  "moulin": {
+    "meta": {
+      "title": "Storckensohn Oil Mill | Gîte Au fil de l'eau",
+      "description": "Discover the Storckensohn Oil Mill, a restored historic site where you can observe traditional oil and cider production techniques, all in an authentic setting in the heart of the High Vosges of Alsace."
+    },
+    "title": "The Storckensohn Oil Mill",
+    "p1": "Built in 1732, the mill operated until 1962. Apples and pears were used to produce farmhouse cider. Walnuts, rapeseed, and sunflower seeds were brought in large quantities to extract a fine and flavorful oil. Eventually, the tired, inactive wheel came to a stop.",
+    "p2": "Restoration of the mill began in 1991 thanks to a group of volunteers. The water of the Dorfbach, flowing proudly from the Gazon Vert, can once again power the bucket wheel patiently rebuilt to match the original. The cider press, carved from a single oak trunk two centuries ago, once again produces a high-quality juice – the much-appreciated apple must.",
+    "p3": "What an emotion when everything comes back to life. The massive millstone can once again turn and crush apples, walnuts, and hazelnuts. The old wooden gears and shafts joyfully transmit the necessary energy in every direction. Walnuts and hazelnuts soften in the restored oven before being pressed by the impressive oil press, now able to develop enormous pressure. The ancestral, mysterious and captivating machinery – as if coming from the dawn of time – occasionally resumes its work in season to press rapeseed and sunflower seeds.",
     "cta": "Discover"
   }
 }
