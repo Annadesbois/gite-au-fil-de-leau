@@ -14,9 +14,7 @@ type WesserlingPageProp = {
 
 export const generateMetadata = async ({
   params,
-}: {
-  params: Promise<{ locale: Locale }>;
-}): Promise<Metadata> => {
+}: WesserlingPageProp): Promise<Metadata> => {
   const { locale } = await params;
   const messages = getMessages(locale);
   const wesserling = messages.wesserling as WesserlingMessages;

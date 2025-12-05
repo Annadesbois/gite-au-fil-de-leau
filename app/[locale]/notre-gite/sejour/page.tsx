@@ -2,18 +2,12 @@ import type { Metadata } from "next";
 
 import PhotoCarousel from "@/components/carousel/PhotoCarousel";
 import { sejourPhotos } from "@/data/sejour-photos";
-import { getMessages, type Locale } from "@/lib/i18n";
-import type { SejourMessages } from "@/types/i18n";
-
-type SejourPageProps = {
-  params: Promise<{ locale: Locale }>;
-};
+import { getMessages} from "@/lib/i18n";
+import type { PageProps, SejourMessages } from "@/types/i18n";
 
 export const generateMetadata = async ({
   params,
-}: {
-  params: Promise<{ locale: Locale }>;
-}): Promise<Metadata> => {
+}: PageProps): Promise<Metadata> => {
   const { locale } = await params;
   const messages = getMessages(locale);
   const sejour = messages.sejour as SejourMessages;
@@ -24,7 +18,7 @@ export const generateMetadata = async ({
   };
 };
 
-const SejourPage = async ({ params }: SejourPageProps) => {
+const SejourPage = async ({ params }: PageProps) => {
   const { locale } = await params;
   const messages = getMessages(locale);
   const sejour = messages.sejour as SejourMessages;

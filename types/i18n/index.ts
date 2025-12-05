@@ -1,3 +1,4 @@
+export * from "./pageProps";
 export * from "./navbar";
 export * from "./footer";
 export * from "./home";
@@ -7,3 +8,6 @@ export * from "./reviews";
 export * from "./reviewForm";
 export * from "./sejour";
 export * from "./village";
+export * from "./rando";
+export * from "./wesserling";
+export * from "./moulin";

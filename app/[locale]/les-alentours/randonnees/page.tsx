@@ -12,9 +12,7 @@ type RandonneesPageProps = {
 
 export const generateMetadata = async ({
   params,
-}: {
-  params: Promise<{ locale: Locale }>;
-}): Promise<Metadata> => {
+}: RandonneesPageProps): Promise<Metadata> => {
   const { locale } = await params;
   const messages = getMessages(locale);
   const rando = messages.randonnees as RandonneesMessages;
@@ -36,15 +34,9 @@ const RandonneesPage = async ({ params }: RandonneesPageProps) => {
       <div className="relative fabric-surface-light p-6 pb-12 rounded-tl-4xl rounded-br-4xl rounded-tr-sm rounded-bl-sm">
         <h1>{rando.title}</h1>
         <div className="flex flex-col gap-12 mb-12 md:mb-14 text-center">
-          <p className="font-bold">
-            {rando.intro1}
-          </p>
-          <p>
-            {rando.intro2}
-          </p>
-          <p>
-            {rando.intro3}
-          </p>
+          <p className="font-bold">{rando.intro1}</p>
+          <p>{rando.intro2}</p>
+          <p>{rando.intro3}</p>
         </div>
         <Button type="button">
           <a

@@ -6,11 +6,13 @@ import ReviewForm from "./review-form";
 import { getMessages, type Locale } from "@/lib/i18n";
 import type { ReviewsMessages, ReviewFormMessages } from "@/types/i18n";
 
+type ReviewsPageProps = {
+  params: Promise<{ locale: Locale }>;
+};
+
 export const generateMetadata = async ({
   params,
-}: {
-  params: Promise<{ locale: Locale }>;
-}): Promise<Metadata> => {
+}: ReviewsPageProps): Promise<Metadata> => {
   const { locale } = await params;
   const messages = getMessages(locale);
   const reviews = messages.reviews as ReviewsMessages;
@@ -23,10 +25,6 @@ export const generateMetadata = async ({
 
 export const dynamic = "force-dynamic";
 export const revalidate = 60; // refresh list at most every 60s
-
-type ReviewsPageProps = {
-  params: Promise<{ locale: Locale }>;
-};
 
 const ReviewsPage = async ({ params }: ReviewsPageProps) => {
   const { locale } = await params;
