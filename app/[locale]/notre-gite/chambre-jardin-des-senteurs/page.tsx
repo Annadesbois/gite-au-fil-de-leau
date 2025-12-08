@@ -14,7 +14,7 @@ const ChambreJardinDesSenteursPage = async ({ params }: PageProp) => {
   return (
     <>
       <PhotoCarousel slides={senteursPhotos} />
-      <div className="content-area relative fabric-surface-light p-6 md:pb-10 rounded-tl-4xl rounded-br-4xl rounded-tr-sm rounded-bl-sm">
+      <div className="content-area fabric-surface-light description-page-layout">
         <h1>
           {senteurs.title1}
           <br className="block md:hidden" /> {senteurs.title2}

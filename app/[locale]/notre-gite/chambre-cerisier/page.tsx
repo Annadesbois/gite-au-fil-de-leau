@@ -14,7 +14,7 @@ const ChambreCerisierPage = async ({ params }: PageProp) => {
   return (
     <>
       <PhotoCarousel slides={cerisierPhotos} />
-      <div className="content-area relative fabric-surface-light p-6 md:pb-10 rounded-tl-4xl rounded-br-4xl rounded-tr-sm rounded-bl-sm">
+      <div className="content-area fabric-surface-light description-page-layout">
         <h1>{cerisier.title}</h1>
         <div className="flex flex-col gap-12">
           <p className="font-bold text-center">{cerisier.intro}</p>

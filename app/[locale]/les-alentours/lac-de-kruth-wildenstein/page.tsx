@@ -14,7 +14,7 @@ const LacDeKruthWildenstein = async ({ params }: PageProp) => {
   return (
     <>
       <PhotoCarousel slides={lacPhotos} />
-      <div className="relative fabric-surface-light p-6 pb-12 rounded-tl-4xl rounded-br-4xl rounded-tr-sm rounded-bl-sm">
+      <div className="fabric-surface-light description-page-layout">
         <h1>{lac.title}</h1>
         <div className="flex flex-col gap-12 mb-12 md:mb-14 text-center">
           <p className="font-bold">{lac.p1}</p>

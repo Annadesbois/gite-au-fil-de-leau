@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/navbar/Navbar";
 
 import { Courgette } from "@/app/fonts/courgette";
-import { PlaypenSans } from "@/app/fonts/playpen-sans"
+import { PlaypenSans } from "@/app/fonts/playpen-sans";
 
 import { locales, type Locale, getMessages } from "@/lib/i18n";
 
@@ -44,7 +44,7 @@ const RootLayout = async ({
   params: Promise<{ locale: string }>;
 }) => {
   const { locale: localeParam } = await params;
-  const locale = localeParam as Locale; 
+  const locale = localeParam as Locale;
 
   const messages = getMessages(locale);
   const navbarMessages = messages.navbar as NavbarMessages;
