@@ -1,10 +1,8 @@
 import { redirect } from "next/navigation";
-import { defaultLocale } from "@/lib/i18n";
+import { defaultLocale } from "@/lib/i18n.config";
 
 const RootRedirectPage = () => {
   redirect(`/${defaultLocale}`);
-  return null;
 };
 
 export default RootRedirectPage;
-

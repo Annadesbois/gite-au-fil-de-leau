@@ -8,7 +8,9 @@ import Navbar from "@/components/navbar/Navbar";
 import { Courgette } from "@/app/fonts/courgette";
 import { PlaypenSans } from "@/app/fonts/playpen-sans";
 
-import { locales, type Locale, getMessages } from "@/lib/i18n";
+import { locales, type Locale } from "@/lib/i18n.config";
+
+import { getMessages } from "@/lib/i18n";
 
 import type { NavbarMessages } from "@/types/i18n/navbar";
 

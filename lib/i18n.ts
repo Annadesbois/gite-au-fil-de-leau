@@ -1,11 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-export const locales = ["fr", "en", "de"] as const;
-
-export type Locale = (typeof locales)[number];
-
-export const defaultLocale: Locale = "fr";
+import { locales, defaultLocale, type Locale } from "./i18n.config";
 
 export type Messages = Record<string, unknown>;
 
