@@ -1,8 +1,10 @@
 import Link from "next/link";
+
 import DesktopMenu from "./DesktopMenu";
-import MobileMenu from "./MobileMenu";
-import type { NavbarProps } from "@/types/i18n";
 import LocaleSwitcher from "./LocaleSwitcher";
+import MobileMenu from "./MobileMenu";
+
+import type { NavbarProps } from "@/types/i18n";
 
 const Navbar = ({ locale, messages }: NavbarProps) => {
   const base = `/${locale}`;

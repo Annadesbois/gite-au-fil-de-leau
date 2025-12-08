@@ -1,9 +1,12 @@
-import { DropdownMenu } from "radix-ui";
-import { LuMenu } from "react-icons/lu";
-import { FaChevronRight } from "react-icons/fa";
 import Link from "next/link";
-import type { NavbarProps } from "@/types/i18n";
+
+import { DropdownMenu } from "radix-ui";
+import { FaChevronRight } from "react-icons/fa";
+import { LuMenu } from "react-icons/lu";
+
 import LocaleSwitcher from "./LocaleSwitcher";
+
+import type { NavbarProps } from "@/types/i18n";
 
 const MobileMenu = ({ locale, messages }: NavbarProps) => {
   const { home, gite, alentours, avis, contact } = messages;

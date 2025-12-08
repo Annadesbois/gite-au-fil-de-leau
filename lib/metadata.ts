@@ -1,5 +1,7 @@
 import { Metadata } from "next";
+
 import { getMessages, type Locale } from "@/lib/i18n";
+
 import type {
   PageProp,
   MetadataMessages,

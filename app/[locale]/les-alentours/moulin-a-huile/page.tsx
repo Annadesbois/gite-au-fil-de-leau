@@ -1,5 +1,5 @@
-import PhotoCarousel from "@/components/carousel/PhotoCarousel";
 import Button from "@/components/Button";
+import PhotoCarousel from "@/components/carousel/PhotoCarousel";
 import { moulinPhotos } from "@/data/moulin-photos";
 import { createPageHelpers } from "@/lib/metadata";
 

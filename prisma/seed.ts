@@ -1,5 +1,6 @@
 import { PrismaClient } from "@prisma/client";
 import { PrismaPg } from "@prisma/adapter-pg";
+
 import legacyReviews from "./legacy-reviews.json" assert { type: "json" };
 
 const adapter = new PrismaPg({

@@ -1,6 +1,8 @@
-import { NavigationMenu } from "radix-ui";
-import { FaChevronDown } from "react-icons/fa";
 import Link from "next/link";
+
+import { FaChevronDown } from "react-icons/fa";
+import { NavigationMenu } from "radix-ui";
+
 import type { NavbarProps } from "@/types/i18n";
 
 const DesktopMenu = ({ locale, messages }: NavbarProps) => {

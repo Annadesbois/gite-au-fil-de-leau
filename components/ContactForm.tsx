@@ -1,7 +1,9 @@
 "use client";
 
 import { FormEvent, useState } from "react";
+
 import Button from "./Button";
+
 import { ContactFormProps } from "../types/i18n";
 
 type Status = "idle" | "loading" | "success" | "error";

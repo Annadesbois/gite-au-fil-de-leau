@@ -1,6 +1,8 @@
 import Image from "next/image";
-import { ActivitiesPhoto } from "../types/i18n";
+
 import { Locale } from "@/lib/i18n";
+
+import { ActivitiesPhoto } from "../types/i18n";
 
 type GalleryProps = {
   photos: ActivitiesPhoto[];
