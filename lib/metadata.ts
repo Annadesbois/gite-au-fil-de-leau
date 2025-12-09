@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 
-import { getMessages, type Locale } from "@/lib/i18n";
+import { getMessages } from "@/lib/i18n";
+import type { Locale } from "./i18n.config";
 
 import type {
   PageProp,
