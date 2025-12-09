@@ -313,3 +313,17 @@ npm run lint
   - [ ] Verify domain
 - [ ] Personalise `FROM:` email
 - [ ] Improve error handling & logging
+
+### 🧪 Testing
+- [ ] Set up test environment (Vitest or Jest + Testing Library)
+- [ ] Add unit tests for:
+  - [ ] UI components (Button, Navbar, Carousel, Gallery)
+  - [ ] Forms (ReviewForm, ContactForm)
+  - [ ] Zod validation schemas
+- [ ] Add tests for server logic:
+  - [ ] `/[locale]/reviews/actions.ts`
+  - [ ] `/api/contact`
+  - [ ] Mock Prisma in tests
+- [ ] Add basic integration tests for key pages (home, gîte, reviews, contact)
+- [ ] (Optional) Add Playwright/Cypress for end-to-end tests
+- [ ] (Optional) Add GitHub Actions CI to run tests on push
