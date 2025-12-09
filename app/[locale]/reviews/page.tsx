@@ -1,6 +1,6 @@
 import type { Review } from "@prisma/client";
 
-import ReviewForm from "@/components/review-form";
+import ReviewForm from "@/components/ReviewForm";
 import { createPageHelpers } from "@/lib/metadata";
 import { getMessages } from "@/lib/i18n";
 import { prisma } from "@/lib/prisma";

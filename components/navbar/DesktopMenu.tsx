@@ -6,7 +6,7 @@ import { NavigationMenu } from "radix-ui";
 import type { NavbarProps } from "@/types/i18n";
 
 const DesktopMenu = ({ locale, messages }: NavbarProps) => {
-  const { home, gite, alentours, tarifs, avis, contact } = messages;
+  const { home, gite, around, price, reviews, contact } = messages;
   const base = `/${locale}`;
 
   return (
@@ -32,70 +32,67 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
               <li>
                 <NavigationMenu.Link asChild>
                   <Link
-                    href={`${base}/notre-gite/sejour`}
+                    href={`${base}/gite/living-room`}
                     className="block menu-link"
                   >
-                    {gite.sejour}
+                    {gite.livingRoom}
                   </Link>
                 </NavigationMenu.Link>
               </li>
               <li>
                 <NavigationMenu.Link asChild>
                   <Link
-                    href={`${base}/notre-gite/chambre-cerisier`}
+                    href={`${base}/gite/cerisier-room`}
                     className="block menu-link"
                   >
-                    {gite.chambreCerisier}
+                    {gite.cerisierRoom}
                   </Link>
                 </NavigationMenu.Link>
               </li>
               <li>
                 <NavigationMenu.Link asChild>
                   <Link
-                    href={`${base}/notre-gite/chambre-grange`}
+                    href={`${base}/gite/grange-room`}
                     className="block menu-link"
                   >
-                    {gite.chambreGrange}
+                    {gite.grangeRoom}
                   </Link>
                 </NavigationMenu.Link>
               </li>
               <li>
                 <NavigationMenu.Link asChild>
                   <Link
-                    href={`${base}/notre-gite/chambre-aurores`}
+                    href={`${base}/gite/aurores-room`}
                     className="block menu-link"
                   >
-                    {gite.chambreAurores}
+                    {gite.auroresRoom}
                   </Link>
                 </NavigationMenu.Link>
               </li>
               <li>
                 <NavigationMenu.Link asChild>
                   <Link
-                    href={`${base}/notre-gite/chambre-jardin-des-senteurs`}
+                    href={`${base}/gite/jardin-des-senteurs-room`}
                     className="block menu-link"
                   >
-                    {gite.chambreJardinDesSenteurs}
+                    {gite.jardinDesSenteursRoom}
                   </Link>
                 </NavigationMenu.Link>
               </li>
               <li>
                 <NavigationMenu.Link asChild>
                   <Link
-                    href={`${base}/notre-gite/espace-bien-etre`}
+                    href={`${base}/gite/wellness`}
                     className="block menu-link"
                   >
-                    {gite.bienEtre}
+                    {gite.wellness}
                   </Link>
                 </NavigationMenu.Link>
               </li>
               <li>
                 <NavigationMenu.Link asChild>
-                  <Link
-                    href={`${base}/notre-gite/tarifs`}
-                    className="block menu-link"
-                  >
-                    {gite.tarifs}
+                  <Link href={`${base}/gite/price`} className="block menu-link">
+                    {gite.price}
                   </Link>
                 </NavigationMenu.Link>
               </li>
@@ -104,7 +101,7 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
         </NavigationMenu.Item>
         <NavigationMenu.Item className="relative">
           <NavigationMenu.Trigger className="navigation-menu-trigger">
-            {alentours.label}
+            {around.label}
             <FaChevronDown
               className="w-3 h-3 transition-transform duration-250 group-data-[state=open]:rotate-180"
               aria-hidden
@@ -115,60 +112,60 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
               <li>
                 <NavigationMenu.Link asChild>
                   <Link
-                    href={`${base}/les-alentours/village`}
+                    href={`${base}/around/village`}
                     className="block menu-link"
                   >
-                    {alentours.village}
+                    {around.village}
                   </Link>
                 </NavigationMenu.Link>
               </li>
               <li>
                 <NavigationMenu.Link asChild>
                   <Link
-                    href={`${base}/les-alentours/randonnees`}
+                    href={`${base}/around/hiking`}
                     className="block menu-link"
                   >
-                    {alentours.randonnees}
+                    {around.hiking}
                   </Link>
                 </NavigationMenu.Link>
               </li>
               <li>
                 <NavigationMenu.Link asChild>
                   <Link
-                    href={`${base}/les-alentours/parc-de-wesserling`}
+                    href={`${base}/around/wesserling-park`}
                     className="block menu-link"
                   >
-                    {alentours.wesserling}
+                    {around.wesserling}
                   </Link>
                 </NavigationMenu.Link>
               </li>
               <li>
                 <NavigationMenu.Link asChild>
                   <Link
-                    href={`${base}/les-alentours/moulin-a-huile`}
+                    href={`${base}/around/oil-mill`}
                     className="block menu-link"
                   >
-                    {alentours.moulin}
+                    {around.mill}
                   </Link>
                 </NavigationMenu.Link>
               </li>
               <li>
                 <NavigationMenu.Link asChild>
                   <Link
-                    href={`${base}/les-alentours/lac-de-kruth-wildenstein`}
+                    href={`${base}/around/lake-kruth-wildenstein`}
                     className="block menu-link"
                   >
-                    {alentours.lac}
+                    {around.lake}
                   </Link>
                 </NavigationMenu.Link>
               </li>
               <li>
                 <NavigationMenu.Link asChild>
                   <Link
-                    href={`${base}/les-alentours/et-tout-le-reste`}
+                    href={`${base}/around/everything-else`}
                     className="block menu-link"
                   >
-                    {alentours.leReste}
+                    {around.everythingElse}
                   </Link>
                 </NavigationMenu.Link>
               </li>
@@ -178,7 +175,7 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
         <NavigationMenu.Item>
           <NavigationMenu.Link asChild>
             <Link href={`${base}/reviews`} className="menu-link">
-              {avis.label}
+              {reviews.label}
             </Link>
           </NavigationMenu.Link>
         </NavigationMenu.Item>

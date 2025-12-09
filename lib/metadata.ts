@@ -6,41 +6,41 @@ import type { Locale } from "./i18n.config";
 import type {
   PageProp,
   MetadataMessages,
-  RandonneesMessages,
+  HikingMessages,
   ContactMessages,
-  LacMessages,
-  MoulinMessages,
+  LakeMessages,
+  MillMessages,
   WesserlingMessages,
   VillageMessages,
   ReviewsMessages,
   HomeMessages,
-  SejourMessages,
+  LivingRoomMessages,
   AuroresMessages,
   CerisierMessages,
   GrangeMessages,
   SenteursMessages,
-  BienEtreMessages,
+  WellnessMessages,
   //   TarifsMessages,
-  ResteMessages,
+  ElseMessages,
 } from "@/types/i18n";
 
 type Messages = {
-  randonnees: RandonneesMessages;
+  hiking: HikingMessages;
   contact: ContactMessages;
-  lac: LacMessages;
-  moulin: MoulinMessages;
+  lake: LakeMessages;
+  mill: MillMessages;
   wesserling: WesserlingMessages;
   village: VillageMessages;
   reviews: ReviewsMessages;
   home: HomeMessages;
-  sejour: SejourMessages;
+  livingRoom: LivingRoomMessages;
   aurores: AuroresMessages;
   cerisier: CerisierMessages;
   grange: GrangeMessages;
   senteurs: SenteursMessages;
-  wellness: BienEtreMessages;
+  wellness: WellnessMessages;
   //   tarifs: TarifsMessages;
-  reste: ResteMessages;
+  else: ElseMessages;
 };
 
 type MessageKey = keyof Messages;

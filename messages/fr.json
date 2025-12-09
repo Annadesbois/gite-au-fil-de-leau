@@ -10,24 +10,24 @@
     },
     "gite": {
       "label": "Notre gîte",
-      "sejour": "Le séjour",
-      "chambreCerisier": "La chambre Cerisier",
-      "chambreGrange": "La chambre Grange",
-      "chambreAurores": "La chambre Aurores",
-      "chambreJardinDesSenteurs": "La chambre Jardin des senteurs",
-      "bienEtre": "L'espace bien-être",
-      "tarifs": "Tarifs"
+      "livingRoom": "Le séjour",
+      "cerisierRoom": "La chambre Cerisier",
+      "grangeRoom": "La chambre Grange",
+      "auroresRoom": "La chambre Aurores",
+      "jardinDesSenteursRoom": "La chambre Jardin des senteurs",
+      "wellness": "L'espace bien-être",
+      "price": "Tarifs"
     },
-    "alentours": {
+    "around": {
       "label": "Les alentours",
       "village": "Le village en 3D",
-      "randonnees": "Randonnées",
+      "hiking": "Randonnées",
       "wesserling": "Le Parc de Wesserling",
-      "moulin": "Le moulin à huile",
-      "lac": "Le lac de Kruth-Wildenstein",
-      "leReste": "Et tout le reste"
+      "mill": "Le moulin à huile",
+      "lake": "Le lac de Kruth-Wildenstein",
+      "everythingElse": "Et tout le reste"
     },
-    "avis": {
+    "reviews": {
       "label": "Avis"
     },
     "contact": {
@@ -118,7 +118,7 @@
     "success": "Merci ! Votre avis sera publié après validation."
   },
 
-  "sejour": {
+  "livingRoom": {
     "meta": {
       "title": "Le séjour : Grande pièce à vivre du gîte Au fil de l'eau",
       "description": "Séjour de 60 m² du gîte Au fil de l'eau, inspiré des vérandas traditionnelles, avec salon et piano, salle à manger avec poêle à bois, et cuisine équipée ouverte sur la pièce à vivre."
@@ -130,7 +130,7 @@
     "livingArea": {
       "title": "Le séjour comporte :",
       "items": {
-        "salonPiano": "un salon avec piano",
+        "piano": "un salon avec piano",
         "diningWoodStove": "une salle-à-manger avec poêle à bois",
         "veranda": "une véranda avec table haute dans une ambiance végétale"
       },
@@ -167,7 +167,7 @@
     "intro": "Le gîte Au fil de l'eau est situé en plein coeur des Hautes-Vosges d'Alsace, dans le village de Storckensohn."
   },
 
-  "randonnees": {
+  "hiking": {
     "meta": {
       "title": "Randonnées autour de Storckensohn | Gîte Au fil de l'eau",
       "description": "Découvrez les plus belles randonnées autour de Storckensohn, au cœur des Hautes-Vosges d’Alsace : sentiers, panoramas et itinéraires accessibles directement depuis le village."
@@ -201,7 +201,7 @@
     "cta": "Découvrir"
   },
 
-  "moulin": {
+  "mill": {
     "meta": {
       "title": "Moulin à Huile de Storckensohn | Gîte Au fil de l'eau",
       "description": "Découvrez le Moulin à Huile de Storckensohn, un site historique restauré où vous pourrez admirer les anciennes techniques de production d'huile et de cidre, tout en profitant d'une atmosphère authentique au cœur des Hautes-Vosges d'Alsace."
@@ -213,7 +213,7 @@
     "cta": "Découvrir"
   },
 
-  "lac": {
+  "lake": {
     "meta": {
       "title": "Le lac de Kruth-Wildenstein",
       "description": "Le lac de Kruth-Wildenstein, plus grande retenue d’eau du versant alsacien du Massif des Vosges, offre détente, promenades et nombreuses activités en pleine nature."
@@ -238,7 +238,7 @@
     "cta": "Découvrir"
   },
 
-  "reste": {
+  "else": {
     "meta": {
       "title": "Activités autour du gîte Au fil de l'eau",
       "description": "Découvrez toutes les autres activités autour du gîte Au fil de l'eau à Storckensohn : ski, parapente, balades à dos d’âne, vélo, piscine, casino, musées, producteurs locaux et nombreux restaurants dans les Hautes-Vosges d’Alsace."

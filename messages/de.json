@@ -10,24 +10,24 @@
     },
     "gite": {
       "label": "Unser Gîte",
-      "sejour": "Wohnzimmer",
-      "chambreCerisier": "Zimmer „Cerisier“",
-      "chambreGrange": "Zimmer „Grange“",
-      "chambreAurores": "Zimmer „Aurores“",
-      "chambreJardinDesSenteurs": "Zimmer „Jardin des Senteurs“",
-      "bienEtre": "Wellnessbereich",
-      "tarifs": "Tarifs"
+      "livingRoom": "Wohnzimmer",
+      "cerisierRoom": "Zimmer „Cerisier“",
+      "grangeRoom": "Zimmer „Grange“",
+      "auroresRoom": "Zimmer „Aurores“",
+      "jardinDesSenteursRoom": "Zimmer „Jardin des Senteurs“",
+      "wellness": "Wellnessbereich",
+      "price": "Tarifs"
     },
-    "alentours": {
+    "around": {
       "label": "Umgebung",
       "village": "Das Dorf in 3D",
-      "randonnees": "Wanderwege",
+      "hiking": "Wanderwege",
       "wesserling": "Park von Wesserling",
-      "moulin": "Ölmühle",
-      "lac": "See Kruth-Wildenstein",
-      "leReste": "Und alles Weitere"
+      "mill": "Ölmühle",
+      "lake": "See Kruth-Wildenstein",
+      "everythingElse": "Und alles Weitere"
     },
-    "avis": {
+    "reviews": {
       "label": "Bewertungen"
     },
     "contact": {
@@ -117,7 +117,7 @@
     "success": "Danke! Ihre Bewertung wird nach Prüfung veröffentlicht."
   },
 
-  "sejour": {
+  "livingRoom": {
     "meta": {
       "title": "Der Wohnbereich — Großer Gemeinschaftsraum der Gîte Au fil de l'eau",
       "description": "Ein 60 m² großer Wohnbereich, inspiriert von traditionellen Holzveranden, mit Wohnzimmer und Klavier, Esszimmer mit Holzofen sowie einer voll ausgestatteten Küche, die sich zum Wohnraum öffnet."
@@ -129,7 +129,7 @@
     "livingArea": {
       "title": "Der Wohnbereich umfasst:",
       "items": {
-        "salonPiano": "ein Wohnzimmer mit Klavier",
+        "piano": "ein Wohnzimmer mit Klavier",
         "diningWoodStove": "ein Esszimmer mit Holzofen",
         "veranda": "eine Veranda mit Hochtisch und einer grünen, pflanzlichen Atmosphäre"
       },
@@ -166,7 +166,7 @@
     "intro": "Die Gîte Au fil de l'eau liegt im Herzen der Hohen Vogesen im Elsass, im Dorf Storckensohn."
   },
 
-  "randonnees": {
+  "hiking": {
     "meta": {
       "title": "Wanderungen rund um Storckensohn | Gîte Au fil de l'eau",
       "description": "Entdecken Sie die schönsten Wanderwege rund um Storckensohn im Herzen der Hohen Vogesen: Pfade, Panoramaausblicke und Routen, die direkt im Dorf beginnen."
@@ -200,7 +200,7 @@
     "cta": "Entdecken"
   },
 
-  "moulin": {
+  "mill": {
     "meta": {
       "title": "Ölmühle von Storckensohn | Gîte Au fil de l'eau",
       "description": "Entdecken Sie die Ölmühle von Storckensohn, eine restaurierte historische Anlage, in der Sie die traditionellen Techniken der Öl- und Mostherstellung erleben können – in einem authentischen Ambiente im Herzen der Hohen Vogesen im Elsass."
@@ -212,7 +212,7 @@
     "cta": "Entdecken"
   },
 
-  "lac": {
+  "lake": {
     "meta": {
       "title": "Der Kruth-Wildenstein-Stausee",
       "description": "Der Kruth-Wildenstein-See, der größte Stausee auf der elsässischen Seite der Vogesen, bietet Entspannung, Spazierwege und zahlreiche Aktivitäten inmitten der Natur."
@@ -237,7 +237,7 @@
     "cta": "Entdecken"
   },
 
-  "reste": {
+  "else": {
     "meta": {
       "title": "Aktivitäten rund um die Gîte Au fil de l'eau",
       "description": "Entdecken Sie alle weiteren Aktivitäten rund um die Gîte Au fil de l'eau in Storckensohn: Skigebiete, Gleitschirmfliegen, Eselwanderungen, Radfahren, Schwimmbad, Casino, Museen, Läden mit regionalen Produkten und viele Restaurants in den Hohen Vogesen im Elsass."
