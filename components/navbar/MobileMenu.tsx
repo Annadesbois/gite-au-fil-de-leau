@@ -42,7 +42,10 @@ const MobileMenu = ({ locale, messages }: NavbarProps) => {
               className="menu-sub-content fabric-surface-light py-2 w-44 sm:w-64"
             >
               <DropdownMenu.Item asChild>
-                <Link href={`${base}/gite/living-room`} className="menu-link block">
+                <Link
+                  href={`${base}/gite/living-room`}
+                  className="menu-link block"
+                >
                   {gite.livingRoom}
                 </Link>
               </DropdownMenu.Item>
@@ -86,6 +89,7 @@ const MobileMenu = ({ locale, messages }: NavbarProps) => {
                   {gite.wellness}
                 </Link>
               </DropdownMenu.Item>
+              <DropdownMenu.Separator className="border-t w-7/8 mx-auto my-1" />
               <DropdownMenu.Item asChild>
                 <Link href={`${base}/gite/price`} className="menu-link block">
                   {gite.price}
