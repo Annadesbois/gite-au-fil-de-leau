@@ -3,7 +3,7 @@
 import { useActionState } from "react";
 
 import Button from "@/components/Button";
-import createReview from "../app/[locale]/reviews/actions";
+import createReview from "@/app/[locale]/reviews/actions";
 
 import type { ReviewFormMessages } from "@/types/i18n";
 
