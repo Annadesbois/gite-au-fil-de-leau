@@ -1,6 +1,8 @@
 import Image from "next/image";
+
 import giteDeFrance from "@/public/logos/gite-de-france.png";
 import tourismeHandicap from "@/public/logos/label-tourisme-et-handicap.jpg";
+
 import type { FooterMessages, FooterProps } from "@/types/i18n";
 
 const Footer = ({ messages }: FooterProps) => {

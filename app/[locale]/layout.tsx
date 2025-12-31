@@ -1,14 +1,18 @@
 import type { Metadata } from "next";
+
 import "../globals.css";
 
-import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/Footer";
+import Navbar from "@/components/navbar/Navbar";
 
-import { PlaypenSans } from "../fonts/playpen-sans";
-import { Courgette } from "../fonts/courgette";
+import { Courgette } from "@/app/fonts/courgette";
+import { PlaypenSans } from "@/app/fonts/playpen-sans";
+
+import { locales, type Locale } from "@/lib/i18n.config";
+
+import { getMessages } from "@/lib/i18n";
 
 import type { NavbarMessages } from "@/types/i18n/navbar";
-import { locales, type Locale, getMessages } from "@/lib/i18n";
 
 export const generateStaticParams = () => locales.map((locale) => ({ locale }));
 
@@ -42,7 +46,7 @@ const RootLayout = async ({
   params: Promise<{ locale: string }>;
 }) => {
   const { locale: localeParam } = await params;
-  const locale = localeParam as Locale; 
+  const locale = localeParam as Locale;
 
   const messages = getMessages(locale);
   const navbarMessages = messages.navbar as NavbarMessages;

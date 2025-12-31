@@ -1,9 +1,10 @@
 import type { Review } from "@prisma/client";
 
-import { prisma } from "@/lib/prisma";
-import ReviewForm from "./review-form";
+import ReviewForm from "@/components/ReviewForm";
 import { createPageHelpers } from "@/lib/metadata";
 import { getMessages } from "@/lib/i18n";
+import { prisma } from "@/lib/prisma";
+
 import type { PageProp, ReviewFormMessages } from "@/types/i18n";
 
 const { generateMetadata, getPageMessages } = createPageHelpers("reviews");

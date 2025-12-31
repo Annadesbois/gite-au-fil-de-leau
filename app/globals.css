@@ -79,6 +79,10 @@ main h1 {
   @apply flex flex-col items-center my-6;
 }
 
+.description-page-layout {
+  @apply relative p-6 pb-12 rounded-tl-4xl rounded-br-4xl rounded-tr-sm rounded-bl-sm
+}
+
 /* Component / utility-like classes using @apply */
 .menu-link {
   @apply block px-4 py-2 rounded-md;

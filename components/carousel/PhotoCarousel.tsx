@@ -7,9 +7,9 @@ import Autoplay from "embla-carousel-autoplay";
 import useEmblaCarousel from "embla-carousel-react";
 import type { EmblaCarouselType, EmblaOptionsType } from "embla-carousel";
 
-import type { PropType } from "@/types/carousel";
-
 import { PrevButton, NextButton, usePrevNextButtons } from "./CarouselArrows";
+
+import type { PropType } from "@/types/carousel";
 
 const DEFAULT_OPTIONS: EmblaOptionsType = { loop: true };
 

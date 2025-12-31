@@ -1,8 +1,10 @@
 "use client";
 
 import React, { ComponentPropsWithRef, useCallback } from "react";
+
 import { EmblaCarouselType } from "embla-carousel";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+
 import { UsePrevNextButtonsType } from "@/types/carousel";
 
 export const usePrevNextButtons = (

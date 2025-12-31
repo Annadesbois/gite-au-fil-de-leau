@@ -1,11 +1,10 @@
 "use client";
 
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const locales = ["fr", "de", "en"] as const;
-type Locale = (typeof locales)[number];
+import { locales, type Locale } from "@/lib/i18n.config";
 
 type LocaleSwitcherProps = {
   currentLocale: Locale;
@@ -41,10 +40,7 @@ const LocaleSwitcher = ({ currentLocale }: LocaleSwitcherProps) => {
   };
 
   return (
-    <nav
-      aria-label="Choisir la langue"
-      className="flex gap-4 lg:gap-2 ml-2 "
-    >
+    <nav aria-label="Choisir la langue" className="flex gap-4 lg:gap-2 ml-2 ">
       {locales.map((locale) => {
         const isActive = locale === currentLocale;
         const href = buildHref(locale);

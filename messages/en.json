@@ -10,24 +10,24 @@
     },
     "gite": {
       "label": "Our gîte",
-      "sejour": "Living room",
-      "chambreCerisier": "“Cerisier” room",
-      "chambreGrange": "“Grange” room",
-      "chambreAurores": "“Aurores” room",
-      "chambreJardinDesSenteurs": "“Jardin des Senteurs” room",
-      "bienEtre": "Wellness area",
-      "tarifs": "Tarifs"
+      "livingRoom": "Living room",
+      "cerisierRoom": "“Cerisier” room",
+      "grangeRoom": "“Grange” room",
+      "auroresRoom": "“Aurores” room",
+      "jardinDesSenteursRoom": "“Jardin des Senteurs” room",
+      "wellness": "Wellness area",
+      "price": "Price"
     },
-    "alentours": {
+    "around": {
       "label": "Around",
       "village": "The village in 3D",
-      "randonnees": "Hiking trails",
+      "hiking": "Hiking trails",
       "wesserling": "Wesserling Park",
-      "moulin": "Oil mill",
-      "lac": "Lake Kruth-Wildenstein",
-      "leReste": "And everything else"
+      "mill": "Oil mill",
+      "lake": "Lake Kruth-Wildenstein",
+      "everythingElse": "And everything else"
     },
-    "avis": {
+    "reviews": {
       "label": "Reviews"
     },
     "contact": {
@@ -117,7 +117,7 @@
     "success": "Thank you! Your review will be published after validation."
   },
 
-  "sejour": {
+  "livingRoom": {
     "meta": {
       "title": "The living area — Main communal room of the Gîte Au fil de l'eau",
       "description": "A 60 m² living area inspired by traditional wooden verandas, with a lounge and piano, a dining room with wood stove, and a fully equipped kitchen opening onto the main space."
@@ -129,7 +129,7 @@
     "livingArea": {
       "title": "The living area includes:",
       "items": {
-        "salonPiano": "a lounge with piano",
+        "piano": "a lounge with piano",
         "diningWoodStove": "a dining room with wood stove",
         "veranda": "a veranda with a high table in a plant-filled atmosphere"
       },
@@ -166,7 +166,7 @@
     "intro": "The Gîte Au fil de l'eau is located in the heart of the High Vosges of Alsace, in the village of Storckensohn."
   },
 
-  "randonnees": {
+  "hiking": {
     "meta": {
       "title": "Hiking Around Storckensohn | Gîte Au fil de l'eau",
       "description": "Discover the most beautiful hikes around Storckensohn in the heart of the High Vosges: trails, panoramic viewpoints, and itineraries starting directly from the village."
@@ -200,7 +200,7 @@
     "cta": "Discover"
   },
 
-  "moulin": {
+  "mill": {
     "meta": {
       "title": "Storckensohn Oil Mill | Gîte Au fil de l'eau",
       "description": "Discover the Storckensohn Oil Mill, a restored historic site where you can observe traditional oil and cider production techniques, all in an authentic setting in the heart of the High Vosges of Alsace."
@@ -212,7 +212,7 @@
     "cta": "Discover"
   },
 
-  "lac": {
+  "lake": {
     "meta": {
       "title": "Lake Kruth-Wildenstein",
       "description": "Lake Kruth-Wildenstein, the largest reservoir on the Alsatian side of the Vosges Mountains, offers relaxation, walking trails, and a wide range of outdoor activities."
@@ -237,7 +237,7 @@
     "cta": "Discover"
   },
 
-  "reste": {
+  "else": {
     "meta": {
       "title": "Activities around Gîte Au fil de l'eau",
       "description": "Discover all the other activities around Gîte Au fil de l'eau in Storckensohn: ski resorts, paragliding, donkey hikes, cycling, swimming pool, casino, museums, local producers’ shops and many restaurants in the High Vosges of Alsace."

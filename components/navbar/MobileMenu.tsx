@@ -1,12 +1,15 @@
-import { DropdownMenu } from "radix-ui";
-import { LuMenu } from "react-icons/lu";
-import { FaChevronRight } from "react-icons/fa";
 import Link from "next/link";
-import type { NavbarProps } from "@/types/i18n";
+
+import { DropdownMenu } from "radix-ui";
+import { FaChevronRight } from "react-icons/fa";
+import { LuMenu } from "react-icons/lu";
+
 import LocaleSwitcher from "./LocaleSwitcher";
 
+import type { NavbarProps } from "@/types/i18n";
+
 const MobileMenu = ({ locale, messages }: NavbarProps) => {
-  const { home, gite, alentours, avis, contact } = messages;
+  const { home, gite, around, reviews, contact } = messages;
   const base = `/${locale}`;
 
   return (
@@ -40,58 +43,56 @@ const MobileMenu = ({ locale, messages }: NavbarProps) => {
             >
               <DropdownMenu.Item asChild>
                 <Link
-                  href={`${base}/notre-gite/sejour`}
+                  href={`${base}/gite/living-room`}
                   className="menu-link block"
                 >
-                  {gite.sejour}
+                  {gite.livingRoom}
                 </Link>
               </DropdownMenu.Item>
               <DropdownMenu.Item asChild>
                 <Link
-                  href={`${base}/notre-gite/chambre-cerisier`}
+                  href={`${base}/gite/cerisier-room`}
                   className="menu-link block"
                 >
-                  {gite.chambreCerisier}
+                  {gite.cerisierRoom}
                 </Link>
               </DropdownMenu.Item>
               <DropdownMenu.Item asChild>
                 <Link
-                  href={`${base}/notre-gite/chambre-grange`}
+                  href={`${base}/gite/grange-room`}
                   className="menu-link block"
                 >
-                  {gite.chambreGrange}
+                  {gite.grangeRoom}
                 </Link>
               </DropdownMenu.Item>
               <DropdownMenu.Item asChild>
                 <Link
-                  href={`${base}/notre-gite/chambre-aurores`}
+                  href={`${base}/gite/aurores-room`}
                   className="menu-link block"
                 >
-                  {gite.chambreAurores}
+                  {gite.auroresRoom}
                 </Link>
               </DropdownMenu.Item>
               <DropdownMenu.Item asChild>
                 <Link
-                  href={`${base}/notre-gite/chambre-jardin-des-senteurs`}
+                  href={`${base}/gite/jardin-des-senteurs-room`}
                   className="menu-link block"
                 >
-                  {gite.chambreJardinDesSenteurs}
+                  {gite.jardinDesSenteursRoom}
                 </Link>
               </DropdownMenu.Item>
               <DropdownMenu.Item asChild>
                 <Link
-                  href={`${base}/notre-gite/espace-bien-etre`}
+                  href={`${base}/gite/wellness`}
                   className="menu-link block"
                 >
-                  {gite.bienEtre}
+                  {gite.wellness}
                 </Link>
               </DropdownMenu.Item>
+              <DropdownMenu.Separator className="border-t w-7/8 mx-auto my-1" />
               <DropdownMenu.Item asChild>
-                <Link
-                  href={`${base}/notre-gite/tarifs`}
-                  className="menu-link block"
-                >
-                  {gite.tarifs}
+                <Link href={`${base}/gite/price`} className="menu-link block">
+                  {gite.price}
                 </Link>
               </DropdownMenu.Item>
             </DropdownMenu.SubContent>
@@ -99,7 +100,7 @@ const MobileMenu = ({ locale, messages }: NavbarProps) => {
 
           <DropdownMenu.Sub>
             <DropdownMenu.SubTrigger className="navigation-menu-trigger">
-              <span>{alentours.label}</span>
+              <span>{around.label}</span>
               <FaChevronRight className="h-3 w-3 ml-2" />
             </DropdownMenu.SubTrigger>
             <DropdownMenu.SubContent
@@ -108,57 +109,57 @@ const MobileMenu = ({ locale, messages }: NavbarProps) => {
             >
               <DropdownMenu.Item asChild>
                 <Link
-                  href={`${base}/les-alentours/village`}
+                  href={`${base}/around/village`}
                   className="menu-link block"
                 >
-                  {alentours.village}
+                  {around.village}
                 </Link>
               </DropdownMenu.Item>
               <DropdownMenu.Item asChild>
                 <Link
-                  href={`${base}/les-alentours/randonnees`}
+                  href={`${base}/around/hiking`}
                   className="menu-link block"
                 >
-                  {alentours.randonnees}
+                  {around.hiking}
                 </Link>
               </DropdownMenu.Item>
               <DropdownMenu.Item asChild>
                 <Link
-                  href={`${base}/les-alentours/parc-de-wesserling`}
+                  href={`${base}/around/wesserling-park`}
                   className="menu-link block"
                 >
-                  {alentours.wesserling}
+                  {around.wesserling}
                 </Link>
               </DropdownMenu.Item>
               <DropdownMenu.Item asChild>
                 <Link
-                  href={`${base}/les-alentours/moulin-a-huile`}
+                  href={`${base}/around/oil-mill`}
                   className="menu-link block"
                 >
-                  {alentours.moulin}
+                  {around.mill}
                 </Link>
               </DropdownMenu.Item>
               <DropdownMenu.Item asChild>
                 <Link
-                  href={`${base}/les-alentours/lac-de-kruth-wildenstein`}
+                  href={`${base}/around/lake-kruth-wildenstein`}
                   className="menu-link block"
                 >
-                  {alentours.lac}
+                  {around.lake}
                 </Link>
               </DropdownMenu.Item>
               <DropdownMenu.Item asChild>
                 <Link
-                  href={`${base}/les-alentours/et-tout-le-reste`}
+                  href={`${base}/around/everything-else`}
                   className="menu-link block"
                 >
-                  {alentours.leReste}
+                  {around.everythingElse}
                 </Link>
               </DropdownMenu.Item>
             </DropdownMenu.SubContent>
           </DropdownMenu.Sub>
           <DropdownMenu.Item asChild>
             <Link href={`${base}/reviews`} className="menu-link block">
-              {avis.label}
+              {reviews.label}
             </Link>
           </DropdownMenu.Item>
           <DropdownMenu.Item asChild>

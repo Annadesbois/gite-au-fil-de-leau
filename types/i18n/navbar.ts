@@ -1,4 +1,4 @@
-import type { Locale } from "@/lib/i18n";
+import type { Locale } from "@/lib/i18n.config";
 
 export type NavbarHomeMessages = {
   label: string;
@@ -6,23 +6,23 @@ export type NavbarHomeMessages = {
 
 export type NavbarGiteMessages = {
   label: string;
-  sejour: string;
-  chambreCerisier: string;
-  chambreGrange: string;
-  chambreAurores: string;
-  chambreJardinDesSenteurs: string;
-  bienEtre: string;
-  tarifs: string;
+  livingRoom: string;
+  cerisierRoom: string;
+  grangeRoom: string;
+  auroresRoom: string;
+  jardinDesSenteursRoom: string;
+  wellness: string;
+  price: string;
 };
 
-export type NavbarAlentoursMessages = {
+export type NavbarAroundMessages = {
   label: string;
   village: string;
-  randonnees: string;
+  hiking: string;
   wesserling: string;
-  moulin: string;
-  lac: string;
-  leReste: string;
+  mill: string;
+  lake: string;
+  everythingElse: string;
 };
 
 export type NavbarSimpleSectionMessages = {
@@ -32,9 +32,9 @@ export type NavbarSimpleSectionMessages = {
 export type NavbarMessages = {
   home: NavbarHomeMessages;
   gite: NavbarGiteMessages;
-  alentours: NavbarAlentoursMessages;
-  tarifs: NavbarSimpleSectionMessages;
-  avis: NavbarSimpleSectionMessages;
+  around: NavbarAroundMessages;
+  price: NavbarSimpleSectionMessages;
+  reviews: NavbarSimpleSectionMessages;
   contact: NavbarSimpleSectionMessages;
 };
 
