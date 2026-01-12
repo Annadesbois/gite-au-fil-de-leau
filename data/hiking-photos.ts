@@ -4,7 +4,7 @@ export const hikingPhotos = [
     alt: "Vue sur le village de Storckensohn depuis la randonnée du Chauvelin",
   },
   {
-    src: "/photos-alentours/randonnees/ruisseau-storckensohn.jpg",
+    src: "/photos-alentours/randonnees/ruisseau-storckensohn.JPG",
     alt: "Ruisseau traversant Storckensohn le long d’un chemin de randonnée",
   },
   {
@@ -24,23 +24,23 @@ export const hikingPhotos = [
     alt: "Zoom sur le gîte Au fil de l'eau dans le village de Storckensohn sous la neige",
   },
   {
-    src: "/photos-alentours/randonnees/vaches-dans-la-neige-storckensohn.jpg",
+    src: "/photos-alentours/randonnees/vaches-dans-la-neige-storckensohn.JPG",
     alt: "Vaches dans un pâturage enneigé autour de Storckensohn",
   },
   {
-    src: "/photos-alentours/randonnees/place-des-tilleuls-storckensohn.jpg",
+    src: "/photos-alentours/randonnees/place-des-tilleuls-storckensohn.JPG",
     alt: "Place des Tilleuls avec vue sur le village de Storckensohn",
   },
   {
-    src: "/photos-alentours/randonnees/bel-arbre-dans-les-eboulis.jpg",
+    src: "/photos-alentours/randonnees/bel-arbre-dans-les-eboulis.JPG",
     alt: "Arbre isolé poussant au milieu des éboulis dans les Hautes-Vosges d'Alsace",
   },
   {
-    src: "/photos-alentours/randonnees/bel-arbre.jpg",
+    src: "/photos-alentours/randonnees/bel-arbre.JPG",
     alt: "Bel arbre isolé le long d’un sentier de randonnée à Storckensohn",
   },
   {
-    src: "/photos-alentours/randonnees/riviere-storckensohn.jpg",
+    src: "/photos-alentours/randonnees/riviere-storckensohn.JPG",
     alt: "Rivière traversant le village de Storckensohn",
   },
 ];
