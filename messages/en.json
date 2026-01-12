@@ -129,7 +129,7 @@
     "livingArea": {
       "title": "The living area includes:",
       "items": {
-        "piano": "a lounge with piano",
+        "kitchen": "a fully equipped kitchen",
         "diningWoodStove": "a dining room with wood stove",
         "veranda": "a veranda with a high table in a plant-filled atmosphere"
       },
@@ -144,8 +144,8 @@
         "fridgeFreezer": "fridge and freezer",
         "racletteFondue": "raclette and fondue sets",
         "kettle": "kettle",
-        "coffeeMaker": "coffee maker",
-        "blender": "blender"
+        "coffeeMaker": "coffee maker, kettle, blender",
+        "saucepan": "large saucepans for group meals"
       }
     },
     "closing": {
@@ -256,8 +256,8 @@
     "room": {
       "title": "This room includes:",
       "items": {
-        "mainBeds": "Bedroom with two 90/200 beds that can be converted into a 180/200 bed",
-        "drawerBeds": "Two 90/200 drawer beds",
+        "mainBeds": "Two 90/200 cm beds that can be converted into a 180/200 cm bed",
+        "drawerBeds": "Two low sofa beds, convertible into two 80/200 cm single beds",
         "bathroom": "Private ensuite bathroom with chromotherapy bathtub, double washbasin, WC and changing table"
       },
       "note1": "Perfect for a romantic stay for two, its generous size also accommodates a couple with a baby or a group of four people.",
@@ -275,9 +275,9 @@
     "room": {
       "title": "This room includes:",
       "items": {
-        "mainBeds": "Room with two 90/200 beds that can be combined into one 180/200 bed",
-        "bathroom": "Private ensuite bathroom with shower, sink and toilet",
-        "mezzanine": "Small adjoining mezzanine lounge"
+        "mainBeds": "Two 90/200 cm beds that can be combined into one 180/200 cm bed",
+        "bathroom": "An en-suite shower room with shower, washbasin and WC",
+        "mezzanine": "A small adjoining mezzanine lounge"
       },
       "note1": "The barn as a return from travel, filled with authenticity and memories.",
       "note2": "A peaceful place to meditate, surrounded by objects from here and elsewhere."
@@ -295,8 +295,8 @@
     "room": {
       "title": "This room includes:",
       "items": {
-        "mainBeds": "Room with two 90/200 beds that can be combined into one 180/200 bed",
-        "bathroom": "Private ensuite bathroom with shower, sink and toilet"
+        "mainBeds": "Two 90/200 cm beds that can be combined into one 180/200 cm bed",
+        "bathroom": "A private en-suite shower room with shower, washbasin and WC"
       },
       "note": "Between alcove, garden and seaside atmosphere, this room brings humour and energy from the moment you wake up!"
     }
@@ -309,13 +309,12 @@
     },
     "title1": "The “Jardin des Senteurs”",
     "title2": "Room",
-    "intro": "Its windows open onto the gîte’s “edible garden”: herbs, wild strawberries, and edible flowers lining a village street that soon turns into a path leading to the Vosges peaks. Its floral and luminous atmosphere invites serenity.",
+    "intro": "Its windows open onto a small, tree-filled garden: wild strawberries, aromatic herbs and edible flowers thrive in the shade of old trees. The woodland photographs decorating the bedroom evoke the delicate poetry of the gîte’s surrounding forest landscape.",
     "room": {
       "title": "This room includes:",
       "items": {
         "mainBed": "Room with one 140/190 bed",
-        "bathroom": "Private ensuite bathroom with walk-in shower, sink and toilet",
-        "accessible": "Accessible for wheelchair users"
+        "bathroom": "A private en-suite bathroom with walk-in shower, washbasin and WC"
       }
     },
     "note": "Located on the ground floor with step-free access, this room is suitable for people with reduced mobility."

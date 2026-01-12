@@ -130,7 +130,7 @@
     "livingArea": {
       "title": "Le séjour comporte :",
       "items": {
-        "piano": "un salon avec piano",
+        "kitchen": "une cuisine équipée",
         "diningWoodStove": "une salle-à-manger avec poêle à bois",
         "veranda": "une véranda avec table haute dans une ambiance végétale"
       },
@@ -145,8 +145,8 @@
         "fridgeFreezer": "réfrigérateur et congélateur",
         "racletteFondue": "service à raclette et à fondue",
         "kettle": "bouilloire",
-        "coffeeMaker": "cafetière",
-        "blender": "mixer"
+        "coffeeMaker": "bouilloire, cafetière, mixer",
+        "saucepan": "grandes casseroles pour les repas de groupe"
       }
     },
     "closing": {
@@ -256,8 +256,8 @@
     "room": {
       "title": "Cette chambre comporte :",
       "items": {
-        "mainBeds": "Chambre à 2 lits 90/200 transformables en 1 lit 180/200",
-        "drawerBeds": "2 lits tiroirs 90/200",
+        "mainBeds": "2 lits 90/200 cm transformables en 1 lit 180/200 cm",
+        "drawerBeds": "2 divans bas transformables en 2 lits 80/200 cm",
         "bathroom": "Salle d’eau privative attenante avec baignoire chromato, double vasque, WC et table à langer"
       },
       "note1": "Idéale pour un séjour romantique à deux, sa vaste surface permet également une utilisation parents-bébé ou groupe de 4 personnes.",
@@ -275,9 +275,9 @@
     "room": {
       "title": "Cette chambre comporte :",
       "items": {
-        "mainBeds": "Chambre à 2 lits 90/200 transformables en 1 lit 180/200",
-        "bathroom": "Salle d’eau privative attenante avec douche, vasque et WC",
-        "mezzanine": "Petit salon attenant en mezzanine"
+        "mainBeds": "2 lits 90/200 cm transformables en 1 lit 180/200 cm",
+        "bathroom": "Une salle d’eau privative attenante avec douche, vasque et WC",
+        "mezzanine": "Un petit salon attenant en mezzanine"
       },
       "note1": "La grange comme un retour de voyage, imprégnée de souvenirs et d’authenticité.",
       "note2": "Un lieu pour méditer tranquillement, parmi les objets d’ici et d’ailleurs."
@@ -290,13 +290,13 @@
       "description": "La chambre « Aurores » du gîte Au fil de l'eau, orientée au levant, avec 2 lits 90/200 transformables en 180/200 et une salle d’eau privative lumineuse et pétillante aux couleurs marines."
     },
     "title": "La chambre « Aurores »",
-    "intro1": "Orientée au levant, le soleil égaye cette chambre dès l’aube, ravivant un camaïeu de coloris chatoyants : vert tilleul, mandarine, jaune paille, châtaigner…",
+    "intro1": "Orientée au levant, le soleil égaye cette chambre dès l’aube, ravivant un camaïeu de coloris chatoyants : vert tilleul, mandarine, fauve, turquoise, …",
     "intro2": "La salle d’eau attenante offre la même pétillance, avec son dallage multicolore de poissons, étoiles de mer, crabes, tortues…",
     "room": {
       "title": "Cette chambre comporte :",
       "items": {
-        "mainBeds": "Chambre à 2 lits 90/200 transformables en 1 lit 180/200",
-        "bathroom": "Salle d’eau privative attenante avec douche, vasque et WC"
+        "mainBeds": "2 lits 90/200 cm transformables en 1 lit 180/200 cm",
+        "bathroom": "Une salle d’eau privative attenante avec douche, vasque et WC"
       },
       "note": "Entre alcove, jardin et bord de mer, cette chambre confère humour et tonus dès le réveil !"
     }
@@ -309,13 +309,12 @@
     },
     "title1": "La chambre",
     "title2": "« Jardin des Senteurs »",
-    "intro": "Ses fenêtres s’ouvrent sur le « jardin à déguster » : aromates, fraises des bois et fleurs comestibles bordant une rue de village qui se transforme plus loin en chemin vers les sommets vosgiens. Son ambiance fleurie et lumineuse invite à la sérénité.",
+    "intro": "Ses fenêtres s’ouvrent sur un jardinet arboré : fraises des bois, aromates et fleurs comestibles s’égaient à l’ombre de vieux arbres. Les photos de sous-bois qui décorent la chambre évoquent la délicate poésie des environs forestiers du gîte.",
     "room": {
       "title": "Cette chambre comporte :",
       "items": {
-        "mainBed": "Chambre à 1 lit 140/190",
-        "bathroom": "Salle d’eau privative attenante avec douche à l’italienne, vasque et WC",
-        "accessible": "Adaptée aux personnes en fauteuil roulant"
+        "mainBed": "1 lit 140/190 cm",
+        "bathroom": "Une salle d’eau privative attenante avec douche à l’italienne, vasque et WC"
       }
     },
     "note": "Située au rez-de-chaussée et accessible de plain-pied, cette chambre est adaptée aux personnes à mobilité réduite."

@@ -21,7 +21,7 @@ const LivingRoomPage = async ({ params }: PageProp) => {
           <div>
             <h2 className="font-bold">{livingRoom.livingArea.title}</h2>
             <ul>
-              <li>{livingRoom.livingArea.items.salonPiano}</li>
+              <li>{livingRoom.livingArea.items.kitchen}</li>
               <li>{livingRoom.livingArea.items.diningWoodStove}</li>
               <li>{livingRoom.livingArea.items.veranda}</li>
             </ul>
@@ -39,7 +39,7 @@ const LivingRoomPage = async ({ params }: PageProp) => {
               <li>{livingRoom.kitchen.items.racletteFondue}</li>
               <li>{livingRoom.kitchen.items.kettle}</li>
               <li>{livingRoom.kitchen.items.coffeeMaker}</li>
-              <li>{livingRoom.kitchen.items.blender}</li>
+              <li>{livingRoom.kitchen.items.saucepan}</li>
             </ul>
           </div>
           <p className="font-bold text-center">{livingRoom.closing.main}</p>
@@ -47,7 +47,7 @@ const LivingRoomPage = async ({ params }: PageProp) => {
             <span className="font-bold">
               {livingRoom.closing.smallLounge.title}
             </span>
-            , {livingRoom.closing.smallLounge.text}
+            {livingRoom.closing.smallLounge.text}
           </p>
         </div>
       </div>
