@@ -32,8 +32,8 @@ export const homePhotos = [
     alt: "Chambre Jardin des Senteurs avec lit confortable et décoration chaleureuse",
   },
   {
-    src: "/photos-gite/chambre-aurore/chambre-aurore-lit.jpg",
-    alt: "Chambre Aurore du gîte Au fil de l’eau avec lit double",
+    src: "/photos-gite/chambre-aurores/chambre-aurores-lit.jpg",
+    alt: "Chambre Aurores du gîte Au fil de l’eau avec lit double",
   },
   {
     src: "/photos-gite/exterieur/jardin.jpg",

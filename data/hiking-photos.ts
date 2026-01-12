@@ -28,7 +28,7 @@ export const hikingPhotos = [
     alt: "Vaches dans un pâturage enneigé autour de Storckensohn",
   },
   {
-    src: "/photos-alentours/randonnees/place-des-tilleuls-storkensohn.jpg",
+    src: "/photos-alentours/randonnees/place-des-tilleuls-storckensohn.jpg",
     alt: "Place des Tilleuls avec vue sur le village de Storckensohn",
   },
   {
