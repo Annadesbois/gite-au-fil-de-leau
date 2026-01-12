@@ -6,7 +6,7 @@ export type LivingRoomMessages = {
   livingArea: {
     title: string;
     items: {
-      salonPiano: string;
+      kitchen: string;
       diningWoodStove: string;
       veranda: string;
     };
@@ -22,7 +22,7 @@ export type LivingRoomMessages = {
       racletteFondue: string;
       kettle: string;
       coffeeMaker: string;
-      blender: string;
+      saucepan: string;
     };
   };
   closing: {

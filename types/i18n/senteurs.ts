@@ -7,7 +7,6 @@ export type SenteursMessages = {
     items: {
       mainBed: string;
       bathroom: string;
-      accessible: string;
     };
   };
   note: string;

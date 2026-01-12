@@ -26,7 +26,6 @@ const JardinDesSenteursRoomPage = async ({ params }: PageProp) => {
             <ul>
               <li>{senteurs.room.items.mainBed}</li>
               <li>{senteurs.room.items.bathroom}</li>
-              <li>{senteurs.room.items.accessible}</li>
             </ul>
             <p className="font-bold text-center mt-8">{senteurs.note}</p>
           </div>

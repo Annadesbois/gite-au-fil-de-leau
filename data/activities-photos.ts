@@ -100,9 +100,9 @@ export const activitiesPhotos: ActivitiesPhoto[] = [
     src: "/photos-alentours/le-reste/magasins.png",
     alt: "Magasins à Wesserling",
     legend: {
-      fr: "Supermarché avec blanchisserie : Parc de Wesserling à 5 km",
-      en: "Supermarket with laundry services at the Wesserling Park, 5 km away",
-      de: "Supermarkt mit Wäscherei im Parc de Wesserling, 5 km entfernt",
+      fr: "Supermarché au Parc de Wesserling à 5 km",
+      en: "Supermarket at the Wesserling Park, 5 km away",
+      de: "Supermarkt im Parc de Wesserling, 5 km entfernt",
     },
   },
 

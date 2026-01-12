@@ -129,7 +129,7 @@
     "livingArea": {
       "title": "Der Wohnbereich umfasst:",
       "items": {
-        "piano": "ein Wohnzimmer mit Klavier",
+        "kitchen": "eine voll ausgestattete Küche",
         "diningWoodStove": "ein Esszimmer mit Holzofen",
         "veranda": "eine Veranda mit Hochtisch und einer grünen, pflanzlichen Atmosphäre"
       },
@@ -144,14 +144,14 @@
         "fridgeFreezer": "Kühlschrank und Gefrierschrank",
         "racletteFondue": "Raclette- und Fondue-Set",
         "kettle": "Wasserkocher",
-        "coffeeMaker": "Kaffeemaschine",
-        "blender": "Mixer"
+        "coffeeMaker": "Kaffeemaschine, Wasserkocher, Mixer",
+        "saucepan": "große Kochtöpfe für Gruppenmahlzeiten"
       }
     },
     "closing": {
       "main": "Dieser große Wohnraum bietet viele Möglichkeiten, gemeinsame und gesellige Momente zu verbringen.",
       "smallLounge": {
-        "title": "Ein kleiner separater Salon, ",
+        "title": "Ein kleiner separater Wohnzimmer, ",
         "text": "mit TV und DVD-Player wurde in der ehemaligen Scheune eingerichtet, deren rustikaler Charme erhalten geblieben ist."
       }
     }
@@ -255,8 +255,8 @@
     "room": {
       "title": "Dieses Zimmer umfasst:",
       "items": {
-        "mainBeds": "Zimmer mit zwei 90/200-Betten, die zu einem 180/200-Bett kombiniert werden können",
-        "drawerBeds": "Zwei 90/200-Ausziehbetten",
+        "mainBeds": "Zwei 90/200-cm-Betten, die zu einem 180/200-cm-Doppelbett kombiniert werden können",
+        "drawerBeds": "Zwei niedrige Schlafsofas, umwandelbar in zwei 80/200-cm-Einzelbetten",
         "bathroom": "Angrenzendes privates Badezimmer mit Chromotherapie-Badewanne, Doppelwaschbecken, WC und Wickeltisch"
       },
       "note1": "Ideal für einen romantischen Aufenthalt zu zweit; der großzügige Raum eignet sich auch perfekt für Eltern mit Baby oder für eine Gruppe von vier Personen.",
@@ -274,9 +274,9 @@
     "room": {
       "title": "Dieses Zimmer umfasst:",
       "items": {
-        "mainBeds": "Zimmer mit zwei 90/200-Betten, die zu einem 180/200-Bett kombiniert werden können",
-        "bathroom": "Angrenzendes privates Badezimmer mit Dusche, Waschbecken und WC",
-        "mezzanine": "Kleiner angrenzender Aufenthaltsbereich auf der Mezzanine"
+        "mainBeds": "Zwei 90/200-cm-Betten, die zu einem 180/200-cm-Bett kombiniert werden können",
+        "bathroom": "Ein angrenzendes, privates Duschbad mit Dusche, Waschbecken und WC",
+        "mezzanine": "Ein kleiner, angrenzender Wohnbereich auf der Empore"
       },
       "note1": "Die Scheune wie eine Rückkehr von einer Reise – voller Erinnerungen und Authentizität.",
       "note2": "Ein Ort, um in Ruhe zu meditieren, umgeben von Gegenständen von hier und anderswo."
@@ -294,8 +294,8 @@
     "room": {
       "title": "Dieses Zimmer umfasst:",
       "items": {
-        "mainBeds": "Zimmer mit zwei 90/200-Betten, die zu einem 180/200-Bett kombiniert werden können",
-        "bathroom": "Angrenzendes privates Badezimmer mit Dusche, Waschbecken und WC"
+        "mainBeds": "Zwei 90/200-cm-Betten, die zu einem 180/200-cm-Bett kombiniert werden können",
+        "bathroom": "Ein angrenzendes, privates Duschbad mit Dusche, Waschbecken und WC"
       },
       "note": "Zwischen Alkoven, Garten und Meeresmotiven verleiht dieses Zimmer schon am Morgen gute Laune und Energie!"
     }
@@ -308,13 +308,12 @@
     },
     "title1": "Das Zimmer",
     "title2": "„Jardin des Senteurs“",
-    "intro": "Die Fenster öffnen sich zum „Genussgarten“ der Gîte: Kräuter, Walderdbeeren und essbare Blumen entlang einer Dorfstraße, die weiter oben in einen Weg zu den Vogesengipfeln übergeht. Die blumige, helle Atmosphäre lädt zur Ruhe ein.",
+    "intro": "Seine Fenster öffnen sich zu einem kleinen, baumbestandenen Garten: Walderdbeeren, aromatische Kräuter und essbare Blüten gedeihen im Schatten alter Bäume. Die Unterholz-Fotografien, die das Schlafzimmer schmücken, erinnern an die feine Poesie der waldreichen Umgebung des Gîtes.",
     "room": {
       "title": "Dieses Zimmer umfasst:",
       "items": {
         "mainBed": "Zimmer mit einem 140/190-Bett",
-        "bathroom": "Angrenzendes privates Badezimmer mit begehbarer Dusche, Waschbecken und WC",
-        "accessible": "Geeignet für Rollstuhlfahrer"
+        "bathroom": "Ein angrenzendes privates Duschbad mit begehbarer Dusche, Waschbecken und WC"
       }
     },
     "note": "Im Erdgeschoss gelegen und vollständig barrierefrei, ist dieses Zimmer für Personen mit eingeschränkter Mobilität geeignet."
