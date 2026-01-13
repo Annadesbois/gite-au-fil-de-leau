@@ -20,3 +20,4 @@ export * from "./grange";
 export * from "./aurores";
 export * from "./senteurs";
 export * from "./wellness";
+export * from "./price";

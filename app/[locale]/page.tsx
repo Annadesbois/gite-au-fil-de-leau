@@ -45,6 +45,15 @@ const HomePage = async ({ params }: PageProp) => {
           <span className="font-bold">{home.wellness.title}</span>
           {home.wellness.text}
         </p>
+        <div className="mt-6">
+          <h2 className="font-bold">{home.baby.title}</h2>
+          <ul>
+            <li>{home.baby.items.chairs}</li>
+            <li>{home.baby.items.bed}</li>
+            <li>{home.baby.items.bath}</li>
+            <li>{home.baby.items.kitchen}</li>
+          </ul>
+        </div>
         <p className="font-bold text-center mt-6">{home.accessibility.text}</p>
       </div>
     </>

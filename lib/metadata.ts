@@ -20,7 +20,7 @@ import type {
   GrangeMessages,
   SenteursMessages,
   WellnessMessages,
-  //   TarifsMessages,
+  PriceMessages,
   ElseMessages,
 } from "@/types/i18n";
 
@@ -39,7 +39,7 @@ type Messages = {
   grange: GrangeMessages;
   senteurs: SenteursMessages;
   wellness: WellnessMessages;
-  //   tarifs: TarifsMessages;
+  price: PriceMessages;
   else: ElseMessages;
 };
 
