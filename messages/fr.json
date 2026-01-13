@@ -74,6 +74,15 @@
       "title": "Un espace bien-être, ",
       "text": "avec spa, sauna, salle d’eau et chaises longues est accessible par élévateur au niveau -1. Ses larges baies vitrées s’ouvrent sur le pré-verger en bord du ruisseau."
     },
+    "baby": {
+      "title": "Les équipements pour bébé suivants sont à disposition dans le gîte :",
+      "items": {
+        "chairs": "1 chaise haute traditionnelle et 2 chaises hautes adaptées à différents âges",
+        "bed": "2 petits lits à barreaux de bois",
+        "bath": "Une petite baignoire et un pot",
+        "kitchen": "Un chauffe-biberon, appareil à purée, vaisselle incassable"
+      }
+    },
     "accessibility": {
       "text": "Le rez-de-chaussée et l’espace bien-être du niveau -1 sont accessibles aux personnes à mobilité réduite."
     }

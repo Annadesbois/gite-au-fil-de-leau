@@ -73,6 +73,15 @@
     "wellness": {
       "text": "Ein Wellnessbereich mit Spa, Sauna, Bad und Liegestühlen ist über einen Aufzug im Untergeschoss (-1) erreichbar. Große Fensterfronten öffnen sich zur Obstwiese am Bach."
     },
+    "baby": {
+      "title": "Folgende Babyausstattung steht im Gîte zur Verfügung:",
+      "items": {
+        "chairs": "1 klassischer Hochstuhl und 2 Hochstühle für verschiedene Altersstufen",
+        "bed": "2 kleine Holz-Gitterbetten",
+        "bath": "Eine kleine Babybadewanne und ein Töpfchen",
+        "kitchen": "Ein Flaschenwärmer, ein Babykostzubereiter und bruchsicheres Geschirr"
+      }
+    },
     "accessibility": {
       "text": "Das Erdgeschoss und der Wellnessbereich auf Ebene -1 sind für Personen mit eingeschränkter Mobilität zugänglich."
     }

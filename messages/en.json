@@ -73,6 +73,15 @@
     "wellness": {
       "text": "A wellness area with spa, sauna, bathroom and loungers is accessible by lift on level -1. Its large bay windows open onto the orchard meadow along the stream."
     },
+    "baby": {
+      "title": "The following baby equipment is available in the gîte:",
+      "items": {
+        "chairs": "1 traditional high chair and 2 high chairs suitable for different ages",
+        "bed": "2 small wooden cot beds",
+        "bath": "A small baby bath and a potty",
+        "kitchen": "A bottle warmer, a baby food maker and unbreakable tableware"
+      }
+    },
     "accessibility": {
       "text": "The ground floor and the wellness area on level -1 are accessible to persons with reduced mobility."
     }

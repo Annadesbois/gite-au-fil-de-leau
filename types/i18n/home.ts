@@ -26,6 +26,15 @@ export type HomeMessages = {
     title: string;
     text: string;
   };
+  baby: {
+    title: string;
+    items: {
+      chairs: string;
+      bed: string;
+      bath: string;
+      kitchen: string;
+    };
+  };
   accessibility: {
     text: string;
   };
