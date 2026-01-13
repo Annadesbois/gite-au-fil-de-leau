@@ -337,5 +337,23 @@
     "title": "L'espace bien-être",
     "intro1": "Un espace bien-être, avec spa, sauna et chaises de repos est à la disposition des hôtes. Il s’ouvre de plain-pied sur le pré-verger.",
     "intro2": "Ainsi, chacun peut composer son parcours de remise en forme selon ses envies, passant de la douche chaude ou froide, au sauna, au bain à bulles et ses massages adaptés, aux chaises longues intérieures ou extérieures."
+  },
+
+  "price": {
+    "meta": {
+      "title": "Tarifs du gîte Au fil de l'eau à Storckensohn",
+      "description": "Découvrez les tarifs de location du gîte Au fil de l'eau à Storckensohn, Hautes Vosges d’Alsace. Tarifs selon saison et nombre de personnes, avec options et services inclus."
+    },
+    "title": "Tarifs",
+    "details": "Tarifs 2026 tous frais inclus (eau, électricité, chauffage, wifi, draps mis en place, spa, sauna, linge de toilette mais les serviettes de bain pour le spa et le sauna sont à apporter) :",
+    "nights": {
+      "two": "2 nuits : 696 €",
+      "three": "3 nuits : 870 €",
+      "four": "4 nuits : 1090 €",
+      "five": "5 nuits : 1220 €",
+      "six": "6 nuits : 1380 €",
+      "seven": "7 nuits : 1500 €"
+    },
+    "cleaning": "Le ménage de fin de séjour est en option. 125 € sont demandés si les vacanciers ne souhaitent pas le faire eux-mêmes."
   }
 }

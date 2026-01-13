@@ -337,5 +337,23 @@
     "title": "The Wellness Area",
     "intro1": "A wellness area with spa, sauna and rest chairs is available to guests. It opens directly onto the orchard meadow.",
     "intro2": "Each guest can create their own relaxation path, moving from hot or cold showers, to the sauna, to the bubble bath with its soothing massages, and to indoor or outdoor loungers."
+  },
+
+  "price": {
+    "meta": {
+      "title": "Rates for the Au fil de l'eau gîte in Storckensohn",
+      "description": "Discover the rental rates of the Au fil de l'eau gîte in Storckensohn, in the Hautes Vosges of Alsace. Prices vary according to season and number of guests, with options and included services."
+    },
+    "title": "Rates",
+    "details": "2026 rates, all charges included (water, electricity, heating, Wi-Fi, beds made on arrival, spa, sauna, and towels provided; spa and sauna bath towels must be brought by guests):",
+    "nights": {
+      "two": "2 nights : 696 €",
+      "three": "3 nights : 870 €",
+      "four": "4 nights : 1,090 €",
+      "five": "5 nights : 1,220 €",
+      "six": "6 nights : 1,380 €",
+      "seven": "7 nights : 1,500 €"
+    },
+    "cleaning": "End-of-stay cleaning is optional. A fee of €125 applies if guests choose not to do it themselves."
   }
 }

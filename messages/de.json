@@ -336,5 +336,23 @@
     "title": "Der Wellnessbereich",
     "intro1": "Ein Wellnessbereich mit Spa, Sauna und Ruheliegen steht den Gästen zur Verfügung. Er öffnet sich ebenerdig zur Obstwiese.",
     "intro2": "So kann jeder sein eigenes Wohlfühlprogramm gestalten – von warmen oder kalten Duschen über die Sauna bis hin zum sprudelnden Bad mit sanften Massagen und den Innen- oder Außenliegen."
+  },
+
+  "price": {
+    "meta": {
+      "title": "Preise des Gîtes Au fil de l'eau in Storckensohn",
+      "description": "Entdecken Sie die Mietpreise des Gîtes Au fil de l'eau in Storckensohn in den Hohen Vogesen im Elsass. Die Preise variieren je nach Saison und Personenzahl, inklusive Optionen und Leistungen."
+    },
+    "title": "Preise",
+    "details": "Preise 2026, alle Nebenkosten inbegriffen (Wasser, Strom, Heizung, WLAN, bezogene Betten bei Ankunft, Spa, Sauna und Handtücher; Badetücher für Spa und Sauna sind mitzubringen):",
+    "nights": {
+      "two": "2 Nächte: 696 €",
+      "three": "3 Nächte: 870 €",
+      "four": "4 Nächte: 1.090 €",
+      "five": "5 Nächte: 1.220 €",
+      "six": "6 Nächte: 1.380 €",
+      "seven": "7 Nächte: 1.500 €"
+    },
+    "cleaning": "Die Endreinigung ist optional. Wenn die Gäste diese nicht selbst durchführen möchten, wird eine Gebühr von 125 € erhoben."
   }
 }
