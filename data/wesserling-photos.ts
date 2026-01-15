@@ -16,15 +16,15 @@ export const wesserlingPhotos = [
     alt: "Restau du Potager",
   },
   {
-    src: "/photos-alentours/wesserling/tunnel-illumine-parc-de-wesserling.jpg",
+    src: "/photos-alentours/wesserling/tunnel-illumine-parc-de-wesserling.JPG",
     alt: "Tunnel illuminé au Parc de Wesserling",
   },
   {
-    src: "/photos-alentours/wesserling/parc-de-wesserling-animation-enfants.jpg",
+    src: "/photos-alentours/wesserling/parc-de-wesserling-animation-enfants.JPG",
     alt: "Animation enfants au Parc de Wesserling",
   },
   {
-    src: "/photos-alentours/wesserling/jardins-de-wesserling.jpg",
+    src: "/photos-alentours/wesserling/jardins-de-wesserling.JPG",
     alt: "Jardins de Wesserling",
   },
 ];
