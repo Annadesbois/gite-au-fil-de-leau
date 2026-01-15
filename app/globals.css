@@ -44,10 +44,6 @@ body::before {
   background-blend-mode: multiply, normal;
 }
 
-.fabric-surface-light {
-  isolation: isolate;
-}
-
 .fabric-surface-light::before {
   content: "";
   position: absolute;
