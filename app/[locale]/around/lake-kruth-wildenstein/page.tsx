@@ -35,7 +35,7 @@ const LakeDeKruthWildenstein = async ({ params }: PageProp) => {
           </ul>
         </div>
         <Button type="button">
-          <a href="https://lake-kruth-wildenstein.fr/" target="_blank">
+          <a href="https://lac-kruth-wildenstein.fr/" target="_blank">
             {lake.cta}
           </a>
         </Button>
