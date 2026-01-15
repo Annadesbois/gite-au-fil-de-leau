@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { DropdownMenu } from "radix-ui";
+import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
 import { FaChevronRight } from "react-icons/fa";
 import { LuMenu } from "react-icons/lu";
 
@@ -13,7 +13,7 @@ const MobileMenu = ({ locale, messages }: NavbarProps) => {
   const base = `/${locale}`;
 
   return (
-    <DropdownMenu.Root modal={false}>
+    <DropdownMenu.Root key={`mobilemenu-${locale}`} modal={false}>
       <DropdownMenu.Trigger asChild>
         <button className="btn-ghost btn p-0 rounded-full w-11 h-11 flex items-center justify-center cursor-pointer">
           <LuMenu size={36} />
