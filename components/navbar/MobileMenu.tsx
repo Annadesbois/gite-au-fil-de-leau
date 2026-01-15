@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { DropdownMenu } from "radix-ui";
+import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
 import { FaChevronRight } from "react-icons/fa";
 import { LuMenu } from "react-icons/lu";
 
