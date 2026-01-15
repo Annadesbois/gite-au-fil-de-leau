@@ -6,7 +6,7 @@ import { NavigationMenu } from "radix-ui";
 import type { NavbarProps } from "@/types/i18n";
 
 const DesktopMenu = ({ locale, messages }: NavbarProps) => {
-  const { home, gite, around, price, reviews, contact } = messages;
+  const { home, gite, around, reviews, contact } = messages;
   const base = `/${locale}`;
 
   return (
