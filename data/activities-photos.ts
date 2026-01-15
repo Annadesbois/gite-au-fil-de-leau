@@ -44,9 +44,9 @@ export const activitiesPhotos: ActivitiesPhoto[] = [
     src: "/photos-alentours/le-reste/bob-luge-markstein.png",
     alt: "Piste de luge sur rail d'été au Markstein",
     legend: {
-      fr: "Le bob-luge du Markstein à 25km",
-      en: "The summer toboggan run at the Markstein, 25 km away",
-      de: "Die Sommerrodelbahn am Markstein, 25 km entfernt",
+      fr: "Le bob-luge du Markstein à 28km",
+      en: "The summer toboggan run at the Markstein, 28 km away",
+      de: "Die Sommerrodelbahn am Markstein, 28 km entfernt",
     },
   },
   {
@@ -72,9 +72,9 @@ export const activitiesPhotos: ActivitiesPhoto[] = [
     src: "/photos-alentours/le-reste/casino-bussang.jpg",
     alt: "Casino de Bussang",
     legend: {
-      fr: "Le casino de Bussang à 5 km",
-      en: "The Bussang casino, 5 km away",
-      de: "Das Casino von Bussang, 5 km entfernt",
+      fr: "Le casino de Bussang à 11 km",
+      en: "The Bussang casino, 11 km away",
+      de: "Das Casino von Bussang, 11 km entfernt",
     },
   },
   {
