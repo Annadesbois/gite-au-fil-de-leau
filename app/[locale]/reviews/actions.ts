@@ -5,7 +5,6 @@ import { z } from "zod";
 
 import { prisma } from "@/lib/prisma";
 
-
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 const reviewSchema = z.object({
@@ -32,7 +31,7 @@ const reviewSchema = z.object({
   website: z.string().optional(), // honeypot
 });
 
-type ReviewFormState = {
+export type ReviewFormState = {
   ok: boolean;
   errors?: Record<string, string[]>;
 };
@@ -105,4 +104,3 @@ const createReview = async (
 };
 
 export default createReview;
-export type { ReviewFormState };
