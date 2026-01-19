@@ -6,7 +6,7 @@ export const activitiesPhotos: ActivitiesPhoto[] = [
     alt: "Personnes faisant du ski",
     legend: {
       fr: "6 stations de ski de piste et de fond dans un rayon de 25km : Markstein, La Bresse, Ventron Frère Joseph, Grand Ballon, Rouge Gazon à St-Maurice, Larcenaire à Bussang",
-      en: "6 downhill and cross-country ski resorts within a 25 km radius: Markstein, La Bresse, Ventron Frère Joseph, Grand Ballon, Rouge Gazon in Saint-Maurice, Larcenaire in Bussang",
+      en: "Six downhill and cross-country ski resorts within a 25 km radius: Markstein, La Bresse, Ventron Frère Joseph, Grand Ballon, Rouge Gazon in Saint-Maurice, Larcenaire in Bussang",
       de: "6 Ski- und Langlaufgebiete im Umkreis von 25 km: Markstein, La Bresse, Ventron Frère Joseph, Grand Ballon, Rouge Gazon in Saint-Maurice, Larcenaire in Bussang",
     },
     size: "large",
@@ -16,7 +16,7 @@ export const activitiesPhotos: ActivitiesPhoto[] = [
     alt: "Personne en parapente",
     legend: {
       fr: "Le parapente au Markstein et au Drumont",
-      en: "Paragliding at the Markstein and the Drumont",
+      en: "Paragliding at Markstein and Drumont",
       de: "Gleitschirmfliegen am Markstein und am Drumont",
     },
   },
@@ -25,7 +25,7 @@ export const activitiesPhotos: ActivitiesPhoto[] = [
     alt: "âne",
     legend: {
       fr: "Chauvl’âne , randonnée avec portage des bagages à dos d’ânes pour toute la famille",
-      en: "Chauvl’âne – family-friendly hikes with donkeys carrying your luggage",
+      en: "Chauvl’âne – family-friendly hikes with donkeys carrying luggage",
       de: "Chauvl’âne – familienfreundliche Wanderungen mit Gepäcktransport auf Packeseln",
     },
   },
@@ -45,7 +45,7 @@ export const activitiesPhotos: ActivitiesPhoto[] = [
     alt: "Piste de luge sur rail d'été au Markstein",
     legend: {
       fr: "Le bob-luge du Markstein à 28km",
-      en: "The summer toboggan run at the Markstein, 28 km away",
+      en: "The summer toboggan run at Markstein, 28 km away",
       de: "Die Sommerrodelbahn am Markstein, 28 km entfernt",
     },
   },
@@ -101,7 +101,7 @@ export const activitiesPhotos: ActivitiesPhoto[] = [
     alt: "Magasins à Wesserling",
     legend: {
       fr: "Supermarché au Parc de Wesserling à 5 km",
-      en: "Supermarket at the Wesserling Park, 5 km away",
+      en: "Supermarket at Parc de Wesserling, 5 km away",
       de: "Supermarkt im Parc de Wesserling, 5 km entfernt",
     },
   },
@@ -111,7 +111,7 @@ export const activitiesPhotos: ActivitiesPhoto[] = [
     alt: "Pavillon des créateurs à Wesserling",
     legend: {
       fr: "Le pavillon des créateurs au Parc de Wesserling à 5 km",
-      en: "The Creators’ Pavilion at the Wesserling Park, 5 km away",
+      en: "The Creators’ Pavilion at Parc de Wesserling, 5 km away",
       de: "Der „Pavillon des Créateurs“ im Parc de Wesserling, 5 km entfernt",
     },
   },

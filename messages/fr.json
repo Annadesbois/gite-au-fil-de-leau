@@ -88,45 +88,6 @@
     }
   },
 
-  "contact": {
-    "meta": {
-      "title": "Contact & accès — Gîte Au fil de l'eau à Storckensohn",
-      "description": "Coordonnées, téléphone, email et accès au gîte Au fil de l'eau à Storckensohn, Hautes Vosges d’Alsace. Réservation en direct ou via Gîtes de France."
-    },
-    "title": "Contact et Accès",
-    "map": "Localisation du Gîte Au fil de l'eau",
-    "info": "Infos et réservation",
-    "reservation": "Réservation aussi possible via Gîtes de France"
-  },
-
-  "contactForm": {
-    "title": "Formulaire de contact",
-    "name": "Nom",
-    "message": "Message",
-    "send": "Envoyer",
-    "sending": "Envoi en cours…",
-    "success": "Merci, votre message a bien été envoyé."
-  },
-
-  "reviews": {
-    "meta": {
-      "title": "Avis des voyageurs — Gîte Au fil de l'eau à Storckensohn",
-      "description": "Découvrez les avis et témoignages des voyageurs ayant séjourné au gîte Au fil de l'eau à Storckensohn, au cœur des Hautes Vosges d’Alsace."
-    },
-    "title": "Avis des voyageurs",
-    "empty": "Aucun avis pour le moment."
-  },
-
-  "reviewForm": {
-    "title": "Laisser un avis",
-    "name": "Nom",
-    "rating": "Note",
-    "comment": "Commentaire",
-    "sending": "Envoi...",
-    "send": "Envoyer",
-    "success": "Merci ! Votre avis sera publié après validation."
-  },
-
   "livingRoom": {
     "meta": {
       "title": "Le séjour : Grande pièce à vivre du gîte Au fil de l'eau",
@@ -153,7 +114,6 @@
         "dishwasher": "lave-vaisselle",
         "fridgeFreezer": "réfrigérateur et congélateur",
         "racletteFondue": "service à raclette et à fondue",
-        "kettle": "bouilloire",
         "coffeeMaker": "bouilloire, cafetière, mixer",
         "saucepan": "grandes casseroles pour les repas de groupe"
       }
@@ -165,94 +125,6 @@
         "text": "avec TV et lecteur DVD, a été aménagé dans l’ancienne grange, dont le cachet pittoresque a été conservé."
       }
     }
-  },
-
-  "village": {
-    "meta": {
-      "title": "Le village de Storckensohn en 3D",
-      "description": "Découvrez Storckensohn en 3D : village pittoresque au cœur des Hautes-Vosges d’Alsace, où se situe le gîte Au fil de l'eau."
-    },
-    "title": "Le village de Storckensohn en 3D",
-    "intro": "Le gîte Au fil de l'eau est situé en plein coeur des Hautes-Vosges d'Alsace, dans le village de Storckensohn."
-  },
-
-  "hiking": {
-    "meta": {
-      "title": "Randonnées autour de Storckensohn | Gîte Au fil de l'eau",
-      "description": "Découvrez les plus belles randonnées autour de Storckensohn, au cœur des Hautes-Vosges d’Alsace : sentiers, panoramas et itinéraires accessibles directement depuis le village."
-    },
-    "title": "Les randonnées",
-    "intro1": "Le village de Storckensohn est situé au cœur du massif vosgien. Un vaste réseau de randonnées est accessible directement à partir du village.",
-    "intro2": "Vos hôtes sauront vous conseiller sur les itinéraires à suivre et sur les choses à découvrir.",
-    "intro3": "Un réseau de gîtes d'étapes entièrement remis à neuf en 2013 vous accueillera pour vos repas et soirées montagnardes.",
-    "cta": "Découvrir"
-  },
-
-  "wesserling": {
-    "meta": {
-      "title": "Le Parc de Wesserling — Jardins remarquables et patrimoine textile",
-      "description": "Découvrez le Parc de Wesserling, ses jardins remarquables, son Écomusée textile, sa Grande Chaufferie et ses nombreux événements culturels et artistiques."
-    },
-    "title": "Le Parc de Wesserling",
-    "intro1": "Sur des terres de haute tradition textile, le Parc de Wesserling retrace l’extraordinaire aventure industrielle de cette ancienne « Manufacture Royale ».",
-    "intro2": "Il surprend par ses 5 somptueux jardins, classés « Jardin Remarquable », et par sa collection, unique en France, de bâtiments liés à l’industrie textile (usines, hangars, château des patrons, maisons de maître, friche industrielle, ferme…).",
-    "intro3": "Original, son Écomusée textile et sa Grande Chaufferie associent l’histoire du site à l’art contemporain par des expositions vivantes et participatives, d’étonnants sons et lumières…",
-    "intro4": "Des visites théâtralisées et des démonstrations de filage, tissage, impression à la planche font également revivre les métiers de l’industrie textile. Il s’anime tout au long de l’année par de nombreux événements jardins, textiles, culturels et artistiques.",
-    "alsoTitle": "Le Parc de Wesserling, c’est aussi :",
-    "list": {
-      "shops": "Des boutiques",
-      "creators": "Un Pavillon des Créateurs et ses artisans",
-      "farmStore": "Un magasin de produits fermiers",
-      "enterpriseSpace": "Des espaces d’entreprises",
-      "smallTheater": "Un théâtre de poche",
-      "artistsResidence": "Des résidences d’artistes…"
-    },
-    "cta": "Découvrir"
-  },
-
-  "mill": {
-    "meta": {
-      "title": "Moulin à Huile de Storckensohn | Gîte Au fil de l'eau",
-      "description": "Découvrez le Moulin à Huile de Storckensohn, un site historique restauré où vous pourrez admirer les anciennes techniques de production d'huile et de cidre, tout en profitant d'une atmosphère authentique au cœur des Hautes-Vosges d'Alsace."
-    },
-    "title": "Le Moulin à Huile de Storckensohn",
-    "p1": "Le Moulin construit en 1732 a tourné jusqu'en 1962. Les pommes et les poires servaient à fabriquer le cidre paysan. Noix, colza et tournesols étaient amenés en grand nombre afin d'en tirer une huile fine et savoureuse. Puis, la roue inactive, fatiguée, s'est laissée mourir.",
-    "p2": "La restauration du Moulin est entreprise dès 1991 par un groupe de bénévoles. L'eau du Dorfbach descendant fièrement du Gazon Vert peut à nouveau alimenter la roue à augets patiemment reconstruite identique à l'ancienne. La presse à cidre, taillée d'une seule pièce dans un fût de chêne il y a deux siècles, laisse de nouveau couler un jus de qualité, des plus appréciés, que l'on nomme le moût de pommes.",
-    "p3": "Que d'émotions lorsque tout s'active. La meule peut à nouveau tourner son énorme masse et écraser les pommes, noix et noisettes. Les vieux engrenages et axes en bois transmettent joyeusement de tout côté l'énergie nécessaire. Les noix et noisettes se laissent attendrir dans le four restauré, puis prennent le chemin de l'imposante presse à huile qui peut à nouveau développer ses pressions énormes. L'ancestrale machinerie, mystérieuse, envoûtante, qui semble venir du fond des temps, permettant d'écraser le colza et le tournesol, reprend encore parfois du service la saison venue.",
-    "cta": "Découvrir"
-  },
-
-  "lake": {
-    "meta": {
-      "title": "Le lac de Kruth-Wildenstein",
-      "description": "Le lac de Kruth-Wildenstein, plus grande retenue d’eau du versant alsacien du Massif des Vosges, offre détente, promenades et nombreuses activités en pleine nature."
-    },
-    "title": "Le lac de Kruth-Wildenstein",
-    "p1": "Le lac de Kruth-Wildenstein invite à la détente et au dépaysement. Cette retenue d’eau est la plus grande du versant alsacien du Massif des Vosges avec une superficie de 81 ha.",
-    "p2": "Il s'agit d'un réservoir d'une capacité de 12 millions de mètres cubes, construit au fond de la vallée de la Thur, entre les villages de Kruth et de Wildenstein. Le bassin versant de la haute Thur se compose essentiellement de ballons fortement enneigés chaque hiver. Des crues printanières parfois catastrophiques ont suggéré, dès le XIXe siècle, l'édification d'un barrage permettant leur régulation.",
-    "p3": "Ce n'est cependant qu'en 1954 que sa construction fut décidée, sept ans après une dernière crue dévastatrice. Édifié de 1959 à 1963, le barrage fut mis en eau en 1964. En raison du faible débit de la Thur à cet endroit, il n'a pas été jugé rentable d'installer une centrale hydroélectrique. Des zones de promenade et de découverte y ont été aménagées pour les visiteurs qui souhaitent se détendre autour du plan d’eau.",
-    "activities": {
-      "title": "De nombreuses activités sont proposées :",
-      "items": {
-        "fishing": "Pêche",
-        "canoe": "Canoë kayak, pédalo",
-        "camping": "Camping à 2 km",
-        "treePark": "Parc accrobranche",
-        "bikeRental": "Location de vélo (électriques, VTT)",
-        "geocaching": "Géocatching et visite des ruines du château de Wildenstein",
-        "loop": "Possibilité d'en faire le tour par un sentier pédestre et vélo (5km environ)",
-        "food": "Possibilité de se restaurer sur place"
-      }
-    },
-    "cta": "Découvrir"
-  },
-
-  "else": {
-    "meta": {
-      "title": "Activités autour du gîte Au fil de l'eau",
-      "description": "Découvrez toutes les autres activités autour du gîte Au fil de l'eau à Storckensohn : ski, parapente, balades à dos d’âne, vélo, piscine, casino, musées, producteurs locaux et nombreux restaurants dans les Hautes-Vosges d’Alsace."
-    },
-    "title": "Et tout le reste"
   },
 
   "cerisier": {
@@ -355,5 +227,132 @@
       "seven": "7 nuits : 1500 €"
     },
     "cleaning": "Le ménage de fin de séjour est en option. 125 € sont demandés si les vacanciers ne souhaitent pas le faire eux-mêmes."
+  },
+
+  "village": {
+    "meta": {
+      "title": "Le village de Storckensohn en 3D",
+      "description": "Découvrez Storckensohn en 3D : village pittoresque au cœur des Hautes-Vosges d’Alsace, où se situe le gîte Au fil de l'eau."
+    },
+    "title": "Le village de Storckensohn en 3D",
+    "intro": "Le gîte Au fil de l'eau est situé en plein coeur des Hautes-Vosges d'Alsace, dans le village de Storckensohn."
+  },
+
+  "hiking": {
+    "meta": {
+      "title": "Randonnées autour de Storckensohn | Gîte Au fil de l'eau",
+      "description": "Découvrez les plus belles randonnées autour de Storckensohn, au cœur des Hautes-Vosges d’Alsace : sentiers, panoramas et itinéraires accessibles directement depuis le village."
+    },
+    "title": "Les randonnées",
+    "intro1": "Le village de Storckensohn est situé au cœur du massif vosgien. Un vaste réseau de randonnées est accessible directement à partir du village.",
+    "intro2": "Vos hôtes sauront vous conseiller sur les itinéraires à suivre et sur les choses à découvrir.",
+    "intro3": "Un réseau de gîtes d'étapes entièrement remis à neuf en 2013 vous accueillera pour vos repas et soirées montagnardes.",
+    "cta": "Découvrir"
+  },
+
+  "wesserling": {
+    "meta": {
+      "title": "Le Parc de Wesserling — Jardins remarquables et patrimoine textile",
+      "description": "Découvrez le Parc de Wesserling, ses jardins remarquables, son Écomusée textile, sa Grande Chaufferie et ses nombreux événements culturels et artistiques."
+    },
+    "title": "Le Parc de Wesserling",
+    "intro1": "Sur des terres de haute tradition textile, le Parc de Wesserling retrace l’extraordinaire aventure industrielle de cette ancienne « Manufacture Royale ».",
+    "intro2": "Il surprend par ses 5 somptueux jardins, classés « Jardin Remarquable », et par sa collection, unique en France, de bâtiments liés à l’industrie textile (usines, hangars, château des patrons, maisons de maître, friche industrielle, ferme…).",
+    "intro3": "Original, son Écomusée textile et sa Grande Chaufferie associent l’histoire du site à l’art contemporain par des expositions vivantes et participatives, d’étonnants sons et lumières…",
+    "intro4": "Des visites théâtralisées et des démonstrations de filage, tissage, impression à la planche font également revivre les métiers de l’industrie textile. Il s’anime tout au long de l’année par de nombreux événements jardins, textiles, culturels et artistiques.",
+    "alsoTitle": "Le Parc de Wesserling, c’est aussi :",
+    "list": {
+      "shops": "Des boutiques",
+      "creators": "Un Pavillon des Créateurs et ses artisans",
+      "farmStore": "Un magasin de produits fermiers",
+      "enterpriseSpace": "Des espaces d’entreprises",
+      "smallTheater": "Un théâtre de poche",
+      "artistsResidence": "Des résidences d’artistes…"
+    },
+    "cta": "Découvrir"
+  },
+
+  "mill": {
+    "meta": {
+      "title": "Moulin à Huile de Storckensohn | Gîte Au fil de l'eau",
+      "description": "Découvrez le Moulin à Huile de Storckensohn, un site historique restauré où vous pourrez admirer les anciennes techniques de production d'huile et de cidre, tout en profitant d'une atmosphère authentique au cœur des Hautes-Vosges d'Alsace."
+    },
+    "title": "Le Moulin à Huile de Storckensohn",
+    "p1": "Le Moulin construit en 1732 a tourné jusqu'en 1962. Les pommes et les poires servaient à fabriquer le cidre paysan. Noix, colza et tournesols étaient amenés en grand nombre afin d'en tirer une huile fine et savoureuse. Puis, la roue inactive, fatiguée, s'est laissée mourir.",
+    "p2": "La restauration du Moulin est entreprise dès 1991 par un groupe de bénévoles. L'eau du Dorfbach descendant fièrement du Gazon Vert peut à nouveau alimenter la roue à augets patiemment reconstruite identique à l'ancienne. La presse à cidre, taillée d'une seule pièce dans un fût de chêne il y a deux siècles, laisse de nouveau couler un jus de qualité, des plus appréciés, que l'on nomme le moût de pommes.",
+    "p3": "Que d'émotions lorsque tout s'active. La meule peut à nouveau tourner son énorme masse et écraser les pommes, noix et noisettes. Les vieux engrenages et axes en bois transmettent joyeusement de tout côté l'énergie nécessaire. Les noix et noisettes se laissent attendrir dans le four restauré, puis prennent le chemin de l'imposante presse à huile qui peut à nouveau développer ses pressions énormes. L'ancestrale machinerie, mystérieuse, envoûtante, qui semble venir du fond des temps, permettant d'écraser le colza et le tournesol, reprend encore parfois du service la saison venue.",
+    "cta": "Découvrir"
+  },
+
+  "lake": {
+    "meta": {
+      "title": "Le lac de Kruth-Wildenstein",
+      "description": "Le lac de Kruth-Wildenstein, plus grande retenue d’eau du versant alsacien du Massif des Vosges, offre détente, promenades et nombreuses activités en pleine nature."
+    },
+    "title": "Le lac de Kruth-Wildenstein",
+    "p1": "Le lac de Kruth-Wildenstein invite à la détente et au dépaysement. Cette retenue d’eau est la plus grande du versant alsacien du Massif des Vosges avec une superficie de 81 ha.",
+    "p2": "Il s'agit d'un réservoir d'une capacité de 12 millions de mètres cubes, construit au fond de la vallée de la Thur, entre les villages de Kruth et de Wildenstein. Le bassin versant de la haute Thur se compose essentiellement de ballons fortement enneigés chaque hiver. Des crues printanières parfois catastrophiques ont suggéré, dès le XIXe siècle, l'édification d'un barrage permettant leur régulation.",
+    "p3": "Ce n'est cependant qu'en 1954 que sa construction fut décidée, sept ans après une dernière crue dévastatrice. Édifié de 1959 à 1963, le barrage fut mis en eau en 1964. En raison du faible débit de la Thur à cet endroit, il n'a pas été jugé rentable d'installer une centrale hydroélectrique. Des zones de promenade et de découverte y ont été aménagées pour les visiteurs qui souhaitent se détendre autour du plan d’eau.",
+    "activities": {
+      "title": "De nombreuses activités sont proposées :",
+      "items": {
+        "fishing": "Pêche",
+        "canoe": "Canoë kayak, pédalo",
+        "camping": "Camping à 2 km",
+        "treePark": "Parc accrobranche",
+        "bikeRental": "Location de vélo (électriques, VTT)",
+        "geocaching": "Géocatching et visite des ruines du château de Wildenstein",
+        "loop": "Possibilité d'en faire le tour par un sentier pédestre et vélo (5km environ)",
+        "food": "Possibilité de se restaurer sur place"
+      }
+    },
+    "cta": "Découvrir"
+  },
+
+  "else": {
+    "meta": {
+      "title": "Activités autour du gîte Au fil de l'eau",
+      "description": "Découvrez toutes les autres activités autour du gîte Au fil de l'eau à Storckensohn : ski, parapente, balades à dos d’âne, vélo, piscine, casino, musées, producteurs locaux et nombreux restaurants dans les Hautes-Vosges d’Alsace."
+    },
+    "title": "Et tout le reste"
+  },
+
+  "reviews": {
+    "meta": {
+      "title": "Avis des voyageurs — Gîte Au fil de l'eau à Storckensohn",
+      "description": "Découvrez les avis et témoignages des voyageurs ayant séjourné au gîte Au fil de l'eau à Storckensohn, au cœur des Hautes Vosges d’Alsace."
+    },
+    "title": "Avis des voyageurs",
+    "empty": "Aucun avis pour le moment."
+  },
+
+  "reviewForm": {
+    "title": "Laisser un avis",
+    "name": "Nom",
+    "rating": "Note",
+    "comment": "Commentaire",
+    "sending": "Envoi...",
+    "send": "Envoyer",
+    "success": "Merci ! Votre avis sera publié après validation."
+  },
+
+  "contact": {
+    "meta": {
+      "title": "Contact & accès — Gîte Au fil de l'eau à Storckensohn",
+      "description": "Coordonnées, téléphone, email et accès au gîte Au fil de l'eau à Storckensohn, Hautes Vosges d’Alsace. Réservation en direct ou via Gîtes de France."
+    },
+    "title": "Contact et Accès",
+    "map": "Localisation du Gîte Au fil de l'eau",
+    "info": "Infos et réservation",
+    "reservation": "Réservation aussi possible via Gîtes de France"
+  },
+
+  "contactForm": {
+    "title": "Formulaire de contact",
+    "name": "Nom",
+    "message": "Message",
+    "send": "Envoyer",
+    "sending": "Envoi en cours…",
+    "success": "Merci, votre message a bien été envoyé."
   }
 }

@@ -87,45 +87,6 @@
     }
   },
 
-  "contact": {
-    "meta": {
-      "title": "Kontakt und Anfahrt — Gîte Au fil de l'eau in Storckensohn",
-      "description": "Adresse, Telefonnummer, E-Mail und Anfahrtsinformationen zur Gîte Au fil de l'eau in Storckensohn, in den Hohen Vogesen des Elsass. Direktbuchung oder über Gîtes de France."
-    },
-    "title": "Kontakt und Anfahrt",
-    "map": "Lage der Gîte Au fil de l'eau",
-    "info": "Information & Buchung",
-    "reservation": "Buchung auch über Gîtes de France möglich"
-  },
-
-  "contactForm": {
-    "title": "Kontaktformular",
-    "name": "Name",
-    "message": "Nachricht",
-    "send": "Senden",
-    "sending": "Wird gesendet…",
-    "success": "Vielen Dank, Ihre Nachricht wurde erfolgreich gesendet."
-  },
-
-  "reviews": {
-    "meta": {
-      "title": "Gästebewertungen — Gîte Au fil de l'eau in Storckensohn",
-      "description": "Lesen Sie Bewertungen und Erfahrungsberichte von Gästen, die im Gîte Au fil de l'eau in Storckensohn, im Herzen der Hohen Vogesen im Elsass, übernachtet haben."
-    },
-    "title": "Gästebewertungen",
-    "empty": "Noch keine Bewertungen vorhanden."
-  },
-
-  "reviewForm": {
-    "title": "Eine Bewertung hinterlassen",
-    "name": "Name",
-    "rating": "Bewertung",
-    "comment": "Kommentar",
-    "sending": "Wird gesendet...",
-    "send": "Senden",
-    "success": "Danke! Ihre Bewertung wird nach Prüfung veröffentlicht."
-  },
-
   "livingRoom": {
     "meta": {
       "title": "Der Wohnbereich — Großer Gemeinschaftsraum der Gîte Au fil de l'eau",
@@ -152,7 +113,6 @@
         "dishwasher": "Geschirrspüler",
         "fridgeFreezer": "Kühlschrank und Gefrierschrank",
         "racletteFondue": "Raclette- und Fondue-Set",
-        "kettle": "Wasserkocher",
         "coffeeMaker": "Kaffeemaschine, Wasserkocher, Mixer",
         "saucepan": "große Kochtöpfe für Gruppenmahlzeiten"
       }
@@ -164,94 +124,6 @@
         "text": "mit TV und DVD-Player wurde in der ehemaligen Scheune eingerichtet, deren rustikaler Charme erhalten geblieben ist."
       }
     }
-  },
-
-  "village": {
-    "meta": {
-      "title": "Das Dorf Storckensohn in 3D",
-      "description": "Entdecken Sie Storckensohn in 3D: ein malerisches Dorf im Herzen der Hohen Vogesen im Elsass, in dem sich die Gîte Au fil de l'eau befindet."
-    },
-    "title": "Das Dorf Storckensohn in 3D",
-    "intro": "Die Gîte Au fil de l'eau liegt im Herzen der Hohen Vogesen im Elsass, im Dorf Storckensohn."
-  },
-
-  "hiking": {
-    "meta": {
-      "title": "Wanderungen rund um Storckensohn | Gîte Au fil de l'eau",
-      "description": "Entdecken Sie die schönsten Wanderwege rund um Storckensohn im Herzen der Hohen Vogesen: Pfade, Panoramaausblicke und Routen, die direkt im Dorf beginnen."
-    },
-    "title": "Wanderungen",
-    "intro1": "Das Dorf Storckensohn liegt im Herzen der Vogesen. Ein weitläufiges Netz an Wanderwegen ist direkt vom Dorf aus erreichbar.",
-    "intro2": "Ihre Gastgeber beraten Sie gerne zu geeigneten Routen und zu Sehenswürdigkeiten entlang der Wege.",
-    "intro3": "Ein Netz von Etappenunterkünften, das 2013 vollständig renoviert wurde, bietet Ihnen Mahlzeiten und gemütliche Abende in Bergatmosphäre.",
-    "cta": "Entdecken"
-  },
-
-  "wesserling": {
-    "meta": {
-      "title": "Der Park Wesserling — Bedeutende Gärten und Textilerbe",
-      "description": "Entdecken Sie den Park Wesserling, seine bemerkenswerten Gärten, das Textil-Ecomuseum, die Große Heizhalle sowie zahlreiche kulturelle und künstlerische Veranstaltungen."
-    },
-    "title": "Der Park Wesserling",
-    "intro1": "Auf einem Gebiet mit großer textiler Tradition erzählt der Park Wesserling die außergewöhnliche Industriegeschichte der ehemaligen „Königlichen Manufaktur“.",
-    "intro2": "Er beeindruckt mit seinen fünf prachtvollen Gärten, ausgezeichnet als „Bemerkenswerte Gärten“, und mit seiner in Frankreich einzigartigen Sammlung von Gebäuden der Textilindustrie (Fabriken, Lagerhallen, Herrenhaus der Besitzer, Patrizierhäuser, Industriebrache, Bauernhof…).",
-    "intro3": "Das Textil-Ecomuseum und die Große Heizhalle verbinden die Geschichte des Ortes mit zeitgenössischer Kunst durch lebendige und interaktive Ausstellungen, Klang- und Lichtinstallationen…",
-    "intro4": "Theatralische Führungen sowie Vorführungen von Spinnen, Weben und Handdruck lassen die ehemaligen Textilberufe wieder aufleben. Das gesamte Jahr über finden Garten-, Textil-, Kultur- und Kunstveranstaltungen statt.",
-    "alsoTitle": "Der Park Wesserling bietet außerdem:",
-    "list": {
-      "shops": "Geschäfte",
-      "creators": "Ein Kreativpavillon mit Kunsthandwerkern",
-      "farmStore": "Ein Hofladen",
-      "enterpriseSpace": "Unternehmensräume",
-      "smallTheater": "Ein kleines Theater",
-      "artistsResidence": "Künstlerresidenzen…"
-    },
-    "cta": "Entdecken"
-  },
-
-  "mill": {
-    "meta": {
-      "title": "Ölmühle von Storckensohn | Gîte Au fil de l'eau",
-      "description": "Entdecken Sie die Ölmühle von Storckensohn, eine restaurierte historische Anlage, in der Sie die traditionellen Techniken der Öl- und Mostherstellung erleben können – in einem authentischen Ambiente im Herzen der Hohen Vogesen im Elsass."
-    },
-    "title": "Die Ölmühle von Storckensohn",
-    "p1": "Die im Jahr 1732 erbaute Mühle war bis 1962 in Betrieb. Aus Äpfeln und Birnen wurde Bauernmost hergestellt. Walnüsse, Raps und Sonnenblumen wurden in großen Mengen gebracht, um ein feines und geschmackvolles Öl zu gewinnen. Schließlich kam das müde, stillstehende Wasserrad zur Ruhe.",
-    "p2": "Die Restaurierung der Mühle begann 1991 durch eine Gruppe von Freiwilligen. Das Wasser des Dorfbachs, das stolz vom Gazon Vert herabfließt, kann nun wieder das Schaufelrad antreiben, das sorgfältig originalgetreu nachgebaut wurde. Die vor zwei Jahrhunderten aus einem einzigen Eichenstamm gefertigte Kelter lässt erneut hochwertigen Saft fließen – den beliebten Apfelmost.",
-    "p3": "Wie bewegend, wenn alles wieder in Gang kommt! Der massive Mühlstein dreht sich erneut und zermahlt Äpfel, Walnüsse und Haselnüsse. Die alten Holzräder und -wellen übertragen fröhlich die nötige Energie in alle Richtungen. Walnüsse und Haselnüsse werden im restaurierten Ofen erwärmt, bevor sie in der imposanten Ölpresse landen, die nun wieder enorme Druckkraft entwickeln kann. Die uralte, geheimnisvolle und faszinierende Mechanik – als käme sie aus einer längst vergangenen Zeit – nimmt in der passenden Saison manchmal wieder ihren Dienst auf und presst Raps und Sonnenblumen.",
-    "cta": "Entdecken"
-  },
-
-  "lake": {
-    "meta": {
-      "title": "Der Kruth-Wildenstein-Stausee",
-      "description": "Der Kruth-Wildenstein-See, der größte Stausee auf der elsässischen Seite der Vogesen, bietet Entspannung, Spazierwege und zahlreiche Aktivitäten inmitten der Natur."
-    },
-    "title": "Der Kruth-Wildenstein-Stausee",
-    "p1": "Der Kruth-Wildenstein-See lädt zum Entspannen und Abschalten ein. Mit einer Fläche von 81 Hektar ist er der größte Stausee auf der elsässischen Seite des Vogesenmassivs.",
-    "p2": "Er ist ein Stausee mit einem Fassungsvermögen von 12 Millionen Kubikmetern und liegt im Tal der Thur zwischen den Dörfern Kruth und Wildenstein. Das Einzugsgebiet der oberen Thur besteht überwiegend aus stark verschneiten Gipfeln. Wiederkehrende Frühjahrsüberschwemmungen führten bereits im 19. Jahrhundert zur Idee eines regulierenden Staudamms.",
-    "p3": "Erst 1954 wurde der Bau beschlossen, sieben Jahre nach einer letzten verheerenden Überschwemmung. Der Damm wurde von 1959 bis 1963 errichtet und 1964 geflutet. Aufgrund des geringen Wasserflusses der Thur wurde auf ein Wasserkraftwerk verzichtet. Rund um den See wurden Spazier- und Entdeckungsbereiche für Besucher angelegt.",
-    "activities": {
-      "title": "Viele Aktivitäten werden angeboten:",
-      "items": {
-        "fishing": "Angeln",
-        "canoe": "Kanu, Tretboot",
-        "camping": "Campingplatz in 2 km Entfernung",
-        "treePark": "Kletter- und Abenteuerpark",
-        "bikeRental": "Fahrradverleih (E-Bikes, Mountainbikes)",
-        "geocaching": "Geocaching und Besuch der Burgruinen von Wildenstein",
-        "loop": "Rundweg für Wanderer oder Radfahrer (ca. 5 km)",
-        "food": "Möglichkeit, vor Ort zu essen"
-      }
-    },
-    "cta": "Entdecken"
-  },
-
-  "else": {
-    "meta": {
-      "title": "Aktivitäten rund um die Gîte Au fil de l'eau",
-      "description": "Entdecken Sie alle weiteren Aktivitäten rund um die Gîte Au fil de l'eau in Storckensohn: Skigebiete, Gleitschirmfliegen, Eselwanderungen, Radfahren, Schwimmbad, Casino, Museen, Läden mit regionalen Produkten und viele Restaurants in den Hohen Vogesen im Elsass."
-    },
-    "title": "Und alles Weitere"
   },
 
   "cerisier": {
@@ -354,5 +226,132 @@
       "seven": "7 Nächte: 1.500 €"
     },
     "cleaning": "Die Endreinigung ist optional. Wenn die Gäste diese nicht selbst durchführen möchten, wird eine Gebühr von 125 € erhoben."
+  },
+
+  "village": {
+    "meta": {
+      "title": "Das Dorf Storckensohn in 3D",
+      "description": "Entdecken Sie Storckensohn in 3D: ein malerisches Dorf im Herzen der Hohen Vogesen im Elsass, in dem sich die Gîte Au fil de l'eau befindet."
+    },
+    "title": "Das Dorf Storckensohn in 3D",
+    "intro": "Die Gîte Au fil de l'eau liegt im Herzen der Hohen Vogesen im Elsass, im Dorf Storckensohn."
+  },
+
+  "hiking": {
+    "meta": {
+      "title": "Wanderungen rund um Storckensohn | Gîte Au fil de l'eau",
+      "description": "Entdecken Sie die schönsten Wanderwege rund um Storckensohn im Herzen der Hohen Vogesen: Pfade, Panoramaausblicke und Routen, die direkt im Dorf beginnen."
+    },
+    "title": "Wanderungen",
+    "intro1": "Das Dorf Storckensohn liegt im Herzen der Vogesen. Ein weitläufiges Netz an Wanderwegen ist direkt vom Dorf aus erreichbar.",
+    "intro2": "Ihre Gastgeber beraten Sie gerne zu geeigneten Routen und zu Sehenswürdigkeiten entlang der Wege.",
+    "intro3": "Ein Netz von Etappenunterkünften, das 2013 vollständig renoviert wurde, bietet Ihnen Mahlzeiten und gemütliche Abende in Bergatmosphäre.",
+    "cta": "Entdecken"
+  },
+
+  "wesserling": {
+    "meta": {
+      "title": "Der Park Wesserling — Bedeutende Gärten und Textilerbe",
+      "description": "Entdecken Sie den Park Wesserling, seine bemerkenswerten Gärten, das Textil-Ecomuseum, die Große Heizhalle sowie zahlreiche kulturelle und künstlerische Veranstaltungen."
+    },
+    "title": "Der Park Wesserling",
+    "intro1": "Auf einem Gebiet mit großer textiler Tradition erzählt der Park Wesserling die außergewöhnliche Industriegeschichte der ehemaligen „Königlichen Manufaktur“.",
+    "intro2": "Er beeindruckt mit seinen fünf prachtvollen Gärten, ausgezeichnet als „Bemerkenswerte Gärten“, und mit seiner in Frankreich einzigartigen Sammlung von Gebäuden der Textilindustrie (Fabriken, Lagerhallen, Herrenhaus der Besitzer, Patrizierhäuser, Industriebrache, Bauernhof…).",
+    "intro3": "Das Textil-Ecomuseum und die Große Heizhalle verbinden die Geschichte des Ortes mit zeitgenössischer Kunst durch lebendige und interaktive Ausstellungen, Klang- und Lichtinstallationen…",
+    "intro4": "Theatralische Führungen sowie Vorführungen von Spinnen, Weben und Handdruck lassen die ehemaligen Textilberufe wieder aufleben. Das gesamte Jahr über finden Garten-, Textil-, Kultur- und Kunstveranstaltungen statt.",
+    "alsoTitle": "Der Park Wesserling bietet außerdem:",
+    "list": {
+      "shops": "Geschäfte",
+      "creators": "Ein Kreativpavillon mit Kunsthandwerkern",
+      "farmStore": "Ein Hofladen",
+      "enterpriseSpace": "Unternehmensräume",
+      "smallTheater": "Ein kleines Theater",
+      "artistsResidence": "Künstlerresidenzen…"
+    },
+    "cta": "Entdecken"
+  },
+
+  "mill": {
+    "meta": {
+      "title": "Ölmühle von Storckensohn | Gîte Au fil de l'eau",
+      "description": "Entdecken Sie die Ölmühle von Storckensohn, eine restaurierte historische Anlage, in der Sie die traditionellen Techniken der Öl- und Mostherstellung erleben können – in einem authentischen Ambiente im Herzen der Hohen Vogesen im Elsass."
+    },
+    "title": "Die Ölmühle von Storckensohn",
+    "p1": "Die im Jahr 1732 erbaute Mühle war bis 1962 in Betrieb. Aus Äpfeln und Birnen wurde Bauernmost hergestellt. Walnüsse, Raps und Sonnenblumen wurden in großen Mengen gebracht, um ein feines und geschmackvolles Öl zu gewinnen. Schließlich kam das müde, stillstehende Wasserrad zur Ruhe.",
+    "p2": "Die Restaurierung der Mühle begann 1991 durch eine Gruppe von Freiwilligen. Das Wasser des Dorfbachs, das stolz vom Gazon Vert herabfließt, kann nun wieder das Schaufelrad antreiben, das sorgfältig originalgetreu nachgebaut wurde. Die vor zwei Jahrhunderten aus einem einzigen Eichenstamm gefertigte Kelter lässt erneut hochwertigen Saft fließen – den beliebten Apfelmost.",
+    "p3": "Wie bewegend, wenn alles wieder in Gang kommt! Der massive Mühlstein dreht sich erneut und zermahlt Äpfel, Walnüsse und Haselnüsse. Die alten Holzräder und -wellen übertragen fröhlich die nötige Energie in alle Richtungen. Walnüsse und Haselnüsse werden im restaurierten Ofen erwärmt, bevor sie in der imposanten Ölpresse landen, die nun wieder enorme Druckkraft entwickeln kann. Die uralte, geheimnisvolle und faszinierende Mechanik – als käme sie aus einer längst vergangenen Zeit – nimmt in der passenden Saison manchmal wieder ihren Dienst auf und presst Raps und Sonnenblumen.",
+    "cta": "Entdecken"
+  },
+
+  "lake": {
+    "meta": {
+      "title": "Der Kruth-Wildenstein-Stausee",
+      "description": "Der Kruth-Wildenstein-See, der größte Stausee auf der elsässischen Seite der Vogesen, bietet Entspannung, Spazierwege und zahlreiche Aktivitäten inmitten der Natur."
+    },
+    "title": "Der Kruth-Wildenstein-Stausee",
+    "p1": "Der Kruth-Wildenstein-See lädt zum Entspannen und Abschalten ein. Mit einer Fläche von 81 Hektar ist er der größte Stausee auf der elsässischen Seite des Vogesenmassivs.",
+    "p2": "Er ist ein Stausee mit einem Fassungsvermögen von 12 Millionen Kubikmetern und liegt im Tal der Thur zwischen den Dörfern Kruth und Wildenstein. Das Einzugsgebiet der oberen Thur besteht überwiegend aus stark verschneiten Gipfeln. Wiederkehrende Frühjahrsüberschwemmungen führten bereits im 19. Jahrhundert zur Idee eines regulierenden Staudamms.",
+    "p3": "Erst 1954 wurde der Bau beschlossen, sieben Jahre nach einer letzten verheerenden Überschwemmung. Der Damm wurde von 1959 bis 1963 errichtet und 1964 geflutet. Aufgrund des geringen Wasserflusses der Thur wurde auf ein Wasserkraftwerk verzichtet. Rund um den See wurden Spazier- und Entdeckungsbereiche für Besucher angelegt.",
+    "activities": {
+      "title": "Viele Aktivitäten werden angeboten:",
+      "items": {
+        "fishing": "Angeln",
+        "canoe": "Kanu, Tretboot",
+        "camping": "Campingplatz in 2 km Entfernung",
+        "treePark": "Kletter- und Abenteuerpark",
+        "bikeRental": "Fahrradverleih (E-Bikes, Mountainbikes)",
+        "geocaching": "Geocaching und Besuch der Burgruinen von Wildenstein",
+        "loop": "Rundweg für Wanderer oder Radfahrer (ca. 5 km)",
+        "food": "Möglichkeit, vor Ort zu essen"
+      }
+    },
+    "cta": "Entdecken"
+  },
+
+  "else": {
+    "meta": {
+      "title": "Aktivitäten rund um die Gîte Au fil de l'eau",
+      "description": "Entdecken Sie alle weiteren Aktivitäten rund um die Gîte Au fil de l'eau in Storckensohn: Skigebiete, Gleitschirmfliegen, Eselwanderungen, Radfahren, Schwimmbad, Casino, Museen, Läden mit regionalen Produkten und viele Restaurants in den Hohen Vogesen im Elsass."
+    },
+    "title": "Und alles Weitere"
+  },
+
+  "reviews": {
+    "meta": {
+      "title": "Gästebewertungen — Gîte Au fil de l'eau in Storckensohn",
+      "description": "Lesen Sie Bewertungen und Erfahrungsberichte von Gästen, die im Gîte Au fil de l'eau in Storckensohn, im Herzen der Hohen Vogesen im Elsass, übernachtet haben."
+    },
+    "title": "Gästebewertungen",
+    "empty": "Noch keine Bewertungen vorhanden."
+  },
+
+  "reviewForm": {
+    "title": "Eine Bewertung hinterlassen",
+    "name": "Name",
+    "rating": "Bewertung",
+    "comment": "Kommentar",
+    "sending": "Wird gesendet...",
+    "send": "Senden",
+    "success": "Danke! Ihre Bewertung wird nach Prüfung veröffentlicht."
+  },
+
+  "contact": {
+    "meta": {
+      "title": "Kontakt und Anfahrt — Gîte Au fil de l'eau in Storckensohn",
+      "description": "Adresse, Telefonnummer, E-Mail und Anfahrtsinformationen zur Gîte Au fil de l'eau in Storckensohn, in den Hohen Vogesen des Elsass. Direktbuchung oder über Gîtes de France."
+    },
+    "title": "Kontakt und Anfahrt",
+    "map": "Lage der Gîte Au fil de l'eau",
+    "info": "Information & Buchung",
+    "reservation": "Buchung auch über Gîtes de France möglich"
+  },
+
+  "contactForm": {
+    "title": "Kontaktformular",
+    "name": "Name",
+    "message": "Nachricht",
+    "send": "Senden",
+    "sending": "Wird gesendet…",
+    "success": "Vielen Dank, Ihre Nachricht wurde erfolgreich gesendet."
   }
 }
