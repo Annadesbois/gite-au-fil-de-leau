@@ -1,8 +1,7 @@
 import { Metadata } from "next";
 
 import { getMessages } from "@/lib/i18n";
-import { locales } from "./i18n.config";
-import type { Locale } from "./i18n.config";
+import { locales, type Locale } from "./i18n.config";
 
 import type {
   PageProp,
@@ -46,9 +45,17 @@ type Messages = {
 
 type MessageKey = keyof Messages;
 
+type OgImage = {
+  url: string;
+  width?: number;
+  height?: number;
+  alt?: string;
+};
+
 export function createPageHelpers<K extends MessageKey>(
   messageKey: K,
-  routeSegment?: string,
+  routeSegment: string = messageKey,
+  ogImage?: OgImage,
 ) {
   const generateMetadata = async ({ params }: PageProp): Promise<Metadata> => {
     const { locale } = await params;
@@ -57,18 +64,45 @@ export function createPageHelpers<K extends MessageKey>(
     const messages = getMessages(localeTyped);
     const section = messages[messageKey] as Messages[K] & MetadataMessages;
 
-    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL;
+    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL!;
     const path = routeSegment ? `/${routeSegment}` : "";
+    const url = `${baseUrl}/${localeTyped}${path}`;
+
     const languages = Object.fromEntries(
-      (locales as readonly Locale[]).map((l) => [l, `${baseUrl}/${l}${path}`]),
+      locales.map((l) => [l, `${baseUrl}/${l}${path}`]),
     );
+
+    const image: OgImage = ogImage ?? {
+      url: `${baseUrl}/og/default.jpg`,
+      width: 1200,
+      height: 630,
+      alt: "Gîte Au fil de l'eau à Storckensohn (Alsace) – spa & sauna",
+    };
 
     return {
       title: section.meta.title,
       description: section.meta.description,
+
       alternates: {
-        canonical: `${baseUrl}/${localeTyped}${path}`,
+        canonical: url,
         languages,
+      },
+
+      openGraph: {
+        title: section.meta.title,
+        description: section.meta.description,
+        url,
+        siteName: "Gîte Au fil de l'eau",
+        locale: localeTyped,
+        type: "website",
+        images: [image],
+      },
+
+      twitter: {
+        card: "summary_large_image",
+        title: section.meta.title,
+        description: section.meta.description,
+        images: [image.url],
       },
     };
   };

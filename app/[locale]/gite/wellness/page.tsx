@@ -4,7 +4,12 @@ import { createPageHelpers } from "@/lib/metadata";
 
 import type { PageProp } from "@/types/i18n";
 
-const { generateMetadata, getPageMessages } = createPageHelpers("wellness");
+const { generateMetadata, getPageMessages } = createPageHelpers("wellness","wellness", {
+  url: `${process.env.NEXT_PUBLIC_SITE_URL}/photos-gite/bien-etre/espace-bien-etre-spa.jpg`,
+  width: 1200,
+  height: 800,
+  alt: "Espace bien-être avec spa et sauna du Gîte Au fil de l'eau à Storckensohn (Alsace)",
+});
 
 export { generateMetadata };
 
