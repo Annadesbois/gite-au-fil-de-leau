@@ -37,7 +37,7 @@
 
   "footer": {
     "giteDeFranceAria": "Link zur Website von Gîtes de France Elsass",
-    "giteDeFranceAlt": "Gîtes de France — 4-Ähren-Logo",
+    "giteDeFranceAlt": "Gîtes de France - 4-Ähren-Logo",
     "tourismeHandicapAria": "Link zur Karte der zertifizierten „Tourismus & Behinderung“-Einrichtungen",
     "tourismeHandicapAlt": "Tourismus-&-Behinderung-Label"
   },
@@ -89,7 +89,7 @@
 
   "livingRoom": {
     "meta": {
-      "title": "Der Wohnbereich — Großer Gemeinschaftsraum der Gîte Au fil de l'eau",
+      "title": "Der Wohnbereich - Großer Gemeinschaftsraum der Gîte Au fil de l'eau",
       "description": "Ein 60 m² großer Wohnbereich, inspiriert von traditionellen Holzveranden, mit Wohnzimmer und Klavier, Esszimmer mit Holzofen sowie einer voll ausgestatteten Küche, die sich zum Wohnraum öffnet."
     },
     "hero": {
@@ -128,7 +128,7 @@
 
   "cerisier": {
     "meta": {
-      "title": "Zimmer „Cerisier“ | Gîte Au fil de l'eau in Storckensohn",
+      "title": "Zimmer „Cerisier“ - Gîte Au fil de l'eau in Storckensohn",
       "description": "Das Zimmer „Cerisier“ der Gîte Au fil de l'eau mit Blick auf die Obstwiese, zwei modularen 90/200-Betten, zwei Ausziehbetten und einem großen Badezimmer mit Chromotherapie-Badewanne - ideal für Paare oder Familien."
     },
     "title": "Das Zimmer „Cerisier“",
@@ -147,7 +147,7 @@
 
   "grange": {
     "meta": {
-      "title": "Zimmer „Grange“ | Gîte Au fil de l'eau in Storckensohn",
+      "title": "Zimmer „Grange“ - Gîte Au fil de l'eau in Storckensohn",
       "description": "Das Zimmer „Grange“ der Gîte Au fil de l'eau bewahrt den Charakter der alten Scheune: Holzambiente, Heubodenfenster mit Blick auf die Obstwiese, alte Schlitten und Schnapsflaschen, Mezzanine-Lounge und privates Bad."
     },
     "title": "Das Zimmer „Grange“",
@@ -166,7 +166,7 @@
 
   "aurores": {
     "meta": {
-      "title": "Zimmer „Aurores“ | Gîte Au fil de l'eau in Storckensohn",
+      "title": "Zimmer „Aurores“ - Gîte Au fil de l'eau in Storckensohn",
       "description": "Das Zimmer „Aurores“ der Gîte Au fil de l'eau, nach Osten ausgerichtet, mit zwei 90/200-Betten, die zu einem 180/200-Bett kombiniert werden können, sowie einem hellen, farbenfrohen privaten Bad mit maritimen Fliesen."
     },
     "title": "Das Zimmer „Aurores“",
@@ -184,7 +184,7 @@
 
   "senteurs": {
     "meta": {
-      "title": "Zimmer „Jardin des Senteurs“ | Gîte Au fil de l'eau",
+      "title": "Zimmer „Jardin des Senteurs“ - Gîte Au fil de l'eau",
       "description": "Das Zimmer „Jardin des Senteurs“, ebenerdig gelegen und für Personen mit eingeschränkter Mobilität geeignet, verfügt über ein 140/190-Bett und ein privates Badezimmer mit Zugang zum genussvollen Garten der Gîte."
     },
     "title1": "Das Zimmer",
@@ -273,7 +273,7 @@
 
   "mill": {
     "meta": {
-      "title": "Ölmühle von Storckensohn | Gîte Au fil de l'eau",
+      "title": "Ölmühle von Storckensohn - Gîte Au fil de l'eau",
       "description": "Entdecken Sie die Ölmühle von Storckensohn, eine restaurierte historische Anlage, in der Sie die traditionellen Techniken der Öl- und Mostherstellung erleben können - in einem authentischen Ambiente im Herzen der Hohen Vogesen im Elsass."
     },
     "title": "Die Ölmühle von Storckensohn",
@@ -318,7 +318,7 @@
 
   "reviews": {
     "meta": {
-      "title": "Gästebewertungen — Gîte Au fil de l'eau in Storckensohn",
+      "title": "Gästebewertungen - Gîte Au fil de l'eau in Storckensohn",
       "description": "Lesen Sie Bewertungen und Erfahrungsberichte von Gästen, die im Gîte Au fil de l'eau in Storckensohn, im Herzen der Hohen Vogesen im Elsass, übernachtet haben."
     },
     "title": "Gästebewertungen",
