@@ -1,6 +1,6 @@
 {
   "rootLayout": {
-    "title": "Gîte Au fil de l'eau – Ferienhaus mit Spa & Sauna im Elsass (Vogesen)",
+    "title": "Gîte Au fil de l'eau - Ferienhaus mit Spa & Sauna im Elsass (Vogesen)",
     "description": "Charmantes Ferienhaus in Storckensohn, im Herzen der Vogesen im Elsass: Natur, Wandern, Ruhe, Garten, Spa & Sauna. Für bis zu 10 Personen."
   },
 
@@ -44,7 +44,7 @@
 
   "home": {
     "meta": {
-      "title": "Ferienhaus mit Spa & Sauna in den Vogesen (Elsass) – Bis zu 10 Personen",
+      "title": "Ferienhaus mit Spa & Sauna in den Vogesen (Elsass) - Bis zu 10 Personen",
       "description": "Ferienunterkunft in Storckensohn (Vogesen, Elsass): renovierter Bauernhof mit Garten, Terrasse, Spa & Sauna. Ideal für Natururlaub, Wandern, Baden, Radfahren und Skifahren."
     },
     "hero": {
@@ -129,7 +129,7 @@
   "cerisier": {
     "meta": {
       "title": "Zimmer „Cerisier“ | Gîte Au fil de l'eau in Storckensohn",
-      "description": "Das Zimmer „Cerisier“ der Gîte Au fil de l'eau mit Blick auf die Obstwiese, zwei modularen 90/200-Betten, zwei Ausziehbetten und einem großen Badezimmer mit Chromotherapie-Badewanne – ideal für Paare oder Familien."
+      "description": "Das Zimmer „Cerisier“ der Gîte Au fil de l'eau mit Blick auf die Obstwiese, zwei modularen 90/200-Betten, zwei Ausziehbetten und einem großen Badezimmer mit Chromotherapie-Badewanne - ideal für Paare oder Familien."
     },
     "title": "Das Zimmer „Cerisier“",
     "intro": "Kirschblüten, Himbeer- und Pflaumentöne… Dieses Zimmer spiegelt die Obstwiese wider, die man durch ein großes Panoramafenster aus einem bequemen Schaukelstuhl betrachten kann.",
@@ -159,7 +159,7 @@
         "bathroom": "Ein angrenzendes, privates Duschbad mit Dusche, Waschbecken und WC",
         "mezzanine": "Ein kleiner, angrenzender Wohnbereich auf der Empore"
       },
-      "note1": "Die Scheune wie eine Rückkehr von einer Reise – voller Erinnerungen und Authentizität.",
+      "note1": "Die Scheune wie eine Rückkehr von einer Reise - voller Erinnerungen und Authentizität.",
       "note2": "Ein Ort, um in Ruhe zu meditieren, umgeben von Gegenständen von hier und anderswo."
     }
   },
@@ -202,17 +202,17 @@
 
   "wellness": {
     "meta": {
-      "title": "Ferienhaus mit Spa & Sauna im Elsass – Wellnessbereich in Storckensohn",
+      "title": "Ferienhaus mit Spa & Sauna im Elsass - Wellnessbereich in Storckensohn",
       "description": "Spa, Sauna, Duschen und Ruheliegen mit Blick auf die Streuobstwiese: Erholungsurlaub inmitten der Natur, im Herzen der Vogesen im Elsass."
     },
     "title": "Der Wellnessbereich",
     "intro1": "Ein Wellnessbereich mit Spa, Sauna und Ruheliegen steht den Gästen zur Verfügung. Er öffnet sich ebenerdig zur Obstwiese.",
-    "intro2": "So kann jeder sein eigenes Wohlfühlprogramm gestalten – von warmen oder kalten Duschen über die Sauna bis hin zum sprudelnden Bad mit sanften Massagen und den Innen- oder Außenliegen."
+    "intro2": "So kann jeder sein eigenes Wohlfühlprogramm gestalten - von warmen oder kalten Duschen über die Sauna bis hin zum sprudelnden Bad mit sanften Massagen und den Innen- oder Außenliegen."
   },
 
   "price": {
     "meta": {
-      "title": "Preise für Ferienhaus mit Spa im Elsass – Wochenende & Woche",
+      "title": "Preise für Ferienhaus mit Spa im Elsass - Wochenende & Woche",
       "description": "Preise des Gîte Au fil de l’eau (Vogesen, Elsass): Wochenend- oder Wochenmiete je nach Saison und Personenzahl. Spa & Sauna inklusive."
     },
     "title": "Preise",
@@ -239,7 +239,7 @@
 
   "hiking": {
     "meta": {
-      "title": "Wanderungen direkt ab dem Ferienhaus – Vogesen, Elsass",
+      "title": "Wanderungen direkt ab dem Ferienhaus - Vogesen, Elsass",
       "description": "Wanderwege und Panoramablicke rund um Storckensohn: Touren direkt vom Dorf aus, Routentipps, Wälder und Natur der Vogesen im Elsass."
     },
     "title": "Wanderungen",
@@ -251,7 +251,7 @@
 
   "wesserling": {
     "meta": {
-      "title": "Parc de Wesserling – Remarkable Gärten & Textilerbe nahe Storckensohn",
+      "title": "Parc de Wesserling - Remarkable Gärten & Textilerbe nahe Storckensohn",
       "description": "Der Parc de Wesserling, eine bedeutende Sehenswürdigkeit im Elsass: bemerkenswerte Gärten, Textilerbe, Ausstellungen und kulturelle Veranstaltungen, nur wenige Minuten vom Gîte Au fil de l’eau entfernt."
     },
     "title": "Der Park Wesserling",
@@ -274,18 +274,18 @@
   "mill": {
     "meta": {
       "title": "Ölmühle von Storckensohn | Gîte Au fil de l'eau",
-      "description": "Entdecken Sie die Ölmühle von Storckensohn, eine restaurierte historische Anlage, in der Sie die traditionellen Techniken der Öl- und Mostherstellung erleben können – in einem authentischen Ambiente im Herzen der Hohen Vogesen im Elsass."
+      "description": "Entdecken Sie die Ölmühle von Storckensohn, eine restaurierte historische Anlage, in der Sie die traditionellen Techniken der Öl- und Mostherstellung erleben können - in einem authentischen Ambiente im Herzen der Hohen Vogesen im Elsass."
     },
     "title": "Die Ölmühle von Storckensohn",
     "p1": "Die im Jahr 1732 erbaute Mühle war bis 1962 in Betrieb. Aus Äpfeln und Birnen wurde Bauernmost hergestellt. Walnüsse, Raps und Sonnenblumen wurden in großen Mengen gebracht, um ein feines und geschmackvolles Öl zu gewinnen. Schließlich kam das müde, stillstehende Wasserrad zur Ruhe.",
-    "p2": "Die Restaurierung der Mühle begann 1991 durch eine Gruppe von Freiwilligen. Das Wasser des Dorfbachs, das stolz vom Gazon Vert herabfließt, kann nun wieder das Schaufelrad antreiben, das sorgfältig originalgetreu nachgebaut wurde. Die vor zwei Jahrhunderten aus einem einzigen Eichenstamm gefertigte Kelter lässt erneut hochwertigen Saft fließen – den beliebten Apfelmost.",
-    "p3": "Wie bewegend, wenn alles wieder in Gang kommt! Der massive Mühlstein dreht sich erneut und zermahlt Äpfel, Walnüsse und Haselnüsse. Die alten Holzräder und -wellen übertragen fröhlich die nötige Energie in alle Richtungen. Walnüsse und Haselnüsse werden im restaurierten Ofen erwärmt, bevor sie in der imposanten Ölpresse landen, die nun wieder enorme Druckkraft entwickeln kann. Die uralte, geheimnisvolle und faszinierende Mechanik – als käme sie aus einer längst vergangenen Zeit – nimmt in der passenden Saison manchmal wieder ihren Dienst auf und presst Raps und Sonnenblumen.",
+    "p2": "Die Restaurierung der Mühle begann 1991 durch eine Gruppe von Freiwilligen. Das Wasser des Dorfbachs, das stolz vom Gazon Vert herabfließt, kann nun wieder das Schaufelrad antreiben, das sorgfältig originalgetreu nachgebaut wurde. Die vor zwei Jahrhunderten aus einem einzigen Eichenstamm gefertigte Kelter lässt erneut hochwertigen Saft fließen - den beliebten Apfelmost.",
+    "p3": "Wie bewegend, wenn alles wieder in Gang kommt! Der massive Mühlstein dreht sich erneut und zermahlt Äpfel, Walnüsse und Haselnüsse. Die alten Holzräder und -wellen übertragen fröhlich die nötige Energie in alle Richtungen. Walnüsse und Haselnüsse werden im restaurierten Ofen erwärmt, bevor sie in der imposanten Ölpresse landen, die nun wieder enorme Druckkraft entwickeln kann. Die uralte, geheimnisvolle und faszinierende Mechanik - als käme sie aus einer längst vergangenen Zeit - nimmt in der passenden Saison manchmal wieder ihren Dienst auf und presst Raps und Sonnenblumen.",
     "cta": "Entdecken"
   },
 
   "lake": {
     "meta": {
-      "title": "Kruth-Wildenstein-See (Vogesen, Elsass) – Natur & Aktivitäten nahe dem Ferienhaus",
+      "title": "Kruth-Wildenstein-See (Vogesen, Elsass) - Natur & Aktivitäten nahe dem Ferienhaus",
       "description": "Der Kruth-Wildenstein-See in den Vogesen im Elsass: Spazierengehen, Baden, Radfahren, Kanufahren und Erholung in der Natur, nahe dem Gîte Au fil de l’eau."
     },
     "title": "Der Kruth-Wildenstein-Stausee",
@@ -337,7 +337,7 @@
 
   "contact": {
     "meta": {
-      "title": "Ferienhaus mit Spa im Elsass buchen – Kontakt & Anfahrt (Storckensohn)",
+      "title": "Ferienhaus mit Spa im Elsass buchen - Kontakt & Anfahrt (Storckensohn)",
       "description": "Anfahrt, Kontaktdaten und Buchung des Gîte Au fil de l’eau in Storckensohn (Vogesen, Elsass). Direktbuchung oder über Gîtes de France."
     },
     "title": "Kontakt und Anfahrt",
