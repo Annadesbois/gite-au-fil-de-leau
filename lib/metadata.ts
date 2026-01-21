@@ -50,6 +50,7 @@ type OgImage = {
   width?: number;
   height?: number;
   alt?: string;
+  type?: string;
 };
 
 export function createPageHelpers<K extends MessageKey>(
@@ -76,6 +77,7 @@ export function createPageHelpers<K extends MessageKey>(
       width: 1200,
       height: 630,
       alt: "Gîte Au fil de l'eau à Storckensohn (Alsace) – spa & sauna",
+      type: "image/jpeg",
     };
 
     return {
