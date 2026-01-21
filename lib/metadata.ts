@@ -64,16 +64,15 @@ export function createPageHelpers<K extends MessageKey>(
     const messages = getMessages(localeTyped);
     const section = messages[messageKey] as Messages[K] & MetadataMessages;
 
-    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL!;
-    const path = routeSegment ? `/${routeSegment}` : "";
-    const url = `${baseUrl}/${localeTyped}${path}`;
+    const pagePath = routeSegment ? `/${routeSegment}` : "";
+    const canonical = `/${localeTyped}${pagePath}`;
 
     const languages = Object.fromEntries(
-      locales.map((l) => [l, `${baseUrl}/${l}${path}`]),
+      locales.map((l) => [l, `/${l}${pagePath}`]),
     );
 
     const image: OgImage = ogImage ?? {
-      url: `${baseUrl}/og/default.jpg`,
+      url: "/og/default.jpg",
       width: 1200,
       height: 630,
       alt: "Gîte Au fil de l'eau à Storckensohn (Alsace) – spa & sauna",
@@ -84,14 +83,14 @@ export function createPageHelpers<K extends MessageKey>(
       description: section.meta.description,
 
       alternates: {
-        canonical: url,
+        canonical,
         languages,
       },
 
       openGraph: {
         title: section.meta.title,
         description: section.meta.description,
-        url,
+        url: canonical,
         siteName: "Gîte Au fil de l'eau",
         locale: localeTyped,
         type: "website",
