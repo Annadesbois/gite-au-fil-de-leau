@@ -37,7 +37,6 @@ const LivingRoomPage = async ({ params }: PageProp) => {
               <li>{livingRoom.kitchen.items.dishwasher}</li>
               <li>{livingRoom.kitchen.items.fridgeFreezer}</li>
               <li>{livingRoom.kitchen.items.racletteFondue}</li>
-              <li>{livingRoom.kitchen.items.kettle}</li>
               <li>{livingRoom.kitchen.items.coffeeMaker}</li>
               <li>{livingRoom.kitchen.items.saucepan}</li>
             </ul>
