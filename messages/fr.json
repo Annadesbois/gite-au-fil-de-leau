@@ -101,7 +101,7 @@
       "title": "Le séjour comporte :",
       "items": {
         "kitchen": "une cuisine équipée",
-        "diningWoodStove": "une salle-à-manger avec poêle à bois",
+        "diningWoodStove": "une salle-à-manger avec piano et poêle à bois",
         "veranda": "une véranda avec table haute dans une ambiance végétale"
       },
       "note": "Il accède à la terrasse qui domine le pré-verger en bord du cours d’eau."
@@ -179,7 +179,7 @@
         "mainBeds": "2 lits 90/200 cm transformables en 1 lit 180/200 cm",
         "bathroom": "Une salle d’eau privative attenante avec douche, vasque et WC"
       },
-      "note": "Entre alcove, jardin et bord de mer, cette chambre confère humour et tonus dès le réveil !"
+      "note": "Entre alcôve, jardin et bord de mer, cette chambre confère humour et tonus dès le réveil !"
     }
   },
 
