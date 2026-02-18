@@ -72,10 +72,10 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
               <li>
                 <NavigationMenu.Link asChild>
                   <Link
-                    href={`${base}/gite/jardin-des-senteurs-room`}
+                    href={`${base}/gite/sous-bois-room`}
                     className="block menu-link"
                   >
-                    {gite.jardinDesSenteursRoom}
+                    {gite.sousBoisRoom}
                   </Link>
                 </NavigationMenu.Link>
               </li>

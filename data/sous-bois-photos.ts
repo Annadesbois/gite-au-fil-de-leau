@@ -1,4 +1,4 @@
-export const senteursPhotos = [
+export const sousBoisPhotos = [
   {
     src: "/photos-gite/chambre-jardin-des-senteurs/chambre-jardin-des-senteurs-lit.jpg",
     alt: {

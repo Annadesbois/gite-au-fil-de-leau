@@ -14,7 +14,7 @@
       "cerisierRoom": "Zimmer „Cerisier“",
       "grangeRoom": "Zimmer „Grange“",
       "auroresRoom": "Zimmer „Aurores“",
-      "jardinDesSenteursRoom": "Zimmer „Jardin des Senteurs“",
+      "sousBoisRoom": "Zimmer „Sous-Bois“",
       "wellness": "Wellnessbereich",
       "price": "Tarifs"
     },
@@ -182,13 +182,13 @@
     }
   },
 
-  "senteurs": {
+  "sousBois": {
     "meta": {
-      "title": "Zimmer „Jardin des Senteurs“ - Gîte Au fil de l'eau",
-      "description": "Das Zimmer „Jardin des Senteurs“, ebenerdig gelegen und für Personen mit eingeschränkter Mobilität geeignet, verfügt über ein 140/190-Bett und ein privates Badezimmer mit Zugang zum genussvollen Garten der Gîte."
+      "title": "Zimmer „Sous-Bois“ - Gîte Au fil de l'eau",
+      "description": "Das Zimmer „Sous-Bois“, ebenerdig gelegen und für Personen mit eingeschränkter Mobilität geeignet, verfügt über ein 140/190-Bett und ein privates Badezimmer mit Zugang zum genussvollen Garten der Gîte."
     },
     "title1": "Das Zimmer",
-    "title2": "„Jardin des Senteurs“",
+    "title2": "„Sous-Bois“",
     "intro": "Seine Fenster öffnen sich zu einem kleinen, baumbestandenen Garten: Walderdbeeren, aromatische Kräuter und essbare Blüten gedeihen im Schatten alter Bäume. Die Unterholz-Fotografien, die das Schlafzimmer schmücken, erinnern an die feine Poesie der waldreichen Umgebung des Gîtes.",
     "room": {
       "title": "Dieses Zimmer umfasst:",

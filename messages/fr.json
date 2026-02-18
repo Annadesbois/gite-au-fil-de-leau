@@ -14,7 +14,7 @@
       "cerisierRoom": "La chambre Cerisier",
       "grangeRoom": "La chambre Grange",
       "auroresRoom": "La chambre Aurores",
-      "jardinDesSenteursRoom": "La chambre Jardin des senteurs",
+      "sousBoisRoom": "La chambre Sous-Bois",
       "wellness": "L'espace bien-être",
       "price": "Tarifs"
     },
@@ -183,13 +183,13 @@
     }
   },
 
-  "senteurs": {
+  "sousBois": {
     "meta": {
       "title": "Chambre PMR de plain-pied - Gîte accessible en Alsace (Storckensohn)",
-      "description": "Chambre “Jardin des Senteurs” au rez-de-chaussée : accès PMR, douche à l’italienne, vue jardin. Séjour nature et confort dans les Hautes Vosges d’Alsace."
+      "description": "Chambre “Sous-Bois” au rez-de-chaussée : accès PMR, douche à l’italienne, vue jardin. Séjour nature et confort dans les Hautes Vosges d’Alsace."
     },
     "title1": "La chambre",
-    "title2": "« Jardin des Senteurs »",
+    "title2": "« Sous-Bois »",
     "intro": "Ses fenêtres s’ouvrent sur un jardinet arboré : fraises des bois, aromates et fleurs comestibles s’égaient à l’ombre de vieux arbres. Les photos de sous-bois qui décorent la chambre évoquent la délicate poésie des environs forestiers du gîte.",
     "room": {
       "title": "Cette chambre comporte :",

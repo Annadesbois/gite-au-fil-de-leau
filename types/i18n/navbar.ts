@@ -10,7 +10,7 @@ export type NavbarGiteMessages = {
   cerisierRoom: string;
   grangeRoom: string;
   auroresRoom: string;
-  jardinDesSenteursRoom: string;
+  sousBoisRoom: string;
   wellness: string;
   price: string;
 };
