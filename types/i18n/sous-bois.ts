@@ -1,4 +1,4 @@
-export type SenteursMessages = {
+export type SousBoisMessages = {
   title1: string;
   title2: string;
   intro: string;

@@ -18,6 +18,6 @@ export * from "./activities";
 export * from "./cerisier";
 export * from "./grange";
 export * from "./aurores";
-export * from "./senteurs";
+export * from "./sous-bois";
 export * from "./wellness";
 export * from "./price";

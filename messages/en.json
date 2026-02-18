@@ -14,7 +14,7 @@
       "cerisierRoom": "“Cerisier” room",
       "grangeRoom": "“Grange” room",
       "auroresRoom": "“Aurores” room",
-      "jardinDesSenteursRoom": "“Jardin des Senteurs” room",
+      "sousBoisRoom": "“Sous-Bois” room",
       "wellness": "Wellness area",
       "price": "Price"
     },
@@ -100,7 +100,7 @@
       "title": "The living area includes:",
       "items": {
         "kitchen": "a fully equipped kitchen",
-        "diningWoodStove": "a dining room with wood-burning stove",
+        "diningWoodStove": "a dining room with piano and wood-burning stove",
         "veranda": "a veranda with a high table in a plant-filled atmosphere"
       },
       "note": "It opens onto a terrace overlooking the orchard-meadow by the stream."
@@ -182,12 +182,12 @@
     }
   },
 
-  "senteurs": {
+  "sousBois": {
     "meta": {
-      "title": "“Jardin des Senteurs” Room | Gîte Au fil de l'eau",
-      "description": "The “Jardin des Senteurs” room, located at ground level and accessible to people with reduced mobility, features a 140/190 bed and a private bathroom opening onto the gîte’s edible garden."
+      "title": "“Sous-Bois” Room | Gîte Au fil de l'eau",
+      "description": "The “Sous-Bois” room, located at ground level and accessible to people with reduced mobility, features a 140/190 bed and a private bathroom opening onto the gîte’s edible garden."
     },
-    "title1": "The “Jardin des Senteurs”",
+    "title1": "The “Sous-Bois”",
     "title2": "Room",
     "intro": "Its windows open onto a small, tree-filled garden, where wild strawberries, aromatic herbs and edible flowers flourish in the shade of old trees. The woodland photographs decorating the room evoke the gentle poetry of the forest landscapes surrounding the gîte.",
     "room": {

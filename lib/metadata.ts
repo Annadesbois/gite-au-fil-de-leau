@@ -18,7 +18,7 @@ import type {
   AuroresMessages,
   CerisierMessages,
   GrangeMessages,
-  SenteursMessages,
+  SousBoisMessages,
   WellnessMessages,
   PriceMessages,
   ElseMessages,
@@ -37,7 +37,7 @@ type Messages = {
   aurores: AuroresMessages;
   cerisier: CerisierMessages;
   grange: GrangeMessages;
-  senteurs: SenteursMessages;
+  sousBois: SousBoisMessages;
   wellness: WellnessMessages;
   price: PriceMessages;
   else: ElseMessages;

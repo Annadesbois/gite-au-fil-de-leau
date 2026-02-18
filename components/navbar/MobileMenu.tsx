@@ -75,10 +75,10 @@ const MobileMenu = ({ locale, messages }: NavbarProps) => {
               </DropdownMenu.Item>
               <DropdownMenu.Item asChild>
                 <Link
-                  href={`${base}/gite/jardin-des-senteurs-room`}
+                  href={`${base}/gite/sous-bois-room`}
                   className="menu-link block"
                 >
-                  {gite.jardinDesSenteursRoom}
+                  {gite.sousBoisRoom}
                 </Link>
               </DropdownMenu.Item>
               <DropdownMenu.Item asChild>
