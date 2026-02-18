@@ -59,7 +59,7 @@ const contact = async ({ params }: PageProp) => {
             </p>
             <p>
               Email :{" "}
-              <a href={email}>
+              <a href={`mailto:${email}?subject=Demande%20de%20renseignements`}>
                 <span className="font-bold">
                   giteaufildeleau68&#64;gmail.com
                 </span>
