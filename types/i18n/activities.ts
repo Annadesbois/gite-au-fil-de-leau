@@ -1,8 +1,4 @@
-export type LocalisedText = {
-  fr: string;
-  en: string;
-  de: string;
-};
+import type { LocalisedText } from "./localisedText";
 
 export type ActivitiesPhoto = {
   src: string;

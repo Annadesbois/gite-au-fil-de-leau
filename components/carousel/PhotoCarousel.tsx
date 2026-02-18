@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect } from "react";
 import Image from "next/image";
+import { useParams } from "next/navigation";
 
 import Autoplay from "embla-carousel-autoplay";
 import useEmblaCarousel from "embla-carousel-react";
@@ -13,8 +14,24 @@ import type { PropType } from "@/types/carousel";
 
 const DEFAULT_OPTIONS: EmblaOptionsType = { loop: true };
 
+type LocalisedAlt = { fr: string; en: string; de: string };
+
+const isLocalisedAlt = (alt: unknown): alt is LocalisedAlt =>
+  !!alt && typeof alt === "object" && "fr" in alt && "en" in alt && "de" in alt;
+
+
 const PhotoCarousel: React.FC<PropType> = (props) => {
   const { slides, options } = props;
+
+  const params = useParams();
+  const locale =
+    params?.locale === "fr" ||
+    params?.locale === "en" ||
+    params?.locale === "de"
+      ? params.locale
+      : "en";
+
+
   const [emblaRef, emblaApi] = useEmblaCarousel(options ?? DEFAULT_OPTIONS, [
     Autoplay({
       delay: 4000,
@@ -70,7 +87,16 @@ const PhotoCarousel: React.FC<PropType> = (props) => {
                 <div className="relative rounded-3xl aspect-3/2 overflow-hidden">
                   <Image
                     src={slide.src}
-                    alt={slide.alt}
+                    alt={
+                      typeof slide.alt === "string"
+                        ? slide.alt
+                        : isLocalisedAlt(slide.alt)
+                          ? slide.alt[locale] ||
+                            slide.alt.en ||
+                            slide.alt.fr ||
+                            slide.alt.de
+                          : ""
+                    }
                     fill
                     className="object-cover"
                     priority={index === 0}
