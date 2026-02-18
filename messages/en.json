@@ -1,7 +1,7 @@
 {
   "rootLayout": {
-    "title": "Gîte Au fil de l'eau",
-    "description": "A welcoming holiday cottage in Storckensohn, in the heart of the High Vosges of Alsace."
+    "title": "Gîte Au fil de l'eau - Holiday cottage with spa & sauna in Alsace (Vosges)",
+    "description": "Charming holiday cottage in Storckensohn, in the heart of the Vosges Mountains, Alsace: nature, hiking, peace and quiet, garden, spa & sauna. Sleeps up to 10."
   },
 
   "navbar": {
@@ -37,15 +37,15 @@
 
   "footer": {
     "giteDeFranceAria": "Link to the Gîtes de France Alsace website",
-    "giteDeFranceAlt": "Gîtes de France — 4 ears of corn logo",
+    "giteDeFranceAlt": "Gîtes de France - 4 ears of corn logo",
     "tourismeHandicapAria": "Link to the map of “Tourism & Disability” certified establishments",
     "tourismeHandicapAlt": "Tourism & Disability label"
   },
 
   "home": {
     "meta": {
-      "title": "Gîte Au fil de l'eau — Holiday rental in Storckensohn",
-      "description": "Gîte Au fil de l'eau in Storckensohn, a renovated former farmhouse that can host up to 10 guests, with wellness area and terrace in the heart of the High Vosges in Alsace."
+      "title": "Holiday cottage with spa & sauna in the Vosges (Alsace) – Sleeps up to 10",
+      "description": "Holiday rental in Storckensohn (Vosges, Alsace): renovated former farmhouse with garden, terrace, spa & sauna. Ideal for nature breaks, hiking, swimming, cycling and skiing."
     },
     "hero": {
       "title": "Welcome to the Gîte",
@@ -89,7 +89,7 @@
 
   "livingRoom": {
     "meta": {
-      "title": "The living area — Main communal room of the Gîte Au fil de l'eau",
+      "title": "The living area - Main communal room of the Gîte Au fil de l'eau",
       "description": "A 60 m² living area inspired by traditional wooden verandas, with a lounge and piano, a dining room with wood stove, and a fully equipped kitchen opening onto the main space."
     },
     "hero": {
@@ -129,7 +129,7 @@
   "cerisier": {
     "meta": {
       "title": "“Cerisier” Room | Gîte Au fil de l'eau in Storckensohn",
-      "description": "The “Cerisier” room at Gîte Au fil de l'eau, overlooking the orchard, featuring two 90/200 modular beds, two drawer beds, and a spacious bathroom with chromotherapy bathtub — ideal for couples or families."
+      "description": "The “Cerisier” room at Gîte Au fil de l'eau, overlooking the orchard, featuring two 90/200 modular beds, two drawer beds, and a spacious bathroom with chromotherapy bathtub - ideal for couples or families."
     },
     "title": "The “Cerisier” Room",
     "intro": "Cherry blossom tones, raspberry and plum colours… this room reflects the orchard that can be admired through a large picture window, while relaxing comfortably in a rocking chair.",
@@ -202,8 +202,8 @@
 
   "wellness": {
     "meta": {
-      "title": "Wellness Area with Spa & Sauna | Gîte Au fil de l'eau",
-      "description": "Wellness area of the Gîte Au fil de l'eau in Storckensohn, featuring a spa, sauna, showers and rest chairs opening onto the orchard meadow — perfect for a relaxing stay in the Haute Vosges region."
+      "title": "Holiday cottage with spa & sauna in Alsace – Wellness area in Storckensohn",
+      "description": "Spa, sauna, showers and relaxation loungers overlooking the meadow orchard: a relaxing stay in nature, in the heart of the Vosges Mountains, Alsace."
     },
     "title": "The Wellness Area",
     "intro1": "A wellness area with spa, sauna and relaxation loungers is available to guests. It opens directly onto the orchard meadow.",
@@ -212,8 +212,8 @@
 
   "price": {
     "meta": {
-      "title": "Rates for the Au fil de l'eau gîte in Storckensohn",
-      "description": "Discover the rental rates of the Au fil de l'eau gîte in Storckensohn, in the Hautes Vosges of Alsace. Prices vary according to season and number of guests, with options and included services."
+      "title": "Rates for spa holiday cottage in Alsace – Weekend & weekly stays",
+      "description": "Rates for Gîte Au fil de l’eau (Vosges, Alsace): weekend or weekly rentals depending on season and number of guests. Spa & sauna included."
     },
     "title": "Rates",
     "details": "2026 rates, all charges included (water, electricity, heating, Wi-Fi, beds made on arrival, spa, sauna, and towels provided; bath towels for the spa and sauna must be brought by guests):",
@@ -239,8 +239,8 @@
 
   "hiking": {
     "meta": {
-      "title": "Hiking Around Storckensohn | Gîte Au fil de l'eau",
-      "description": "Discover the most beautiful hikes around Storckensohn in the heart of the High Vosges: trails, panoramic viewpoints, and itineraries starting directly from the village."
+      "title": "Hiking trails starting from the cottage – Vosges Mountains, Alsace",
+      "description": "Trails and panoramic views around Storckensohn: hikes accessible directly from the village, route tips, forests and nature of the Vosges Mountains in Alsace."
     },
     "title": "Hiking",
     "intro1": "The village of Storckensohn lies in the heart of the Vosges Mountains. An extensive network of hiking trails is accessible directly from the village.",
@@ -251,8 +251,8 @@
 
   "wesserling": {
     "meta": {
-      "title": "Parc de Wesserling — Remarkable Gardens and Textile Heritage",
-      "description": "Discover Parc de Wesserling, its remarkable gardens, textile ecomuseum, the Great Boiler House, and numerous cultural and artistic events."
+      "title": "Wesserling Park, remarkable gardens & textile heritage – Near Storckensohn",
+      "description": "Wesserling Park, an iconic Alsace site: remarkable gardens, textile heritage, exhibitions and cultural events, just minutes from Gîte Au fil de l’eau."
     },
     "title": "Parc de Wesserling",
     "intro1": "Set on land steeped in textile heritage, the Parc de Wesserling retraces the remarkable industrial history of this former Royal Manufactory.",
@@ -285,8 +285,8 @@
 
   "lake": {
     "meta": {
-      "title": "Lake Kruth-Wildenstein",
-      "description": "Lake Kruth-Wildenstein, the largest reservoir on the Alsacian side of the Vosges Mountains, offers relaxation, walking trails, and a wide range of outdoor activities."
+      "title": "Lake Kruth-Wildenstein (Vosges, Alsace) – Nature & activities near the cottage",
+      "description": "Lake Kruth-Wildenstein in the Vosges Mountains, Alsace: walking, swimming, cycling, canoeing and nature relaxation, close to Gîte Au fil de l’eau."
     },
     "title": "Lake Kruth-Wildenstein",
     "p1": "Lake Kruth-Wildenstein is an invitation to relax and escape. With a surface area of 81 hectares, this reservoir is the largest on the Alsacian side of the Vosges Mountains.",
@@ -319,7 +319,7 @@
 
   "reviews": {
     "meta": {
-      "title": "Guest reviews — Gîte Au fil de l'eau in Storckensohn",
+      "title": "Guest reviews - Gîte Au fil de l'eau in Storckensohn",
       "description": "Read the reviews and testimonials from guests who stayed at the Gîte Au fil de l'eau in Storckensohn, in the heart of the High Vosges of Alsace."
     },
     "title": "Guest reviews",
@@ -338,8 +338,8 @@
 
   "contact": {
     "meta": {
-      "title": "Contact and Access — Gîte Au fil de l'eau in Storckensohn",
-      "description": "Address, phone number, email and access information for the Gîte Au fil de l'eau in Storckensohn, in the Upper Vosges of Alsace. Book directly or via Gîtes de France."
+      "title": "Book a spa holiday cottage in Alsace – Contact & access (Storckensohn)",
+      "description": "Access, contact details and booking for Gîte Au fil de l’eau in Storckensohn (Vosges, Alsace). Direct booking or via Gîtes de France."
     },
     "title": "Contact and Access",
     "map": "Location of the Gîte Au fil de l'eau",

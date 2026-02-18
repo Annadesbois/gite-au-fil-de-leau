@@ -2,7 +2,7 @@ import { EmblaOptionsType } from "embla-carousel";
 
 export type PhotoSlide = {
   src: string;
-  alt: string;
+  alt: { fr: string; en: string; de: string } | string;
 };
 
 export type PropType = {

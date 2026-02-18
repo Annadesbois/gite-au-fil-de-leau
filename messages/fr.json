@@ -1,7 +1,7 @@
 {
   "rootLayout": {
-    "title": "Gîte Au fil de l'eau",
-    "description": "Gîte chaleureux à Storckensohn, au cœur des Hautes-Vosges d'Alsace."
+    "title": "Gîte Au fil de l'eau - Gîte avec spa & sauna en Alsace (Hautes Vosges)",
+    "description": "Gîte de charme à Storckensohn, au cœur des Hautes Vosges d’Alsace : nature, randonnées, calme, jardin, spa & sauna. Jusqu’à 10 personnes."
   },
 
   "navbar": {
@@ -44,8 +44,8 @@
 
   "home": {
     "meta": {
-      "title": "Gîte Au fil de l'eau — Location de vacances à Storckensohn",
-      "description": "Gîte Au fil de l'eau à Storckensohn, ancienne ferme réhabilitée pouvant accueillir jusqu’à 10 personnes, avec espace bien-être et terrasse en plein coeur des Hautes Vosges d’Alsace."
+      "title": "Gîte avec spa & sauna dans les Vosges d’Alsace - Jusqu’à 10 pers.",
+      "description": "Location vacances à Storckensohn (Hautes Vosges d’Alsace) : ancienne ferme rénovée, jardin, terrasse, spa & sauna. Idéal week-end nature, rando, baignade, vélo, ski."
     },
     "hero": {
       "title": "Bienvenue au gîte",
@@ -95,7 +95,7 @@
     },
     "hero": {
       "title": "Le séjour",
-      "highlight": "Le séjour Le séjour de 60m2 évoque les vérandas traditionnelles en bois, appelées loewa localement."
+      "highlight": "Le séjour de 60m2 évoque les vérandas traditionnelles en bois, appelées loewa localement."
     },
     "livingArea": {
       "title": "Le séjour comporte :",
@@ -129,7 +129,7 @@
 
   "cerisier": {
     "meta": {
-      "title": "Chambre « Cerisier » | Gîte Au fil de l'eau à Storckensohn",
+      "title": "Chambre « Cerisier » - Gîte Au fil de l'eau à Storckensohn",
       "description": "La chambre « Cerisier » du gîte Au fil de l'eau, avec vue sur le verger, 2 lits 90/200 modulables, 2 lits tiroirs et vaste salle de bain avec baignoire chromato, idéale pour couple ou famille."
     },
     "title": "La chambre « Cerisier »",
@@ -148,7 +148,7 @@
 
   "grange": {
     "meta": {
-      "title": "Chambre « Grange » | Gîte Au fil de l'eau à Storckensohn",
+      "title": "Chambre « Grange » - Gîte Au fil de l'eau à Storckensohn",
       "description": "La chambre « Grange » du Gîte Au fil de l'eau, inspirée de l’ancienne grange vosgienne : ambiance bois, gerbière ouverte sur le verger, objets d’autrefois, mezzanine et salle d’eau privative."
     },
     "title": "La chambre « Grange »",
@@ -167,7 +167,7 @@
 
   "aurores": {
     "meta": {
-      "title": "Chambre « Aurores » | Gîte Au fil de l'eau à Storckensohn",
+      "title": "Chambre « Aurores » - Gîte Au fil de l'eau à Storckensohn",
       "description": "La chambre « Aurores » du gîte Au fil de l'eau, orientée au levant, avec 2 lits 90/200 transformables en 180/200 et une salle d’eau privative lumineuse et pétillante aux couleurs marines."
     },
     "title": "La chambre « Aurores »",
@@ -185,8 +185,8 @@
 
   "senteurs": {
     "meta": {
-      "title": "Chambre « Jardin des Senteurs » | Gîte Au fil de l'eau",
-      "description": "La chambre « Jardin des Senteurs », située de plain-pied et adaptée aux personnes à mobilité réduite, avec lit 140/190 et salle d’eau privative donnant sur le jardin à déguster du gîte."
+      "title": "Chambre PMR de plain-pied - Gîte accessible en Alsace (Storckensohn)",
+      "description": "Chambre “Jardin des Senteurs” au rez-de-chaussée : accès PMR, douche à l’italienne, vue jardin. Séjour nature et confort dans les Hautes Vosges d’Alsace."
     },
     "title1": "La chambre",
     "title2": "« Jardin des Senteurs »",
@@ -203,8 +203,8 @@
 
   "wellness": {
     "meta": {
-      "title": "Espace bien-être avec spa & sauna | Gîte Au fil de l'eau",
-      "description": "Espace bien-être du gîte Au fil de l'eau à Storckensohn, avec spa, sauna, douches et chaises de repos s’ouvrant sur le pré-verger, pour un séjour détente en Hautes Vosges d’Alsace."
+      "title": "Gîte avec spa & sauna en Alsace - Espace bien-être à Storckensohn",
+      "description": "Spa, sauna, douches et chaises longues avec vue sur le pré-verger : un séjour détente en pleine nature, au cœur des Hautes Vosges d’Alsace."
     },
     "title": "L'espace bien-être",
     "intro1": "Un espace bien-être, avec spa, sauna et chaises de repos est à la disposition des hôtes. Il s’ouvre de plain-pied sur le pré-verger.",
@@ -213,8 +213,8 @@
 
   "price": {
     "meta": {
-      "title": "Tarifs du gîte Au fil de l'eau à Storckensohn",
-      "description": "Découvrez les tarifs de location du gîte Au fil de l'eau à Storckensohn, Hautes Vosges d’Alsace. Tarifs selon saison et nombre de personnes, avec options et services inclus."
+      "title": "Tarifs location gîte avec spa en Alsace - Week-end & semaine (Storckensohn)",
+      "description": "Tarifs du Gîte Au fil de l’eau (Hautes Vosges d’Alsace) : location week-end ou semaine, selon saison et nombre de personnes. Spa & sauna inclus."
     },
     "title": "Tarifs",
     "details": "Tarifs 2026 tous frais inclus (eau, électricité, chauffage, wifi, draps mis en place, spa, sauna, linge de toilette mais les serviettes de bain pour le spa et le sauna sont à apporter) :",
@@ -235,13 +235,13 @@
       "description": "Découvrez Storckensohn en 3D : village pittoresque au cœur des Hautes-Vosges d’Alsace, où se situe le gîte Au fil de l'eau."
     },
     "title": "Le village de Storckensohn en 3D",
-    "intro": "Le gîte Au fil de l'eau est situé en plein coeur des Hautes-Vosges d'Alsace, dans le village de Storckensohn."
+    "intro": "Le gîte Au fil de l'eau est situé en plein cœur des Hautes-Vosges d'Alsace, dans le village de Storckensohn."
   },
 
   "hiking": {
     "meta": {
-      "title": "Randonnées autour de Storckensohn | Gîte Au fil de l'eau",
-      "description": "Découvrez les plus belles randonnées autour de Storckensohn, au cœur des Hautes-Vosges d’Alsace : sentiers, panoramas et itinéraires accessibles directement depuis le village."
+      "title": "Randonnées au départ du gîte - Hautes Vosges d’Alsace (Storckensohn)",
+      "description": "Sentiers et panoramas autour de Storckensohn : randonnées accessibles depuis le village, conseils d’itinéraires, nature et forêts des Hautes Vosges d’Alsace."
     },
     "title": "Les randonnées",
     "intro1": "Le village de Storckensohn est situé au cœur du massif vosgien. Un vaste réseau de randonnées est accessible directement à partir du village.",
@@ -252,8 +252,8 @@
 
   "wesserling": {
     "meta": {
-      "title": "Le Parc de Wesserling — Jardins remarquables et patrimoine textile",
-      "description": "Découvrez le Parc de Wesserling, ses jardins remarquables, son Écomusée textile, sa Grande Chaufferie et ses nombreux événements culturels et artistiques."
+      "title": "Le Parc de Wesserling, jardins remarquables et patrimoine textile - À voir près de Storckensohn",
+      "description": "Le Parc de Wesserling, site emblématique d’Alsace : jardins remarquables, patrimoine textile, expositions et événements culturels, à quelques minutes du gîte Au fil de l’eau."
     },
     "title": "Le Parc de Wesserling",
     "intro1": "Sur des terres de haute tradition textile, le Parc de Wesserling retrace l’extraordinaire aventure industrielle de cette ancienne « Manufacture Royale ».",
@@ -274,7 +274,7 @@
 
   "mill": {
     "meta": {
-      "title": "Moulin à Huile de Storckensohn | Gîte Au fil de l'eau",
+      "title": "Moulin à Huile de Storckensohn - Gîte Au fil de l'eau",
       "description": "Découvrez le Moulin à Huile de Storckensohn, un site historique restauré où vous pourrez admirer les anciennes techniques de production d'huile et de cidre, tout en profitant d'une atmosphère authentique au cœur des Hautes-Vosges d'Alsace."
     },
     "title": "Le Moulin à Huile de Storckensohn",
@@ -286,8 +286,8 @@
 
   "lake": {
     "meta": {
-      "title": "Le lac de Kruth-Wildenstein",
-      "description": "Le lac de Kruth-Wildenstein, plus grande retenue d’eau du versant alsacien du Massif des Vosges, offre détente, promenades et nombreuses activités en pleine nature."
+      "title": "Lac de Kruth-Wildenstein (Vosges, Alsace) - Nature & activités près du gîte",
+      "description": "Le lac de Kruth-Wildenstein, dans les Hautes Vosges d’Alsace : balades, baignade, vélo, canoë et détente en pleine nature, à proximité du gîte Au fil de l’eau."
     },
     "title": "Le lac de Kruth-Wildenstein",
     "p1": "Le lac de Kruth-Wildenstein invite à la détente et au dépaysement. Cette retenue d’eau est la plus grande du versant alsacien du Massif des Vosges avec une superficie de 81 ha.",
@@ -311,15 +311,15 @@
 
   "else": {
     "meta": {
-      "title": "Activités autour du gîte Au fil de l'eau",
-      "description": "Découvrez toutes les autres activités autour du gîte Au fil de l'eau à Storckensohn : ski, parapente, balades à dos d’âne, vélo, piscine, casino, musées, producteurs locaux et nombreux restaurants dans les Hautes-Vosges d’Alsace."
+      "title": "Activités nature & montagne autour du gîte - Ski, vélo, baignade (Alsace)",
+      "description": "Autour de Storckensohn : ski, vélo/VTT, lac, parapente, piscine, producteurs locaux et sorties nature. Idées week-end et vacances dans les Vosges d’Alsace."
     },
     "title": "Et tout le reste"
   },
 
   "reviews": {
     "meta": {
-      "title": "Avis des voyageurs — Gîte Au fil de l'eau à Storckensohn",
+      "title": "Avis des voyageurs - Gîte Au fil de l'eau à Storckensohn",
       "description": "Découvrez les avis et témoignages des voyageurs ayant séjourné au gîte Au fil de l'eau à Storckensohn, au cœur des Hautes Vosges d’Alsace."
     },
     "title": "Avis des voyageurs",
@@ -338,8 +338,8 @@
 
   "contact": {
     "meta": {
-      "title": "Contact & accès — Gîte Au fil de l'eau à Storckensohn",
-      "description": "Coordonnées, téléphone, email et accès au gîte Au fil de l'eau à Storckensohn, Hautes Vosges d’Alsace. Réservation en direct ou via Gîtes de France."
+      "title": "Réserver un gîte avec spa en Alsace - Contact & accès (Storckensohn)",
+      "description": "Accès, coordonnées et réservation du Gîte Au fil de l’eau à Storckensohn (Hautes Vosges d’Alsace). Réservation directe ou via Gîtes de France."
     },
     "title": "Contact et Accès",
     "map": "Localisation du Gîte Au fil de l'eau",

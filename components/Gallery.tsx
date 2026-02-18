@@ -22,7 +22,11 @@ const Gallery = ({ photos, locale }: GalleryProps) => {
         >
           <Image
             src={photo.src}
-            alt={photo.alt}
+            alt={
+              typeof photo.alt === "string"
+                ? photo.alt
+                : (photo.alt[locale] ?? photo.alt.fr)
+            }
             width={1200}
             height={900}
             sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
