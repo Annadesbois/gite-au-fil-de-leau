@@ -8,7 +8,7 @@ export const homePhotos = [
     },
   },
   {
-    src: "/photos-gite/sejour/sejour-vue-jardin.jpg",
+    src: "/photos-gite/sejour/sejour-avec-canape-et-vue-jardin.jpg",
     alt: {
       fr: "Séjour lumineux du gîte Au fil de l’eau avec vue sur le jardin",
       en: "Bright living room at Gîte Au fil de l’eau with garden view",
@@ -16,7 +16,7 @@ export const homePhotos = [
     },
   },
   {
-    src: "/photos-gite/interieur/petit-salon.jpg",
+    src: "/photos-gite/interieur/petit-salon-espace-detente.jpg",
     alt: {
       fr: "Petit salon cosy du gîte Au fil de l’eau",
       en: "Cosy small lounge at Gîte Au fil de l’eau",
