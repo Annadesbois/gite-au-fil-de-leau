@@ -1,10 +1,10 @@
 export const grangePhotos = [
   {
-    src: "/photos-gite/chambre-grange/chambre-grange-grand-lit-vue-jardin.jpg",
+    src: "/photos-gite/chambre-grange/chambre-grange-vue-salle-de-bain.jpg",
     alt: {
-      fr: "Chambre Grange avec grand lit et vue sur le jardin du gîte",
-      en: "Grange bedroom with double bed and garden view",
-      de: "Zimmer „Grange“ mit Doppelbett und Blick auf den Garten",
+      fr: "Vue de la chambre Grange vers la salle de bain privative",
+      en: "View from the Grange bedroom towards the private bathroom",
+      de: "Blick vom Zimmer „Grange“ auf das private Badezimmer",
     },
   },
   {
@@ -13,14 +13,6 @@ export const grangePhotos = [
       fr: "Chambre Grange avec grand lit et décoration chaleureuse",
       en: "Grange bedroom with double bed and warm décor",
       de: "Zimmer „Grange“ mit Doppelbett und gemütlicher Einrichtung",
-    },
-  },
-  {
-    src: "/photos-gite/chambre-grange/chambre-grange-vue-salle-de-bain.jpg",
-    alt: {
-      fr: "Vue de la chambre Grange vers la salle de bain privative",
-      en: "View from the Grange bedroom towards the private bathroom",
-      de: "Blick vom Zimmer „Grange“ auf das private Badezimmer",
     },
   },
   {
@@ -45,14 +37,6 @@ export const grangePhotos = [
       fr: "Douche de la salle de bain de la chambre Grange",
       en: "Shower in the Grange bedroom bathroom",
       de: "Dusche im Badezimmer des Zimmers „Grange“",
-    },
-  },
-  {
-    src: "/photos-gite/chambre-grange/chambre-grange-entree.jpg",
-    alt: {
-      fr: "Entrée de la chambre Grange au gîte Au fil de l’eau",
-      en: "Entrance of the Grange bedroom at Gîte Au fil de l’eau",
-      de: "Eingang des Zimmers „Grange“ im Gîte Au fil de l’eau",
     },
   },
 ];
