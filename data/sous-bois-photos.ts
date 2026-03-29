@@ -1,34 +1,42 @@
 export const sousBoisPhotos = [
   {
-    src: "/photos-gite/chambre-jardin-des-senteurs/chambre-jardin-des-senteurs-lit.jpg",
+    src: "/photos-gite/chambre-sous-bois/chambre-sous-bois-lit-vue-jardin-1.jpg",
     alt: {
-      fr: "Chambre Jardin des Senteurs avec lit confortable et décoration naturelle",
-      en: "Jardin des Senteurs bedroom with comfortable bed and natural décor",
-      de: "Zimmer „Jardin des Senteurs“ mit bequemem Bett und natürlicher Einrichtung",
+      fr: "Chambre Sous-bois avec lit double et vue sur le jardin du gîte",
+      en: "Sous-bois bedroom with double bed and garden view",
+      de: "Zimmer „Sous-bois“ mit Doppelbett und Blick auf den Garten",
     },
   },
   {
-    src: "/photos-gite/chambre-jardin-des-senteurs/chambre-jardin-des-senteurs-vue-entree.jpg",
+    src: "/photos-gite/chambre-sous-bois/chambre-sous-bois-lit-vue-jardin-2.jpg",
     alt: {
-      fr: "Chambre Jardin des Senteurs de plain-pied avec vue vers l’entrée",
-      en: "Ground-floor Jardin des Senteurs bedroom with view towards the entrance",
-      de: "Ebenerdiges Zimmer „Jardin des Senteurs“ mit Blick zum Eingang",
+      fr: "Chambre Sous-bois avec lit double et vue sur le jardin du gîte",
+      en: "Sous-bois bedroom with double bed and garden view",
+      de: "Zimmer „Sous-bois“ mit Doppelbett und Blick auf den Garten",
     },
   },
   {
-    src: "/photos-gite/chambre-jardin-des-senteurs/chambre-jardin-des-senteurs-salle-de-bain.jpg",
+    src: "/photos-gite/chambre-sous-bois/chambre-sous-bois-lit-et-bureau.jpg",
     alt: {
-      fr: "Salle de bain privative de la chambre Jardin des Senteurs",
-      en: "Private bathroom of the Jardin des Senteurs bedroom",
-      de: "Privates Badezimmer des Zimmers „Jardin des Senteurs“",
+      fr: "Chambre Sous-bois avec lit double et bureau de travail",
+      en: "Sous-bois bedroom with double bed and work desk",
+      de: "Zimmer „Sous-bois“ mit Doppelbett und Schreibtisch",
     },
   },
   {
-    src: "/photos-gite/chambre-jardin-des-senteurs/chambre-jardin-des-senteurs-douche.jpg",
+    src: "/photos-gite/chambre-sous-bois/chambre-sous-bois-salle-de-bain-1.jpg",
     alt: {
-      fr: "Douche à l’italienne de la chambre Jardin des Senteurs",
-      en: "Walk-in shower in the Jardin des Senteurs bedroom",
-      de: "Bodengleiche Dusche im Zimmer „Jardin des Senteurs“",
+      fr: "Salle de bain privative de la chambre Sous-bois",
+      en: "Private bathroom of the Sous-bois bedroom",
+      de: "Privates Badezimmer des Zimmers „Sous-bois“",
+    },
+  },
+  {
+    src: "/photos-gite/chambre-sous-bois/chambre-sous-bois-salle-de-bain-2.jpg",
+    alt: {
+      fr: "Salle de bain privative de la chambre Sous-bois",
+      en: "Private bathroom of the Sous-bois bedroom",
+      de: "Privates Badezimmer des Zimmers „Sous-bois“",
     },
   },
 ];

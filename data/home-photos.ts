@@ -24,7 +24,7 @@ export const homePhotos = [
     },
   },
   {
-    src: "/photos-gite/sejour/cuisine-1.jpg",
+    src: "/photos-gite/sejour/coin-cuisine.jpg",
     alt: {
       fr: "Cuisine équipée du gîte Au fil de l’eau ouverte sur le séjour",
       en: "Fully equipped kitchen at Gîte Au fil de l’eau open to the living area",
@@ -32,15 +32,15 @@ export const homePhotos = [
     },
   },
   {
-    src: "/photos-gite/sejour/sejour-salle-a-manger.jpg",
+    src: "/photos-gite/sejour/cuisine-et-table-vue-sejour.jpg",
     alt: {
-      fr: "Séjour du gîte avec salle à manger lumineuse",
-      en: "Living and dining area of the gîte with plenty of natural light",
-      de: "Wohn- und Essbereich des Gîtes mit viel Tageslicht",
+      fr: "Cuisine et grande table du gîte Au fil de l’eau",
+      en: "Kitchen and large table of Gîte Au fil de l’eau",
+      de: "Küche und große Tisch des Gîtes Au fil de l’eau",
     },
   },
   {
-    src: "/photos-gite/chambre-grange/chambre-grange-grand-lit-vue-jardin.jpg",
+    src: "/photos-gite/chambre-grange/chambre-grange-lits-jumeaux-vue-jardin.jpg",
     alt: {
       fr: "Chambre Grange avec grand lit et vue sur le jardin",
       en: "Grange bedroom with double bed and garden view",
@@ -48,27 +48,27 @@ export const homePhotos = [
     },
   },
   {
-    src: "/photos-gite/chambre-cerisier/chambre-cerisier-grand-lit-vue-jardin.jpg",
+    src: "/photos-gite/chambre-cerisier/chambre-cerisier-grand-lit-1.jpg",
     alt: {
-      fr: "Chambre Cerisier avec grand lit et vue sur le jardin du gîte",
-      en: "Cerisier bedroom with double bed and garden view",
-      de: "Zimmer „Cerisier“ mit Doppelbett und Blick auf den Garten",
+      fr: "Chambre Cerisier avec grand lit double",
+      en: "Cerisier bedroom with double bed",
+      de: "Zimmer „Cerisier“ mit Doppelbett",
     },
   },
   {
-    src: "/photos-gite/chambre-jardin-des-senteurs/chambre-jardin-des-senteurs-lit.jpg",
+    src: "/photos-gite/chambre-sous-bois/chambre-sous-bois-lit-vue-jardin-1.jpg",
     alt: {
-      fr: "Chambre Jardin des Senteurs avec lit confortable et ambiance chaleureuse",
-      en: "Jardin des Senteurs bedroom with comfortable bed and warm atmosphere",
-      de: "Zimmer „Jardin des Senteurs“ mit bequemem Bett und warmer Atmosphäre",
+      fr: "Chambre Sous-bois avec lit double et vue sur le jardin du gîte",
+      en: "Sous-bois bedroom with double bed and garden view",
+      de: "Zimmer „Sous-bois“ mit Doppelbett und Blick auf den Garten",
     },
   },
   {
-    src: "/photos-gite/chambre-aurores/chambre-aurores-lit.jpg",
+    src: "/photos-gite/chambre-aurores/chambre-aurores-lits-jumeaux-2.jpg",
     alt: {
-      fr: "Chambre Aurores du gîte Au fil de l’eau avec lit double",
-      en: "Aurores bedroom at Gîte Au fil de l’eau with double bed",
-      de: "Zimmer „Aurores“ im Gîte Au fil de l’eau mit Doppelbett",
+      fr: "Chambre Aurores du gîte Au fil de l’eau avec lits jumeaux",
+      en: "Aurores bedroom at Gîte Au fil de l’eau with twin beds",
+      de: "Zimmer „Aurores“ im Gîte Au fil de l’eau mit zwei Einzelbetten",
     },
   },
   {
@@ -80,7 +80,7 @@ export const homePhotos = [
     },
   },
   {
-    src: "/photos-gite/bien-etre/espace-bien-etre-spa.jpg",
+    src: "/photos-gite/bien-etre/bien-etre-spa.jpg",
     alt: {
       fr: "Espace bien-être du gîte Au fil de l’eau avec spa",
       en: "Wellness area with spa at Gîte Au fil de l’eau",
@@ -88,7 +88,7 @@ export const homePhotos = [
     },
   },
   {
-    src: "/photos-gite/interieur/entree.jpg",
+    src: "/photos-gite/interieur/entree-et-escalier.jpg",
     alt: {
       fr: "Entrée lumineuse du gîte Au fil de l’eau",
       en: "Bright entrance hall of Gîte Au fil de l’eau",
@@ -96,7 +96,7 @@ export const homePhotos = [
     },
   },
   {
-    src: "/photos-gite/interieur/mezzanine.jpg",
+    src: "/photos-gite/interieur/mezzanine-vue-chambre-grange-1.jpg",
     alt: {
       fr: "Mezzanine du gîte Au fil de l’eau avec livres et jeux",
       en: "Mezzanine at Gîte Au fil de l’eau with books and games",
