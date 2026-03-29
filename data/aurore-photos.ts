@@ -1,18 +1,34 @@
 export const auroresPhotos = [
   {
-    src: "/photos-gite/chambre-aurores/chambre-aurores-lit.jpg",
+    src: "/photos-gite/chambre-aurores/chambre-aurores-lits-jumeaux-1.jpg",
     alt: {
-      fr: "Chambre Aurores du gîte Au fil de l’eau avec lit double (Alsace)",
-      en: "Aurores bedroom at Gîte Au fil de l’eau with double bed (Alsace)",
-      de: "Zimmer „Aurores“ im Gîte Au fil de l’eau mit Doppelbett (Elsass)",
+      fr: "Lits jumeaux de la chambre Aurores",
+      en: "Twin beds in the Aurores bedroom",
+      de: "Doppelbetten im Zimmer „Aurores“",
     },
   },
   {
-    src: "/photos-gite/chambre-aurores/chambre-aurores-vue-vers-salle-de-bain.jpg",
+    src: "/photos-gite/chambre-aurores/chambre-aurores-lits-jumeaux-2.jpg",
     alt: {
-      fr: "Chambre Aurores avec vue vers la salle de bain privative",
-      en: "Aurores bedroom with view towards the private bathroom",
-      de: "Zimmer „Aurores“ mit Blick auf das private Badezimmer",
+      fr: "Lits jumeaux de la chambre Aurores",
+      en: "Twin beds in the Aurores bedroom",
+      de: "Doppelbetten im Zimmer „Aurores“",
+    },
+  },
+  {
+    src: "/photos-gite/chambre-aurores/chambre-aurores-lit-double.jpg",
+    alt: {
+      fr: "Lit double de la chambre Aurores",
+      en: "Double bed in the Aurores bedroom",
+      de: "Doppelbett im Zimmer „Aurores“",
+    },
+  },
+  {
+    src: "/photos-gite/chambre-aurores/chambre-aurores-lit-vue-salle-de-bain.jpg",
+    alt: {
+      fr: "Lit de la chambre Aurores avec vue sur la salle de bain",
+      en: "Bed in the Aurores bedroom with view towards the bathroom",
+      de: "Bett im Zimmer „Aurores“ mit Blick auf das Badezimmer",
     },
   },
   {
@@ -23,4 +39,12 @@ export const auroresPhotos = [
       de: "Privates Badezimmer des Zimmers „Aurores“ mit Dusche",
     },
   },
+  {
+    src: "/photos-gite/chambre-aurores/chambre-aurores-salle-de-bain-vue-chambre.jpg",
+    alt: {
+      fr: "Salle de bain privative de la chambre Aurores avec vue vers la chambre",
+      en: "Private bathroom of the Aurores bedroom with view towards the bedroom",
+      de: "Privates Badezimmer des Zimmers „Aurores“ mit Blick auf das Schlafzimmer",
+    },
+  }
 ];
