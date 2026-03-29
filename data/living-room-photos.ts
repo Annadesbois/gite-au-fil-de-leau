@@ -1,6 +1,6 @@
 export const livingRoomPhotos = [
   {
-    src: "/photos-gite/sejour/sejour-vue-jardin.jpg",
+    src: "/photos-gite/sejour/sejour-avec-canape-et-vue-jardin.jpg",
     alt: {
       fr: "Séjour lumineux du gîte Au fil de l’eau avec vue sur le jardin",
       en: "Bright living room at Gîte Au fil de l’eau with garden view",

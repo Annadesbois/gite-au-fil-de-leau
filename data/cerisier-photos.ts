@@ -8,7 +8,7 @@ export const cerisierPhotos = [
     },
   },
   {
-    src: "/photos-gite/chambre-cerisier/chambre-cerisier-grand-lit-vue-jardin.jpg",
+    src: "/photos-gite/chambre-cerisier/chambre-cerisier-grand-lit-vue-vers-jardin.jpg",
     alt: {
       fr: "Chambre Cerisier avec grand lit et vue sur le jardin du gîte",
       en: "Cerisier bedroom with double bed and garden view",
@@ -24,7 +24,7 @@ export const cerisierPhotos = [
     },
   },
   {
-    src: "/photos-gite/chambre-cerisier/chambre-cerisier-baignoire-chromotherapie.jpg",
+    src: "/photos-gite/chambre-cerisier/chambre-cerisier-baignoire-de-chromotherapie.jpg",
     alt: {
       fr: "Baignoire balnéo à chromothérapie dans la salle de bain Cerisier",
       en: "Chromotherapy spa bathtub in the Cerisier bathroom",
