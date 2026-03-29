@@ -72,6 +72,14 @@ export const livingRoomPhotos = [
     },
   },
   {
+    src: "/photos-gite/sejour/decoration-lapins.jpg",
+    alt: {
+      fr: "Décoration avec lapins du salon du gîte Au fil de l’eau",
+      en: "Decoration with rabbits of the living room of Gîte Au fil de l’eau",
+      de: "Dekoration mit Kaninchen des Wohnzimmers des Gîtes Au fil de l’eau",
+    },
+  },
+  {
     src: "/photos-gite/sejour/sejour-et-cuisine.jpg",
     alt: {
       fr: "Salon et cuisine du gîte Au fil de l’eau",
@@ -101,14 +109,6 @@ export const livingRoomPhotos = [
       fr: "Détails de la cuisine du gîte Au fil de l’eau",
       en: "Details of the kitchen of Gîte Au fil de l’eau",
       de: "Details der Küche des Gîtes Au fil de l’eau",
-    },
-  },
-  {
-    src: "/photos-gite/sejour/decoration-oiseaux-2.jpg",
-    alt: {
-      fr: "Décoration avec oiseaux du salon du gîte Au fil de l’eau",
-      en: "Decoration with birds of the living room of Gîte Au fil de l’eau",
-      de: "Dekoration mit Vögeln des Wohnzimmers des Gîtes Au fil de l’eau",
     },
   },
   {
