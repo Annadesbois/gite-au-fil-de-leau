@@ -173,11 +173,9 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
           </NavigationMenu.Content>
         </NavigationMenu.Item>
         <NavigationMenu.Item>
-          <NavigationMenu.Link asChild>
-            <Link href={`${base}/reviews`} className="menu-link">
-              {reviews.label}
-            </Link>
-          </NavigationMenu.Link>
+          <Link href={`${base}/reviews`} className="menu-link">
+            {reviews.label}
+          </Link>
         </NavigationMenu.Item>
         <NavigationMenu.Item>
           <NavigationMenu.Link asChild>
